@@ -45,10 +45,8 @@ mods:
   plugins:
   - Static Switching System.esp
 
-- name: Stats Window Extender (OpenMW)
-  url: https://www.nexusmods.com/morrowind/mods/57727
+# MercyCAO dependency
+- name: Behaviour Tree Lua 2nd Edition
+  url: https://www.nexusmods.com/morrowind/mods/55062
   download_info:
-  - file_name: Stats Window Extender
-  plugins:
-  - StatsWindow.ESP
-  - StatsWindow.omwscripts
+  - file_name: Behaviour Tree Lua 2nd Edition

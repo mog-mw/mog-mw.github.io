@@ -212,7 +212,6 @@ Quill of Feyfolken 2.0-OpenMW-Patch.omwaddon
 UL_3.5_TR_24.12_Add-on.esp
 Cutting Room Floor - Voice Lines.esp
 Umbra, Blademaster.ESP
-No more Dr Nerevarine.ESP
 Tel_Eurus.esp
 Tel Eurus Anticheese.esp
 Flies.ESP
@@ -494,6 +493,30 @@ Mage Robes_Weak.ESP
 AH_Toxicity_Drink.ESP
 AH_Toxicity_Eat.ESP
 Little Landscape - Nix Hunting Ground.esp
+MercyCAO.omwscripts
+cantouchthis.omwscripts
+FairCare.omwaddon
+FairCare.omwscripts
+HBFS.omwscripts
+HBFS-GMST.omwaddon
+Simple Better Fatigue and Speed.ESP
+MRF-items.omwaddon
+MRF-spells.omwaddon
+MRF-unique-items.omwaddon
+MRF-AreaEffectArrows-MOMW-patch.omwaddon
+MRF-OAAB-items.omwaddon
+MRF-TD-items.omwaddon
+MRF.omwscripts
+SneakIsGoodNow.omwaddon
+SneakIsGoodNow.omwscripts
+BruteForce.omwscripts
+MagicWindowExtender.omwscripts
+InventoryExtender.omwscripts
+SME - Actor UI and Healthbar.omwscripts
+QuickLoot.omwscripts
+SpellTrader.omwscripts
+yksuiMagicTimeHud.omwscripts
+removeSpellFix.omwaddon
 # insert new entries above
 momw-gameplay.omwscripts
 momw-gameplay-controls.omwscripts

@@ -1,3 +1,46 @@
 category: Combat
 
-mods: []
+mods:
+# - name: N'Garde - Active Block and Parry (OpenMW)
+#   url: https://www.nexusmods.com/morrowind/mods/58658
+#   download_info:
+#   - file_name: N'Garde
+#   - file_name: NgardeCreatureFlags_Must_Be_Merged.Omwaddon
+#     extract_to: NGarde
+#   data_paths:
+#   - NGarde
+#   plugins:
+#   - ngarde.omwaddon
+#   - ngarde.omwscripts
+#   - ngardencgdescription.omwaddon # NCG patch
+#   - ngardecreatureflags_must_be_merged.omwaddon
+#   settings: |
+#     [Game]
+#     use additional anim sources = true
+#     smooth animation transitions = true
+#     smooth movement = true
+
+- name: Can't Touch This - Combat Miss Feedback (OpenMW)
+  url: https://www.nexusmods.com/morrowind/mods/59155
+  download_info:
+    - file_name: CantTouchThis
+  data_paths:
+    - CantTouchThis
+  plugins:
+    - cantouchthis.omwscripts
+  settings: |
+    [Game]
+    use additional anim sources = true
+    smooth animation transitions = true
+    smooth movement = true
+
+- name: Mercy - Combat AI Overhaul
+  url: https://www.nexusmods.com/morrowind/mods/55064
+  download_info:
+  - file_name: MercyCAO
+  plugins:
+  - MercyCAO.omwscripts
+  settings: |
+    [Navigator]
+    enable = true
+

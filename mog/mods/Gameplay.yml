@@ -219,13 +219,6 @@ mods:
   plugins:
   - Quill of Feyfolken 2.0.esp
 
-- name: No more Dr. Nerevarine
-  url: https://www.nexusmods.com/morrowind/mods/45861
-  download_info:
-  - file_name: No More Dr. Nerevarine
-  plugins:
-  - No more Dr Nerevarine.ESP
-
 - name: Pharis' Magicka Regeneration
   url: https://modding-openmw.gitlab.io/pharis-magicka-regeneration/
   download_info:
@@ -338,6 +331,67 @@ mods:
   - 00 Base version
   plugins:
   - ComfyPillowForARestfulSleep.ESP
+
+- name: Fair Care (OpenMW)
+  url: https://www.nexusmods.com/morrowind/mods/55293
+  download_info:
+  - file_name: FairCare
+  data_paths:
+  - 00 Core
+  plugins:
+  - FairCare.omwaddon
+  - FairCare.omwscripts
+
+- name: Harder Better Faster Stronger (HBFS)
+  url: https://www.nexusmods.com/morrowind/mods/55542
+  download_info:
+  - file_name: HarderBetterFasterStronger
+  data_paths:
+  - 00 Core
+  - 01 GMST
+  plugins:
+  - HBFS.omwscripts
+  - HBFS-GMST.omwaddon
+
+- name: Simple Better Fatigue and Speed
+  url: https://www.nexusmods.com/morrowind/mods/59167
+  download_info:
+  - file_name: Simple Better Fatigue And Speed
+  plugins:
+  - Simple Better Fatigue and Speed.ESP
+
+- name: Magic Rebalance and Fixes (MRF)
+  url: https://www.nexusmods.com/morrowind/mods/58560
+  download_info:
+  - file_name: Magic Rebalance And Fixes
+  data_paths:
+  - 00 Core
+  - 01 Patches
+  - 02 OpenMW Lua
+  - 03 No more Dr Nerevarine
+  plugins:
+  - MRF-items.omwaddon
+  - MRF-spells.omwaddon
+  - MRF-unique-items.omwaddon
+  - MRF-AreaEffectArrows-MOMW-patch.omwaddon
+  - MRF-OAAB-items.omwaddon
+  - MRF-TD-items.omwaddon
+  - MRF.omwscripts
+
+- name: Sneak is Good Now. -- OpenMW
+  url: https://www.nexusmods.com/morrowind/mods/58441
+  download_info:
+  - file_name: SneakIsGoodNow
+  plugins:
+  - SneakIsGoodNow.omwaddon
+  - SneakIsGoodNow.omwscripts
+
+- name: Brute Force - Lockpicking for Barbarians (OpenMW)
+  url: https://www.nexusmods.com/morrowind/mods/57841
+  download_info:
+  - file_name: Brute Force
+  plugins:
+  - BruteForce.omwscripts
 
 - name: MOMW Gameplay
   url: https://modding-openmw.gitlab.io/momw-gameplay/

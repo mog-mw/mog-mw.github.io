@@ -413,7 +413,6 @@ PatchesFixesandConsistency/SigournsMiscModsandPatches/00 Expansions Integrated P
 Gameplay/BewaretheSixthHouseSixthHouseOverhaul/Modular
 Gameplay/TribunalRebalance
 Gameplay/BloodmoonRebalance/Bloodmoon Rebalance
-ModdingResources/StatsWindowExtenderOpenMW
 Leveling/NaturalCharacterGrowth/00 Core
 Leveling/NaturalCharacterGrowth/01 NCG - Normal
 Leveling/SkillEvolution/00 Core
@@ -429,7 +428,6 @@ Gameplay/ImprovedInnsExpanded/01 TR Addon
 Gameplay/ImprovedInnsExpanded/02 SHotN Addon
 Gameplay/ImprovedInnsExpanded/03 PC Addon
 Gameplay/ImprovedInnsExpanded/05 BCOM Version
-Gameplay/NomoreDrNerevarine
 Gameplay/ProtectiveGuardsOpenMW/Protective Guards for OpenMW
 Gameplay/ProtectiveGuardsFactionsandNPCsProtectionsOpenMW
 PatchesFixesandConsistency/MOMWPatches/59 Protective Guards Blacklist Patch
@@ -656,11 +654,6 @@ Minigames/Nineholes/07 Sadrith Mora, Dirty Muriel's Cornerclub
 Minigames/Nineholes/08 Seyda Neen, Arrille's Tradehouse
 Minigames/Nineholes/09 (BCOM) Suran, Goldyn Belaram
 Minigames/Nineholes/10 Vivec, Elven Nations Cornerclub
-PostProcessingShaders/MOMWPostProcessingPack/00 RecommendedConfig
-PostProcessingShaders/MOMWPostProcessingPack/01 XE-Shaders
-PostProcessingShaders/MOMWPostProcessingPack/02 OMWFX-Shaders
-PostProcessingShaders/MOMWPostProcessingPack/03 ZesterersVolumetricClouds
-PostProcessingShaders/MOMWPostProcessingPack/04 WareyaOpenMWShaders
 Quests/TheSearchfortheWhiteWave/01 OpenMW Addons
 PatchesFixesandConsistency/ProjectCyrodiilSSQNPatch/00 Core
 UserInterface/OpenMWSkyrimStyleQuestNotifications
@@ -673,6 +666,33 @@ UserInterface/BigIcons/07 8X Textured
 UserInterface/VvardenfellAnimatedMainMenu/00 Animated Main Menu
 Armor/MageRobes/02 Vanilla-Style Robe Enchantments
 Landscape/LittleLandscapesNixHoundHuntingGrounds
+ModdingResources/BehaviourTreeLua2ndEdition
+Combat/MercyCombatAIOverhaul
+Combat/CantTouchThisCombatMissFeedbackOpenMW/CantTouchThis
+Gameplay/FairCareOpenMW/00 Core
+Gameplay/HarderBetterFasterStrongerHBFS/00 Core
+Gameplay/HarderBetterFasterStrongerHBFS/01 GMST
+Gameplay/SimpleBetterFatigueandSpeed
+Gameplay/MagicRebalanceandFixesMRF/00 Core
+Gameplay/MagicRebalanceandFixesMRF/01 Patches
+Gameplay/MagicRebalanceandFixesMRF/02 OpenMW Lua
+Gameplay/MagicRebalanceandFixesMRF/03 No more Dr Nerevarine
+Gameplay/SneakisGoodNowOpenMW
+Gameplay/BruteForceLockpickingforBarbariansOpenMW
+UserInterface/StatsWindowExtenderOpenMW
+UserInterface/MagicWindowExtenderOpenMW
+UserInterface/InventoryExtenderOpenMW
+UserInterface/SMEUsefulWidgetsActorInfoHealthBarHitChance/SMEUsefulWidgetsActorInfoHealthBarHitChanceEdited
+UserInterface/OpenMW050QuickLoot/QuickLoot
+UserInterface/SpellTraderOpenMW
+UserInterface/ModernStyleCrosshair/00 32x32 Crosshair
+UserInterface/simplemagictimehudopenmw/omwMagicTimeHud
+PostProcessingShaders/RafaelsShaderPack/RafaelsShaderPack
+PostProcessingShaders/MOMWPostProcessingPack/00 RecommendedConfig
+PostProcessingShaders/MOMWPostProcessingPack/01 XE-Shaders
+PostProcessingShaders/MOMWPostProcessingPack/02 OMWFX-Shaders
+PostProcessingShaders/MOMWPostProcessingPack/03 ZesterersVolumetricClouds
+PostProcessingShaders/MOMWPostProcessingPack/04 WareyaOpenMWShaders
 # insert new entries above
 Tools/MOMWToolsPack
 TexturePacks/SophiesSkoomaSweetshoppe/30 Temporary Fixes

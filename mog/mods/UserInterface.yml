@@ -1,6 +1,17 @@
 category: UserInterface
 
 mods:
+- name: Gonzo's Splash Screens
+  url: https://www.nexusmods.com/morrowind/mods/51667
+  download_info:
+  - file_name: Gonzo's Splash Screens - 2K
+  data_paths:
+  - 00 Core
+  - 06 Myrcenart Addon
+  settings: |
+    [GUI]
+    stretch menu background = true
+
 - name: Big Icons
   url: https://www.nexusmods.com/morrowind/mods/49662
   download_info:
@@ -46,3 +57,67 @@ mods:
   url: https://www.nexusmods.com/morrowind/mods/55480
   download_info:
   - file_name: SSQN Patches
+
+- name: Stats Window Extender (OpenMW)
+  url: https://www.nexusmods.com/morrowind/mods/57727
+  download_info:
+  - file_name: Stats Window Extender
+  plugins:
+  - StatsWindow.ESP
+  - StatsWindow.omwscripts
+
+- name: Magic Window Extender (OpenMW)
+  url: https://www.nexusmods.com/morrowind/mods/58064
+  download_info:
+  - file_name: Magic Window Extender
+  plugins:
+  - MagicWindowExtender.omwscripts
+  - removeSpellFix.omwaddon
+
+- name: Inventory Extender (OpenMW)
+  url: https://www.nexusmods.com/morrowind/mods/59205
+  download_info:
+  - file_name: Inventory Extender
+  plugins:
+  - InventoryExtender.omwscripts
+
+- name: SME - Useful Widgets - Actor Info - Health Bar - Hit Chance
+  url: https://www.nexusmods.com/morrowind/mods/53996
+  download_info:
+  - file_name: Show Me Everything
+  data_paths:
+  - SMEUsefulWidgetsActorInfoHealthBarHitChanceEdited
+  plugins:
+  - SME - Actor UI and Healthbar.omwscripts
+
+- name: (OpenMW 0.50) QuickLoot
+  url: https://www.nexusmods.com/morrowind/mods/54950
+  download_info:
+  - file_name: QuickLoot
+  data_paths:
+  - QuickLoot
+  plugins:
+  - QuickLoot.omwscripts
+
+- name: Spell Trader (OpenMW)
+  url: https://www.nexusmods.com/morrowind/mods/59229
+  download_info:
+  - file_name: SpellTraderV1.2.2
+  plugins:
+  - SpellTrader.omwscripts
+
+- name: simple magic time hud (openmw)
+  url: https://www.nexusmods.com/morrowind/mods/56767
+  download_info:
+  - file_name: omwMagicTimeHud
+  data_paths:
+  - omwMagicTimeHud
+  plugins:
+  - yksuiMagicTimeHud.omwscripts
+
+- name: Modern Style Crosshair
+  url: https://www.nexusmods.com/morrowind/mods/59497
+  download_info:
+  - file_name: Modern Style Crosshair
+  data_paths:
+  - 00 32x32 Crosshair
