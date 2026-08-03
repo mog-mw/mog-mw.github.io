@@ -5,6 +5,8 @@ from configparser import ConfigParser
 from io import StringIO
 import json
 import yaml
+import os
+from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 
 parser = argparse.ArgumentParser()
 parser.add_argument("input", type=Path, default="mog", nargs="?", help="input directory (default: %(default)s)")
@@ -78,6 +80,28 @@ def main():
 
     with open(args.output.joinpath("api/lists/index.html"), "w") as f:
         json.dump([args.name], f)
+
+    print("Build successful.")
+    if not args.server:
+        return
+
+    os.chdir(args.output)
+
+    with ThreadingHTTPServer(("127.0.0.1", args.port), SimpleHTTPRequestHandler) as httpd:
+        print("\nServer running.\n")
+        if os.name == "nt":
+            print(f"Download mods:\n  umo.exe install --momw-url http://127.0.0.1:{args.port} --sync {args.name}")
+            print(f"Generate configuration:\n  momw-configurator.exe config --momw-url http://127.0.0.1:{args.port} --run-navmeshtool --run-validator {args.name}")
+            print(f"Generate configuration (quick):\n  momw-configurator.exe config --momw-url http://127.0.0.1:{args.port} --no-delta-plugin --no-groundcoverify --no-lightfixes --run-validator {args.name}")
+        else:
+            print(f"Download mods:\n  umo install --momw-url http://127.0.0.1:{args.port} --sync {args.name}")
+            print(f"Generate configuration:\n  momw-configurator-linux-amd64 config --momw-url http://127.0.0.1:{args.port} --run-navmeshtool --run-validator {args.name}")
+            print(f"Generate configuration (quick):\n  momw-configurator-linux-amd64 config --momw-url http://127.0.0.1:{args.port} --no-delta-plugin --no-groundcoverify --no-lightfixes --run-validator {args.name}")
+
+        try:
+            httpd.serve_forever()
+        except KeyboardInterrupt:
+            print("\nInterrupting.")
 
 
 def handle_mod(mod: dict, category: str):
