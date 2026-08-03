@@ -34,7 +34,6 @@ mods:
     extract_to: Patches
   - file_name: Beautiful Cities of Morrowind - BCOM Core
   data_paths:
-  - Patches
   - Patches/54 Area of effect Arrows
   - Patches/80 Mamaea Awakened
   - Patches/51 Ghastly Glowyfence patch

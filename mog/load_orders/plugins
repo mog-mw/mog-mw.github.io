@@ -216,7 +216,7 @@ PR Perfect Scum.esp
 Blademeister.esp
 BlademeisterDaedricShrineOverhaulSheogorathPatch.esp
 Blademeister_Vennin_Addamasartus_Patch.esp
-# Clean_Daedric_Maul.ESP
+Daedric_Maul.ESP
 Clean_Mines and Caverns.esp
 OAAB_Grazelands_Mines_and_Caverns_patch.esp
 Clean_Vennin's Pulk Overhaul.ESP
@@ -272,7 +272,7 @@ Sloadic Transport.ESP
 MDMD - Creatures Add-On.ESP
 Meteor.esp
 Frozen in Time.esp
-# Clean_sm_golden_mask.ESP
+sm_golden_mask.ESP
 GITD_Telvanni_Dormers.ESP
 GITD_WL_RR_Interiors.esp
 fargoths_mountain_hut.esp
@@ -580,8 +580,6 @@ AttendMe.omwscripts
 FollowerDetectionUtil.omwscripts
 FriendlierFire.omwscripts
 S3maphore.esp
-sm_golden_mask.ESP
-Daedric_Maul.ESP
 # insert new entries above
 momw-gameplay.omwscripts
 momw-gameplay-controls.omwscripts

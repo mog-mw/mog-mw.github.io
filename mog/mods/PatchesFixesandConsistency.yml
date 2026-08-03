@@ -354,9 +354,7 @@ mods:
   - file_name: Upscaled Journal and Bookmark BG Replacement
     extract_to: UpscaledJournalandBookmarkBGReplacement
   data_paths:
-  - TomboftheSnowPrincePAandGitDPatch
   - TomboftheSnowPrincePAandGitDPatch/00 Core
-  - UpscaledJournalandBookmarkBGReplacement
   - UpscaledJournalandBookmarkBGReplacement/01 2x Resolution Textures
 
 - name: Publicola's Misc Mod Emporium
@@ -409,7 +407,6 @@ mods:
   - file_name: OAAB_DiverseBloodPatch
     extract_to: OAABDiverseBloodpatch
   data_paths:
-  - OAABFoyadaMamaeaILavaGoodPatch
   - OAABFoyadaMamaeaILavaGoodPatch/00 I Lava Good
   - AlchemicalHustleIngredientsPatch
   - OAABTombsTowersDiverseBloodPatch

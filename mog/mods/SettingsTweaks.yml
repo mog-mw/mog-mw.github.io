@@ -367,3 +367,13 @@ mods:
     [General]
     anisotropy = 16
     texture mipmap = linear
+
+- name: No Lua Profiler
+  settings: |
+    [Lua]
+    lua profiler = false
+
+- name: No Preload Doors
+  settings: |
+    [Cells]
+    preload doors = false

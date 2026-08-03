@@ -22,7 +22,6 @@ mods:
     extract_to: animations/xbase_anim.1st
   data_paths:
   - ''
-  - animations/xbase_anim.1st
 
 - name: ReAnimation v2 - Rogue - first-person animation pack
   url: https://www.nexusmods.com/morrowind/mods/52596

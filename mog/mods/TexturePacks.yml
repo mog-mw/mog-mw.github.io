@@ -32,7 +32,6 @@ mods:
     extract_to: GraphicHerbalism
   data_paths:
   - main
-  - GraphicHerbalism
   - GraphicHerbalism/00 Core
 
 - name: Sophie's Skooma Sweetshoppe
