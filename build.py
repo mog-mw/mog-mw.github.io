@@ -23,7 +23,6 @@ class LoadOrder:
     prefix: str
     lines: list[str] = dataclasses.field(default_factory=list)  # lines in the corresponding file
     actual_list: list[str] = dataclasses.field(default_factory=list)  # entries actually used in the modlist. updates lines.
-    insert_index: int = -1
 
 
 load_orders = {
@@ -165,28 +164,27 @@ def handle_load_order(path: str, load_order: LoadOrder):
     with open(path) as f:
         load_order.lines = f.read().split("\n")
 
+    new_lines = []
+    insert_index = -1
     for i, line in enumerate(load_order.lines):
         line = line.strip()
         if line == "" or line.startswith("#"):
             if line.startswith("# insert new entries above"):
-                load_order.insert_index = i
-            load_order.lines[i] = line
+                insert_index = len(new_lines)
+            new_lines.append(line)
             continue
 
-        if line not in load_order.actual_list:
-            line = "# " + line
-        else:
+        if line in load_order.actual_list:
             load_order.actual_list.remove(line)
+            new_lines.append(line)
 
-        load_order.lines[i] = line
-
-    if load_order.insert_index == -1:
-        load_order.lines += load_order.actual_list
+    if insert_index == -1:
+        load_order.lines = new_lines + load_order.actual_list
     else:
         load_order.lines = \
-            load_order.lines[:load_order.insert_index] + \
+            new_lines[:insert_index] + \
             load_order.actual_list + \
-            load_order.lines[load_order.insert_index:]
+            new_lines[insert_index:]
 
     with open(path, "w") as f:
         f.write("\n".join(load_order.lines))

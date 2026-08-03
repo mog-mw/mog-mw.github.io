@@ -23,13 +23,6 @@ mods:
   download_info:
   - file_name: Imperial Factions
 
-- name: Wilhelm of the Aedra
-  url: https://www.nexusmods.com/morrowind/mods/55948
-  download_info:
-  - file_name: AFFA_Wilhelm_v1.2.zip
-  plugins:
-  - AFFA_Wilhelm.esp
-
 - name: Census and Excise Office Faction
   url: https://www.nexusmods.com/morrowind/mods/46798
   download_info:
@@ -71,18 +64,6 @@ mods:
   - quarraclan_refreshed.esp
   - quarraclan_refreshed - Morrowind Anti-Cheese.esp
   - quarraclan_refreshed - Tamriel_Data.esp
-
-- name: Quests for Clans and Vampire Legends (QCVL)
-  url: https://www.nexusmods.com/morrowind/mods/49486
-  download_info:
-  - file_name: Quests for Clans and Vampire Legends_v1.4.6
-    actions:
-    - action: remove
-      path: Quests for Clans and Vampire Legends/Data Files/Splash
-  data_paths:
-  - Quests for Clans and Vampire Legends/Data Files
-  plugins:
-  - Quests for Clans and Vampire Legends.ESP
 
 - name: Temple Master
   url: https://www.nexusmods.com/morrowind/mods/52749

@@ -27,13 +27,6 @@ mods:
   url: https://www.nexusmods.com/morrowind/mods/52596
   download_info:
   - file_name: ReAnimation v2 Rogue - OpenMW
-    actions:
-    - action: remove
-      paths:
-      - Animations/xbase_anim.1st/xDaggerIdle.kf
-      - Animations/xbase_anim.1st/xDaggerMovement.kf
-      - Animations/xbase_anim.1st/xDaggerSneakIdle.kf
-      - Animations/xbase_anim.1st/xDaggerSneakMovement.kf
   plugins:
   - ReAnimation_API.omwscripts
   - ReAnimation_v2_Rogue.omwscripts

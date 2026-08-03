@@ -23,20 +23,6 @@ mods:
   plugins:
   - footsteps.omwscripts
 
-- name: Store Entrance Chimes
-  url: https://www.nexusmods.com/morrowind/mods/44586
-  download_info:
-  - file_name: Store Entrance Chimes - Alt Ver
-
-- name: Store Entrance Chimes for Cyrodiil and TR Mainland
-  url: https://www.nexusmods.com/morrowind/mods/56004
-  download_info:
-  - file_name: Store Entrance Chimes - Cyrodiil
-  - file_name: Store Entrance Chimes - TR Mainland
-  plugins:
-  - Store Entrance Chimes - Cyrodiil.ESP
-  - Store Entrance Chimes - TR Mainland.ESP
-
 - name: Voice Overhaul
   url: https://www.nexusmods.com/morrowind/mods/51215
   download_info:

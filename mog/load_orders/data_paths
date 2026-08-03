@@ -21,18 +21,12 @@ PatchesFixesandConsistency/MOMWPatches/06 Cutting Room Floor+BCOM Patch
 CutContent/ArtifactsReinstated/Data Files
 CavesandDungeons/MinesandCaverns/Mines and Caverns
 PatchesFixesandConsistency/MOMWPatches/14 Mines and Caverns MOMW Patch
-Gameplay/WaresUltimate/00 Core
-PlayerHomes/IndorilMansion
 NPCs/RoyalBarenziah/00 Core
 NPCs/RoyalBarenziah/01 Option 3
 CavesandDungeons/DwemerLegacyReforgedArkngthunchSturdumz/Data Files
 CavesandDungeons/DwemerLegacyReforgedBthungthumzandDruscashti/Data Files
 CavesandDungeons/KogoruhnExtinctCityofAshandSulfur/Data Files
 PatchesFixesandConsistency/MOMWPatches/80 RoHT+Kogoruhn Extinct City Patch
-TexturePacks/TheDoorsofOblivionFullUpscale/main
-TexturePacks/TheDoorsofOblivionFullUpscale/GraphicHerbalism/00 Core
-Quests/LordofRebirth/main
-Quests/LordofRebirth/hqicons
 CavesandDungeons/MamaeaAwakened/Data Files
 PatchesFixesandConsistency/MOMWPatches/11 Mamaea Awakened OpenMW Patch
 CitiesTowns/BeautifulCitiesofMorrowind/Patches/80 Mamaea Awakened
@@ -46,7 +40,6 @@ CavesandDungeons/TalesfromtheAshlandsTheGreatHiveBaanBinif
 ModdingResources/TamrielData/00 Data Files
 TexturePacks/SophiesSkoomaSweetshoppe/07 Telvanni Cephalopod Armor TD Cuirass Upscale and Color Match
 PatchesFixesandConsistency/DistantEbonTowerforOpenMW
-Travel/SignpostFastTravel
 ModdingResources/OAABData/00 Core
 PatchesFixesandConsistency/MeshFixv12
 PatchesFixesandConsistency/CorrectMeshes/Data Files
@@ -106,8 +99,6 @@ Animation/SimplyWalkingRemastered/Simply Walking (WS Edition)
 Animation/Justalittlebitbetteranimationsforthemagebuildfirstperson
 Animation/ReAnimationv2Roguefirstpersonanimationpack
 Animation/3rdPersonaltAttacks
-Quests/CalderaPrioryandtheDepthsofBloodandBone/00 Core
-Quests/CalderaPrioryandtheDepthsofBloodandBone/HD
 Environment/ILavaGoodMeshReplacer/00 Lava
 Environment/ILavaGoodMeshReplacer/01 Hot Oil
 Environment/ILavaGoodMeshReplacer/03 Tamriel_Data Patch
@@ -125,7 +116,6 @@ Landscape/LittleLandscapesPathtoVivecLighthouse
 Landscape/CompatibleOdaiRiverUpperOverhaul/Compatible Odai River Upper Overhaul 1.2/Compatible Odai River Upper Overhaul
 PatchesFixesandConsistency/MOMWPatches/81 Odai River Overhaul Statue Remover Patch
 PatchesFixesandConsistency/MOMWPatches/23 Little Landscapes Seyda Neen Swamp Pools Patched
-PatchesFixesandConsistency/MOMWPatches/27 Little Landscapes Nix Hound Hunting Grounds+Quests for Clans and Vampire Legends Patch
 Landscape/LittleLandscapePathtoBalmora
 Landscape/LittleLandscapeFoyadaofSharpTeeth
 PatchesFixesandConsistency/MOMWPatches/78 Little Landscape Foyada of Sharp Teeth Rock Fix
@@ -173,9 +163,6 @@ FurnitureandClutter/OpenMWVanillaFriendlyAnimatedBasketEdit/01 HD Textures
 FurnitureandClutter/KnowThyAncestors
 PatchesFixesandConsistency/PublicolasMiscModEmporium/Know Thy Ancestors - Serano Tomb Fix (Main)
 FurnitureandClutter/Dunmersashpits/Data files
-Audio/StoreEntranceChimes
-Audio/StoreEntranceChimesforCyrodiilandTRMainland
-CitiesTowns/BeautifulCitiesofMorrowind/Patches/73 Store Entrance Chimes
 PatchesFixesandConsistency/MOMWPatches/31 Flies Patched
 VFX/Fireflies
 Armor/HircinesArtifacts/Hircine's Artifacts
@@ -189,11 +176,8 @@ Architecture/UniqueTavernSignsforTamrielRebuilt
 Architecture/Swayland
 GuildsFactions/AstrologiansGuild/main
 GuildsFactions/AstrologiansGuild/OpenMWpatch
-CavesandDungeons/DrethosAncestralTomb
 Quests/SecretsoftheCrystalCity/00 Core
 Quests/SecretsoftheCrystalCity/01 HD Textures
-CavesandDungeons/TheWakeofHaninIbarDadOverhaul/00 Core
-CavesandDungeons/TheWakeofHaninIbarDadOverhaul/01 TR Patch
 Landscape/OAABTheAshenDivide
 Landscape/AzurasCoastRedone
 CitiesTowns/OAABGrazelands/00 Core
@@ -222,9 +206,7 @@ CavesandDungeons/DungeonDetails/70 BC Nimawia Grotto
 CavesandDungeons/DungeonDetails/100 SHEO Malmus Grotto
 PatchesFixesandConsistency/MOMWPatches/73 Dungeon Details Grotto Fix
 PatchesFixesandConsistency/MOMWPatches/90 Dungeon Details Urshilkau Fixes
-CavesandDungeons/TheVestigesofTukushapal/00 Core
 Quests/StormkissReforged/Stormkiss Reforged/Data Files
-CavesandDungeons/TheVestigesofTukushapal/01 Stormkiss Reforged Patch
 CavesandDungeons/OAABHawiaEggMine/OAAB - Hawia Egg Mine
 CavesandDungeons/WhatKwamasForageAnEggmineMod/What Kwamas Forage
 Interiors/AzurasShrineOverhaul/00 - Core files
@@ -252,12 +234,9 @@ Creatures/BlightedAnimalsRetextured
 PatchesFixesandConsistency/Varioustweaksandfixes/BlightedAnimalsRetexturedMET
 Creatures/RieklingFixandExpansion/00 Core
 Creatures/RieklingFixandExpansion/02 Bloodmoon Rebalance - Eng
-Gameplay/OAABIntegrations
 Creatures/FMIUniqueLoreFriendlyCaveRats
 Creatures/WingedTwilightRebalance
 Creatures/AtronachRebalance
-Creatures/Vanillafriendlycreaturesandundeadsexpansion/00 Core
-Creatures/Vanillafriendlycreaturesandundeadsexpansion/03 Summons have 0 soul
 PatchesFixesandConsistency/CybvepsJesterStashofTweaksandPatches/SoullessSummonsDialogueFix
 Gameplay/DaedraUseBoundEquipmentforOpenMW
 PatchesFixesandConsistency/FixedBonelordArms
@@ -268,13 +247,6 @@ NPCs/AlmalexiaRedone/HD
 NPCs/YetAnotherGuardDiversity
 CitiesTowns/BeautifulCitiesofMorrowind/Patches/29 Yet Another Guard Diversity - Cephalopod Armor - Waterworks
 NPCs/VEHKConceptartVivecreplacer/Data files
-Gameplay/WaresUltimate/02 Wares to vanilla lists
-Gameplay/WaresUltimate/03 TD to Wares
-Gameplay/WaresUltimate/04 OAAB to Wares
-Gameplay/WaresUltimate/06 Wares to Traders
-Gameplay/WaresUltimate/09 Wares to containers
-FurnitureandClutter/StuporstarsBooksforWares/00 Core
-FurnitureandClutter/StuporstarsBooksforWares/01 OAAB
 NPCs/RepopulatedMorrowind/00 Core
 NPCs/RepopulatedMorrowind/02 BCOM Repopulated Morrowind
 NPCs/RepopulatedMorrowind/04 Tomb of the Snow Prince
@@ -287,7 +259,6 @@ NPCs/LDMContextMatters
 PatchesFixesandConsistency/MOMWPatches/47 Vivec's Muatra Alternative
 NPCs/ByAzura/00 Core
 NPCs/ByAzura/01 High Res Textures
-NPCs/AttendMe/AttendMe_1.9
 PatchesFixesandConsistency/MOMWPatches/45 Attend Me Patch
 Gameplay/FollowerDetectionUtilOpenMW
 Gameplay/FriendlierFireOpenMW
@@ -382,7 +353,6 @@ CitiesTowns/OAABTelMora/02 HD Textures
 CitiesTowns/OAABTelMora/03 SSQN OpenMW
 CavesandDungeons/KumarahazTheBanditLair/Kumarahaz - The Bandit Lair
 CitiesTowns/TelBranoraExpansion/00 Core
-PatchesFixesandConsistency/KatyasPatchesandmodrecommendations
 Interiors/AlmalexiasChamberOverhaul/00 Core
 CitiesTowns/NordicDagonFel/00 Core
 CitiesTowns/NordicDagonFel/01 More Nordic Dagon Fel
@@ -419,7 +389,6 @@ CavesandDungeons/BerandasOverhaul
 CavesandDungeons/OAABTombsandTowers
 CavesandDungeons/TheCorprusariumexperience/00 - Core
 PatchesFixesandConsistency/MOMWPatches/49 Aether Pirates Discovery + The Corprusarium Experience Patch
-CavesandDungeons/TheCorprusariumexperience/02 - Doors of Oblivion patch
 CavesandDungeons/BetterDunmerStrongholds/Data Files
 PatchesFixesandConsistency/VariousBCoMandOpenMWpatches
 CitiesTowns/BeautifulCitiesofMorrowind/Patches/30 Morrowind Anticheese
@@ -428,7 +397,6 @@ Gameplay/OwnershipOverhaul
 Gameplay/RealDisposition
 Gameplay/MDMDMoreDeadlyMorrowindDenizens
 Gameplay/AlchemicalHustle/Alchemical Hustle/Fatigue Toxicity/Data Files
-Gameplay/StatsPotionsTrainingLimitsOpenMWOblivionStyleIncluded
 Gameplay/LightHotkey
 Gameplay/ConvenientThiefTools
 Gameplay/BetterBlight
@@ -436,20 +404,12 @@ Gameplay/PracticalNecromancyOpenMW/Practical Necromancy
 PatchesFixesandConsistency/MOMWPatches/12 Practical Necromancy Vendor Patch
 PatchesFixesandConsistency/MOMWPatches/86 Practical Necromancy+OAAB Fix
 Gameplay/PharisMagickaRegeneration
-Gameplay/SpellEffectsRebalance
 Landscape/HiddenSeaLoot
 Gameplay/DevilishVampireOverhaul/Data Files
 Gameplay/NoWitnessNoBounty
 Gameplay/ShieldUnequipper
-Gameplay/CorporealCarryableContainers/Corporeal-Carryable-Containers-master
 Gameplay/ExpansionsIntegrated
 PatchesFixesandConsistency/SigournsMiscModsandPatches/00 Expansions Integrated Patch
-Gameplay/TabletopAlchemy
-Chargen/NoPopUpChargen
-Gameplay/ZEFFocusMagicka
-Chargen/RacesRESPECtedARaceSkillandAttributeRebalanceMod
-PatchesFixesandConsistency/MOMWPatches/48 Races RESPECted OpenMW Lua Addon
-Chargen/BirthsignsRESPECtedABirthsignRebalanceMod
 Gameplay/BewaretheSixthHouseSixthHouseOverhaul/Modular
 Gameplay/TribunalRebalance
 Gameplay/BloodmoonRebalance/Bloodmoon Rebalance
@@ -458,15 +418,12 @@ Leveling/NaturalCharacterGrowth/00 Core
 Leveling/NaturalCharacterGrowth/01 NCG - Normal
 Leveling/SkillEvolution/00 Core
 PatchesFixesandConsistency/DayspassedBugFixOpenMW
-Combat/SolthasCombatPackOpenMWLua/Solthas Combat Pack
-Gameplay/FatigueandSpeedandCarryweightRebalanceOpenMW
 Gameplay/ClearYourName
 Gameplay/ProjectileOverhaulModular
 Weapons/SmartAmmoforOpenMWLua
 Gameplay/TimeScaleChangeOpenMW
 Gameplay/QuillofFeyfolkenScrollEnchanting
 PatchesFixesandConsistency/AlvazirsVariousPatches
-MagicSpells/DaisysLuaMultimark
 MagicSpells/UnofficialTamrielRebuiltSpellsOpenMW051/Unofficial Tamriel Rebuilt Spells (OpenMW 0.51)
 Gameplay/ImprovedInnsExpanded/01 TR Addon
 Gameplay/ImprovedInnsExpanded/02 SHotN Addon
@@ -489,17 +446,11 @@ Armor/SMTelvanniCeremonialRobe/Telvanni_Robe/Icons HD 512 for OpenMW
 PatchesFixesandConsistency/MOMWPatches/71 Molomo SM Ceremonial Robe Patch
 Armor/TelvanniMagisterRobes/Telvanni Magister Robes-52278-1-25-1683240241/Telvanni Magister robes/Data Files
 PatchesFixesandConsistency/MOMWPatches/52 Telvanni Magister Robes Anticheese
-Gameplay/AdventurersBackpacks
-PatchesFixesandConsistency/MOMWPatches/63 Adventurer's Backpack No Choice Patch
 TexturePacks/SophiesSkoomaSweetshoppe/10 Shadow Mimicry's Backpack Retexture (host for modding-openmw.com)
 Armor/TheForgottenShieldsArtifacts/TheForgottenShields-Artifacts1.3
 PatchesFixesandConsistency/MOMWPatches/35 The Forgotten Shields - Artifacts Patched
 Armor/SMMaskofDagothUr/sm_mask_eng
 Armor/SMMaskofDagothUr/update_and_normal_map
-Quests/Blademeister/Blademeister/Data Files
-Quests/Blademeister/BlademeisterVenninAddamasartusPatch
-PatchesFixesandConsistency/MOMWPatches/25 Blademeister+Kumarahaz The Bandit Lair Patch
-PatchesFixesandConsistency/MOMWPatches/41 Blademeister+Daedric Shrine Overhaul Sheogorath Patch
 Armor/ArgonianFullHelmsLoreIntegratedandModdersResourcev11/Argonian Full Helms Lore Integrated v1.1/Data Files
 Armor/BootsforBeastsAmenophisRevision/0 Core
 Armor/BootsforBeastsAmenophisRevision/TR
@@ -511,7 +462,6 @@ Gameplay/ProtectedBeasts/03 Boots for Beasts
 Gameplay/ProtectedBeasts/04 Boots for Beasts Tamriel Data
 Gameplay/ProtectedBeasts/05 Hist Helms
 Armor/DynamicTelvanniArmorReplacer
-Weapons/CorrectIronWarhammer/Data Files
 Weapons/OrientalMeshImprovements
 Weapons/WeaponSheathing/Data Files
 Weapons/WeaponSheathingAdditions
@@ -548,7 +498,6 @@ Music/VindsveptSolstheimforDynamicMusicOpenMW/Vindsvept Solstheim for Dynamic Mu
 Music/ProjectCyrodiilMusicAnvilandSutch/00 Core
 Quests/TheSearchfortheWhiteWave/03 Music (OpenMW - S3maphore)
 NPCs/UmbraBlademaster
-NPCs/WanderingUmbra/wandering_umbra
 Quests/ImmersiveImperialSkirt/imperial_skirt
 PatchesFixesandConsistency/MOMWPatches/89 BCOM x Immersive Imperial Skirt
 Quests/GondoliersLicense/gondoliers_license
@@ -570,10 +519,8 @@ CavesandDungeons/AndranoAncestralTombRemastered
 Quests/SorcererofAlteration
 Quests/AspectofAzura/00 Core
 Quests/AspectofAzura/01 OpenMW Addons
-Quests/AncientFoes/Ancient Foes - Version 1.1
 Quests/AFFresh
 Quests/FargothSaysHello
-GuildsFactions/WilhelmoftheAedra
 CitiesTowns/BalmoraGravemarket
 PatchesFixesandConsistency/MOMWPatches/33 AFFresh+Library of Vivec Enhanced Patch
 CavesandDungeons/CrownofUrshilaku
@@ -582,9 +529,6 @@ Landscape/SuranAshlandsBarrier
 Quests/RedWisdomAnAshlanderProphecy/00 Core
 Quests/RedWisdomAnAshlanderProphecy/01 HD Textures
 Quests/RedWisdomAnAshlanderProphecy/02 OpenMW Add-Ons
-PlayerHomes/ThePopularPlague/00 Core
-PlayerHomes/ThePopularPlague/01 OpenMW
-PlayerHomes/ThePopularPlague/02 HD Textures
 Quests/AColdCell/00 Core
 Quests/TheSearchfortheWhiteWave/00 Core
 Quests/TheSearchfortheWhiteWave/02 HD Textures
@@ -595,14 +539,6 @@ Quests/TheMananautsMessage/01 OpenMW Addons
 Quests/TheMananautsMessage/03 HD Textures
 Audio/VoiceOverhaul
 Quests/GalensQuestforTruth
-Quests/ThePlagueDoctor
-Quests/TheDoorsofOblivion/The Doors of Oblivion 1.4 quest fix/data files
-PatchesFixesandConsistency/MOMWPatches/64 The Doors Of Oblivion Gargoyle OpenMWFix
-CavesandDungeons/DaedricShrineOverhaulFULL/Daedric Shrine Overhaul/Daedric Shrine Overhaul Full
-PatchesFixesandConsistency/MOMWPatches/84 Daedric Shrine Overhaul+Patch for Purists Fix
-PatchesFixesandConsistency/MOMWPatches/85 DSO Ashalmimilkala Water Height Fix
-PatchesFixesandConsistency/MOMWPatches/37 Helm of Tohan Naturalized for Daedric Shrine Overhaul Sheogorath
-PatchesFixesandConsistency/MOMWPatches/44 Daedric Shrine Overhaul Vaermina OpenMW Patch
 Quests/AetherPiratesDiscovery
 Quests/MudcrabImports
 Quests/QuestlineVivecLighthouseKeeper
@@ -611,8 +547,6 @@ Quests/TamrielRebuiltIntroductionQuestHelpaKhajiitreachtheCityofGoodPeople
 PatchesFixesandConsistency/MOMWPatches/53 Vennin Addamasartus+DraVashai Patch
 Quests/EarlyTransporttoMournhold
 CavesandDungeons/MarensMisfitMabrigash
-CavesandDungeons/TheDevilsDoorstep/main
-CavesandDungeons/TheDevilsDoorstep/patch
 GuildsFactions/RiseofHouseTelvanni/Base Mod
 GuildsFactions/RiseofHouseTelvanni/FlaskMeshUpdate
 CitiesTowns/BeautifulCitiesofMorrowind/Patches/07 Rise of House Telvanni 2.0
@@ -622,13 +556,6 @@ CitiesTowns/BeautifulCitiesofMorrowind/Patches/43 Uvirith Legacy Patch
 PatchesFixesandConsistency/MOMWPatches/32 OpenMW Fixes For Uvirith's Legacy
 PatchesFixesandConsistency/NullsMinorPatches
 PlayerHomes/BuildingUpUvirithsLegacy/Building Up Uvirith's Legacy
-PlayerHomes/TheArchmagistersAbode/data files
-Quests/GreymarchDawnWhispersofJyggalag/00 Core
-Quests/GreymarchDawnWhispersofJyggalag/01 HD Textures
-Quests/GreymarchDawnWhispersofJyggalag/03 MWSE Add-Ons
-Quests/GreymarchDawnWhispersofJyggalag/04 White Suran 2 Patch
-Quests/GreymarchDawnWhispersofJyggalag/05 White Suran 2 Patch - Sewers
-Quests/GreymarchDawnWhispersofJyggalag/07 OpenMW HD Icons
 Interiors/TribunalFacelift/Data Files
 GuildsFactions/CanonicalGearOpenMW
 GuildsFactions/ImperialLegionExpansion
@@ -640,8 +567,6 @@ GuildsFactions/JointheDarkBrotherhoodDarkBrotherhoodFactionMod
 PatchesFixesandConsistency/FMILegionDialogue
 GuildsFactions/QuarraClanRefreshed/01 Refreshed
 GuildsFactions/QuarraClanRefreshed/02 Optional Patches - Modular
-GuildsFactions/QuestsforClansandVampireLegendsQCVL/Quests for Clans and Vampire Legends/Data Files
-PatchesFixesandConsistency/MOMWPatches/22 BCOM+Quests for Clans and Vampire Legends Patch
 TexturePacks/SophiesSkoomaSweetshoppe/16 QCVL Blood Altar x Diverse Blood Fix
 GuildsFactions/TempleMaster/00 Core
 GuildsFactions/TempleMaster/01 OpenMW Addons
@@ -650,18 +575,7 @@ Architecture/WhiteSuran2MDEdition/00 Core
 Architecture/WhiteSuran2MDEdition/02 Glow in the Dahrk
 Architecture/WhiteSuran2MDEdition/03 HD Textures
 GuildsFactions/OAABBrotherJunipersTwinLamps
-PlayerHomes/RatherNiceFactorsEstate/00 Core
-PlayerHomes/RatherNiceFactorsEstate/01 Core - Glow in the Dahrk
-PlayerHomes/RatherNiceFactorsEstate/02 Patch - Patch for Purists 4.0.X
 PatchesFixesandConsistency/MOMWPatches/74 Fargoth's Mountain Hut Fixed Hammocks
-PlayerHomes/FabulousHlaaloManor
-PlayerHomes/FabulousHlaaloManor/Options-see-readme
-PlayerHomes/DraggleTailShack
-PatchesFixesandConsistency/MOMWPatches/04 Draggle-Tail Shack Price Adjustment
-Randomizers/QuestCorpsesRandomizerforShipyardsofVvardenfell
-Randomizers/OhNoStolenReports
-Randomizers/FarvynOreynsPositionRandomizer
-Randomizers/DinsPositionRandomizer
 Randomizers/SuranDancerRandomized
 Landscape/Mistify/00 Core
 Gameplay/TheDreamistheDoor
@@ -694,12 +608,6 @@ PatchesFixesandConsistency/MOMWPatches/61 Remiros BC MOMW Patch
 CitiesTowns/OAABGrazelands/01 Remiros Groundcover GL Patch for Trackless Grazelands
 Water/DistantSeafloorforOpenMW/00 Core
 Water/DistantSeafloorforOpenMW/01 Patch for TOTSP 2.3.0 Solstheim location
-SkiesandWeather/SkiesIV/Skies - .IV
-SkiesandWeather/SkiesIV/Particles
-PatchesFixesandConsistency/OhGodSnowforSkiesivandOpenMW/Data
-TexturePacks/SophiesSkoomaSweetshoppe/11 SophiasClearBlueSkies
-SkiesandWeather/NewStarfields/00 Core
-SkiesandWeather/NewStarfields/01 Option 7 (100% Opacity)
 SkiesandWeather/DyingWorldsmoonsretexture/Data Files
 SkiesandWeather/Meteors
 Architecture/GlowintheDahrk/00 Core
@@ -732,20 +640,13 @@ PatchesFixesandConsistency/AnimatedMorrowindandWeaponSheathingpatchforOpenMW
 PatchesFixesandConsistency/VariousModsandPatches/OAABDiverseBloodpatch
 PatchesFixesandConsistency/MOMWPatches/05 AFFresh+Samarys Ancestral Tomb Expanded Patch
 PatchesFixesandConsistency/MOMWPatches/10 Ebonheart Underworks MOMW Patch
-PatchesFixesandConsistency/MOMWPatches/13 Doors of Oblivion+TOTSP Patch
 PatchesFixesandConsistency/MOMWPatches/16 Uvirith's Legacy+BCOM Arena Patch
-PatchesFixesandConsistency/MOMWPatches/17 Uvirith's Legacy+Daedric Shrine Overhaul Molag Bal Patch
-PatchesFixesandConsistency/MOMWPatches/18 Uvirith's Legacy+Daedric Shrine Overhaul Sheogorath Patch
 PatchesFixesandConsistency/MOMWPatches/19 Uvirith's Legacy+OAAB Tel Mora Patch
 PatchesFixesandConsistency/MOMWPatches/21 Imperial Factions Patched
-Quests/AnNwahsGuideToModernCultureAndMythology
-Camera/ActionCameraSwap
 Gameplay/MOMWGameplay/00 Core
 Gameplay/PerfectPlacement
 Gameplay/BoundBalance
-Gameplay/GoHome
 Gameplay/BetterMerchantsSkillsOpenMW/00 Core
-Gameplay/FriendlyAutosave
 Minigames/Nineholes/00 Core
 Minigames/Nineholes/01 Ald-ruhn, The Rat In The Pot
 Minigames/Nineholes/04 Ebonheart, Six Fishes
@@ -760,27 +661,18 @@ PostProcessingShaders/MOMWPostProcessingPack/01 XE-Shaders
 PostProcessingShaders/MOMWPostProcessingPack/02 OMWFX-Shaders
 PostProcessingShaders/MOMWPostProcessingPack/03 ZesterersVolumetricClouds
 PostProcessingShaders/MOMWPostProcessingPack/04 WareyaOpenMWShaders
-UserInterface/ChocolateUI
 Quests/TheSearchfortheWhiteWave/01 OpenMW Addons
 PatchesFixesandConsistency/ProjectCyrodiilSSQNPatch/00 Core
 UserInterface/OpenMWSkyrimStyleQuestNotifications
 UserInterface/SkyrimStyleQuestNotificationsLegendaryEdition/Data Files
 UserInterface/SkyrimStyleQuestNotificationsGreatPatchHub
-Randomizers/ScalableDwemerPuzzleBoxRandomizer
 Environment/HarvestLights
 UserInterface/VanillaStyleHDIconsforAttributesandSkills
-UserInterface/GonzosSplashScreens/00 Core
-UserInterface/GonzosSplashScreens/01 Monopteryx Creature Art
-UserInterface/GonzosSplashScreens/02 Wagner Vvardenfell Maps
-UserInterface/GonzosSplashScreens/03 Wagner Bloodmoon Maps
-UserInterface/GonzosSplashScreens/04 Wagner Tribunal Map
-UserInterface/GonzosSplashScreens/05 Tamriel Rebuilt Maps
-UserInterface/GonzosSplashScreens/06 Myrcenart Addon
 PatchesFixesandConsistency/MonosMinorModdities/UpscaledJournalandBookmarkBGReplacement/01 2x Resolution Textures
-Fonts/AlternativeTrueTypeFonts
 UserInterface/BigIcons/07 8X Textured
 UserInterface/VvardenfellAnimatedMainMenu/00 Animated Main Menu
-UserInterface/HDIntroCinematicEnglish
+Armor/MageRobes/02 Vanilla-Style Robe Enchantments
+Landscape/LittleLandscapesNixHoundHuntingGrounds
 # insert new entries above
 Tools/MOMWToolsPack
 TexturePacks/SophiesSkoomaSweetshoppe/30 Temporary Fixes

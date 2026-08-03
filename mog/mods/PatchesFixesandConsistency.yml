@@ -128,13 +128,6 @@ mods:
   download_info:
   - file_name: Fixed Bonelord Arms
 
-- name: Oh God Snow for Skies.iv and OpenMW
-  url: https://www.nexusmods.com/morrowind/mods/50509
-  download_info:
-  - file_name: oh-god-snow
-  data_paths:
-  - Data
-
 - name: Same Low Price Fix
   url: https://www.nexusmods.com/morrowind/mods/49671
   download_info:
@@ -190,7 +183,6 @@ mods:
   - 46 Bitter Coast Waterway Cliff Fix
   - 81 Odai River Overhaul Statue Remover Patch
   - 23 Little Landscapes Seyda Neen Swamp Pools Patched
-  - 27 Little Landscapes Nix Hound Hunting Grounds+Quests for Clans and Vampire Legends Patch
   - 78 Little Landscape Foyada of Sharp Teeth Rock Fix
   - 88 Samarys Ancestral Tomb Corpse Fix
   - 31 Flies Patched
@@ -216,39 +208,25 @@ mods:
   - 49 Aether Pirates Discovery + The Corprusarium Experience Patch
   - 12 Practical Necromancy Vendor Patch
   - 86 Practical Necromancy+OAAB Fix
-  - 48 Races RESPECted OpenMW Lua Addon
   - 59 Protective Guards Blacklist Patch
   - 71 Molomo SM Ceremonial Robe Patch
   - 52 Telvanni Magister Robes Anticheese
-  - 63 Adventurer's Backpack No Choice Patch
   - 35 The Forgotten Shields - Artifacts Patched
-  - 25 Blademeister+Kumarahaz The Bandit Lair Patch
-  - 41 Blademeister+Daedric Shrine Overhaul Sheogorath Patch
   - 65 MAOSpellSoundsxBirthsignsRESPECted SoundFix
   - 89 BCOM x Immersive Imperial Skirt
   - 70 Caldera Mine Expanded OpenMW Fix
   - 33 AFFresh+Library of Vivec Enhanced Patch
-  - 64 The Doors Of Oblivion Gargoyle OpenMWFix
-  - 84 Daedric Shrine Overhaul+Patch for Purists Fix
-  - 85 DSO Ashalmimilkala Water Height Fix
-  - 37 Helm of Tohan Naturalized for Daedric Shrine Overhaul Sheogorath
-  - 44 Daedric Shrine Overhaul Vaermina OpenMW Patch
   - 53 Vennin Addamasartus+DraVashai Patch
   - 32 OpenMW Fixes For Uvirith's Legacy
   - 68 MOMW BCOM Imperial Legion Expansion patch
-  - 22 BCOM+Quests for Clans and Vampire Legends Patch
   - 74 Fargoth's Mountain Hut Fixed Hammocks
-  - 04 Draggle-Tail Shack Price Adjustment
   - 15 Perfectly Proficient Parasol Particles Performance Patch/00 Project Atlas
   - 24 BCOM+Dagon Fel Lighthouse+Remiros' Groundcover Patch
   - 51 Remiros AI MOMW Patch
   - 61 Remiros BC MOMW Patch
   - 05 AFFresh+Samarys Ancestral Tomb Expanded Patch
   - 10 Ebonheart Underworks MOMW Patch
-  - 13 Doors of Oblivion+TOTSP Patch
   - 16 Uvirith's Legacy+BCOM Arena Patch
-  - 17 Uvirith's Legacy+Daedric Shrine Overhaul Molag Bal Patch
-  - 18 Uvirith's Legacy+Daedric Shrine Overhaul Sheogorath Patch
   - 19 Uvirith's Legacy+OAAB Tel Mora Patch
   - 21 Imperial Factions Patched
   plugins:
@@ -260,30 +238,17 @@ mods:
   - SpeechcraftRebalanceRebalanced.esp
   - AFFresh+SamarysAncestralTombExpanded.esp
   - AFFreshLibraryOfVivecEnhanced.esp
-  - Daedric Shrine Overhaul Vaermina OpenMW Patch.esp
-  - UL_-_Daedric_Shrine_Overhaul_Sheogorath.esp
-  - Helm of Tohan Naturalized.esp
-  - UL_-_Daedric_Shrine_Overhaul_Molag_Bal_Patch.esp
-  - Daedric Shrine Overhaul+Patch for Purists Fix.esp
-  - Gargoyle Fix.esp
-  - Doors of Oblivion+TOTSP Patch.esp
   - TracklessGrazelandOpenMW.esp
   - RoHt_Kogoruhn_patch.esp
   - OAAB_Shipwrecks_JFK_patch.esp
   - Bitter Coast Waterway Cliff Fix.esp
   - Little Landscape - Path to Pelagiad Rock Fix.esp
-  - BlademeisterDaedricShrineOverhaulSheogorathPatch.esp
   - OAAB_Grazelands_Mines_and_Caverns_patch.esp
-  - Adventurer's backpack no-choice.esp
   - Imperial Factions.ESP
   - CRFJobs_BCoM_patch.esp
   - RC_VivecsMuatra.ESP
-  - QCVL_BCoM_fix.esp
   - Tel Eurus Anticheese.esp
   - Flies.ESP
-  - fargoths_mountain_hut.esp
-  - DraggleTailPriceAdjustment.esp
-  - racesrespected.omwscripts
   - Practical Necromancy Vendor Patch.esp
   - Practical Necromancy+OAAB Fix.esp
   - Immersive Mournhold Corner Tower Remover Patch.esp
@@ -298,7 +263,6 @@ mods:
   - IGE.ESP
   - Odai River Overhaul Statue Remover Patch.esp
   - Little Landscapes - Seyda Neen Swamp Pools.ESP
-  - Little Landscape - Nix Hunting Ground.esp
   - AldRuhnOutskirtsLittleLandscapesNixFix.esp
   - Little Landscape - Foyada of Sharp Teeth Rock Fix.esp
   - MasterIndexRedux.esp
@@ -308,10 +272,8 @@ mods:
   - TheForgottenShields - Artifacts_NG.esp
   - UL_-_BCoM_Arena_Patch.esp
   - UL_-_OAAB_Tel_Mora_Patch.esp
-  - Blademeister_Kumarahaz_Patch.esp
   - DungeonDetailsUrshilakuFixes.esp
   - MC_MOMW_Patch.esp
-  - DSO Ashalmimilkala Water Height Fix.esp
   - MOMW Sadrith Mora Pathgrid Reset.esp
   groundcover:
   - REM_AC.ESP
@@ -438,13 +400,6 @@ mods:
   - file_name: DM_TelvRRtoOAAB
   plugins:
   - DM_TelvRRtoOAAB.ESP
-
-- name: Katya's Patches and mod recommendations
-  url: https://www.nexusmods.com/morrowind/mods/56060
-  download_info:
-  - file_name: 4. Tales of Tel Branora and Kumarahaz Patch
-  plugins:
-  - Tales of Tel Branora.esp
 
 - name: Dayspassed Bug Fix (OpenMW)
   url: https://www.nexusmods.com/morrowind/mods/57696

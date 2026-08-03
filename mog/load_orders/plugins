@@ -5,7 +5,6 @@ Bloodmoon.esm
 Patch for Purists.esm
 Rise of House Telvanni.esm
 Ownership Overhaul.esm
-Wares-base.esm
 Tamriel_Data.esm
 RepopulatedMorrowind.ESM
 RoaringArena.esm
@@ -24,11 +23,6 @@ skill-evolution.omwaddon
 skill-evolution.omwscripts
 OAAB_Saplings OpenMW Patch.ESP
 DistantEbonTower.ESP
-Wares_lists_OAAB.ESP
-Wares_lists_TD.ESP
-Wares_vanilla_random_lists.ESP
-Wares_traders.ESP
-Wares_containers.ESP
 distant seafloor TOTSP 2.3.0 edges fix.esp
 Greetings for No Lore.esp
 Expansions Integrated - Fewer BM Creatures.esp
@@ -80,14 +74,11 @@ Hospitality_Papers_Expanded_v2.7.esp
 Cutting Room Floor - Characters.esp
 Cutting Room Floor - Missing Persons TR.esp
 Cutting Room Floor - Dead Heroes.esp
-wandering_umbra.ESP
 Face of the Hortator.esp
 correctUV Ore Replacer_fixed.esp
 Uvirith's Legacy_3.53.ESP
 mdmd - uvirith legacy cooperation.ESP
-The Archmagister's Abode.ESP
 Know Thy Ancestors.esp
-LuaMultiMark.omwscripts
 Finished Morrowind - CORE PATCH - Part 4 - More Audio Dialogue for Service NPCs.ESP
 DD_Caldera_Expansion.esp
 DD_Caldera_Expansion_OpenMWFix.esp
@@ -97,8 +88,6 @@ Talking Trains Speechcraft.omwscripts
 wandering-creature-merchants-lua-edition.omwscripts
 wandering-creature-merchants-lua-edition.omwaddon
 Pickpocket Rebalance.omwaddon
-Stats & Potions Limit.esp
-Stats & Potions Limit.omwscripts
 AH_GMSTs.ESP
 AH_Magic.ESP
 AH_Ingredients_TD&OAAB.omwaddon
@@ -119,13 +108,10 @@ Dubdilla Location Fix.ESP
 AFFresh+SamarysAncestralTombExpanded.esp
 AFFreshLibraryOfVivecEnhanced.esp
 AFFargoth.ESP
-AFFA_Wilhelm.esp
 DM_CrownOfUrshilaku.ESP
 DM_RiverOfFire.ESP
 SuranBarrierRocks.ESP
 Red Wisdom.esp
-The Popular Plague.ESP
-The Popular Plague.omwscripts
 A Cold Cell.ESP
 TheSearchForTheWhiteWave.ESP
 Dwemer Airship.ESP
@@ -133,15 +119,6 @@ Dwemer Airship_Exterior.ESP
 TheMananautsMessage.ESP
 PR Voice Overhaul.esp
 Galen's Quest for Truth.ESP
-Daedric Shrine Overhaul FULL.esp
-Daedric Shrine Overhaul Vaermina OpenMW Patch.esp
-UL_-_Daedric_Shrine_Overhaul_Sheogorath.esp
-Helm of Tohan Naturalized.esp
-UL_-_Daedric_Shrine_Overhaul_Molag_Bal_Patch.esp
-The Doors of Oblivion 1.4.esp
-Daedric Shrine Overhaul+Patch for Purists Fix.esp
-Gargoyle Fix.esp
-Doors of Oblivion+TOTSP Patch.esp
 Clean_Andrethi.esp
 Clean_Vennin's Ulummusa Overhaul.ESP
 Clean_Vennin's Hlervi Tomb.ESP
@@ -198,7 +175,6 @@ CAP_Door.ESP
 The Mountain of Fear.ESP
 Bitter Coast Waterway.esp
 Bitter Coast Waterway Cliff Fix.esp
-Plague Doctor Sanctuary.ESP
 Little Landscape - Path to Pelagiad.esp
 Little Landscape - Path to Pelagiad Rock Fix.esp
 Gates of Ascadia.ESP
@@ -213,15 +189,10 @@ Astrologians Guild.esp
 Dark Brotherhood.esp
 ABCmod.ESP
 PR Perfect Scum.esp
-Blademeister.esp
-BlademeisterDaedricShrineOverhaulSheogorathPatch.esp
-Blademeister_Vennin_Addamasartus_Patch.esp
 Daedric_Maul.ESP
 Clean_Mines and Caverns.esp
 OAAB_Grazelands_Mines_and_Caverns_patch.esp
 Clean_Vennin's Pulk Overhaul.ESP
-Adventurer's backback.ESP
-Adventurer's backpack no-choice.esp
 SecretsOfTheCrystalCity.esp
 RPNR_Library.ESP
 RepopulatedVassirDidanatMine.ESP
@@ -236,26 +207,14 @@ TR_Factions.esp
 quarraclan_refreshed.esp
 quarraclan_refreshed - Morrowind Anti-Cheese.esp
 quarraclan_refreshed - Tamriel_Data.esp
-Quests for Clans and Vampire Legends.ESP
-QCVL_BCoM_fix.esp
 Quill of Feyfolken 2.0.esp
 Quill of Feyfolken 2.0-OpenMW-Patch.omwaddon
-nopopup-chargen.esp
 UL_3.5_TR_24.12_Add-on.esp
 Cutting Room Floor - Voice Lines.esp
 Umbra, Blademaster.ESP
 No more Dr Nerevarine.ESP
 Tel_Eurus.esp
 Tel Eurus Anticheese.esp
-Ancient Foes.esp
-Caldera Priory.ESP
-The Devil's Doorstep.ESP
-TabletopAlchemy.omwscripts
-OAAB Leveled Lists.ESP
-ST_Books_Wares_OAAB.ESP
-Store Entrance Chimes - Alt Ver.ESP
-Store Entrance Chimes - Cyrodiil.ESP
-Store Entrance Chimes - TR Mainland.ESP
 Flies.ESP
 RP_fireflies.ESP
 Hircine's Artifacts.ESP
@@ -275,37 +234,23 @@ Frozen in Time.esp
 sm_golden_mask.ESP
 GITD_Telvanni_Dormers.ESP
 GITD_WL_RR_Interiors.esp
-fargoths_mountain_hut.esp
-Fabulous-Hlaalo-Manor.ESP
-Fabulous-Hlaalo-Manor-Ralens-Clutter.ESP
-Fabulous-Hlaalo-Manor-Fabulous-Servant-Quarters.ESP
-Fabulous-Hlaalo-Manor-DOOR-HOTFIX.ESP
-Draggle-Tail Shack.ESP
-DraggleTailPriceAdjustment.esp
 RR_Telvanni_Lighthouse_Tel Branora_Eng.ESP
 RR_Telvanni_Lighthouse_Tel Vos_Eng.ESP
 ghastly gg.esp
 Holamayan Island.esp
 Static Switching System.esp
 The Grove of Ben'Abi Enhanced.ESP
-RacesRESPECted.esp
-racesrespected.omwscripts
-BirthsignsRESPECted.esp
 Practical Necromancy.omwaddon
 Practical Necromancy Vendor Patch.esp
 Practical Necromancy+OAAB Fix.esp
-Spell_Effect_Rebalance_Open.ESP
 NoWitnessNoBounty.omwaddon
 NoWitnessNoBounty.omwscripts
 shield-unequipper.omwscripts
-Corporeal-Carryable-Containers.omwscripts
 Ash Vampire Script Fix.esp
 Sixth House Rebalance.ESP
 Sunder and keening hurt on pickup.ESP
 Unused Dagoth Placement.ESP
 Riekling Fix & Expansion.ESP
-OAAB Creature Loot.ESP
-OAAB Leveled Creatures.ESP
 Unique_CaveRats.ESP
 PR Winged Twilight Rebalance.esp
 PR Atronach Rebalance.esp
@@ -318,13 +263,10 @@ Immersive Mournhold.esp
 Immersive Mournhold Corner Tower Remover Patch.esp
 Berandas Overhaul.esp
 The_corprusarium_Exp.ESP
-Corprusarium_Doors_of_Oblivion_Patch.ESP
 AetherPiratesDiscoveryCorprusariumExperiencePatch.esp
 OAAB_Tel Mora_Female Guards.ESP
 distant-fixes-lua-edition.omwscripts
 tamrielrebuilt.omwscripts
-ScalableDwemerPuzzleBoxRandomizer.omwscripts
-mtrPQCR_ShipsOfVvardenfell_Compat.esp
 RepopulatedMorrowind.esp
 RepopulatedBloodmoon.ESP
 RepopulatedSkyrim.ESP
@@ -337,8 +279,6 @@ Telvanni Magister Robes Anticheese.esp
 RepopulatedMorrowind_MageRobes.ESP
 RepopulatedMorrowind_ImmersiveMournhold.ESP
 RepopulatedMorrowind_OAAB_Data.ESP
-Creatures_RP_Purist.ESP
-Creatures_RP_Soulless summons.ESP
 cybnosoulssummondialoguefix.omwaddon
 Daedra Use Bound Equipment for OpenMW.omwscripts
 Clean_Vennin's Hlaalu Tomb.ESP
@@ -350,12 +290,9 @@ Clean_Vennin's Punabi.ESP
 Nordic Dagon Fel NPCs.ESP
 TR_BCOM_Patch.ESP
 Province_Cyrodiil_BCOM_patch.ESP
-ZEF_FocusMagicka_1.2.2.esp
 BCOM_Cluttered_Canal.ESP
 Superb Shulk Eggmine.ESP
 Dungeon Details --  Abaesen-Pulu Egg Mine.esp
-The Vestiges of Tukushapal.ESP
-Stav_Stormkiss Reforged.esp
 Dungeon Details -- Assemanu.esp
 Dungeon Details -- Yakin.esp
 Dungeon Details -- madas grotto.esp
@@ -364,8 +301,6 @@ Dungeon Details -- Malmus Grotto.esp
 Dungeon Details Nimawia and Malmus Grotto Seam Fix.esp
 OAAB - Hawia_Egg_Mine.ESP
 Hawia Infrastructure.ESP
-randomfarvyn.esp
-randomdin.esp
 dgrandom.esp
 TelvanniSeaBeacons.ESP
 Beautiful cities of Morrowind.ESP
@@ -407,9 +342,6 @@ BalmoraHighTownBellBCOM.ESP
 Raven Rock Enhanced for TOTSP.ESP
 Solstheim Interior Overhaul Project.ESP
 Cliff_racer_restored.ESP
-Drethos_Ancestral_Tomb.ESP
-The Wake of Hanin.ESP
-The Wake of Hanin - TR Goblet Fix.ESP
 What Kwamas Forage - Egg Mine Mod.esp
 RPNR_Shrine_Of_Azura.ESP
 RPNR_Shrine_Of_Azura_Aspect_Of_Azura_Patch.ESP
@@ -430,7 +362,6 @@ Concept_Arts_plantations.esp
 BCOM_OAAB_Pomegranates_patch.ESP
 MinorPlantationsRedone.esp
 AscadianFarmhouses.ESP
-onsr.esp
 BCOM_pathgrid_reset.ESP
 BCoM_WaterWorks.ESP
 Balmora waterworks merchants addon.ESP
@@ -443,7 +374,6 @@ Little Landscape Vivec Islands Plain.ESP
 Odai River Upper Overhaul.esp
 Odai River Overhaul Statue Remover Patch.esp
 Little Landscapes - Seyda Neen Swamp Pools.ESP
-Little Landscape - Nix Hunting Ground.esp
 Ald'Ruhn Outskirts - Ancestral Refuge.ESP
 Ald'Ruhn Outskirts - TR Addon.ESP
 AldRuhnOutskirtsLittleLandscapesNixFix.esp
@@ -476,17 +406,10 @@ Cutting Room Floor - Snow Prince.esp
 Of Eggs and Dwarves.ESP
 Of Eggs and Dwarves.omwscripts
 BlightedAnimalsRetextured.esp
-Indoril Mansion.ESP
-Rather Nice Factor's Estate.esp
-Rather Nice Factor's Estate - GitD.esp
-RnFE - Patch for Purists.esp
 CanonicalGear.omwscripts
 Keelhouse.ESP
 TR_Dra-VashaI-V2.esp
 VenninAddamasartus_DraVashai_patch.esp
-GreymarchDawn.esp
-GreymarchDawn_WhiteSuranPatch.ESP
-Lord of Rebirth.ESP
 OEAD_BCOM_Patch.ESP
 Tribunal_Facelift.ESP
 RPNR_Almalexia_Chamber.ESP
@@ -518,9 +441,7 @@ OAAB_Tel Mora.ESP
 OAAB_Tel Mora - Diverse Blood Patch.omwaddon
 UL_-_OAAB_Tel_Mora_Patch.esp
 Kumarahaz Bandit Lair.ESP
-Blademeister_Kumarahaz_Patch.esp
 Tel Branora Expansion.ESP
-Tales of Tel Branora.esp
 Building Up Uvirith's Legacy1.1.ESP
 pharis-magicka-regeneration.omwaddon
 pharis-magicka-regeneration.omwscripts
@@ -535,27 +456,19 @@ Devilish_Vampire_Overhaul.esp
 Devilish_Vampire_Overhaul.omwscripts
 Devilish_Vampire_Overhaul_TR_Dialogue_Patch.ESP
 MC_MOMW_Patch.esp
-DSO Ashalmimilkala Water Height Fix.esp
 ReAnimation_API.omwscripts
 ReAnimation_v2_Rogue.omwscripts
 third-person-alt-attacks.omwscripts
 Impact Effects.omwscripts
 footsteps.omwscripts
 animated-levitation.omwscripts
-FatigueSpeedAndCarryWeightRebalance.omwaddon
 smart-ammo.omwscripts
 TimescaleChange.omwaddon
-signpost-fast-travel.omwscripts
-signpost-fast-travel.omwaddon
 harvest-lights.omwscripts
 protective_guards_for_omw.omwscripts
-action-camera-swap.omwscripts
-an-nwahs-guide-to-modern-culture-and-mythology.omwaddon
 Perfect Placement.omwscripts
 bound-balance.omwaddon
 bound-balance.omwscripts
-go-home.omwscripts
-go-home-locking-doors.omwscripts
 Nine-holes - Core.esp
 Nine-holes - Ald-ruhn, The Rat In The Pot.esp
 Nine-holes - Ebonheart, Six Fishes.esp
@@ -572,14 +485,15 @@ PFP x Cutting Room Floor.omwaddon
 Tamriel_Data.omwscripts
 SSQN.omwscripts
 dayspassedfix.omwaddon
-SolCombatPack.omwscripts
-friendly-autosave.omwscripts
 LightHotkey.omwscripts
 convenient-thief-tools.omwscripts
-AttendMe.omwscripts
 FollowerDetectionUtil.omwscripts
 FriendlierFire.omwscripts
 S3maphore.esp
+Mage Robes_Weak.ESP
+AH_Toxicity_Drink.ESP
+AH_Toxicity_Eat.ESP
+Little Landscape - Nix Hunting Ground.esp
 # insert new entries above
 momw-gameplay.omwscripts
 momw-gameplay-controls.omwscripts

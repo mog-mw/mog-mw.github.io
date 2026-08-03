@@ -23,9 +23,11 @@ mods:
   - file_name: Mage Robes
   data_paths:
   - 00 Core
+  - 02 Vanilla-Style Robe Enchantments
   - 04 HD Textures
   plugins:
   - Mage Robes.ESP
+  - Mage Robes_Weak.ESP
 
 - name: Mage Robes for OpenMW-Lua
   url: https://modding-openmw.gitlab.io/mage-robes-for-openmw-lua/

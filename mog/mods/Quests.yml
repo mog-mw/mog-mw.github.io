@@ -1,13 +1,6 @@
 category: Quests
 
 mods:
-- name: The Plague Doctor
-  url: https://www.nexusmods.com/morrowind/mods/52885
-  download_info:
-  - file_name: The Plague Doctor
-  plugins:
-  - Plague Doctor Sanctuary.ESP
-
 - name: Stormkiss Reforged
   url: https://www.nexusmods.com/morrowind/mods/44565
   download_info:
@@ -56,15 +49,6 @@ mods:
   download_info:
   - file_name: MasterIndexRedux
 
-- name: The Doors of Oblivion
-  url: https://www.nexusmods.com/morrowind/mods/44398
-  download_info:
-  - file_name: The Doors of Oblivion 1.4 latest .esp only
-  data_paths:
-  - The Doors of Oblivion 1.4 quest fix/data files
-  plugins:
-  - The Doors of Oblivion 1.4.esp
-
 - name: Secrets of the Crystal City
   url: https://www.nexusmods.com/morrowind/mods/51932
   download_info:
@@ -74,21 +58,6 @@ mods:
   - 01 HD Textures
   plugins:
   - SecretsOfTheCrystalCity.esp
-
-- name: Greymarch Dawn - Whispers of Jyggalag
-  url: https://www.nexusmods.com/morrowind/mods/53679
-  download_info:
-  - file_name: Grey March Dawn
-  data_paths:
-  - 00 Core
-  - 01 HD Textures
-  - 03 MWSE Add-Ons
-  - 04 White Suran 2 Patch
-  - 05 White Suran 2 Patch - Sewers
-  - 07 OpenMW HD Icons
-  plugins:
-  - GreymarchDawn.esp
-  - GreymarchDawn_WhiteSuranPatch.ESP
 
 - name: Caldera Mine Expanded
   url: https://www.nexusmods.com/morrowind/mods/45194
@@ -131,18 +100,19 @@ mods:
   plugins:
   - Tel_Eurus.esp
 
-- name: Lord of Rebirth
-  url: https://www.nexusmods.com/morrowind/mods/59754
-  download_info:
-  - file_name: Lord Of Rebirth
-    extract_to: main
-  - file_name: OpenMW High Quality Icons
-    extract_to: hqicons
-  data_paths:
-  - main
-  - hqicons
-  plugins:
-  - Lord of Rebirth.ESP
+# This mod is cursed
+# - name: Lord of Rebirth
+#   url: https://www.nexusmods.com/morrowind/mods/59754
+#   download_info:
+#   - file_name: Lord Of Rebirth
+#     extract_to: main
+#   - file_name: OpenMW High Quality Icons
+#     extract_to: hqicons
+#   data_paths:
+#   - main
+#   - hqicons
+#   plugins:
+#   - Lord of Rebirth.ESP
 
 - name: Frozen in Time
   url: https://www.nexusmods.com/morrowind/mods/50077
@@ -164,18 +134,6 @@ mods:
   - file_name: Mudcrab Imports (No Better Bodies)
   plugins:
   - Mudcrab Imports NoBB.esp
-
-- name: Caldera Priory and the Depths of Blood and Bone
-  url: https://www.nexusmods.com/morrowind/mods/52898
-  download_info:
-  - file_name: Caldera Priory and the Depths of Blood and Bone
-  - file_name: HD Textures
-    extract_to: HD
-  data_paths:
-  - 00 Core
-  - HD
-  plugins:
-  - Caldera Priory.ESP
 
 - name: A Cold Cell
   url: https://www.nexusmods.com/morrowind/mods/52832
@@ -199,19 +157,6 @@ mods:
   - file_name: Ebonheart_Underworks
   plugins:
   - Ebonheart_Underworks.esp
-
-- name: Blademeister
-  url: https://www.nexusmods.com/morrowind/mods/52740
-  download_info:
-  - file_name: Blademeister
-  - file_name: Blademeister Vennin Addamasartus Patch
-    extract_to: BlademeisterVenninAddamasartusPatch
-  data_paths:
-  - Blademeister/Data Files
-  - BlademeisterVenninAddamasartusPatch
-  plugins:
-  - Blademeister.esp
-  - Blademeister_Vennin_Addamasartus_Patch.esp
 
 - name: Roaring Arena - Betting and Bloodletting
   url: https://www.nexusmods.com/morrowind/mods/50954
@@ -302,15 +247,6 @@ mods:
   plugins:
   - Vivec Lighthouse Questline.esp
 
-- name: Ancient Foes
-  url: https://www.nexusmods.com/morrowind/mods/44705
-  download_info:
-  - file_name: Ancient Foes - Version 1.1
-  data_paths:
-  - Ancient Foes - Version 1.1
-  plugins:
-  - Ancient Foes.esp
-
 - name: Lucid Disturbing Dreams
   url: https://www.nexusmods.com/morrowind/mods/55705
   download_info:
@@ -320,10 +256,3 @@ mods:
   plugins:
   - Lucid Disturbing Dreams.ESP
   - kd_ldd.omwscripts
-
-- name: An N'wah's Guide To Modern Culture And Mythology
-  url: https://modding-openmw.gitlab.io/an-nwahs-guide-to-modern-culture-and-mythology/
-  download_info:
-  - file_name: An N'wah's Guide To Modern Culture And Mythology
-  plugins:
-  - an-nwahs-guide-to-modern-culture-and-mythology.omwaddon

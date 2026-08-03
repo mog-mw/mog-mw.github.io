@@ -1,11 +1,3 @@
 category: Combat
 
-mods:
-- name: Solthas Combat Pack (OpenMW Lua)
-  url: https://www.nexusmods.com/morrowind/mods/52221
-  download_info:
-  - file_name: Solthas combat Pack
-  data_paths:
-  - Solthas Combat Pack
-  plugins:
-  - SolCombatPack.omwscripts
+mods: []

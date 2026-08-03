@@ -86,16 +86,6 @@ mods:
   plugins:
   - BugMuskPerfume.esp
 
-- name: Stuporstar's Books for Wares
-  url: https://www.nexusmods.com/morrowind/mods/49808
-  download_info:
-  - file_name: Stuporstar's books for Wares
-  data_paths:
-  - 00 Core
-  - 01 OAAB
-  plugins:
-  - ST_Books_Wares_OAAB.ESP
-
 - name: The Madstone
   url: https://www.nexusmods.com/morrowind/mods/47653
   download_info:

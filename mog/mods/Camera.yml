@@ -1,9 +1,0 @@
-category: Camera
-
-mods:
-- name: Action Camera Swap
-  url: https://modding-openmw.gitlab.io/action-camera-swap/
-  download_info:
-  - file_name: Action Camera Swap
-  plugins:
-  - action-camera-swap.omwscripts

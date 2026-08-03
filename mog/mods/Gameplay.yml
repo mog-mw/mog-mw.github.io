@@ -90,15 +90,9 @@ mods:
   - Alchemical Hustle/Fatigue Toxicity/Data Files
   plugins:
   - AH_GMSTs.ESP
+  - AH_Toxicity_Drink.ESP
+  - AH_Toxicity_Eat.ESP
   - AH_Magic.ESP
-
-- name: Stats Potions Training Limits (OpenMW) (Oblivion Style Included)
-  url: https://www.nexusmods.com/morrowind/mods/55507
-  download_info:
-  - file_name: Stats Potions Training Limits
-  plugins:
-  - Stats & Potions Limit.esp
-  - Stats & Potions Limit.omwscripts
 
 - name: For the Right Price
   url: https://www.nexusmods.com/morrowind/mods/52668
@@ -135,13 +129,6 @@ mods:
   plugins:
   - PR Real Disposition Base.esp
 
-- name: Fatigue and Speed and Carryweight Rebalance (OpenMW)
-  url: https://www.nexusmods.com/morrowind/mods/52981
-  download_info:
-  - file_name: FatigueSpeedAndCarryWeightRebalance
-  plugins:
-  - FatigueSpeedAndCarryWeightRebalance.omwaddon
-
 - name: Pickpocket Rebalance (OpenMW)
   url: https://www.nexusmods.com/morrowind/mods/53174
   download_info:
@@ -150,13 +137,6 @@ mods:
   - Pickpocket Rebalance
   plugins:
   - Pickpocket Rebalance.omwaddon
-
-- name: Spell Effects Rebalance
-  url: https://www.nexusmods.com/morrowind/mods/52858
-  download_info:
-  - file_name: Spell_Effect_Rebalance_Open
-  plugins:
-  - Spell_Effect_Rebalance_Open.ESP
 
 - name: Better Blight
   url: https://www.nexusmods.com/morrowind/mods/48395
@@ -192,20 +172,6 @@ mods:
   - file_name: Expansions Integrated
   plugins:
   - Expansions Integrated - Fewer BM Creatures.esp
-
-- name: Tabletop Alchemy
-  url: https://www.nexusmods.com/morrowind/mods/52891
-  download_info:
-  - file_name: Tabletop Alchemy
-  plugins:
-  - TabletopAlchemy.omwscripts
-
-- name: ZEF Focus Magicka
-  url: https://www.nexusmods.com/morrowind/mods/48431
-  download_info:
-  - file_name: ZEF Focus Magicka
-  plugins:
-  - ZEF_FocusMagicka_1.2.2.esp
 
 - name: Clear Your Name
   url: https://www.nexusmods.com/morrowind/mods/43786
@@ -252,14 +218,6 @@ mods:
   - file_name: Quill of Feyfolken - Scroll Enchanting
   plugins:
   - Quill of Feyfolken 2.0.esp
-
-- name: Go Home!
-  url: https://modding-openmw.gitlab.io/go-home/
-  download_info:
-  - file_name: Go Home!
-  plugins:
-  - go-home.omwscripts
-  - go-home-locking-doors.omwscripts
 
 - name: No more Dr. Nerevarine
   url: https://www.nexusmods.com/morrowind/mods/45861
@@ -328,15 +286,6 @@ mods:
   plugins:
   - convenient-thief-tools.omwscripts
 
-- name: Corporeal Carryable Containers
-  url: https://www.nexusmods.com/morrowind/mods/53772
-  download_info:
-  - file_name: Corporeal Carryable Containers
-  data_paths:
-  - Corporeal-Carryable-Containers-master
-  plugins:
-  - Corporeal-Carryable-Containers.omwscripts
-
 - name: Devilish Vampire Overhaul
   url: https://www.nexusmods.com/morrowind/mods/52969
   download_info:
@@ -363,13 +312,6 @@ mods:
   plugins:
   - Perfect Placement.omwscripts
 
-- name: Friendly Autosave
-  url: https://modding-openmw.gitlab.io/friendly-autosave/
-  download_info:
-  - file_name: Friendly Autosave
-  plugins:
-  - friendly-autosave.omwscripts
-
 - name: Protected Beasts
   url: https://modding-openmw.gitlab.io/protected-beasts/
   download_info:
@@ -387,47 +329,6 @@ mods:
   - Boots for Beasts OpenMW Lua TD.omwaddon
   - Hist Helms OpenMW Lua.omwaddon
   - protected-beasts.omwscripts
-
-- name: Wares Ultimate
-  url: https://www.nexusmods.com/morrowind/mods/52013
-  download_info:
-  - file_name: Wares Ultimate
-    actions:
-    - action: clean
-      path: 06 Wares to Traders/Wares_traders.ESP
-      arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, cell, --exact-id, 'Thirsk (-19, 23)']
-  data_paths:
-  - 00 Core
-  - 02 Wares to vanilla lists
-  - 03 TD to Wares
-  - 04 OAAB to Wares
-  - 06 Wares to Traders
-  - 09 Wares to containers
-  plugins:
-  - Wares-base.esm
-  - Wares_lists_OAAB.ESP
-  - Wares_lists_TD.ESP
-  - Wares_vanilla_random_lists.ESP
-  - Wares_traders.ESP
-  - Wares_containers.ESP
-
-- name: OAAB Integrations
-  url: https://www.nexusmods.com/morrowind/mods/49045
-  download_info:
-  - file_name: OAAB Creature Loot
-  - file_name: OAAB Leveled Creatures
-  - file_name: OAAB Leveled Lists
-  plugins:
-  - OAAB Leveled Lists.ESP
-  - OAAB Creature Loot.ESP
-  - OAAB Leveled Creatures.ESP
-
-- name: Adventurer's Backpacks
-  url: https://www.nexusmods.com/morrowind/mods/43213
-  download_info:
-  - file_name: Backpack Wares
-  plugins:
-  - Adventurer's backback.ESP
 
 - name: Comfy Pillow for a restful sleep
   url: https://www.nexusmods.com/morrowind/mods/46613

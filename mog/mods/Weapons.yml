@@ -1,13 +1,6 @@
 category: Weapons
 
 mods:
-- name: Correct Iron Warhammer
-  url: https://www.nexusmods.com/morrowind/mods/43576
-  download_info:
-  - file_name: Correct Iron Warhammer
-  data_paths:
-  - Data Files
-
 - name: Oriental Mesh Improvements
   url: https://www.nexusmods.com/morrowind/mods/29906
   download_info:

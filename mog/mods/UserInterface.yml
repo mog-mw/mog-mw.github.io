@@ -1,27 +1,6 @@
 category: UserInterface
 
 mods:
-- name: Chocolate UI
-  url: https://www.nexusmods.com/morrowind/mods/43076
-  download_info:
-  - file_name: Chocolate UI
-
-- name: Gonzo's Splash Screens
-  url: https://www.nexusmods.com/morrowind/mods/51667
-  download_info:
-  - file_name: Gonzo's Splash Screens - 2K
-  data_paths:
-  - 00 Core
-  - 01 Monopteryx Creature Art
-  - 02 Wagner Vvardenfell Maps
-  - 03 Wagner Bloodmoon Maps
-  - 04 Wagner Tribunal Map
-  - 05 Tamriel Rebuilt Maps
-  - 06 Myrcenart Addon
-  settings: |
-    [GUI]
-    stretch menu background = true
-
 - name: Big Icons
   url: https://www.nexusmods.com/morrowind/mods/49662
   download_info:
@@ -67,12 +46,3 @@ mods:
   url: https://www.nexusmods.com/morrowind/mods/55480
   download_info:
   - file_name: SSQN Patches
-
-- name: HD Intro Cinematic - English
-  url: https://www.nexusmods.com/morrowind/mods/39329
-  download_info:
-  - file_name: 16x9 Version
-    actions:
-    - action: rename
-      src: Video/mw_intro_16x9_en.bik
-      dst: Video/mw_intro.bik

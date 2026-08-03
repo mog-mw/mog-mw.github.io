@@ -1,35 +1,6 @@
 category: PlayerHomes
 
 mods:
-- name: Fabulous Hlaalo Manor
-  url: https://www.nexusmods.com/morrowind/mods/51438
-  download_info:
-  - file_name: Fabulous Hlaalo Manor
-  data_paths:
-  - ''
-  - Options-see-readme
-  plugins:
-  - Fabulous-Hlaalo-Manor.ESP
-  - Fabulous-Hlaalo-Manor-Ralens-Clutter.ESP
-  - Fabulous-Hlaalo-Manor-Fabulous-Servant-Quarters.ESP
-  - Fabulous-Hlaalo-Manor-DOOR-HOTFIX.ESP
-
-- name: Draggle-Tail Shack
-  url: https://www.nexusmods.com/morrowind/mods/53305
-  download_info:
-  - file_name: Draggle-Tail Shack 1.4
-  plugins:
-  - Draggle-Tail Shack.ESP
-
-- name: The Archmagister's Abode
-  url: https://www.nexusmods.com/morrowind/mods/53376
-  download_info:
-  - file_name: The Archmagister's Abode
-  data_paths:
-  - data files
-  plugins:
-  - The Archmagister's Abode.ESP
-
 - name: Uvirith's Legacy
   url: https://www.dropbox.com/s/sqxbej0nef7bg9e/Uviriths_Legacy_3.53.7z?rlkey=33q8nnljnar5ujyp0mj21mpbq&dl=0
   download_info:
@@ -53,35 +24,3 @@ mods:
   - Building Up Uvirith's Legacy
   plugins:
   - Building Up Uvirith's Legacy1.1.ESP
-
-- name: The Popular Plague
-  url: https://www.nexusmods.com/morrowind/mods/54730
-  download_info:
-  - file_name: The Popular Plague
-  data_paths:
-  - 00 Core
-  - 01 OpenMW
-  - 02 HD Textures
-  plugins:
-  - The Popular Plague.ESP
-  - The Popular Plague.omwscripts
-
-- name: Rather Nice Factor's Estate
-  url: https://www.nexusmods.com/morrowind/mods/47933
-  download_info:
-  - file_name: Rather Nice Factor's Estate
-  data_paths:
-  - 00 Core
-  - 01 Core - Glow in the Dahrk
-  - 02 Patch - Patch for Purists 4.0.X
-  plugins:
-  - Rather Nice Factor's Estate.esp
-  - Rather Nice Factor's Estate - GitD.esp
-  - RnFE - Patch for Purists.esp
-
-- name: Indoril Mansion
-  url: https://www.nexusmods.com/morrowind/mods/53022
-  download_info:
-  - file_name: Indoril Mansion 1.6
-  plugins:
-  - Indoril Mansion.ESP

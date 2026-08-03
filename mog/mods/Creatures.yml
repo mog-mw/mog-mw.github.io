@@ -29,21 +29,6 @@ mods:
   plugins:
   - Unique_CaveRats.ESP
 
-- name: Vanilla friendly creatures and undeads expansion
-  url: https://www.nexusmods.com/morrowind/mods/48818
-  download_info:
-  - file_name: Creatures_RP
-    actions:
-    - action: clean
-      path: 00 Core/Creatures_RP_Purist.ESP
-      arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, cell, --match, Solstheim]
-  data_paths:
-  - 00 Core
-  - 03 Summons have 0 soul
-  plugins:
-  - Creatures_RP_Purist.ESP
-  - Creatures_RP_Soulless summons.ESP
-
 - name: Riekling Fix and Expansion
   url: https://www.nexusmods.com/morrowind/mods/50036
   download_info:

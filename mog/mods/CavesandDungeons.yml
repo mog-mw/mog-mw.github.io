@@ -81,10 +81,8 @@ mods:
   - file_name: The Corprusarium experience
   data_paths:
   - 00 - Core
-  - 02 - Doors of Oblivion patch
   plugins:
   - The_corprusarium_Exp.ESP
-  - Corprusarium_Doors_of_Oblivion_Patch.ESP
 
 - name: Unholy Trinity - Dagoth Ur - Vemynal - Odrosal Remade
   url: https://www.nexusmods.com/morrowind/mods/55564
@@ -217,33 +215,6 @@ mods:
   plugins:
   - Clean_Andrethi.esp
 
-- name: Drethos Ancestral Tomb
-  url: https://www.nexusmods.com/morrowind/mods/53481
-  download_info:
-  - file_name: Drethos Ancestral Tomb
-  plugins:
-  - Drethos_Ancestral_Tomb.ESP
-
-- name: Daedric Shrine Overhaul FULL
-  url: https://www.nexusmods.com/morrowind/mods/54679
-  download_info:
-  - file_name: Main files
-  data_paths:
-  - Daedric Shrine Overhaul/Daedric Shrine Overhaul Full
-  plugins:
-  - Daedric Shrine Overhaul FULL.esp
-
-- name: The Wake of Hanin - Ibar-Dad Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/56206
-  download_info:
-  - file_name: The Wake of Hanin - Ibar-Dad Overhaul
-  data_paths:
-  - 00 Core
-  - 01 TR Patch
-  plugins:
-  - The Wake of Hanin.ESP
-  - The Wake of Hanin - TR Goblet Fix.ESP
-
 - name: Mamaea Awakened
   url: https://www.nexusmods.com/morrowind/mods/46096
   download_info:
@@ -336,30 +307,6 @@ mods:
   - file_name: DM_IndalenWoeBCOM
   plugins:
   - DM_IndalenWoe.ESP
-
-- name: The Vestiges of Tukushapal
-  url: https://www.nexusmods.com/morrowind/mods/56829
-  download_info:
-  - file_name: The Vestiges of Tukushapal
-  data_paths:
-  - 00 Core
-  - 01 Stormkiss Reforged Patch
-  plugins:
-  - The Vestiges of Tukushapal.ESP
-  - Stav_Stormkiss Reforged.esp
-
-- name: The Devil's Doorstep
-  url: https://www.nexusmods.com/morrowind/mods/55550
-  download_info:
-  - file_name: The Devil's Doorstep
-    extract_to: main
-  - file_name: Snowy Holly Bushes_Patch
-    extract_to: patch
-  data_paths:
-  - main
-  - patch
-  plugins:
-  - The Devil's Doorstep.ESP
 
 - name: Face of the Hortator
   url: https://www.nexusmods.com/morrowind/mods/42928
