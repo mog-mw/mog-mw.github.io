@@ -1,0 +1,69 @@
+category: Landmasses
+
+mods:
+- name: Tamriel Rebuilt
+  url: https://www.nexusmods.com/morrowind/mods/42145
+  download_info:
+  - file_name: Tamriel Rebuilt 25.08.12
+  data_paths:
+  - 00 Core
+  - 01 Faction Integration
+  plugins:
+  - TR_Mainland.esm
+  - TR_Factions.esp
+  - tamrielrebuilt.omwscripts
+
+- name: Project Cyrodiil
+  url: https://www.nexusmods.com/morrowind/mods/44922
+  download_info:
+  - file_name: Cyr_Main
+  data_paths:
+  - 00 Core
+  plugins:
+  - Cyr_Main.esm
+
+- name: 'Skyrim: Home Of The Nords'
+  url: https://www.nexusmods.com/morrowind/mods/44921
+  download_info:
+  - file_name: Sky_Main
+  data_paths:
+  - 00 Core
+  - 01 Grass for MGEXE and OpenMW
+  plugins:
+  - Sky_Main.esm
+  groundcover:
+  - Sky_Main_Grass.esp
+  settings: |
+    [Groundcover]
+    enabled = true
+    stomp intensity = 2
+
+- name: Solstheim Tomb of the Snow Prince
+  url: https://www.nexusmods.com/morrowind/mods/46810
+  download_info:
+  - file_name: Solstheim Graphical Replacer
+  - file_name: Solstheim Tomb of the Snow Prince
+  - file_name: Patch for Purists Patch for PfP 5.0.6
+  data_paths:
+  - ''
+  - 000 Core
+  - 010 Optional - Tamriel Data Integration
+  - 199 Patch - Forceful Travel NPC Override
+  - 200 Addon - Missing Snow Armor Pieces
+  - 201 Addon - Fierce Wolf Helms
+  - 010 Solstheim - HD Worldspace Graphical Replacer
+  - 012 Remiros' Groundcover for TOTSP
+  - 001 Core - Interiors With Glow in the Dahrk
+  plugins:
+  - Solstheim Tomb of The Snow Prince.esm
+  - GITD_WL_RR_Interiors.esp
+  - Missing snow armor.esp
+  - TOTSP TD Content Integration.esp
+  - TOTSP_Patch_for_Purists_5.0.6.esp
+  - TOTSP_Forceful_Travel_NPC_Override.ESP
+  groundcover:
+  - Rem-TOTSP.esp
+  settings: |
+    [Groundcover]
+    enabled = true
+    stomp intensity = 2

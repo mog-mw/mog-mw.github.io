@@ -1,0 +1,52 @@
+category: TexturePacks
+
+mods:
+- name: Morrowind Enhanced Textures
+  url: https://www.nexusmods.com/morrowind/mods/46221
+  download_info:
+  - file_name: Morrowind Enhanced Textures 6.1
+  - file_name: MET 6 Atlas textures
+    extract_to: atlas
+  - file_name: Interface and main menu
+  data_paths:
+  - MET 6-1 main
+  - Interface
+  - atlas
+
+- name: Necrom - Arkitektora of Morrowind
+  url: https://www.nexusmods.com/morrowind/mods/46289
+  download_info:
+  - file_name: Necrom Arkitektora - HQ
+  - file_name: Necrom Minor Meshes Fixes
+    extract_to: NecromMinorMeshesFixes
+  data_paths:
+  - HQ
+  - NecromMinorMeshesFixes
+
+- name: The Doors of Oblivion Full Upscale
+  url: https://www.nexusmods.com/morrowind/mods/53351
+  download_info:
+  - file_name: Doors of Oblivion Full Upscale
+    extract_to: main
+  - file_name: Optional Graphic Herbalism meshes
+    extract_to: GraphicHerbalism
+  data_paths:
+  - main
+  - GraphicHerbalism
+  - GraphicHerbalism/00 Core
+
+- name: Sophie's Skooma Sweetshoppe
+  url: https://modding-openmw.gitlab.io/sophies-skooma-sweetshoppe/
+  download_info:
+  - file_name: Sophie's Skooma Sweetshoppe
+  data_paths:
+  - 07 Telvanni Cephalopod Armor TD Cuirass Upscale and Color Match
+  - 21 Akulukhan's Best Chamber OpenMW
+  - 23 Telvanni Mushroomtop Housepod UV Fix
+  - 10 Shadow Mimicry's Backpack Retexture (host for modding-openmw.com)
+  - 16 QCVL Blood Altar x Diverse Blood Fix
+  - 11 SophiasClearBlueSkies
+  - 30 Temporary Fixes
+  plugins:
+  - bcomxpfp.omwaddon
+  - PFP x Cutting Room Floor.omwaddon

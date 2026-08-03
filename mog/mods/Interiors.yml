@@ -1,0 +1,110 @@
+category: Interiors
+
+mods:
+- name: Almalexia's Chamber Overhaul
+  url: https://www.nexusmods.com/morrowind/mods/52737
+  download_info:
+  - file_name: Almalexia's Chamber Overhaul
+  data_paths:
+  - 00 Core
+  plugins:
+  - RPNR_Almalexia_Chamber.ESP
+
+- name: Nordic Solstheim - Solstheim Interiors Overhaul
+  url: https://www.nexusmods.com/morrowind/mods/53121
+  download_info:
+  - file_name: Nordic Solstheim
+  data_paths:
+  - 00 Core
+  - 01 Cliff Racer Restored
+  plugins:
+  - Solstheim Interior Overhaul Project.ESP
+  - Cliff_racer_restored.ESP
+
+- name: Akulakhan's best chamber
+  url: https://www.nexusmods.com/morrowind/mods/49644
+  download_info:
+  - file_name: A.B.C.
+  data_paths:
+  - 00 - Core files
+  plugins:
+  - ABCmod.ESP
+
+- name: Azura's Shrine Overhaul
+  url: https://www.nexusmods.com/morrowind/mods/53277
+  download_info:
+  - file_name: Azura's Shrine Overhaul
+  data_paths:
+  - 00 - Core files
+  - 03 - Aspect of Azura Patch
+  plugins:
+  - RPNR_Shrine_Of_Azura.ESP
+  - RPNR_Shrine_Of_Azura_Aspect_Of_Azura_Patch.ESP
+
+- name: Library of Vivec Enhanced
+  url: https://www.nexusmods.com/morrowind/mods/50181
+  download_info:
+  - file_name: Library of Vivec Enhanced
+  data_paths:
+  - 00 Core
+  plugins:
+  - RPNR_Library.ESP
+
+- name: Ald'ruhn-under-Skar
+  url: https://www.nexusmods.com/morrowind/mods/50332
+  download_info:
+  - file_name: Ald-ruhn-Under-Skar EN
+  data_paths:
+  - Data files
+  plugins:
+  - Under-Skar.ESP
+
+- name: Ald'Ruhn Manor Banners
+  url: https://www.nexusmods.com/morrowind/mods/51527
+  download_info:
+  - file_name: Ald'Ruhn Manor Banners
+  data_paths:
+  - Data Files
+  plugins:
+  - Manor Banners.ESP
+
+- name: Rat in the Pot - OAAB-ified and TR'd
+  url: https://www.nexusmods.com/morrowind/mods/57663
+  download_info:
+  - file_name: Rat in the Pot - OAABified and TRd
+  plugins:
+  - LB_RatPot.ESP
+
+- name: Temple Balmora OAAB-ified and TR'd
+  url: https://www.nexusmods.com/morrowind/mods/57596
+  download_info:
+  - file_name: Temple Balmora
+  plugins:
+  - LB_TempleBalmora.ESP
+
+- name: Tribunal Facelift
+  url: https://www.nexusmods.com/morrowind/mods/54746
+  download_info:
+  - file_name: Tribunal Facelift
+  data_paths:
+  - Data Files
+  plugins:
+  - Tribunal_Facelift.ESP
+
+- name: Tamriel Rebuilt - Hall of Justice Overhaul
+  url: https://www.nexusmods.com/morrowind/mods/52224
+  download_info:
+  - file_name: Tamriel Rebuilt - Hall of Justice Overhaul
+  data_paths:
+  - 00 Core
+  plugins:
+  - RPNR_Hall_of_justice.ESP
+
+- name: Repopulated Vassir-Didanat Mine
+  url: https://www.nexusmods.com/morrowind/mods/54129
+  download_info:
+  - file_name: Repopulated Vassir-Didanat Mine
+  data_paths:
+  - RepopulatedVassirDidanatMine
+  plugins:
+  - RepopulatedVassirDidanatMine.ESP

@@ -1,0 +1,23 @@
+category: Leveling
+
+mods:
+- name: Natural Character Growth
+  url: https://www.nexusmods.com/morrowind/mods/57801
+  download_info:
+  - file_name: Natural Character Growth
+  data_paths:
+  - 00 Core
+  - 01 NCG - Normal
+  plugins:
+  - ncg.omwaddon
+  - ncg.omwscripts
+
+- name: Skill Evolution
+  url: https://www.nexusmods.com/morrowind/mods/57802
+  download_info:
+  - file_name: Skill Evolution
+  data_paths:
+  - 00 Core
+  plugins:
+  - skill-evolution.omwaddon
+  - skill-evolution.omwscripts

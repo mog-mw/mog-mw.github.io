@@ -1,0 +1,25 @@
+category: Performance
+
+mods:
+- name: Morrowind Optimization Patch
+  url: https://www.nexusmods.com/morrowind/mods/45384
+  download_info:
+  - file_name: Morrowind Optimization Patch
+  data_paths:
+  - 00 Core
+  - 04 Better Vanilla Textures
+  - 05 Graphic Herbalism Patch
+  - 02 Weapon Sheathing Patch
+
+- name: Project Atlas
+  url: https://www.nexusmods.com/morrowind/mods/45399
+  download_info:
+  - file_name: Project Atlas
+  data_paths:
+  - 00 Core
+  - 01 Textures - MET
+  - 02 Urns - Smoothed
+  - 03 Redware - Smoothed
+  - 07 Graphic Herbalism Patch
+  - 06 Glow in the Dahrk Patch
+  - 08 ILFAS Patch

@@ -1,0 +1,78 @@
+category: UserInterface
+
+mods:
+- name: Chocolate UI
+  url: https://www.nexusmods.com/morrowind/mods/43076
+  download_info:
+  - file_name: Chocolate UI
+
+- name: Gonzo's Splash Screens
+  url: https://www.nexusmods.com/morrowind/mods/51667
+  download_info:
+  - file_name: Gonzo's Splash Screens - 2K
+  data_paths:
+  - 00 Core
+  - 01 Monopteryx Creature Art
+  - 02 Wagner Vvardenfell Maps
+  - 03 Wagner Bloodmoon Maps
+  - 04 Wagner Tribunal Map
+  - 05 Tamriel Rebuilt Maps
+  - 06 Myrcenart Addon
+  settings: |
+    [GUI]
+    stretch menu background = true
+
+- name: Big Icons
+  url: https://www.nexusmods.com/morrowind/mods/49662
+  download_info:
+  - file_name: Big Icons - OpenMW
+  data_paths:
+  - 07 8X Textured
+
+- name: Vanilla Style HD Icons for Attributes and Skills
+  url: https://www.nexusmods.com/morrowind/mods/54708
+  download_info:
+  - file_name: Vanilla Style HD Icons for Attributes and Skills
+    nexus_file_id: 1000050961
+
+- name: Vvardenfell Animated Main Menu
+  url: https://www.nexusmods.com/morrowind/mods/54671
+  download_info:
+  - file_name: Vvardenfell Animated Main Menu (Lite)
+  data_paths:
+  - 00 Animated Main Menu
+  settings: |
+    [GUI]
+    stretch menu background = true
+
+- name: OpenMW Skyrim Style Quest Notifications
+  url: https://www.nexusmods.com/morrowind/mods/54148
+  download_info:
+  - file_name: OpenMW Skyrim Style Quest Notifications
+  plugins:
+  - SSQN.omwscripts
+
+- name: Skyrim Style Quest Notifications - Legendary Edition
+  url: https://www.nexusmods.com/morrowind/mods/53712
+  download_info:
+  - file_name: SSQN LE
+    actions:
+    - action: copy
+      src: Data Files/MWSE/mods/SSQN/iconlist.lua
+      dst: Data Files/scripts/SSQN/iconlists/SSQNLE.lua
+  data_paths:
+  - Data Files
+
+- name: Skyrim Style Quest Notifications Great Patch Hub
+  url: https://www.nexusmods.com/morrowind/mods/55480
+  download_info:
+  - file_name: SSQN Patches
+
+- name: HD Intro Cinematic - English
+  url: https://www.nexusmods.com/morrowind/mods/39329
+  download_info:
+  - file_name: 16x9 Version
+    actions:
+    - action: rename
+      src: Video/mw_intro_16x9_en.bik
+      dst: Video/mw_intro.bik

@@ -1,0 +1,26 @@
+category: Water
+
+mods:
+- name: Better Waterfalls
+  url: https://www.nexusmods.com/morrowind/mods/45424
+  download_info:
+  - file_name: Better Waterfalls
+  data_paths:
+  - 00 Core
+  - 02 Tamriel Rebuilt Water
+
+- name: Distant Seafloor for OpenMW
+  url: https://www.nexusmods.com/morrowind/mods/50796
+  download_info:
+  - file_name: Distant_Seafloor_2.01
+  data_paths:
+  - 00 Core
+  - 01 Patch for TOTSP 2.3.0 Solstheim location
+  plugins:
+  - distant_seafloor_2.00.esm
+  - distant seafloor TOTSP 2.3.0 edges fix.esp
+
+- name: OpenMW More Dynamic Water Meshes
+  url: https://www.nexusmods.com/morrowind/mods/55392
+  download_info:
+  - file_name: OpenMW Dynamic Water Meshes

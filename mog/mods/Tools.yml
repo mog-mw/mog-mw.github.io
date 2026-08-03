@@ -1,0 +1,11 @@
+category: Tools
+
+mods:
+- name: MOMW Tools Pack
+  url: https://modding-openmw.gitlab.io/momw-tools-pack/
+  plugins:
+  - delta-merged.omwaddon
+  - deleted_groundcover.omwaddon
+  - S3LightFixes.omwaddon
+  groundcover:
+  - groundcover.omwaddon

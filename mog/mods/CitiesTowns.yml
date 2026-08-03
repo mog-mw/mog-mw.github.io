@@ -1,0 +1,444 @@
+category: CitiesTowns
+
+mods:
+- name: Baar Dau - Ministry of Truth
+  url: https://www.nexusmods.com/morrowind/mods/50877
+  download_info:
+  - file_name: Baar Dau - Ministry of Truth EN
+  data_paths:
+  - Data files
+  plugins:
+  - Baar Dau - Ministry of Truth.esp
+
+- name: Hawia Infrastructure
+  url: https://www.nexusmods.com/morrowind/mods/56510
+  download_info:
+  - file_name: Hawia Infrastructure
+  plugins:
+  - Hawia Infrastructure.ESP
+
+- name: Dagon Fel Lighthouse
+  url: https://www.nexusmods.com/morrowind/mods/52291
+  download_info:
+  - file_name: Dagon Fel Lighthouse
+  data_paths:
+  - 00 Core
+  - 01 Nordic Interior Detailing
+  plugins:
+  - Dagon_Fel_Lighthouse.ESP
+
+- name: Beautiful Cities of Morrowind
+  url: https://www.nexusmods.com/morrowind/mods/49231
+  download_info:
+  - file_name: Beautiful Cities of Morrowind - Patches
+    extract_to: Patches
+  - file_name: Beautiful Cities of Morrowind - BCOM Core
+  data_paths:
+  - Patches
+  - Patches/54 Area of effect Arrows
+  - Patches/80 Mamaea Awakened
+  - Patches/51 Ghastly Glowyfence patch
+  - Patches/73 Store Entrance Chimes
+  - Patches/83 OAAB Pomegranates patch
+  - Patches/29 Yet Another Guard Diversity - Cephalopod Armor - Waterworks
+  - Patches/57 Sload and Slavers
+  - 00 Core
+  - 01 Waterworks Core
+  - 02 Options/03 Weather Mechanics for (OpenMW) - Required
+  - 02 Options/04 Suran dock expansion
+  - 02 Options/07 Taller Seyda Neen Lighthouse
+  - 02 Options/08 Expanded Sadrith Mora Dock
+  - 02 Options/09 Concept Art Ghostfence Pillars
+  - 02 Options/10 Open Arena
+  - 02 Options/11 Vivec Customization Options
+  - 02 Options/12 Ghostgate - Animated Statues
+  - 02 Options/14 More Tribal Erabenimsun
+  - 02 Options/15 Molag Mar Broken Dome
+  - 02 Options/17 Caldera Mages Guild Basement
+  - 02 Options/18 Urshilaku Camp Concept Art Husk
+  - 02 Options/19 Ald'Ruhn Outdoor Merchants
+  - 02 Options/20 Imperial Gatehouses Addon
+  - 02 Options/23 Eight Plates Quest Addon
+  - 02 Options/24 Khuul Lighthouse
+  - 02 Options/25 Sadrith Mora South Gates
+  - 03 Waterworks Options/01 Optional Merchants
+  - 03 Waterworks Options/02 Cluttered Canal
+  - 04 Project Atlas and GiTD Patches/01 Project Atlas Patch
+  - 06 HD Textures
+  - Patches/01 Patch for Purists
+  - Patches/03 OAAB Foyada Mamaea
+  - Patches/10 Concept Art Plantations
+  - Patches/22 Tamriel Rebuilt patch
+  - Patches/25 Province Cyrodiil Patch
+  - Patches/48 Velothi Wall Art
+  - Patches/67 Caldera Governor Manor
+  - Patches/30 Morrowind Anticheese
+  - Patches/38 Bounty Hunter Assignments
+  - Patches/07 Rise of House Telvanni 2.0
+  - Patches/43 Uvirith Legacy Patch
+  - 05 Grass Patches/01 Remiros Groundcover
+  - 05 Grass Patches/02 Caldera Priory Grass Patches
+  - Patches/17 GITD Telvanni Dormers
+  - 04 Project Atlas and GiTD Patches/02 GITD + Atlas
+  plugins:
+  - Morrowind Anti-Cheese.ESP
+  - Bounty Hunter Assignments.ESP
+  - OAAB - Foyada Mamaea.ESP
+  - Uvirith's Legacy_3.53.ESP
+  - BCOM_Animated_GhostGate_Statues.ESP
+  - BCOM_Tribal_Erabenimsun.ESP
+  - BCOM_PfP_patch.ESP
+  - Velothi Wall Art.ESP
+  - Store Entrance Chimes - Alt Ver.ESP
+  - Sload and Slavers.ESP
+  - GITD_Telvanni_Dormers.ESP
+  - TR_BCOM_Patch.ESP
+  - Province_Cyrodiil_BCOM_patch.ESP
+  - BCOM_Cluttered_Canal.ESP
+  - Beautiful cities of Morrowind.ESP
+  - BCoM_Eight_Plates_Quest_Addon.ESP
+  - BCoM_Khuul_Lighthouse_02.ESP
+  - ROHT_2_0_8.ESP
+  - BCOM_Decorated_Cantons.ESP
+  - BCOM_Vivec_Arena_planters.ESP
+  - BCOM_Vivec_Planters.ESP
+  - BCOM_Vivec_Street_Vendors.ESP
+  - BCOM_Vivec_Temple_Fountains.ESP
+  - BCOM_Sadrith_Mora_dock_expanded.ESP
+  - BCoM_South_Gates_Sadrith_Mora.ESP
+  - Concept_Arts_plantations.esp
+  - BCOM_OAAB_Pomegranates_patch.ESP
+  - BCOM_pathgrid_reset.ESP
+  - BCoM_WaterWorks.ESP
+  - Balmora waterworks merchants addon.ESP
+  - BCoM_Caldera_MG_Basement.ESP
+  - BCoM_Concept_Art_Husk_Urshilaku.ESP
+  - BCoM_AldRuhn_Outdoor_Merchants.ESP
+  - BCoM_Imperial_Gaehouse_Buckmoth.ESP
+  - BCoM_Imperial_Gaehouse_MoonMoth.ESP
+  - BCoM_Imperial_Gatehouse_Pelagiad.ESP
+  - AreaEffectArrows.esp
+  - Mamaea Awakened.ESP
+  - Yet Another Guard Diversity - Full Cephalopod.ESP
+  - BCOM_Suran Expansion.ESP
+  - BCOM - Taller Lighthouse.ESP
+  - BCoM_Open_Cantons.ESP
+  - BCoM - Atmospheric_Arena.ESP
+  - BCoM_Atmospheric_Plazas.ESP
+  - Interior exterior flag reset_Atmospheric Arena.ESP
+  - Interior exterior flag reset_Atmospheric Plazas.ESP
+  - CalderaGovernorsManor.ESP
+  groundcover:
+  - Rem_GL_Trackless_GL.esp
+  - Rem_WG.esp
+  settings: |
+    [Groundcover]
+    enabled = true
+    stomp intensity = 2
+
+- name: Maar Gan - Town of Pilgrimage
+  url: https://www.nexusmods.com/morrowind/mods/53919
+  download_info:
+  - file_name: Maar Gan
+  data_paths:
+  - 00 Core
+  - 01 Ashlander Addon
+  - 02 Magic Rock of Maar Gan
+  plugins:
+  - RP_Maar_Gan.ESP
+  - RP_Maar_Gan_Ashlander_Addon.ESP
+  - The_magic_rock_of_Maar_Gan.ESP
+
+- name: Nordic Dagon Fel
+  url: https://www.nexusmods.com/morrowind/mods/49603
+  download_info:
+  - file_name: Nordic Dagon Fel
+  data_paths:
+  - 00 Core
+  - 01 More Nordic Dagon Fel
+  plugins:
+  - Nordic Dagon Fel.ESP
+
+- name: Dagon Fel Mill Redux
+  url: https://www.nexusmods.com/morrowind/mods/50067
+  download_info:
+  - file_name: Dagon Fel Mill
+  plugins:
+  - Dagon Fel Mill.ESP
+
+- name: Hanging Gardens of Suran
+  url: https://www.nexusmods.com/morrowind/mods/53316
+  download_info:
+  - file_name: Hanging Gardens of Suran
+  data_paths:
+  - 00 Core
+  - 02 Patch - BCOM (Full)
+  plugins:
+  - Hanging Gardens of Suran.esp
+
+- name: Humble Prayer Hall
+  url: https://www.nexusmods.com/morrowind/mods/51625
+  download_info:
+  - file_name: Humble Prayer Hall
+  data_paths:
+  - HumblePrayerHall
+  plugins:
+  - HumblePrayerHall.ESP
+
+- name: Velothi Wall Art
+  url: https://www.nexusmods.com/morrowind/mods/46454
+  download_info:
+  - file_name: Velothi Wall Art
+  data_paths:
+  - Velothi Wall Art/Data Files
+
+- name: Concept Art Palace (Vivec City)
+  url: https://www.nexusmods.com/morrowind/mods/48136
+  download_info:
+  - file_name: Concept Art Palace
+  - file_name: OpenMW distant flames
+  data_paths:
+  - 00 Core
+  - 01 Symmetrical Palace
+  - 02 Interior Cluttering
+  - 03 Flame - Option 1
+  - 04 Rotating Planets
+  - 06 Columns - Concept Art Scribbles - Symmetric Palace
+  - 07 Decorated Bridge
+  - 08 Cluttered Staircase
+  - 09 Unique Door
+  - 10 TR Water - Symmetric - Original Colour
+  - Concept Art Palace distant flames
+  plugins:
+  - Concept art palace.ESP
+  - CAP_Interior_Cluttering.ESP
+  - CAP_Flame.ESP
+  - CAP_Flame patch.omwaddon
+  - CAP_Rotating_Planets.ESP
+  - CAP_Bridge.ESP
+  - CAP_Cluttered Staircase.ESP
+  - CAP_Door.ESP
+
+- name: Guar Stables of Vivec
+  url: https://www.nexusmods.com/morrowind/mods/50118
+  download_info:
+  - file_name: Guar stables of Vivec
+  data_paths:
+  - 00 Core
+  - 01 Guar Stables
+  plugins:
+  - Guar stables of Vivec.ESP
+
+- name: Bell Towers of Vvardenfell
+  url: https://www.nexusmods.com/morrowind/mods/52523
+  download_info:
+  - file_name: BalmoraBell
+
+- name: Bell Towers of Vvardenfell Directional Sound for OpenMW
+  url: https://www.nexusmods.com/morrowind/mods/53037
+  download_info:
+  - file_name: Bell Towers of Vvardenfell Directional Sound 1.0
+  data_paths:
+  - Data Files
+  plugins:
+  - BalmoraHighTownBellBCOM.ESP
+
+- name: Planters for Ajira
+  url: https://www.nexusmods.com/morrowind/mods/53489
+  download_info:
+  - file_name: Planters for Ajira
+  data_paths:
+  - Planters for Ajira
+
+- name: RR Mod Series - Telvanni Lighthouse Tel Branora
+  url: https://www.nexusmods.com/morrowind/mods/42664
+  download_info:
+  - file_name: Telvanni Lighthouse - Tel Branora
+  data_paths:
+  - 01 - Main ESP - English
+  plugins:
+  - RR_Telvanni_Lighthouse_Tel Branora_Eng.ESP
+
+- name: RR Mod Series - Telvanni Lighthouse Tel Vos
+  url: https://www.nexusmods.com/morrowind/mods/42744
+  download_info:
+  - file_name: Telvanni Lighthouse - Tel Vos
+  - file_name: Telvanni Lighthouse - Tel Vos Patch
+  data_paths:
+  - 00 - Main Files
+  - 00 - Main patch files
+  - 01 - Main Files GITD Patch
+  - 02 - Main ESP - English
+  plugins:
+  - RR_Telvanni_Lighthouse_Tel Vos_Eng.ESP
+
+- name: Concept Arts plantations
+  url: https://www.nexusmods.com/morrowind/mods/50020
+  download_info:
+  - file_name: Concept Art Plantations
+  data_paths:
+  - 00 Core
+
+- name: OAAB Grazelands
+  url: https://www.nexusmods.com/morrowind/mods/49075
+  download_info:
+  - file_name: OAAB Grazelands
+  data_paths:
+  - 00 Core
+  - 03 HD Textures
+  - 01 Remiros Groundcover GL Patch for Trackless Grazelands
+  plugins:
+  - OAAB_Grazelands.ESP
+  groundcover:
+  - Rem_GL - OAAB Landscape.esp
+  settings: |
+    [Groundcover]
+    enabled = true
+    stomp intensity = 2
+
+- name: OAAB Tel Mora
+  url: https://www.nexusmods.com/morrowind/mods/46177
+  download_info:
+  - file_name: OAAB Tel Mora
+  data_paths:
+  - 00 Core
+  - 01 Female Guards
+  - 02 HD Textures
+  - 03 SSQN OpenMW
+  plugins:
+  - OAAB_Tel Mora_Female Guards.ESP
+  - OAAB_Tel Mora.ESP
+
+- name: Sadrith Mora BCOM Plus Module
+  url: https://www.nexusmods.com/morrowind/mods/53465
+  download_info:
+  - file_name: Sadrith Mora BCOM Plus
+  data_paths:
+  - 02 Of Murk and Mussels - A Sadrith Mora Trader
+  - 03 Of Musk and Mer - A Sadrith Mora Tale
+  - 04 Of Melodies and Moonlight -  A Sadrith Mora Artist
+  - 06 OAAB Market
+  - 08 Shipyards of Vvardenfell
+  plugins:
+  - Shipyards of Vvardenfell.esp
+  - OAAB Market.ESP
+  - Of_Murk_and_Mussels.esp
+  - Melodies and Moonlight.esp
+  - Of Musk and Mer A Sadrith Mora Tale.esp
+
+- name: The Wolverine Hall
+  url: https://www.nexusmods.com/morrowind/mods/52199
+  download_info:
+  - file_name: The Wolverine Hall
+    actions:
+    - action: clean
+      path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
+      arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --interior, --id, Wolverine Hall]
+    - action: clean
+      path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
+      arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --exterior, --id, Wolverine Hall]
+    - action: clean
+      path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
+      arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --exterior, --id, 'Sadrith Mora, Wolverine Hall']
+    - action: clean
+      path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
+      arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, pgrd, --id, 'Sadrith Mora, Wolverine Hall']
+    - action: clean
+      path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
+      arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, pgrd, --id, Wolverine Hall]
+    - action: clean
+      path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
+      arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, npc_, --id, emelia duronia]
+    - action: clean
+      path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
+      arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, npc_, --id, erranil]
+    - action: clean
+      path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
+      arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, npc_, --id, flacassia fauseius]
+    - action: clean
+      path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
+      arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, npc_, --id, masalinie merian]
+  data_paths:
+  - 00 Core
+  - 02 BCOM patch (read the instructions or it won't work)
+  plugins:
+  - RPNR_WHO.ESP
+  - RPNR_WHO_BCOM.ESP
+
+- name: Tel Branora Expansion
+  url: https://www.nexusmods.com/morrowind/mods/55279
+  download_info:
+  - file_name: Tel Branora
+  data_paths:
+  - 00 Core
+  plugins:
+  - Tel Branora Expansion.ESP
+
+- name: Caldera Governors Manor Redone
+  url: https://www.nexusmods.com/morrowind/mods/53220
+  download_info:
+  - file_name: CalderaManorRedone
+
+- name: Immersive Mournhold
+  url: https://www.nexusmods.com/morrowind/mods/49353
+  download_info:
+  - file_name: Immersive Mournhold
+  plugins:
+  - Immersive Mournhold.esp
+
+- name: Raven Rock Enhanced
+  url: https://www.nexusmods.com/morrowind/mods/55970
+  download_info:
+  - file_name: Raven Rock Enhanced - TOTSP
+  plugins:
+  - Raven Rock Enhanced for TOTSP.ESP
+
+- name: Ald'ruhn Architecture Variety
+  url: https://www.nexusmods.com/morrowind/mods/53939
+  download_info:
+  - file_name: Ald'ruhn Architecture Variety
+  data_paths:
+  - 00 Core
+  plugins:
+  - RP_Ald'ruhn_Architecture_Variety.ESP
+
+- name: Ald'Ruhn Outskirts - Ancestral Refuge
+  url: https://www.nexusmods.com/morrowind/mods/55944
+  download_info:
+  - file_name: Ald'Ruhn Outskirts - Ancestral Refuge 3.4
+  - file_name: Ald'Ruhn Outskirts - TR Addon
+  plugins:
+  - Ald'Ruhn Outskirts - Ancestral Refuge.ESP
+  - Ald'Ruhn Outskirts - TR Addon.ESP
+
+- name: Ascadian Farmyard Overhaul
+  url: https://www.nexusmods.com/morrowind/mods/54669
+  download_info:
+  - file_name: Ascadian Farmyard Overhaul
+  data_paths:
+  - Ascadian Farmyard Overhaul/05 Minor Plantations Compatch
+  plugins:
+  - AscadianFarmhouses.ESP
+
+- name: Minor Plantations Redone
+  url: https://www.nexusmods.com/morrowind/mods/54537
+  download_info:
+  - file_name: Minor Plantations Redone
+  data_paths:
+  - MinorPlantationsRedone
+  plugins:
+  - MinorPlantationsRedone.esp
+
+- name: Arano Plantation Windmill
+  url: https://www.nexusmods.com/morrowind/mods/55393
+  download_info:
+  - file_name: RP_Arano_Windmill
+  plugins:
+  - RP_Arano_Plantation_Windmill.ESP
+
+- name: Balmora Gravemarket
+  url: https://www.nexusmods.com/morrowind/mods/51696
+  download_info:
+  - file_name: BalmoraGravemarketBCOMWaterworks
+  plugins:
+  - BalmoraGravemarketBCOM.ESP

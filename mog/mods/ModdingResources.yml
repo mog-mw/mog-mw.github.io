@@ -1,0 +1,54 @@
+category: ModdingResources
+
+mods:
+- name: Morrowind
+  data_paths:
+  - Data Files
+  plugins:
+  - Morrowind.esm
+  - Tribunal.esm
+  - Bloodmoon.esm
+  archives:
+  - Morrowind.bsa
+  - Tribunal.bsa
+  - Bloodmoon.bsa
+
+- name: Tamriel Data
+  url: https://www.nexusmods.com/morrowind/mods/44537
+  download_info:
+  - file_name: Tamriel Data (HD)
+  data_paths:
+  - 00 Data Files
+  plugins:
+  - Tamriel_Data.esm
+  - Tamriel_Data.omwscripts
+
+- name: OAAB_Data
+  url: https://www.nexusmods.com/morrowind/mods/49042
+  download_info:
+  - file_name: OAAB_Data
+  - file_name: OAAB_Data (HD)
+    extract_to: HD
+  data_paths:
+  - 00 Core
+  - HD
+  - 08 GitD Shacks Patch
+  plugins:
+  - OAAB_Data.esm
+
+- name: Static Switching System
+  url: https://www.nexusmods.com/morrowind/mods/57282
+  download_info:
+  - file_name: SSSCore
+  data_paths:
+  - static_switching_system
+  plugins:
+  - Static Switching System.esp
+
+- name: Stats Window Extender (OpenMW)
+  url: https://www.nexusmods.com/morrowind/mods/57727
+  download_info:
+  - file_name: Stats Window Extender
+  plugins:
+  - StatsWindow.ESP
+  - StatsWindow.omwscripts

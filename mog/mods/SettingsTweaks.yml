@@ -1,0 +1,369 @@
+category: SettingsTweaks
+
+mods:
+- name: True Nights and Darkness
+  fallbacks:
+  - Weather_Clear_Sky_Sunrise_Color,117,141,164
+  - Weather_Clear_Sky_Day_Color,095,135,203
+  - Weather_Clear_Sky_Sunset_Color,056,089,129
+  - Weather_Clear_Sky_Night_Color,004,005,006
+  - Weather_Clear_Fog_Sunrise_Color,255,189,157
+  - Weather_Clear_Fog_Day_Color,206,227,255
+  - Weather_Clear_Fog_Sunset_Color,255,189,157
+  - Weather_Clear_Fog_Night_Color,004,005,006
+  - Weather_Clear_Ambient_Sunrise_Color,047,066,096
+  - Weather_Clear_Ambient_Day_Color,137,140,160
+  - Weather_Clear_Ambient_Sunset_Color,068,075,096
+  - Weather_Clear_Ambient_Night_Color,008,008,010
+  - Weather_Clear_Sun_Sunrise_Color,242,159,119
+  - Weather_Clear_Sun_Day_Color,255,252,238
+  - Weather_Clear_Sun_Sunset_Color,255,114,079
+  - Weather_Clear_Sun_Night_Color,011,036,069
+  - Weather_Clear_Sun_Disc_Sunset_Color,255,189,157
+  - Weather_Clear_Land_Fog_Day_Depth,.69
+  - Weather_Clear_Land_Fog_Night_Depth,.69
+  - Weather_Clear_Wind_Speed,.1
+  - Weather_Clear_Glare_View,1
+  - Weather_Clear_Ambient_Loop_Sound_ID,None
+  - Weather_Cloudy_Cloud_Texture,Tx_Sky_Cloudy.tga
+  - Weather_Cloudy_Clouds_Maximum_Percent,1.0
+  - Weather_Cloudy_Transition_Delta,.015
+  - Weather_Cloudy_Sky_Sunrise_Color,126,158,173
+  - Weather_Cloudy_Sky_Day_Color,117,160,215
+  - Weather_Cloudy_Sky_Sunset_Color,111,114,159
+  - Weather_Cloudy_Sky_Night_Color,009,010,011
+  - Weather_Cloudy_Fog_Sunrise_Color,255,207,149
+  - Weather_Cloudy_Fog_Day_Color,245,235,224
+  - Weather_Cloudy_Fog_Sunset_Color,255,155,106
+  - Weather_Cloudy_Fog_Night_Color,009,010,011
+  - Weather_Cloudy_Ambient_Sunrise_Color,066,074,087
+  - Weather_Cloudy_Ambient_Day_Color,137,145,160
+  - Weather_Cloudy_Ambient_Sunset_Color,071,080,092
+  - Weather_Cloudy_Ambient_Night_Color,008,009,013
+  - Weather_Cloudy_Sun_Sunrise_Color,241,177,099
+  - Weather_Cloudy_Sun_Day_Color,255,236,221
+  - Weather_Cloudy_Sun_Sunset_Color,255,089,000
+  - Weather_Cloudy_Sun_Night_Color,019,022,031
+  - Weather_Cloudy_Sun_Disc_Sunset_Color,255,202,179
+  - Weather_Cloudy_Land_Fog_Day_Depth,.72
+  - Weather_Cloudy_Land_Fog_Night_Depth,.72
+  - Weather_Cloudy_Wind_Speed,.2
+  - Weather_Cloudy_Glare_View,1
+  - Weather_Cloudy_Ambient_Loop_Sound_ID,None
+  - Weather_Foggy_Cloud_Texture,Tx_Sky_Foggy.tga
+  - Weather_Foggy_Clouds_Maximum_Percent,1.0
+  - Weather_Foggy_Transition_Delta,.015
+  - Weather_Foggy_Sky_Sunrise_Color,197,190,180
+  - Weather_Foggy_Sky_Day_Color,184,211,228
+  - Weather_Foggy_Sky_Sunset_Color,142,159,176
+  - Weather_Foggy_Sky_Night_Color,018,023,028
+  - Weather_Foggy_Fog_Sunrise_Color,173,164,148
+  - Weather_Foggy_Fog_Day_Color,150,187,209
+  - Weather_Foggy_Fog_Sunset_Color,113,135,157
+  - Weather_Foggy_Fog_Night_Color,019,024,029
+  - Weather_Foggy_Ambient_Sunrise_Color,048,043,037
+  - Weather_Foggy_Ambient_Day_Color,092,109,120
+  - Weather_Foggy_Ambient_Sunset_Color,029,053,076
+  - Weather_Foggy_Ambient_Night_Color,007,009,010
+  - Weather_Foggy_Sun_Sunrise_Color,177,162,137
+  - Weather_Foggy_Sun_Day_Color,111,131,151
+  - Weather_Foggy_Sun_Sunset_Color,125,157,189
+  - Weather_Foggy_Sun_Night_Color,021,026,031
+  - Weather_Foggy_Sun_Disc_Sunset_Color,223,223,223
+  - Weather_Foggy_Land_Fog_Day_Depth,1.0
+  - Weather_Foggy_Land_Fog_Night_Depth,1.9
+  - Weather_Foggy_Wind_Speed,0
+  - Weather_Foggy_Glare_View,0.25
+  - Weather_Foggy_Ambient_Loop_Sound_ID,None
+  - Weather_Thunderstorm_Cloud_Texture,Tx_Sky_Thunder.tga
+  - Weather_Thunderstorm_Clouds_Maximum_Percent,0.66
+  - Weather_Thunderstorm_Transition_Delta,.030
+  - Weather_Thunderstorm_Sky_Sunrise_Color,035,036,039
+  - Weather_Thunderstorm_Sky_Day_Color,097,104,115
+  - Weather_Thunderstorm_Sky_Sunset_Color,035,036,039
+  - Weather_Thunderstorm_Sky_Night_Color,019,020,022
+  - Weather_Thunderstorm_Fog_Sunrise_Color,070,074,085
+  - Weather_Thunderstorm_Fog_Day_Color,097,104,115
+  - Weather_Thunderstorm_Fog_Sunset_Color,070,074,085
+  - Weather_Thunderstorm_Fog_Night_Color,019,020,022
+  - Weather_Thunderstorm_Ambient_Sunrise_Color,054,054,054
+  - Weather_Thunderstorm_Ambient_Day_Color,090,090,090
+  - Weather_Thunderstorm_Ambient_Sunset_Color,054,054,054
+  - Weather_Thunderstorm_Ambient_Night_Color,012,012,013
+  - Weather_Thunderstorm_Sun_Sunrise_Color,091,099,122
+  - Weather_Thunderstorm_Sun_Day_Color,138,144,155
+  - Weather_Thunderstorm_Sun_Sunset_Color,096,101,117
+  - Weather_Thunderstorm_Sun_Night_Color,014,019,028
+  - Weather_Thunderstorm_Sun_Disc_Sunset_Color,128,128,128
+  - Weather_Thunderstorm_Land_Fog_Day_Depth,1
+  - Weather_Thunderstorm_Land_Fog_Night_Depth,1.15
+  - Weather_Thunderstorm_Wind_Speed,.5
+  - Weather_Thunderstorm_Glare_View,0
+  - Weather_Thunderstorm_Rain_Loop_Sound_ID,rain heavy
+  - Weather_Thunderstorm_Using_Precip,1
+  - Weather_Thunderstorm_Rain_Diameter,600
+  - Weather_Thunderstorm_Rain_Height_Min,200
+  - Weather_Thunderstorm_Rain_Height_Max,700
+  - Weather_Thunderstorm_Rain_Threshold,0.6
+  - Weather_Thunderstorm_Max_Raindrops,650
+  - Weather_Thunderstorm_Rain_Entrance_Speed,5
+  - Weather_Thunderstorm_Ambient_Loop_Sound_ID,None
+  - Weather_Thunderstorm_Flash_Decrement,4
+  - Weather_Rain_Cloud_Texture,Tx_Sky_Rainy.tga
+  - Weather_Rain_Clouds_Maximum_Percent,0.66
+  - Weather_Rain_Transition_Delta,.015
+  - Weather_Rain_Sky_Sunrise_Color,071,074,075
+  - Weather_Rain_Sky_Day_Color,116,120,122
+  - Weather_Rain_Sky_Sunset_Color,073,073,073
+  - Weather_Rain_Sky_Night_Color,024,025,026
+  - Weather_Rain_Fog_Sunrise_Color,071,074,075
+  - Weather_Rain_Fog_Day_Color,116,120,122
+  - Weather_Rain_Fog_Sunset_Color,073,073,073
+  - Weather_Rain_Fog_Night_Color,024,025,026
+  - Weather_Rain_Ambient_Sunrise_Color,097,090,088
+  - Weather_Rain_Ambient_Day_Color,105,110,113
+  - Weather_Rain_Ambient_Sunset_Color,088,097,097
+  - Weather_Rain_Ambient_Night_Color,011,013,015
+  - Weather_Rain_Sun_Sunrise_Color,131,122,120
+  - Weather_Rain_Sun_Day_Color,149,157,170
+  - Weather_Rain_Sun_Sunset_Color,120,126,131
+  - Weather_Rain_Sun_Night_Color,013,016,026
+  - Weather_Rain_Sun_Disc_Sunset_Color,128,128,128
+  - Weather_Rain_Land_Fog_Day_Depth,.8
+  - Weather_Rain_Land_Fog_Night_Depth,.8
+  - Weather_Rain_Wind_Speed,.3
+  - Weather_Rain_Glare_View,0
+  - Weather_Rain_Rain_Loop_Sound_ID,Rain
+  - Weather_Rain_Using_Precip,1
+  - Weather_Rain_Rain_Diameter,600
+  - Weather_Rain_Rain_Height_Min,200
+  - Weather_Rain_Rain_Height_Max,700
+  - Weather_Rain_Rain_Threshold,0.6
+  - Weather_Rain_Rain_Entrance_Speed,7
+  - Weather_Rain_Ambient_Loop_Sound_ID,None
+  - Weather_Rain_Max_Raindrops,450
+  - Weather_Overcast_Cloud_Texture,Tx_Sky_Overcast.tga
+  - Weather_Overcast_Clouds_Maximum_Percent,1.0
+  - Weather_Overcast_Transition_Delta,.015
+  - Weather_Overcast_Sky_Sunrise_Color,091,099,106
+  - Weather_Overcast_Sky_Day_Color,143,146,149
+  - Weather_Overcast_Sky_Sunset_Color,108,115,121
+  - Weather_Overcast_Sky_Night_Color,019,022,025
+  - Weather_Overcast_Fog_Sunrise_Color,091,099,106
+  - Weather_Overcast_Fog_Day_Color,143,146,149
+  - Weather_Overcast_Fog_Sunset_Color,108,115,121
+  - Weather_Overcast_Fog_Night_Color,019,022,025
+  - Weather_Overcast_Ambient_Sunrise_Color,084,088,092
+  - Weather_Overcast_Ambient_Day_Color,093,096,105
+  - Weather_Overcast_Ambient_Sunset_Color,083,077,075
+  - Weather_Overcast_Ambient_Night_Color,015,016,018
+  - Weather_Overcast_Sun_Sunrise_Color,087,125,163
+  - Weather_Overcast_Sun_Day_Color,163,169,183
+  - Weather_Overcast_Sun_Sunset_Color,085,103,157
+  - Weather_Overcast_Sun_Night_Color,008,014,026
+  - Weather_Overcast_Sun_Disc_Sunset_Color,128,128,128
+  - Weather_Overcast_Land_Fog_Day_Depth,.70
+  - Weather_Overcast_Land_Fog_Night_Depth,.70
+  - Weather_Overcast_Wind_Speed,.2
+  - Weather_Overcast_Glare_View,0
+  - Weather_Overcast_Ambient_Loop_Sound_ID,None
+  - Weather_Ashstorm_Cloud_Texture,Tx_Sky_Ashstorm.tga
+  - Weather_Ashstorm_Clouds_Maximum_Percent,1.0
+  - Weather_Ashstorm_Transition_Delta,.035
+  - Weather_Ashstorm_Sky_Sunrise_Color,091,056,051
+  - Weather_Ashstorm_Sky_Day_Color,124,073,058
+  - Weather_Ashstorm_Sky_Sunset_Color,106,055,040
+  - Weather_Ashstorm_Sky_Night_Color,020,021,022
+  - Weather_Ashstorm_Fog_Sunrise_Color,091,056,051
+  - Weather_Ashstorm_Fog_Day_Color,124,073,058
+  - Weather_Ashstorm_Fog_Sunset_Color,106,055,040
+  - Weather_Ashstorm_Fog_Night_Color,020,021,022
+  - Weather_Ashstorm_Ambient_Sunrise_Color,054,042,037
+  - Weather_Ashstorm_Ambient_Day_Color,075,049,041
+  - Weather_Ashstorm_Ambient_Sunset_Color,048,039,035
+  - Weather_Ashstorm_Ambient_Night_Color,009,011,013
+  - Weather_Ashstorm_Sun_Sunrise_Color,184,091,071
+  - Weather_Ashstorm_Sun_Day_Color,228,139,114
+  - Weather_Ashstorm_Sun_Sunset_Color,185,086,057
+  - Weather_Ashstorm_Sun_Night_Color,013,016,018
+  - Weather_Ashstorm_Sun_Disc_Sunset_Color,128,128,128
+  - Weather_Ashstorm_Land_Fog_Day_Depth,1.1
+  - Weather_Ashstorm_Land_Fog_Night_Depth,1.2
+  - Weather_Ashstorm_Wind_Speed,.8
+  - Weather_Ashstorm_Glare_View,0
+  - Weather_Ashstorm_Ambient_Loop_Sound_ID,ashstorm
+  - Weather_Ashstorm_Storm_Threshold,.70
+  - Weather_Blight_Cloud_Texture,Tx_Sky_Blight.tga
+  - Weather_Blight_Clouds_Maximum_Percent,1.0
+  - Weather_Blight_Transition_Delta,.040
+  - Weather_Blight_Sky_Sunrise_Color,090,035,035
+  - Weather_Blight_Sky_Day_Color,090,035,035
+  - Weather_Blight_Sky_Sunset_Color,092,033,033
+  - Weather_Blight_Sky_Night_Color,044,014,014
+  - Weather_Blight_Fog_Sunrise_Color,090,035,035
+  - Weather_Blight_Fog_Day_Color,128,019,019
+  - Weather_Blight_Fog_Sunset_Color,092,033,033
+  - Weather_Blight_Fog_Night_Color,044,014,014
+  - Weather_Blight_Ambient_Sunrise_Color,061,040,040
+  - Weather_Blight_Ambient_Day_Color,079,054,054
+  - Weather_Blight_Ambient_Sunset_Color,061,040,040
+  - Weather_Blight_Ambient_Night_Color,014,014,015
+  - Weather_Blight_Sun_Sunrise_Color,180,078,078
+  - Weather_Blight_Sun_Day_Color,224,084,084
+  - Weather_Blight_Sun_Sunset_Color,180,078,078
+  - Weather_Blight_Sun_Night_Color,015,023,036
+  - Weather_Blight_Sun_Disc_Sunset_Color,128,128,128
+  - Weather_Blight_Land_Fog_Day_Depth,1.1
+  - Weather_Blight_Land_Fog_Night_Depth,1.2
+  - Weather_Blight_Wind_Speed,.9
+  - Weather_Blight_Glare_View,0
+  - Weather_Blight_Ambient_Loop_Sound_ID,Blight
+  - Weather_Blight_Storm_Threshold,.70
+  - Weather_Blight_Disease_Chance,.10
+  - Weather_Snow_Cloud_Texture,Tx_BM_Sky_Snow.tga
+  - Weather_Snow_Clouds_Maximum_Percent,1.0
+  - Weather_Snow_Transition_Delta,.015
+  - Weather_Snow_Sky_Sunrise_Color,106,091,091
+  - Weather_Snow_Sky_Day_Color,153,158,166
+  - Weather_Snow_Sky_Sunset_Color,096,115,134
+  - Weather_Snow_Sky_Night_Color,031,035,039
+  - Weather_Snow_Fog_Sunrise_Color,106,091,091
+  - Weather_Snow_Fog_Day_Color,153,158,166
+  - Weather_Snow_Fog_Sunset_Color,096,115,134
+  - Weather_Snow_Fog_Night_Color,031,035,039
+  - Weather_Snow_Ambient_Sunrise_Color,092,084,084
+  - Weather_Snow_Ambient_Day_Color,093,096,105
+  - Weather_Snow_Ambient_Sunset_Color,070,079,087
+  - Weather_Snow_Ambient_Night_Color,013,015,018
+  - Weather_Snow_Sun_Sunrise_Color,141,109,109
+  - Weather_Snow_Sun_Day_Color,163,169,183
+  - Weather_Snow_Sun_Sunset_Color,101,121,141
+  - Weather_Snow_Sun_Night_Color,014,017,023
+  - Weather_Snow_Sun_Disc_Sunset_Color,128,128,128
+  - Weather_Snow_Land_Fog_Day_Depth,1.0
+  - Weather_Snow_Land_Fog_Night_Depth,1.2
+  - Weather_Snow_Wind_Speed,0
+  - Weather_Snow_Glare_View,0
+  - Weather_Snow_Snow_Diameter,800
+  - Weather_Snow_Snow_Height_Min,400
+  - Weather_Snow_Snow_Height_Max,700
+  - Weather_Snow_Snow_Entrance_Speed,6
+  - Weather_Snow_Max_Snowflakes,750
+  - Weather_Snow_Ambient_Loop_Sound_ID,None
+  - Weather_Snow_Snow_Threshold,0.5
+  - Weather_Blizzard_Cloud_Texture,Tx_BM_Sky_Blizzard.tga
+  - Weather_Blizzard_Clouds_Maximum_Percent,1.0
+  - Weather_Blizzard_Transition_Delta,.030
+  - Weather_Blizzard_Sky_Sunrise_Color,091,099,106
+  - Weather_Blizzard_Sky_Day_Color,121,133,145
+  - Weather_Blizzard_Sky_Sunset_Color,108,115,121
+  - Weather_Blizzard_Sky_Night_Color,027,029,031
+  - Weather_Blizzard_Fog_Sunrise_Color,091,099,106
+  - Weather_Blizzard_Fog_Day_Color,121,133,145
+  - Weather_Blizzard_Fog_Sunset_Color,108,115,121
+  - Weather_Blizzard_Fog_Night_Color,021,024,028
+  - Weather_Blizzard_Ambient_Sunrise_Color,084,088,092
+  - Weather_Blizzard_Ambient_Day_Color,093,096,105
+  - Weather_Blizzard_Ambient_Sunset_Color,083,077,075
+  - Weather_Blizzard_Ambient_Night_Color,014,016,018
+  - Weather_Blizzard_Sun_Sunrise_Color,114,128,146
+  - Weather_Blizzard_Sun_Day_Color,163,169,183
+  - Weather_Blizzard_Sun_Sunset_Color,106,114,136
+  - Weather_Blizzard_Sun_Night_Color,014,016,018
+  - Weather_Blizzard_Sun_Disc_Sunset_Color,128,128,128
+  - Weather_Blizzard_Land_Fog_Day_Depth,2.8
+  - Weather_Blizzard_Land_Fog_Night_Depth,3.0
+  - Weather_Blizzard_Wind_Speed,.9
+  - Weather_Blizzard_Glare_View,0
+  - Weather_Blizzard_Ambient_Loop_Sound_ID,BM Blizzard
+  - Weather_Blizzard_Storm_Threshold,.50
+
+- name: Distant Land And Objects
+  settings: |
+    [Terrain]
+    distant terrain = true
+    object paging active grid = true
+    object paging min size = 0.023
+
+- name: Shadows
+  settings: |
+    [Shadows]
+    enable shadows = true
+    actor shadows = true
+    player shadows = true
+    terrain shadows = true
+    object shadows = true
+    number of shadow maps = 4
+    compute scene bounds = bounds
+    split point uniform logarithmic ratio = 1.0
+    shadow map resolution = 4096
+    normal offset distance = 2.0
+
+- name: Water
+  settings: |
+    [Water]
+    shader = true
+    rtt size = 512
+    reflection detail = 2
+    refraction = true
+
+- name: Increase Max Navmeshdb File Size
+  settings: |
+    [Navigator]
+    max navmeshdb file size = 8589935000
+
+- name: Rebalance Soul Gem Values
+  settings: |
+    [Game]
+    rebalance soul gem values = true
+
+- name: Use Magic Item Animations
+  settings: |
+    [Game]
+    use magic item animations = true
+
+- name: Can Loot During Death Animation
+  settings: |
+    [Game]
+    can loot during death animation = false
+
+- name: NPCs Avoid Collisions
+  settings: |
+    [Game]
+    NPCs avoid collisions = true
+
+- name: Smooth Movement
+  settings: |
+    [Game]
+    smooth movement = true
+
+- name: Swim Upward Correction
+  settings: |
+    [Game]
+    swim upward correction = true
+
+- name: Turn To Movement Direction
+  settings: |
+    [Game]
+    turn to movement direction = true
+
+- name: Color Topic Enable
+  settings: |
+    [GUI]
+    color topic enable = true
+
+- name: Animation Blending
+  settings: |
+    [Game]
+    smooth animation transitions = true
+
+- name: Camera Listener
+  settings: |
+    [Sound]
+    camera listener = true
+
+- name: Trilinear Filtering
+  settings: |
+    [General]
+    anisotropy = 16
+    texture mipmap = linear

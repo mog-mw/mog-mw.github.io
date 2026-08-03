@@ -1,0 +1,485 @@
+category: PatchesFixesandConsistency
+
+mods:
+- name: Patch for Purists
+  url: https://www.nexusmods.com/morrowind/mods/45096
+  download_info:
+  - file_name: Patch for Purists
+  plugins:
+  - Patch for Purists.esm
+
+- name: Expansion Delay
+  url: https://www.nexusmods.com/morrowind/mods/47588
+  download_info:
+  - file_name: Expansion Delay
+  plugins:
+  - Expansion Delay.ESP
+
+- name: Dubdilla Location Fix
+  url: https://www.nexusmods.com/morrowind/mods/46720
+  download_info:
+  - file_name: Dubdilla Location Fix
+  plugins:
+  - Dubdilla Location Fix.ESP
+
+- name: Greyed-out dialog
+  url: https://www.nexusmods.com/morrowind/mods/50186
+  download_info:
+  - file_name: Greyed-Out Dialog
+  data_paths:
+  - Data Files
+  plugins:
+  - Dialog_Saved.ESP
+
+- name: FMI - Nice to Meet You
+  url: https://www.nexusmods.com/morrowind/mods/47329
+  download_info:
+  - file_name: FMI - Nice to Meet You
+  data_paths:
+  - FMI - Nice to Meet You 1.2
+  plugins:
+  - FMI_Nice_to_Meet_You.ESP
+
+- name: FMI - Caius Big Package
+  url: https://www.nexusmods.com/morrowind/mods/47580
+  download_info:
+  - file_name: FMI - Caius' Big Package
+  plugins:
+  - FMI_CaiusBigPackage.ESP
+
+- name: FMI - NotAllDunmer
+  url: https://www.nexusmods.com/morrowind/mods/47569
+  download_info:
+  - file_name: FMI - NotAllDunmer
+  plugins:
+  - FMI_#NotAllDunmer.ESP
+
+- name: FMI - Service Refusal and Contraband
+  url: https://www.nexusmods.com/morrowind/mods/47456
+  download_info:
+  - file_name: FMI - Service Refusal and Contraband
+  plugins:
+  - FMI_ServiceRefusal_Contraband.ESP
+
+- name: FMI - Hospitality Papers Expanded
+  url: https://www.nexusmods.com/morrowind/mods/46107
+  download_info:
+  - file_name: Hospitality Papers Expanded
+  data_paths:
+  - Hospitality Papers Expanded 2.7/Data Files
+  plugins:
+  - Hospitality_Papers_Expanded_v2.7.esp
+
+- name: FMI - Legion Dialogue
+  url: https://www.nexusmods.com/morrowind/mods/47318
+  download_info:
+  - file_name: FMI - Legion Dialogue
+  plugins:
+  - FMI_Legion_Dialogue.ESP
+
+- name: Indoril and Her Hand Armor Privileges - OpenMW
+  url: https://www.nexusmods.com/morrowind/mods/57666
+  download_info:
+  - file_name: Indoril and Her Hand Armor Privileges - OpenMW
+  - file_name: Indoril and Her Hand Armor Privileges - TR
+    extract_to: TR
+  data_paths:
+  - ''
+  - TR
+  plugins:
+  - Indoril & Her Hand Armor Privileges.omwaddon
+  - Indoril & Her Hand Armor Privileges.omwscripts
+
+- name: Mesh Fix v1.2
+  url: https://web.archive.org/web/20150619182034/http://mw.modhistory.com/download-15-6088
+  dl_url: https://modding-openmw.com/files/Mesh Fix v1.2.7z
+  download_info:
+  - file_name: Mesh Fix v1.2
+    actions:
+    - action: remove
+      path: Meshes/f/Furn_Com_Bar_01.nif
+
+- name: Correct Meshes
+  url: https://www.nexusmods.com/morrowind/mods/39348
+  download_info:
+  - file_name: Correct_Meshes_4.7
+    actions:
+    - action: remove
+      path: Data Files/BookArt
+  data_paths:
+  - Data Files
+
+- name: Correct UV Rocks
+  url: https://www.nexusmods.com/morrowind/mods/46104
+  download_info:
+  - file_name: Correct_UV_Rocks_1.8
+  data_paths:
+  - Data Files
+
+- name: Jammings Off
+  url: https://www.nexusmods.com/morrowind/mods/44523
+  download_info:
+  - file_name: Jammings_off
+  data_paths:
+  - Jammings off(v1.1)/ver1.0(only_Xnif_files)/Data Files
+
+- name: Fixed Bonelord Arms
+  url: https://www.nexusmods.com/morrowind/mods/55354
+  download_info:
+  - file_name: Fixed Bonelord Arms
+
+- name: Oh God Snow for Skies.iv and OpenMW
+  url: https://www.nexusmods.com/morrowind/mods/50509
+  download_info:
+  - file_name: oh-god-snow
+  data_paths:
+  - Data
+
+- name: Same Low Price Fix
+  url: https://www.nexusmods.com/morrowind/mods/49671
+  download_info:
+  - file_name: Same Low Price Fix
+
+- name: Better Flames for Concept Art Palace (Vivec City) - OpenMW Version
+  url: https://www.nexusmods.com/morrowind/mods/52903
+  download_info:
+  - file_name: Better Flames for Concept Art Palace
+  data_paths:
+  - 00 Green-Yellow
+
+- name: Planters for Ajira - Beautiful Cities of Morrowind
+  url: https://www.nexusmods.com/morrowind/mods/56618
+  download_info:
+  - file_name: Planters for Ajira - BCoM
+  data_paths:
+  - Planters for Ajira - BCoM
+  plugins:
+  - Planters for Ajira.ESP
+
+- name: No More Stage Diving - Desele's Dancing Girls
+  url: https://www.nexusmods.com/morrowind/mods/47738
+  download_info:
+  - file_name: No More Stage Diving
+  plugins:
+  - NoMoreStageDiving_TalkativeGirls.ESP
+
+- name: 'Distant Fixes: Lua Edition'
+  url: https://modding-openmw.gitlab.io/distant-fixes-lua-edition/
+  download_info:
+  - file_name: 'Distant Fixes: Lua Edition'
+  plugins:
+  - distant-fixes-lua-edition.omwscripts
+
+- name: Distant Ebon Tower for OpenMW
+  url: https://www.nexusmods.com/morrowind/mods/54784
+  download_info:
+  - file_name: Distant Ebon Tower
+  plugins:
+  - DistantEbonTower.ESP
+
+- name: MOMW Patches
+  url: https://modding-openmw.gitlab.io/momw-patches/
+  download_info:
+  - file_name: MOMW Patches
+  data_paths:
+  - 06 Cutting Room Floor+BCOM Patch
+  - 14 Mines and Caverns MOMW Patch
+  - 80 RoHT+Kogoruhn Extinct City Patch
+  - 11 Mamaea Awakened OpenMW Patch
+  - 76 Little Landscape Path to Pelagiad Rock Fix
+  - 46 Bitter Coast Waterway Cliff Fix
+  - 81 Odai River Overhaul Statue Remover Patch
+  - 23 Little Landscapes Seyda Neen Swamp Pools Patched
+  - 27 Little Landscapes Nix Hound Hunting Grounds+Quests for Clans and Vampire Legends Patch
+  - 78 Little Landscape Foyada of Sharp Teeth Rock Fix
+  - 88 Samarys Ancestral Tomb Corpse Fix
+  - 31 Flies Patched
+  - 01 OAAB Grazelands+Mines and Caverns Patch
+  - 08 Trackless Grazeland For OpenMW
+  - 72 Practical Necromancy X Venin's Shal Overhaul
+  - 77 Shal Overhaul Skeleton Fix
+  - 73 Dungeon Details Grotto Fix
+  - 90 Dungeon Details Urshilkau Fixes
+  - 02 Speechcraft Rebalance Rebalanced
+  - 58 OAAB Shipwrecks+JFK MOMW Patch
+  - 20 Immersive Grotto Entrances Patched
+  - 47 Vivec's Muatra Alternative
+  - 45 Attend Me Patch
+  - 43 Investigations at Tel Eurus Anti-Cheese
+  - 79 Memento Mori Vanilla Friendly Statues
+  - 36 WhiteSuran OpenMW Lua
+  - 82 Immersive Mournhold Corner Tower Remover Patch
+  - 66 RepopulatedMorrowindxTheWolverineHall patch
+  - 67 MOMW Sadrith Mora Pathgrid Reset
+  - 09 Master Index Redux BCOM Fixed
+  - 75 AldRuhnOutskirtsAncestralRefuge+LittleLandscapesNixHoundHuntingGrounds
+  - 49 Aether Pirates Discovery + The Corprusarium Experience Patch
+  - 12 Practical Necromancy Vendor Patch
+  - 86 Practical Necromancy+OAAB Fix
+  - 48 Races RESPECted OpenMW Lua Addon
+  - 59 Protective Guards Blacklist Patch
+  - 71 Molomo SM Ceremonial Robe Patch
+  - 52 Telvanni Magister Robes Anticheese
+  - 63 Adventurer's Backpack No Choice Patch
+  - 35 The Forgotten Shields - Artifacts Patched
+  - 25 Blademeister+Kumarahaz The Bandit Lair Patch
+  - 41 Blademeister+Daedric Shrine Overhaul Sheogorath Patch
+  - 65 MAOSpellSoundsxBirthsignsRESPECted SoundFix
+  - 89 BCOM x Immersive Imperial Skirt
+  - 70 Caldera Mine Expanded OpenMW Fix
+  - 33 AFFresh+Library of Vivec Enhanced Patch
+  - 64 The Doors Of Oblivion Gargoyle OpenMWFix
+  - 84 Daedric Shrine Overhaul+Patch for Purists Fix
+  - 85 DSO Ashalmimilkala Water Height Fix
+  - 37 Helm of Tohan Naturalized for Daedric Shrine Overhaul Sheogorath
+  - 44 Daedric Shrine Overhaul Vaermina OpenMW Patch
+  - 53 Vennin Addamasartus+DraVashai Patch
+  - 32 OpenMW Fixes For Uvirith's Legacy
+  - 68 MOMW BCOM Imperial Legion Expansion patch
+  - 22 BCOM+Quests for Clans and Vampire Legends Patch
+  - 74 Fargoth's Mountain Hut Fixed Hammocks
+  - 04 Draggle-Tail Shack Price Adjustment
+  - 15 Perfectly Proficient Parasol Particles Performance Patch/00 Project Atlas
+  - 24 BCOM+Dagon Fel Lighthouse+Remiros' Groundcover Patch
+  - 51 Remiros AI MOMW Patch
+  - 61 Remiros BC MOMW Patch
+  - 05 AFFresh+Samarys Ancestral Tomb Expanded Patch
+  - 10 Ebonheart Underworks MOMW Patch
+  - 13 Doors of Oblivion+TOTSP Patch
+  - 16 Uvirith's Legacy+BCOM Arena Patch
+  - 17 Uvirith's Legacy+Daedric Shrine Overhaul Molag Bal Patch
+  - 18 Uvirith's Legacy+Daedric Shrine Overhaul Sheogorath Patch
+  - 19 Uvirith's Legacy+OAAB Tel Mora Patch
+  - 21 Imperial Factions Patched
+  plugins:
+  - Imperial Legion Expansion.esp
+  - EbonheartUnderworksMOMWPatch.esp
+  - ImmersiveImperialSkirtBCOMpatch.esp
+  - Samarys Ancestral Tomb Expanded Corpse Fix.esp
+  - DD_Caldera_Expansion_OpenMWFix.esp
+  - SpeechcraftRebalanceRebalanced.esp
+  - AFFresh+SamarysAncestralTombExpanded.esp
+  - AFFreshLibraryOfVivecEnhanced.esp
+  - Daedric Shrine Overhaul Vaermina OpenMW Patch.esp
+  - UL_-_Daedric_Shrine_Overhaul_Sheogorath.esp
+  - Helm of Tohan Naturalized.esp
+  - UL_-_Daedric_Shrine_Overhaul_Molag_Bal_Patch.esp
+  - Daedric Shrine Overhaul+Patch for Purists Fix.esp
+  - Gargoyle Fix.esp
+  - Doors of Oblivion+TOTSP Patch.esp
+  - TracklessGrazelandOpenMW.esp
+  - RoHt_Kogoruhn_patch.esp
+  - OAAB_Shipwrecks_JFK_patch.esp
+  - Bitter Coast Waterway Cliff Fix.esp
+  - Little Landscape - Path to Pelagiad Rock Fix.esp
+  - BlademeisterDaedricShrineOverhaulSheogorathPatch.esp
+  - OAAB_Grazelands_Mines_and_Caverns_patch.esp
+  - Adventurer's backpack no-choice.esp
+  - Imperial Factions.ESP
+  - CRFJobs_BCoM_patch.esp
+  - RC_VivecsMuatra.ESP
+  - QCVL_BCoM_fix.esp
+  - Tel Eurus Anticheese.esp
+  - Flies.ESP
+  - fargoths_mountain_hut.esp
+  - DraggleTailPriceAdjustment.esp
+  - racesrespected.omwscripts
+  - Practical Necromancy Vendor Patch.esp
+  - Practical Necromancy+OAAB Fix.esp
+  - Immersive Mournhold Corner Tower Remover Patch.esp
+  - AetherPiratesDiscoveryCorprusariumExperiencePatch.esp
+  - RepopulatedTheWolverineHall.esp
+  - Telvanni Magister Robes Anticheese.esp
+  - VeninXPracticalNecromancy.esp
+  - Shal Overhaul Skeleton Fix.esp
+  - Dungeon Details Nimawia and Malmus Grotto Seam Fix.esp
+  - UL_3.5_OpenMW_1.3_Add-on.esp
+  - MementoMori_VanillaStatues_patch.esp
+  - IGE.ESP
+  - Odai River Overhaul Statue Remover Patch.esp
+  - Little Landscapes - Seyda Neen Swamp Pools.ESP
+  - Little Landscape - Nix Hunting Ground.esp
+  - AldRuhnOutskirtsLittleLandscapesNixFix.esp
+  - Little Landscape - Foyada of Sharp Teeth Rock Fix.esp
+  - MasterIndexRedux.esp
+  - MamaeaAwakenedOpenMWPatch.esp
+  - VenninAddamasartus_DraVashai_patch.esp
+  - sm_tel_robe.ESP
+  - TheForgottenShields - Artifacts_NG.esp
+  - UL_-_BCoM_Arena_Patch.esp
+  - UL_-_OAAB_Tel_Mora_Patch.esp
+  - Blademeister_Kumarahaz_Patch.esp
+  - DungeonDetailsUrshilakuFixes.esp
+  - MC_MOMW_Patch.esp
+  - DSO Ashalmimilkala Water Height Fix.esp
+  - MOMW Sadrith Mora Pathgrid Reset.esp
+  groundcover:
+  - REM_AC.ESP
+  - Rem_BC.esp
+  - Rem_BC Brother Junipers Twin Lamps patch.esp
+  - Rem_AI.ESP
+  settings: |
+    [Groundcover]
+    enabled = true
+    stomp intensity = 2
+
+- name: Alvazir's Various Patches
+  url: https://www.nexusmods.com/morrowind/mods/48955
+  download_info:
+  - file_name: Quill of Feyfolken 2.0 - OpenMW - Compatibility Patch
+  - file_name: Persistent Corpse Disposal - Patch
+  - file_name: Djangos Dialogue - Patch for Purists
+  data_paths:
+  - 01 PFP - Compat
+  - ''
+  plugins:
+  - PCD_PFP_Compat.esp
+  - Quill of Feyfolken 2.0-OpenMW-Patch.omwaddon
+  - Djangos Dialogue - Patch for Purists.esp
+
+- name: Sigourn's Misc Mods and Patches
+  url: https://www.nexusmods.com/morrowind/mods/49232
+  download_info:
+  - file_name: MDMD - More Deadly Morrowind Denizens Patches
+  data_paths:
+  - 00 Expansions Integrated Patch
+  plugins:
+  - Expansions Integrated MDMD Patch.ESP
+
+- name: Mono's Minor Moddities
+  url: https://www.nexusmods.com/morrowind/mods/53027
+  download_info:
+  - file_name: Tomb of the Snow Prince - PA and GitD Patch
+    extract_to: TomboftheSnowPrincePAandGitDPatch
+  - file_name: Upscaled Journal and Bookmark BG Replacement
+    extract_to: UpscaledJournalandBookmarkBGReplacement
+  data_paths:
+  - TomboftheSnowPrincePAandGitDPatch
+  - TomboftheSnowPrincePAandGitDPatch/00 Core
+  - UpscaledJournalandBookmarkBGReplacement
+  - UpscaledJournalandBookmarkBGReplacement/01 2x Resolution Textures
+
+- name: Publicola's Misc Mod Emporium
+  url: https://www.nexusmods.com/morrowind/mods/53235
+  download_info:
+  - file_name: Know Thy Ancestors - Serano Tomb Fix (Main)
+    extract_to: Know Thy Ancestors - Serano Tomb Fix (Main)
+  data_paths:
+  - Know Thy Ancestors - Serano Tomb Fix (Main)
+  plugins:
+  - Know Thy Ancestors.esp
+
+- name: Animated Morrowind and Weapon Sheathing patch for OpenMW
+  url: https://www.nexusmods.com/morrowind/mods/53479
+  download_info:
+  - file_name: Morrowind_OpenMW_Weapon Sheathing patch 1.2
+
+- name: Various tweaks and fixes
+  url: https://www.nexusmods.com/morrowind/mods/43795
+  download_info:
+  - file_name: BlightedAnimalsRetexturedMET
+    extract_to: BlightedAnimalsRetexturedMET
+  - file_name: familiar_faces_fixes
+    extract_to: familiar_faces_fixes
+  data_paths:
+  - familiar_faces_fixes
+  - BlightedAnimalsRetexturedMET
+
+- name: Various Mods and Patches
+  url: https://www.nexusmods.com/morrowind/mods/56176
+  download_info:
+  - file_name: OAAB_Tombs_and_Towers_DiverseBloodPatch
+    extract_to: OAABTombsTowersDiverseBloodPatch
+  - file_name: AH Ingredients Patch
+    extract_to: AlchemicalHustleIngredientsPatch
+  - file_name: openmw_impact_effects_patch
+    extract_to: openmwimpacteffectspatch
+  - file_name: OAAB_TelMora_DiverseBloodPatch
+    extract_to: OAABTelMoraDiverseBloodPatch
+  - file_name: OAAB_Shipwrecks_DiverseBloodPatch
+    extract_to: OAABShipwrecksDiverseBloodPatch
+  - file_name: OAAB_Grazelands_DiverseBloodPatch
+    extract_to: OAABGrazelandsDiverseBloodPatch
+  - file_name: OAAB_Foyada_Mamaea_Lava_Patch
+    extract_to: OAABFoyadaMamaeaILavaGoodPatch
+  - file_name: DynamicAmbientVisualEffectsMagicalLightsPatch
+    extract_to: DynamicAmbientVisualEffectsMagicalLightsPatch
+  - file_name: nords_shut_your_windows_patch
+    extract_to: nordsshutyourwindowspatch
+  - file_name: OAAB_DiverseBloodPatch
+    extract_to: OAABDiverseBloodpatch
+  data_paths:
+  - OAABFoyadaMamaeaILavaGoodPatch
+  - OAABFoyadaMamaeaILavaGoodPatch/00 I Lava Good
+  - AlchemicalHustleIngredientsPatch
+  - OAABTombsTowersDiverseBloodPatch
+  - openmwimpacteffectspatch
+  - OAABGrazelandsDiverseBloodPatch
+  - OAABShipwrecksDiverseBloodPatch
+  - OAABTelMoraDiverseBloodPatch
+  - nordsshutyourwindowspatch
+  - DynamicAmbientVisualEffectsMagicalLightsPatch
+  - OAABDiverseBloodpatch
+  plugins:
+  - OAAB - Diverse Blood Patch.omwaddon
+  - OAAB_Grazelands - Diverse Blood Patch.omwaddon
+  - OAAB - Tombs and Towers - Diverse Blood Patch.omwaddon
+  - AH_Ingredients_TD&OAAB.omwaddon
+  - OAAB - Shipwrecks - Diverse Blood Patch.omwaddon
+  - OAAB_Tel Mora - Diverse Blood Patch.omwaddon
+
+- name: Null's Minor Patches
+  url: https://www.nexusmods.com/morrowind/mods/55897
+  download_info:
+  - file_name: Uvirith's Legacy - Tamriel Rebuilt 24.12 Add-on
+  plugins:
+  - UL_3.5_TR_24.12_Add-on.esp
+
+- name: OAAB to RR Telvanni Consistency
+  url: https://www.nexusmods.com/morrowind/mods/56187
+  download_info:
+  - file_name: DM_TelvRRtoOAAB
+  plugins:
+  - DM_TelvRRtoOAAB.ESP
+
+- name: Katya's Patches and mod recommendations
+  url: https://www.nexusmods.com/morrowind/mods/56060
+  download_info:
+  - file_name: 4. Tales of Tel Branora and Kumarahaz Patch
+  plugins:
+  - Tales of Tel Branora.esp
+
+- name: Dayspassed Bug Fix (OpenMW)
+  url: https://www.nexusmods.com/morrowind/mods/57696
+  download_info:
+  - file_name: Dayspassedfix
+  plugins:
+  - dayspassedfix.omwaddon
+
+- name: Various BCoM and OpenMW patches
+  url: https://www.nexusmods.com/morrowind/mods/51194
+  download_info:
+  - file_name: Dunmer Stronghold - Hlormaren (minor fixes)
+    actions:
+    - action: clean
+      path: Dunmer Stronghold - Hlormaren V1.0.esp
+      arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, land, --match, '(-9, 6)']
+  plugins:
+  - Dunmer Stronghold - Hlormaren V1.0.esp
+
+- name: Project Cyrodiil - SSQN Patch
+  url: https://www.nexusmods.com/morrowind/mods/55688
+  download_info:
+  - file_name: Project Cyrodiil - SSQN Patch
+  data_paths:
+  - 00 Core
+
+- name: Cybvep's Jester Stash of Tweaks and Patches
+  url: https://www.nexusmods.com/morrowind/mods/58865
+  download_info:
+  - file_name: Soulless Summons Dialogue Fix
+    extract_to: SoullessSummonsDialogueFix
+  data_paths:
+  - SoullessSummonsDialogueFix
+  plugins:
+  - cybnosoulssummondialoguefix.omwaddon

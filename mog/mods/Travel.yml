@@ -1,0 +1,10 @@
+category: Travel
+
+mods:
+- name: Signpost Fast Travel
+  url: https://modding-openmw.gitlab.io/signpost-fast-travel/
+  download_info:
+  - file_name: Signpost Fast Travel
+  plugins:
+  - signpost-fast-travel.omwscripts
+  - signpost-fast-travel.omwaddon

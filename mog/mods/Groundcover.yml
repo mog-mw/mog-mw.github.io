@@ -1,0 +1,78 @@
+category: Groundcover
+
+mods:
+- name: Lush Synthesis
+  url: https://www.nexusmods.com/morrowind/mods/52931
+  download_info:
+  - file_name: Lush Synthesis 3.0
+  data_paths:
+  - ''
+  - LUSH_TR/MERGED
+  - LUSH_UNDERWATER
+  groundcover:
+  - lush3_RI_TR_TOTSP.esp
+  - lush3_RI_CYR.esp
+  - lush3_SE_TR_TOTSP.esp
+  - lush3_SE_CYR.esp
+  - lush3_TR_merged.esp
+  settings: |
+    [Groundcover]
+    enabled = true
+    stomp intensity = 2
+
+- name: Remiros' Groundcover
+  url: https://www.nexusmods.com/morrowind/mods/46733
+  download_info:
+  - file_name: Remiros' Groundcover
+  data_paths:
+  - 00 Core OpenMW
+  - 01b Thicker Grass OpenMW
+  groundcover:
+  - Rem_AL.esp
+  settings: |
+    [Groundcover]
+    enabled = true
+    stomp intensity = 2
+
+- name: Remiros Groundcover Textures Improvement
+  url: https://www.nexusmods.com/morrowind/mods/54261
+  download_info:
+  - file_name: remiros_groundcover_textures_improvement
+
+- name: OAAB Saplings
+  url: https://www.nexusmods.com/morrowind/mods/50334
+  download_info:
+  - file_name: OAAB Saplings
+  data_paths:
+  - 00 Core
+  - 01 BCOM patch
+  - 03 Concept Arts plantations patch
+  - 04 Great Seawall of Vivec patch
+  - 06 Minor Plantations Redone patch
+  - 07 OAABBrotherJunipersTwinLamps patch
+  - 10 Openmw Groundcover Patch
+  - 12 SM Bitter Coast Tree Replacer patch (OpenMW)
+  plugins:
+  - OAAB_Saplings OpenMW Patch.ESP
+  groundcover:
+  - OAAB_Saplings.esm
+  - OAAB_Saplings BCOM patch.esp
+  - OAAB_Saplings Concept Arts plantations patch.esp
+  - OAAB_Saplings Great Seawall of Vivec patch.esp
+  - OAAB_Saplings Minor Plantations Redone patch.esp
+  - OAAB_Saplings BrotherJunipersTwinLamps patch.esp
+  settings: |
+    [Groundcover]
+    enabled = true
+    stomp intensity = 2
+
+- name: Project Cyrodiil Grass
+  url: https://www.nexusmods.com/morrowind/mods/55612
+  download_info:
+  - file_name: Project Cyrodiil Grass
+  groundcover:
+  - Cyr_Grass.esp
+  settings: |
+    [Groundcover]
+    enabled = true
+    stomp intensity = 2

@@ -1,0 +1,45 @@
+category: Audio
+
+mods:
+- name: MAO Spell Sounds
+  url: https://www.nexusmods.com/morrowind/mods/50486
+  download_info:
+  - file_name: MAO Spell Sounds
+
+- name: Character Sound Overhaul
+  url: https://www.nexusmods.com/morrowind/mods/49654
+  download_info:
+  - file_name: Character Sound Overhaul
+  - file_name: Higher Bitrate Sounds
+    extract_to: Higher Bitrate Sounds
+  data_paths:
+  - ''
+  - Higher Bitrate Sounds
+
+- name: openmw-footsteps
+  url: https://modding-openmw.gitlab.io/openmw-footsteps/
+  download_info:
+  - file_name: openmw-footsteps
+  plugins:
+  - footsteps.omwscripts
+
+- name: Store Entrance Chimes
+  url: https://www.nexusmods.com/morrowind/mods/44586
+  download_info:
+  - file_name: Store Entrance Chimes - Alt Ver
+
+- name: Store Entrance Chimes for Cyrodiil and TR Mainland
+  url: https://www.nexusmods.com/morrowind/mods/56004
+  download_info:
+  - file_name: Store Entrance Chimes - Cyrodiil
+  - file_name: Store Entrance Chimes - TR Mainland
+  plugins:
+  - Store Entrance Chimes - Cyrodiil.ESP
+  - Store Entrance Chimes - TR Mainland.ESP
+
+- name: Voice Overhaul
+  url: https://www.nexusmods.com/morrowind/mods/51215
+  download_info:
+  - file_name: Voice Overhaul
+  plugins:
+  - PR Voice Overhaul.esp

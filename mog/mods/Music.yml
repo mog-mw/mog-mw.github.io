@@ -1,0 +1,87 @@
+category: Music
+
+mods:
+- name: S3maphore - OpenMW Music Management from the Future
+  url: https://www.nexusmods.com/morrowind/mods/56836
+  download_info:
+  - file_name: S3maphore Core
+  data_paths:
+  - 00 Core
+  - 01 Tamriel Rebuilt Playlists
+  - 02 Project Cyrodiil Playlists
+  - 03 Muse Expansion Playlists
+  - 04 Vindsvept Solstheim
+  - 05 Secrets of the Crystal City
+  - 06 Songbook of the North
+  plugins:
+  - S3maphore.esp
+
+- name: MUSE Music Expansion - Hlaalu
+  url: https://www.nexusmods.com/morrowind/mods/54639
+  download_info:
+  - file_name: MUSE Expansion - Hlaalu
+  data_paths:
+  - MUSE Expansion - Hlaalu
+
+- name: MUSE Music Expansion - Ashlander
+  url: https://www.nexusmods.com/morrowind/mods/51255
+  download_info:
+  - file_name: MUSE Expansion - Ashlander
+  data_paths:
+  - MUSE Expansion - Ashlander
+
+- name: MUSE Music Expansion - Redoran
+  url: https://www.nexusmods.com/morrowind/mods/55082
+  download_info:
+  - file_name: MUSE Expansion - Redoran
+  data_paths:
+  - MUSE Expansion - Redoran
+
+- name: MUSE Music Expansion - Sixth House
+  url: https://www.nexusmods.com/morrowind/mods/51082
+  download_info:
+  - file_name: MUSE Expansion - Sixth House
+  data_paths:
+  - MUSEEXPANSIONsixthhouse
+
+- name: MUSE Music Expansion - Daedric
+  url: https://www.nexusmods.com/morrowind/mods/51993
+  download_info:
+  - file_name: MUSE Expansion - Daedric
+  data_paths:
+  - MUSE Expansion - Daedric
+
+- name: MUSE Music Expansion - Dwemer
+  url: https://www.nexusmods.com/morrowind/mods/51169
+  download_info:
+  - file_name: MUSE Expansion - Dwemer
+  data_paths:
+  - MUSE Expansion - Dwemer (Vanilla - Tribunal)
+
+- name: MUSE Music Expansion - Tomb
+  url: https://www.nexusmods.com/morrowind/mods/51407
+  download_info:
+  - file_name: MUSE Expansion - Tomb
+  data_paths:
+  - MUSE Expansion - Tomb (GOTY)
+
+- name: Vindsvept Solstheim for Dynamic Music (OpenMW)
+  url: https://www.nexusmods.com/morrowind/mods/53597
+  download_info:
+  - file_name: Dynamic Music -  Vindsvept Solstheim
+  data_paths:
+  - Vindsvept Solstheim for Dynamic Music (OpenMW)
+
+- name: Tamriel Rebuilt - Original Soundtrack
+  url: https://www.nexusmods.com/morrowind/mods/47254
+  download_info:
+  - file_name: Tamriel Rebuilt Soundtrack
+  data_paths:
+  - 00 core
+
+- name: Project Cyrodiil Music - Anvil and Sutch
+  url: https://www.nexusmods.com/morrowind/mods/55779
+  download_info:
+  - file_name: Project Cyrodiil Music
+  data_paths:
+  - 00 Core

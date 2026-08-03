@@ -1,0 +1,13 @@
+category: Lighting
+
+mods:
+- name: Improved Lights for All Shaders
+  url: https://www.nexusmods.com/morrowind/mods/51463
+  download_info:
+  - file_name: ILFAS
+  data_paths:
+  - 00 Core
+  - 01 Smoke and Steam Emitters
+  settings: |
+    [Shaders]
+    clamp lighting = false

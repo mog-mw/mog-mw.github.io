@@ -1,0 +1,18 @@
+category: MagicSpells
+
+mods:
+- name: Daisy's Lua Multimark
+  url: https://www.nexusmods.com/morrowind/mods/53260
+  download_info:
+  - file_name: Daisys Lua Multimark
+  plugins:
+  - LuaMultiMark.omwscripts
+
+- name: Unofficial Tamriel Rebuilt Spells (OpenMW 0.51)
+  url: https://www.nexusmods.com/morrowind/mods/58693
+  download_info:
+  - file_name: Unofficial Tamriel Rebuilt Spells
+  data_paths:
+  - Unofficial Tamriel Rebuilt Spells (OpenMW 0.51)
+  plugins:
+  - Unofficial TR Spells.omwscripts

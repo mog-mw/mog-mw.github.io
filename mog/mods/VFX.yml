@@ -1,0 +1,65 @@
+category: VFX
+
+mods:
+- name: OpenMW Dynamic Ambient Visual Effects
+  url: https://www.nexusmods.com/morrowind/mods/55572
+  download_info:
+  - file_name: OpenMW Dynamic Ambient Visual Effects
+  plugins:
+  - Dynamic Ambient Visual Effects.omwscripts
+
+- name: Fireflies
+  url: https://www.nexusmods.com/morrowind/mods/51443
+  download_info:
+  - file_name: RP_Fireflies
+  plugins:
+  - RP_fireflies.ESP
+
+- name: No Shield Sparkle
+  url: https://www.nexusmods.com/morrowind/mods/45989
+  download_info:
+  - file_name: No Shield Sparkle
+
+- name: Diverse Blood
+  url: https://www.nexusmods.com/morrowind/mods/45368
+  download_info:
+  - file_name: Diverse Blood
+  data_paths:
+  - Data Files
+  plugins:
+  - Bob's Diverse Blood.ESP
+  fallbacks:
+  - Blood_Texture_3,Blood_Energy.dds
+  - Blood_Texture_4,Blood_Blue.dds
+  - Blood_Texture_5,Blood_Green.dds
+  - Blood_Texture_6,Blood_Dark.dds
+  - Blood_Texture_7,Blood_Orange.dds
+
+- name: Diverse Blood for Tamriel Rebuilt and Project Tamriel
+  url: https://www.nexusmods.com/morrowind/mods/55687
+  download_info:
+  - file_name: Diverse Blood for Tamriel Data
+  data_paths:
+  - Diverse Blood - Tamriel Data/00 Core
+  - Diverse Blood - Tamriel Data/01 Tamriel Rebuilt
+  - Diverse Blood - Tamriel Data/02 Project Cyrodiil
+  - Diverse Blood - Tamriel Data/03 Skyrim Home of the Nords
+  plugins:
+  - Diverse Blood - Tamriel Data.ESP
+  - Diverse Blood - Tamriel Rebuilt.esp
+  - Diverse Blood - Project Cyrodiil.ESP
+  - Diverse Blood - SHotN.ESP
+
+- name: Subtle Magic Glow
+  url: https://www.nexusmods.com/morrowind/mods/4468
+  download_info:
+  - file_name: Subtle Magic Glow
+  data_paths:
+  - fade
+
+- name: OpenMW Impact Effects
+  url: https://www.nexusmods.com/morrowind/mods/55508
+  download_info:
+  - file_name: OpenMW Impact Effects
+  plugins:
+  - Impact Effects.omwscripts

@@ -1,0 +1,69 @@
+category: Creatures
+
+mods:
+- name: Dagoth Ur's Divine Body
+  url: https://www.nexusmods.com/morrowind/mods/45039
+  download_info:
+  - file_name: Dagoth Ur&#39;s Divine Body
+
+- name: Silt Strider Animation Restored
+  url: https://www.nexusmods.com/morrowind/mods/44150
+  download_info:
+  - file_name: Silt Strider Animation Restored
+  data_paths:
+  - Data Files
+  plugins:
+  - Silt Strider Animation Restored.ESP
+
+- name: Blighted Animals Retextured
+  url: https://www.nexusmods.com/morrowind/mods/42245
+  download_info:
+  - file_name: Blighted Animals with Darknuts 1024 textures
+  plugins:
+  - BlightedAnimalsRetextured.esp
+
+- name: FMI - Unique Lore Friendly Cave Rats
+  url: https://www.nexusmods.com/morrowind/mods/47193
+  download_info:
+  - file_name: Unique Cave Rats 2.0 HD
+  plugins:
+  - Unique_CaveRats.ESP
+
+- name: Vanilla friendly creatures and undeads expansion
+  url: https://www.nexusmods.com/morrowind/mods/48818
+  download_info:
+  - file_name: Creatures_RP
+    actions:
+    - action: clean
+      path: 00 Core/Creatures_RP_Purist.ESP
+      arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, cell, --match, Solstheim]
+  data_paths:
+  - 00 Core
+  - 03 Summons have 0 soul
+  plugins:
+  - Creatures_RP_Purist.ESP
+  - Creatures_RP_Soulless summons.ESP
+
+- name: Riekling Fix and Expansion
+  url: https://www.nexusmods.com/morrowind/mods/50036
+  download_info:
+  - file_name: Riekling Expansion
+  data_paths:
+  - 00 Core
+  - 02 Bloodmoon Rebalance - Eng
+  plugins:
+  - Riekling Fix & Expansion.ESP
+
+- name: Winged Twilight Rebalance
+  url: https://www.nexusmods.com/morrowind/mods/53310
+  download_info:
+  - file_name: Winged Twilight Rebalance
+  plugins:
+  - PR Winged Twilight Rebalance.esp
+
+- name: Atronach Rebalance
+  url: https://www.nexusmods.com/morrowind/mods/51309
+  download_info:
+  - file_name: PR Atronach Rebalance
+  plugins:
+  - PR Atronach Rebalance.esp

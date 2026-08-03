@@ -1,0 +1,57 @@
+category: Animation
+
+mods:
+- name: On the Blink
+  url: https://www.nexusmods.com/morrowind/mods/54716
+  download_info:
+  - file_name: On the Blink
+  data_paths:
+  - On the Blink/Data Files
+
+- name: Simply Walking (Remastered)
+  url: https://www.nexusmods.com/morrowind/mods/49785
+  download_info:
+  - file_name: Simply Walking Weapon Sheathing Edition
+  data_paths:
+  - Simply Walking (WS Edition)
+
+- name: Just a little bit better animations for the mage build (first-person)
+  url: https://www.nexusmods.com/morrowind/mods/56109
+  download_info:
+  - file_name: Animations for the mage build
+    extract_to: animations/xbase_anim.1st
+  data_paths:
+  - ''
+  - animations/xbase_anim.1st
+
+- name: ReAnimation v2 - Rogue - first-person animation pack
+  url: https://www.nexusmods.com/morrowind/mods/52596
+  download_info:
+  - file_name: ReAnimation v2 Rogue - OpenMW
+    actions:
+    - action: remove
+      paths:
+      - Animations/xbase_anim.1st/xDaggerIdle.kf
+      - Animations/xbase_anim.1st/xDaggerMovement.kf
+      - Animations/xbase_anim.1st/xDaggerSneakIdle.kf
+      - Animations/xbase_anim.1st/xDaggerSneakMovement.kf
+  plugins:
+  - ReAnimation_API.omwscripts
+  - ReAnimation_v2_Rogue.omwscripts
+
+- name: 3rd Person alt Attacks
+  url: https://gitlab.com/fallchildren/openmw-third-person-alt-attacks
+  download_info:
+  - file_name: openmw-third-person-alt-attacks
+  plugins:
+  - third-person-alt-attacks.omwscripts
+
+- name: openmw-animated-levitation
+  url: https://gitlab.com/fallchildren/openmw-animated-levitation
+  download_info:
+  - file_name: openmw-animated-levitation
+  plugins:
+  - animated-levitation.omwscripts
+  settings: |
+    [Game]
+    use additional anim sources = true

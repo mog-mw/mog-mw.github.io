@@ -1,0 +1,20 @@
+category: PostProcessingShaders
+
+mods:
+- name: MOMW Post Processing Pack
+  url: https://modding-openmw.gitlab.io/momw-post-processing-pack/
+  download_info:
+  - file_name: MOMW Post Processing Pack
+  data_paths:
+  - 00 RecommendedConfig
+  - 01 XE-Shaders
+  - 02 OMWFX-Shaders
+  - 03 ZesterersVolumetricClouds
+  - 04 WareyaOpenMWShaders
+  settings: |
+    [Post Processing]
+    enabled = true
+    chain = ssao_hq,underwater_interior_effects,underwater_effects,clouds,godrays,bloomlinear,hdr,FollowerAA
+    transparent postpass = true
+    [Shaders]
+    force per pixel lighting = true

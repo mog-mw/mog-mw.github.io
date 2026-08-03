@@ -1,0 +1,60 @@
+category: SkiesandWeather
+
+mods:
+- name: Skies .IV
+  url: https://www.nexusmods.com/morrowind/mods/43311
+  download_info:
+  - file_name: Skies .IV
+    actions:
+    - action: remove
+      paths:
+      - Particles/meshes/raindrop.nif
+      - Particles/textures/tx_raindrop_01.dds
+  data_paths:
+  - Skies - .IV
+  - Particles
+  fallbacks:
+  - Weather_Clear_Cloud_Speed,0.25
+  - Weather_Cloudy_Cloud_Speed,0.4
+  - Weather_Foggy_Cloud_Speed,0.25
+  - Weather_Thunderstorm_Cloud_Speed,0.6
+  - Weather_Rain_Cloud_Speed,0.4
+  - Weather_Overcast_Cloud_Speed,0.3
+  - Weather_Ashstorm_Cloud_Speed,1.4
+  - Weather_Blight_Cloud_Speed,1.8
+  - Weather_Snow_Cloud_Speed,0.3
+  - Weather_Blizzard_Cloud_Speed,1.5
+
+- name: New Starfields
+  url: https://www.nexusmods.com/morrowind/mods/43246
+  download_info:
+  - file_name: New Starfields
+  data_paths:
+  - 00 Core
+  - 01 Option 7 (100% Opacity)
+
+- name: Dying Worlds - moons retexture
+  url: https://www.nexusmods.com/morrowind/mods/43023
+  download_info:
+  - file_name: '1'
+  data_paths:
+  - Data Files
+
+- name: Meteors
+  url: https://web.archive.org/web/https://mw.modhistory.com/download-1-1407
+  dl_url: https://modding-openmw.com/files/ID4151_2_24_Meteors_1.2_20040609.zip
+  download_info:
+  - file_name: Meteors
+  plugins:
+  - Meteor.esp
+
+- name: Solthas Blight Weather Pack
+  url: https://www.nexusmods.com/morrowind/mods/52354
+  download_info:
+  - file_name: Solthas Blight Weather Pack
+  data_paths:
+  - Solthas Blight Weather Pack
+  plugins:
+  - solBlightByDay.esp
+  - solDeadlyBlight.esp
+  - solWeatherRebalance.esp

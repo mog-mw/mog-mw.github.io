@@ -1,0 +1,104 @@
+category: FurnitureandClutter
+
+mods:
+- name: Properly Smoothed Meshes
+  url: https://www.nexusmods.com/morrowind/mods/46747
+  download_info:
+  - file_name: Properly Smoothed Meshes
+  data_paths:
+  - 00 Core
+  - 01 Optional Textures
+  - 03 Higher Poly Glowing Candles
+  - 04 Reflection Mapped
+  - 05 Beaker, Flasks - clear glass
+  - 06 Inkwell - cut glass
+  - 07 Barrel - no rivets
+  - 08 Potted Plant - redware
+
+- name: OpenMW vanilla candles patched with Enlightened Flames and ILFAS
+  url: https://www.nexusmods.com/morrowind/mods/54155
+  download_info:
+  - file_name: OpenMW vanilla candles ILFAS Enlightened Flames
+
+- name: Dunmer Lanterns Replacer
+  url: https://www.nexusmods.com/morrowind/mods/43219
+  download_info:
+  - file_name: Dunmer Lanterns Replacer
+  data_paths:
+  - 01 Glow Effect
+  - 03 Ashlander Lanterns Retexture 1
+  - 04 Tamriel_Data Patch - Glow Effect
+  - 05 OAAB_Data Patch - Glow Effect
+
+- name: Improved Better Skulls
+  url: https://www.nexusmods.com/morrowind/mods/46012
+  download_info:
+  - file_name: Improved Better Skulls
+  - file_name: Skeletons Atlased
+  data_paths:
+  - Data Files
+  - Vanilla Textures
+  - 02a Vanilla Textures 2x-4x Texture Size
+  plugins:
+  - Better Skulls.ESP
+
+- name: OpenMW Containers Animated
+  url: https://www.nexusmods.com/morrowind/mods/46232
+  download_info:
+  - file_name: OpenMW Containers Animated
+  data_paths:
+  - Containers Animated
+  - Optional/kollops
+  plugins:
+  - Containers Animated.esp
+
+- name: OpenMW Vanilla Friendly Animated Basket Edit
+  url: https://www.nexusmods.com/morrowind/mods/56931
+  download_info:
+  - file_name: OpenMW Vanilla Friendly Animated Basket Edit
+  data_paths:
+  - 00 Core
+  - 01 HD Textures
+
+- name: Know Thy Ancestors
+  url: https://www.nexusmods.com/morrowind/mods/49678
+  download_info:
+  - file_name: Know Thy Ancestors
+
+- name: Dunmers ashpits
+  url: https://www.nexusmods.com/morrowind/mods/47777
+  download_info:
+  - file_name: Dunmers ashpits
+  data_paths:
+  - Data files
+
+- name: How I Shot Web
+  url: https://www.nexusmods.com/morrowind/mods/54034
+  download_info:
+  - file_name: How I Shot Web
+  data_paths:
+  - How I Shot Web
+
+- name: Immersive Telvanni Bug Musk
+  url: https://www.nexusmods.com/morrowind/mods/48327
+  download_info:
+  - file_name: Immersive Telvanni Bug Musk
+  plugins:
+  - BugMuskPerfume.esp
+
+- name: Stuporstar's Books for Wares
+  url: https://www.nexusmods.com/morrowind/mods/49808
+  download_info:
+  - file_name: Stuporstar's books for Wares
+  data_paths:
+  - 00 Core
+  - 01 OAAB
+  plugins:
+  - ST_Books_Wares_OAAB.ESP
+
+- name: The Madstone
+  url: https://www.nexusmods.com/morrowind/mods/47653
+  download_info:
+  - file_name: The Madstone
+  plugins:
+  - The Madstone.ESP

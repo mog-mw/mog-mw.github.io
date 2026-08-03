@@ -1,0 +1,55 @@
+category: Randomizers
+
+mods:
+- name: Scalable Dwemer Puzzle Box Randomizer
+  url: https://modding-openmw.gitlab.io/gonzos-scalable-dwemer-puzzle-box-randomizer/
+  download_info:
+  - file_name: gonzos-scalable-dwemer-puzzle-box-randomizer
+  plugins:
+  - ScalableDwemerPuzzleBoxRandomizer.omwscripts
+
+- name: Quest Corpses Randomizer for Shipyards of Vvardenfell
+  url: https://modding-openmw.gitlab.io/quest-corpses-randomizer-for-shipyards-of-vvardenfell/
+  download_info:
+  - file_name: quest-corpses-randomizer-for-shipyards-of-vvardenfell
+  plugins:
+  - mtrPQCR_ShipsOfVvardenfell_Compat.esp
+
+- name: Oh No Stolen Reports
+  url: https://www.nexusmods.com/morrowind/mods/53046
+  download_info:
+  - file_name: Oh No Stolen Reports
+  plugins:
+  - onsr.esp
+
+- name: Farvyn Oreyn's Position Randomizer
+  url: https://www.nexusmods.com/morrowind/mods/53292
+  download_info:
+  - file_name: Farvyn Oreyn's Position Randomizer
+  plugins:
+  - randomfarvyn.esp
+
+- name: Din's Position Randomizer
+  url: https://www.nexusmods.com/morrowind/mods/53286
+  download_info:
+  - file_name: Din's position randomizer
+  plugins:
+  - randomdin.esp
+
+- name: Suran Dancer Randomized
+  url: https://www.nexusmods.com/morrowind/mods/53389
+  download_info:
+  - file_name: Dancers Randomized
+  plugins:
+  - dgrandom.esp
+
+- name: 'Wandering Creature Merchants: Lua Edition'
+  url: https://modding-openmw.gitlab.io/wandering-creature-merchants-lua-edition/
+  download_info:
+  - file_name: 'Wandering Creature Merchants: Lua Edition'
+  data_paths:
+  - 00 Core
+  - 01 Extra
+  plugins:
+  - wandering-creature-merchants-lua-edition.omwscripts
+  - wandering-creature-merchants-lua-edition.omwaddon

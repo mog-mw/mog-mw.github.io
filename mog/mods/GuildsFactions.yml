@@ -1,0 +1,117 @@
+category: GuildsFactions
+
+mods:
+- name: Rise of House Telvanni
+  url: https://www.nexusmods.com/morrowind/mods/27545
+  download_info:
+  - file_name: Rise of House Telvanni v1_52
+  - file_name: Flask mesh update
+    extract_to: FlaskMeshUpdate
+  data_paths:
+  - Base Mod
+  - FlaskMeshUpdate
+  plugins:
+  - Rise of House Telvanni.esm
+
+- name: Imperial Legion Expansion
+  url: https://www.nexusmods.com/morrowind/mods/44469
+  download_info:
+  - file_name: Imperial Legion Expansion
+
+- name: Imperial Factions
+  url: https://www.nexusmods.com/morrowind/mods/49855
+  download_info:
+  - file_name: Imperial Factions
+
+- name: Wilhelm of the Aedra
+  url: https://www.nexusmods.com/morrowind/mods/55948
+  download_info:
+  - file_name: AFFA_Wilhelm_v1.2.zip
+  plugins:
+  - AFFA_Wilhelm.esp
+
+- name: Census and Excise Office Faction
+  url: https://www.nexusmods.com/morrowind/mods/46798
+  download_info:
+  - file_name: Census and Excise Office Faction
+  plugins:
+  - Census_and_Excise_Office_Faction.ESP
+
+- name: Astrologian's Guild
+  url: https://www.nexusmods.com/morrowind/mods/51216
+  download_info:
+  - file_name: Astrologian's Guild
+    extract_to: main
+  - file_name: OpenMW high quality icons
+  data_paths:
+  - main
+  - OpenMWpatch
+  plugins:
+  - Astrologians Guild.esp
+
+- name: Join the Dark Brotherhood - Dark Brotherhood Faction Mod
+  url: https://www.nexusmods.com/morrowind/mods/48858
+  download_info:
+  - file_name: Dark Brotherhood_V1.01
+  plugins:
+  - Dark Brotherhood.esp
+
+- name: Quarra Clan - Refreshed
+  url: https://www.nexusmods.com/morrowind/mods/48955
+  download_info:
+  - file_name: Quarra Clan - Refreshed
+    actions:
+    - action: clean
+      path: 01 Refreshed/quarraclan_refreshed.esp
+      arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, land, --match, '(-6, 17)']
+  data_paths:
+  - 01 Refreshed
+  - 02 Optional Patches - Modular
+  plugins:
+  - quarraclan_refreshed.esp
+  - quarraclan_refreshed - Morrowind Anti-Cheese.esp
+  - quarraclan_refreshed - Tamriel_Data.esp
+
+- name: Quests for Clans and Vampire Legends (QCVL)
+  url: https://www.nexusmods.com/morrowind/mods/49486
+  download_info:
+  - file_name: Quests for Clans and Vampire Legends_v1.4.6
+    actions:
+    - action: remove
+      path: Quests for Clans and Vampire Legends/Data Files/Splash
+  data_paths:
+  - Quests for Clans and Vampire Legends/Data Files
+  plugins:
+  - Quests for Clans and Vampire Legends.ESP
+
+- name: Temple Master
+  url: https://www.nexusmods.com/morrowind/mods/52749
+  download_info:
+  - file_name: Temple Master
+  data_paths:
+  - 00 Core
+  - 01 OpenMW Addons
+  - 04 HD Textures
+  plugins:
+  - Temple Master.ESP
+
+- name: OAAB Brother Junipers Twin Lamps
+  url: https://www.nexusmods.com/morrowind/mods/51424
+  download_info:
+  - file_name: OAAB Juniper's Twin Lamps
+  plugins:
+  - OAAB Brother Junipers Twin Lamps.esp
+
+- name: Canonical Gear (OpenMW)
+  url: https://www.nexusmods.com/morrowind/mods/57661
+  download_info:
+  - file_name: Canonical Gear
+  plugins:
+  - CanonicalGear.omwscripts
+
+- name: Shishi - Redoran Outpost
+  url: https://www.nexusmods.com/morrowind/mods/57535
+  download_info:
+  - file_name: Shishi - Redoran Outpost
+  plugins:
+  - sp_shishi.ESP
