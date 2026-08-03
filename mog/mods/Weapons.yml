@@ -71,7 +71,7 @@ mods:
     actions:
     - action: clean
       path: Daedric Maul/Data Files/Daedric_Maul.ESP
-      arguments: [--overwrite]
+      arguments: [clean, --overwrite]
   data_paths:
   - Daedric Maul/Data Files
   plugins:

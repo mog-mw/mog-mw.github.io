@@ -67,7 +67,7 @@ mods:
     actions:
     - action: clean
       path: sm_mask_eng/sm_golden_mask.ESP
-      arguments: [--overwrite]
+      arguments: [clean, --overwrite]
   - file_name: SM_Dagoth_Mask Textures Update and Normal map
     extract_to: update_and_normal_map
   data_paths:

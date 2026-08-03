@@ -10,9 +10,9 @@ parser = argparse.ArgumentParser()
 parser.add_argument("input", type=Path, default="mog", nargs="?", help="input directory (default: %(default)s)")
 parser.add_argument("output", type=Path, default="mog_output", nargs="?", help="output directory (default: %(default)s)")
 parser.add_argument("-n", "--name", help="modlist name (default: input directory name)")
+parser.add_argument("-m", "--minify", action="store_const", default={"indent": 2}, const={"separators": (",", ":")}, help="minify JSON output")
 parser.add_argument("-s", "--server", action="store_true", help="start an HTTP server")
 parser.add_argument("-p", "--port", type=int, default=1119, help="HTTP server port (default: %(default)s)")
-parser.add_argument("-m", "--minify", action="store_const", default={"indent": 2}, const={"separators": (",", ":")}, help="minify JSON output")
 
 
 @dataclasses.dataclass
@@ -60,7 +60,7 @@ def main():
             if line.startswith("#") or line == "":
                 continue
             if filename == "data_paths":
-                line.replace("/", "\\")
+                line = line.replace("/", "\\")
             output_cfg["openmw_cfg"][load_order.field] += load_order.prefix + line + "\n"
 
     settings_string = StringIO()
@@ -75,6 +75,9 @@ def main():
         json.dump(output_list, f, **args.minify)
     with open(cfg_dir.joinpath(args.name), "w") as f:
         json.dump(output_cfg, f, **args.minify)
+
+    with open(args.output.joinpath("api/lists/index.html"), "w") as f:
+        json.dump([args.name], f)
 
 
 def handle_mod(mod: dict, category: str):
