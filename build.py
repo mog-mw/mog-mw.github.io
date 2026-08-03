@@ -12,6 +12,7 @@ parser.add_argument('output', type=Path, default='public/testing', nargs='?', he
 parser.add_argument('-n', '--name', help='modlist name (default: input directory name)')
 parser.add_argument('-s', '--server', action='store_true', help='start an HTTP server')
 parser.add_argument('-p', '--port', type=int, default=1119, help='HTTP server port (default: %(default)s)')
+parser.add_argument('-m', '--minify', action='store_const', default={"indent": 2}, const={"separators": (',', ':')}, help='minify JSON output')
 
 
 @dataclasses.dataclass
@@ -71,9 +72,9 @@ def main():
     list_dir.mkdir(parents=True, exist_ok=True)
     cfg_dir.mkdir(parents=True, exist_ok=True)
     with open(list_dir.joinpath(args.name), 'w') as f:
-        json.dump(output_list, f)
+        json.dump(output_list, f, **args.minify)
     with open(cfg_dir.joinpath(args.name), 'w') as f:
-        json.dump(output_cfg, f)
+        json.dump(output_cfg, f, **args.minify)
 
 
 def handle_mod(mod: dict, category: str):
