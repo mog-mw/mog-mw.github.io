@@ -8,7 +8,7 @@ import yaml
 
 parser = argparse.ArgumentParser()
 parser.add_argument("input", type=Path, default="mog", nargs="?", help="input directory (default: %(default)s)")
-parser.add_argument("output", type=Path, default="public/testing", nargs="?", help="output directory (default: %(default)s)")
+parser.add_argument("output", type=Path, default="mog_output", nargs="?", help="output directory (default: %(default)s)")
 parser.add_argument("-n", "--name", help="modlist name (default: input directory name)")
 parser.add_argument("-s", "--server", action="store_true", help="start an HTTP server")
 parser.add_argument("-p", "--port", type=int, default=1119, help="HTTP server port (default: %(default)s)")
