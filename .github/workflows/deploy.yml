@@ -40,11 +40,11 @@ jobs:
 
       - name: Build Testing
         run: |
-          python main/build.py main/mog mog_output/testing
+          python main/build.py --minify main/mog mog_output/testing
 
       - name: Build Stable
         run: |
-          python stable/build.py stable/mog mog_output
+          python stable/build.py --minify stable/mog mog_output
 
       - name: Upload static files as artifact
         uses: actions/upload-pages-artifact@v5
