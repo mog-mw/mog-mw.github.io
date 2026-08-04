@@ -1,28 +1,28 @@
 category: SkiesandWeather
 
 mods:
-- name: Dying Worlds - moons retexture
-  url: https://www.nexusmods.com/morrowind/mods/43023
-  download_info:
-  - file_name: '1'
-  data_paths:
-  - Data Files
+  - name: Dying Worlds - moons retexture
+    url: https://www.nexusmods.com/morrowind/mods/43023
+    download_info:
+      - file_name: "1"
+    data_paths:
+      - Data Files
 
-- name: Meteors
-  url: https://web.archive.org/web/https://mw.modhistory.com/download-1-1407
-  dl_url: https://modding-openmw.com/files/ID4151_2_24_Meteors_1.2_20040609.zip
-  download_info:
-  - file_name: Meteors
-  plugins:
-  - Meteor.esp
+  - name: Meteors
+    url: https://web.archive.org/web/https://mw.modhistory.com/download-1-1407
+    dl_url: https://modding-openmw.com/files/ID4151_2_24_Meteors_1.2_20040609.zip
+    download_info:
+      - file_name: Meteors
+    plugins:
+      - Meteor.esp
 
-- name: Solthas Blight Weather Pack
-  url: https://www.nexusmods.com/morrowind/mods/52354
-  download_info:
-  - file_name: Solthas Blight Weather Pack
-  data_paths:
-  - Solthas Blight Weather Pack
-  plugins:
-  - solBlightByDay.esp
-  - solDeadlyBlight.esp
-  - solWeatherRebalance.esp
+  - name: Solthas Blight Weather Pack
+    url: https://www.nexusmods.com/morrowind/mods/52354
+    download_info:
+      - file_name: Solthas Blight Weather Pack
+    data_paths:
+      - Solthas Blight Weather Pack
+    plugins:
+      - solBlightByDay.esp
+      - solDeadlyBlight.esp
+      - solWeatherRebalance.esp

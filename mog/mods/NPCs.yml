@@ -1,188 +1,188 @@
 category: NPCs
 
 mods:
-- name: Familiar Faces by Caleb
-  url: https://www.nexusmods.com/morrowind/mods/50093
-  download_info:
-  - file_name: Familiar Faces
+  - name: Familiar Faces by Caleb
+    url: https://www.nexusmods.com/morrowind/mods/50093
+    download_info:
+      - file_name: Familiar Faces
 
-- name: Facelift for Tamriel Data
-  url: https://www.nexusmods.com/morrowind/mods/53935
-  download_info:
-  - file_name: Facelift_TR_Meshes
-  - file_name: Facelift_TR_Textures
+  - name: Facelift for Tamriel Data
+    url: https://www.nexusmods.com/morrowind/mods/53935
+    download_info:
+      - file_name: Facelift_TR_Meshes
+      - file_name: Facelift_TR_Textures
 
-- name: Rotat's Corprus Natives Replacer
-  url: https://www.nexusmods.com/morrowind/mods/52002
-  download_info:
-  - file_name: Corprus Natives - Replacer
-  data_paths:
-  - ''
-  - 512px
+  - name: Rotat's Corprus Natives Replacer
+    url: https://www.nexusmods.com/morrowind/mods/52002
+    download_info:
+      - file_name: Corprus Natives - Replacer
+    data_paths:
+      - ""
+      - 512px
 
-- name: Repopulated Morrowind
-  url: https://www.nexusmods.com/morrowind/mods/51174
-  download_info:
-  - file_name: Repopulated Morrowind
-  data_paths:
-  - 00 Core
-  - 02 BCOM Repopulated Morrowind
-  - 04 Tomb of the Snow Prince
-  - 06 Optional Plugins
-  - 10 Compatability Patches
-  - 08 Silent AM Sounds
-  plugins:
-  - RepopulatedMorrowind.ESM
-  - RepopulatedMorrowind.esp
-  - RepopulatedBloodmoon.ESP
-  - RepopulatedSkyrim.ESP
-  - RepopulatedMorrowind_MageRobes.ESP
-  - RepopulatedMorrowind_ImmersiveMournhold.ESP
-  - RepopulatedMorrowind_OAAB_Data.ESP
-  - RepopulatedMorrowind_CRF_AldRedaynia.ESP
-  - RepopulatedMorrowind_6thHouseObsidWeps.ESP
+  - name: Repopulated Morrowind
+    url: https://www.nexusmods.com/morrowind/mods/51174
+    download_info:
+      - file_name: Repopulated Morrowind
+    data_paths:
+      - 00 Core
+      - 02 BCOM Repopulated Morrowind
+      - 04 Tomb of the Snow Prince
+      - 06 Optional Plugins
+      - 10 Compatability Patches
+      - 08 Silent AM Sounds
+    plugins:
+      - RepopulatedMorrowind.ESM
+      - RepopulatedMorrowind.esp
+      - RepopulatedBloodmoon.ESP
+      - RepopulatedSkyrim.ESP
+      - RepopulatedMorrowind_MageRobes.ESP
+      - RepopulatedMorrowind_ImmersiveMournhold.ESP
+      - RepopulatedMorrowind_OAAB_Data.ESP
+      - RepopulatedMorrowind_CRF_AldRedaynia.ESP
+      - RepopulatedMorrowind_6thHouseObsidWeps.ESP
 
-- name: Yet Another Guard Diversity
-  url: https://www.nexusmods.com/morrowind/mods/45894
-  download_info:
-  - file_name: Yet Another Guard Diversity - Full Cephalopod
+  - name: Yet Another Guard Diversity
+    url: https://www.nexusmods.com/morrowind/mods/45894
+    download_info:
+      - file_name: Yet Another Guard Diversity - Full Cephalopod
 
-- name: Nordic Dagon Fel NPCs
-  url: https://www.nexusmods.com/morrowind/mods/52390
-  download_info:
-  - file_name: Nordic Dagon Fel NPCs
-  plugins:
-  - Nordic Dagon Fel NPCs.ESP
+  - name: Nordic Dagon Fel NPCs
+    url: https://www.nexusmods.com/morrowind/mods/52390
+    download_info:
+      - file_name: Nordic Dagon Fel NPCs
+    plugins:
+      - Nordic Dagon Fel NPCs.ESP
 
-- name: Bards of Bardenfell
-  url: https://www.nexusmods.com/morrowind/mods/53278
-  download_info:
-  - file_name: Bards of Bardenfell
-  data_paths:
-  - Bards of Bardenfell
-  plugins:
-  - Bards of Bardenfell.esp
+  - name: Bards of Bardenfell
+    url: https://www.nexusmods.com/morrowind/mods/53278
+    download_info:
+      - file_name: Bards of Bardenfell
+    data_paths:
+      - Bards of Bardenfell
+    plugins:
+      - Bards of Bardenfell.esp
 
-- name: Diverse Khajiit - New and Improved
-  url: https://www.nexusmods.com/morrowind/mods/48832
-  download_info:
-  - file_name: Diverse Khajiit
-  plugins:
-  - Diverse Khajiit.ESP
+  - name: Diverse Khajiit - New and Improved
+    url: https://www.nexusmods.com/morrowind/mods/48832
+    download_info:
+      - file_name: Diverse Khajiit
+    plugins:
+      - Diverse Khajiit.ESP
 
-- name: Sload and Slavers
-  url: https://www.nexusmods.com/morrowind/mods/49074
-  download_info:
-  - file_name: Sload and Slavers
-  - file_name: Sload and Slavers Upscaled Textures
-    extract_to: Upscaled Textures
-  data_paths:
-  - Sload and Slavers/Data Files
-  - Upscaled Textures
+  - name: Sload and Slavers
+    url: https://www.nexusmods.com/morrowind/mods/49074
+    download_info:
+      - file_name: Sload and Slavers
+      - file_name: Sload and Slavers Upscaled Textures
+        extract_to: Upscaled Textures
+    data_paths:
+      - Sload and Slavers/Data Files
+      - Upscaled Textures
 
-- name: Sloadic Transports
-  url: https://www.nexusmods.com/morrowind/mods/50546
-  download_info:
-  - file_name: Sloadic Transports
-  data_paths:
-  - Sloadic Transport/Data Files
-  plugins:
-  - Sloadic Transport.ESP
+  - name: Sloadic Transports
+    url: https://www.nexusmods.com/morrowind/mods/50546
+    download_info:
+      - file_name: Sloadic Transports
+    data_paths:
+      - Sloadic Transport/Data Files
+    plugins:
+      - Sloadic Transport.ESP
 
-- name: VEHK - Concept art Vivec replacer
-  url: https://www.nexusmods.com/morrowind/mods/53367
-  download_info:
-  - file_name: VEHK - Concept-art Vivec replacer
-  data_paths:
-  - Data files
+  - name: VEHK - Concept art Vivec replacer
+    url: https://www.nexusmods.com/morrowind/mods/53367
+    download_info:
+      - file_name: VEHK - Concept-art Vivec replacer
+    data_paths:
+      - Data files
 
-- name: By Azura
-  url: https://www.nexusmods.com/morrowind/mods/50567
-  download_info:
-  - file_name: By Azura
-  data_paths:
-  - 00 Core
-  - 01 High Res Textures
+  - name: By Azura
+    url: https://www.nexusmods.com/morrowind/mods/50567
+    download_info:
+      - file_name: By Azura
+    data_paths:
+      - 00 Core
+      - 01 High Res Textures
 
-- name: Umbra - Blademaster
-  url: https://www.nexusmods.com/morrowind/mods/43275
-  download_info:
-  - file_name: Umbra Blademaster
-  plugins:
-  - Umbra, Blademaster.ESP
+  - name: Umbra - Blademaster
+    url: https://www.nexusmods.com/morrowind/mods/43275
+    download_info:
+      - file_name: Umbra Blademaster
+    plugins:
+      - Umbra, Blademaster.ESP
 
-- name: Almalexia Redone
-  url: https://www.nexusmods.com/morrowind/mods/50265
-  download_info:
-  - file_name: Almalexia Replacer
-  - file_name: HD Textures
-    extract_to: HD
-  data_paths:
-  - ''
-  - HD
+  - name: Almalexia Redone
+    url: https://www.nexusmods.com/morrowind/mods/50265
+    download_info:
+      - file_name: Almalexia Replacer
+      - file_name: HD Textures
+        extract_to: HD
+    data_paths:
+      - ""
+      - HD
 
-- name: Royal Barenziah
-  url: https://www.nexusmods.com/morrowind/mods/53151
-  download_info:
-  - file_name: Royal Barenziah
-  data_paths:
-  - 00 Core
-  - 01 Option 3
-  plugins:
-  - Royal_Barenziah.ESP
+  - name: Royal Barenziah
+    url: https://www.nexusmods.com/morrowind/mods/53151
+    download_info:
+      - file_name: Royal Barenziah
+    data_paths:
+      - 00 Core
+      - 01 Option 3
+    plugins:
+      - Royal_Barenziah.ESP
 
-- name: Interesting Outfits - Solstheim
-  url: https://www.nexusmods.com/morrowind/mods/53124
-  download_info:
-  - file_name: Interesting Outfits - Solstheim
-  data_paths:
-  - 1. Core
-  - 2. TOTSP Compatibility
-  plugins:
-  - IO - Solstheim.ESP
+  - name: Interesting Outfits - Solstheim
+    url: https://www.nexusmods.com/morrowind/mods/53124
+    download_info:
+      - file_name: Interesting Outfits - Solstheim
+    data_paths:
+      - 1. Core
+      - 2. TOTSP Compatibility
+    plugins:
+      - IO - Solstheim.ESP
 
-- name: Interesting Outfits - Tamriel Rebuilt Guards
-  url: https://www.nexusmods.com/morrowind/mods/55776
-  download_info:
-  - file_name: Interesting Outfits - Tamriel Rebuilt Guards
-  plugins:
-  - IO - TR Imperial Guards.ESP
+  - name: Interesting Outfits - Tamriel Rebuilt Guards
+    url: https://www.nexusmods.com/morrowind/mods/55776
+    download_info:
+      - file_name: Interesting Outfits - Tamriel Rebuilt Guards
+    plugins:
+      - IO - TR Imperial Guards.ESP
 
-- name: Shady Sam
-  url: https://www.nexusmods.com/morrowind/mods/53304
-  download_info:
-  - file_name: Shady Sam
-  data_paths:
-  - Shady Sam
-  plugins:
-  - Shady Sam.ESP
+  - name: Shady Sam
+    url: https://www.nexusmods.com/morrowind/mods/53304
+    download_info:
+      - file_name: Shady Sam
+    data_paths:
+      - Shady Sam
+    plugins:
+      - Shady Sam.ESP
 
-- name: M'Aiq on the Mainland and other mods
-  url: https://www.nexusmods.com/morrowind/mods/45674
-  download_info:
-  - file_name: M'Aiq on the Mainland
-  plugins:
-  - MaiqMainland.esp
+  - name: M'Aiq on the Mainland and other mods
+    url: https://www.nexusmods.com/morrowind/mods/45674
+    download_info:
+      - file_name: M'Aiq on the Mainland
+    plugins:
+      - MaiqMainland.esp
 
-- name: FMBP - Greet Service
-  url: https://www.nexusmods.com/morrowind/mods/50937
-  download_info:
-  - file_name: Finished Morrowind - CORE PATCH - Part 4 - More Audio Dialogue for Service NPCs
-  plugins:
-  - Finished Morrowind - CORE PATCH - Part 4 - More Audio Dialogue for Service NPCs.ESP
+  - name: FMBP - Greet Service
+    url: https://www.nexusmods.com/morrowind/mods/50937
+    download_info:
+      - file_name: Finished Morrowind - CORE PATCH - Part 4 - More Audio Dialogue for Service NPCs
+    plugins:
+      - Finished Morrowind - CORE PATCH - Part 4 - More Audio Dialogue for Service NPCs.ESP
 
-- name: LDM - Context Matters
-  url: https://www.nexusmods.com/morrowind/mods/48273
-  download_info:
-  - file_name: LDM - Context Matters
-  plugins:
-  - LDM - Context Matters 1.7.ESP
+  - name: LDM - Context Matters
+    url: https://www.nexusmods.com/morrowind/mods/48273
+    download_info:
+      - file_name: LDM - Context Matters
+    plugins:
+      - LDM - Context Matters 1.7.ESP
 
-- name: Djangos Dialogue 1.4
-  url: https://www.nexusmods.com/morrowind/mods/47253
-  download_info:
-  - file_name: Djangos Dialogue
-  data_paths:
-  - Djangos Dialogue 1.44
-  plugins:
-  - Djangos Dialogue.ESP
+  - name: Djangos Dialogue 1.4
+    url: https://www.nexusmods.com/morrowind/mods/47253
+    download_info:
+      - file_name: Djangos Dialogue
+    data_paths:
+      - Djangos Dialogue 1.44
+    plugins:
+      - Djangos Dialogue.ESP

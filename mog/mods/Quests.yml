@@ -1,258 +1,257 @@
 category: Quests
 
 mods:
-- name: Stormkiss Reforged
-  url: https://www.nexusmods.com/morrowind/mods/44565
-  download_info:
-  - file_name: Stormkiss v1.1
-  data_paths:
-  - Stormkiss Reforged/Data Files
+  - name: Stormkiss Reforged
+    url: https://www.nexusmods.com/morrowind/mods/44565
+    download_info:
+      - file_name: Stormkiss v1.1
+    data_paths:
+      - Stormkiss Reforged/Data Files
 
-- name: AFFresh
-  url: https://www.nexusmods.com/morrowind/mods/53006
-  download_info:
-  - file_name: AFFresh_1.3b.zip
-  plugins:
-  - AFFresh.esm
+  - name: AFFresh
+    url: https://www.nexusmods.com/morrowind/mods/53006
+    download_info:
+      - file_name: AFFresh_1.3b.zip
+    plugins:
+      - AFFresh.esm
 
-- name: Fargoth Says Hello
-  url: https://www.nexusmods.com/morrowind/mods/52751
-  download_info:
-  - file_name: AFFargoth.zip
-  plugins:
-  - AFFargoth.ESP
+  - name: Fargoth Says Hello
+    url: https://www.nexusmods.com/morrowind/mods/52751
+    download_info:
+      - file_name: AFFargoth.zip
+    plugins:
+      - AFFargoth.ESP
 
-- name: The Mananaut's Message
-  url: https://www.nexusmods.com/morrowind/mods/52896
-  download_info:
-  - file_name: The Mananaut's Message
-  data_paths:
-  - 00 Core
-  - 01 OpenMW Addons
-  - 03 HD Textures
-  plugins:
-  - TheMananautsMessage.ESP
+  - name: The Mananaut's Message
+    url: https://www.nexusmods.com/morrowind/mods/52896
+    download_info:
+      - file_name: The Mananaut's Message
+    data_paths:
+      - 00 Core
+      - 01 OpenMW Addons
+      - 03 HD Textures
+    plugins:
+      - TheMananautsMessage.ESP
 
-- name: Red Wisdom - An Ashlander Prophecy
-  url: https://www.nexusmods.com/morrowind/mods/54525
-  download_info:
-  - file_name: Red Wisdom
-  data_paths:
-  - 00 Core
-  - 01 HD Textures
-  - 02 OpenMW Add-Ons
-  plugins:
-  - Red Wisdom.esp
+  - name: Red Wisdom - An Ashlander Prophecy
+    url: https://www.nexusmods.com/morrowind/mods/54525
+    download_info:
+      - file_name: Red Wisdom
+    data_paths:
+      - 00 Core
+      - 01 HD Textures
+      - 02 OpenMW Add-Ons
+    plugins:
+      - Red Wisdom.esp
 
-- name: Master Index Redux
-  url: https://www.nexusmods.com/morrowind/mods/48977
-  download_info:
-  - file_name: MasterIndexRedux
+  - name: Master Index Redux
+    url: https://www.nexusmods.com/morrowind/mods/48977
+    download_info:
+      - file_name: MasterIndexRedux
 
-- name: Secrets of the Crystal City
-  url: https://www.nexusmods.com/morrowind/mods/51932
-  download_info:
-  - file_name: Secrets of the Crystal City
-  data_paths:
-  - 00 Core
-  - 01 HD Textures
-  plugins:
-  - SecretsOfTheCrystalCity.esp
+  - name: Secrets of the Crystal City
+    url: https://www.nexusmods.com/morrowind/mods/51932
+    download_info:
+      - file_name: Secrets of the Crystal City
+    data_paths:
+      - 00 Core
+      - 01 HD Textures
+    plugins:
+      - SecretsOfTheCrystalCity.esp
 
-- name: Caldera Mine Expanded
-  url: https://www.nexusmods.com/morrowind/mods/45194
-  download_info:
-  - file_name: Caldera Mine Expanded
-  data_paths:
-  - Caldera Mine Expanded
-  plugins:
-  - DD_Caldera_Expansion.esp
+  - name: Caldera Mine Expanded
+    url: https://www.nexusmods.com/morrowind/mods/45194
+    download_info:
+      - file_name: Caldera Mine Expanded
+    data_paths:
+      - Caldera Mine Expanded
+    plugins:
+      - DD_Caldera_Expansion.esp
 
-- name: The Search for the White Wave
-  url: https://www.nexusmods.com/morrowind/mods/52301
-  download_info:
-  - file_name: The Search for the White Wave
-  data_paths:
-  - 03 Music (OpenMW - S3maphore)
-  - 00 Core
-  - 02 HD Textures
-  - 01 OpenMW Addons
-  plugins:
-  - TheSearchForTheWhiteWave.ESP
+  - name: The Search for the White Wave
+    url: https://www.nexusmods.com/morrowind/mods/52301
+    download_info:
+      - file_name: The Search for the White Wave
+    data_paths:
+      - 03 Music (OpenMW - S3maphore)
+      - 00 Core
+      - 02 HD Textures
+      - 01 OpenMW Addons
+    plugins:
+      - TheSearchForTheWhiteWave.ESP
 
-- name: Aspect of Azura
-  url: https://www.nexusmods.com/morrowind/mods/51079
-  download_info:
-  - file_name: Aspect of Azura
-  data_paths:
-  - 00 Core
-  - 01 OpenMW Addons
-  plugins:
-  - Aspect of Azura.ESP
+  - name: Aspect of Azura
+    url: https://www.nexusmods.com/morrowind/mods/51079
+    download_info:
+      - file_name: Aspect of Azura
+    data_paths:
+      - 00 Core
+      - 01 OpenMW Addons
+    plugins:
+      - Aspect of Azura.ESP
 
-- name: Investigations at Tel Eurus
-  url: https://www.nexusmods.com/morrowind/mods/51938
-  download_info:
-  - file_name: Tel Eurus
-  data_paths:
-  - Data Files
-  - Extras for OpenMW only
-  plugins:
-  - Tel_Eurus.esp
+  - name: Investigations at Tel Eurus
+    url: https://www.nexusmods.com/morrowind/mods/51938
+    download_info:
+      - file_name: Tel Eurus
+    data_paths:
+      - Data Files
+      - Extras for OpenMW only
+    plugins:
+      - Tel_Eurus.esp
+  # This mod is cursed
+  # - name: Lord of Rebirth
+  #   url: https://www.nexusmods.com/morrowind/mods/59754
+  #   download_info:
+  #   - file_name: Lord Of Rebirth
+  #     extract_to: main
+  #   - file_name: OpenMW High Quality Icons
+  #     extract_to: hqicons
+  #   data_paths:
+  #   - main
+  #   - hqicons
+  #   plugins:
+  #   - Lord of Rebirth.ESP
 
-# This mod is cursed
-# - name: Lord of Rebirth
-#   url: https://www.nexusmods.com/morrowind/mods/59754
-#   download_info:
-#   - file_name: Lord Of Rebirth
-#     extract_to: main
-#   - file_name: OpenMW High Quality Icons
-#     extract_to: hqicons
-#   data_paths:
-#   - main
-#   - hqicons
-#   plugins:
-#   - Lord of Rebirth.ESP
+  - name: Frozen in Time
+    url: https://www.nexusmods.com/morrowind/mods/50077
+    download_info:
+      - file_name: Frozen in Time
+    plugins:
+      - Frozen in Time.esp
 
-- name: Frozen in Time
-  url: https://www.nexusmods.com/morrowind/mods/50077
-  download_info:
-  - file_name: Frozen in Time
-  plugins:
-  - Frozen in Time.esp
+  - name: Aether Pirate's Discovery
+    url: https://www.nexusmods.com/morrowind/mods/53320
+    download_info:
+      - file_name: Aether Pirate's Discovery (OpenMW)
+    plugins:
+      - Aether Pirate's Discovery.omwaddon
 
-- name: Aether Pirate's Discovery
-  url: https://www.nexusmods.com/morrowind/mods/53320
-  download_info:
-  - file_name: Aether Pirate's Discovery (OpenMW)
-  plugins:
-  - Aether Pirate's Discovery.omwaddon
+  - name: Mudcrab Imports
+    url: https://www.nexusmods.com/morrowind/mods/49463
+    download_info:
+      - file_name: Mudcrab Imports (No Better Bodies)
+    plugins:
+      - Mudcrab Imports NoBB.esp
 
-- name: Mudcrab Imports
-  url: https://www.nexusmods.com/morrowind/mods/49463
-  download_info:
-  - file_name: Mudcrab Imports (No Better Bodies)
-  plugins:
-  - Mudcrab Imports NoBB.esp
+  - name: A Cold Cell
+    url: https://www.nexusmods.com/morrowind/mods/52832
+    download_info:
+      - file_name: A Cold Cell v1.0.4
+    data_paths:
+      - 00 Core
+    plugins:
+      - A Cold Cell.ESP
 
-- name: A Cold Cell
-  url: https://www.nexusmods.com/morrowind/mods/52832
-  download_info:
-  - file_name: A Cold Cell v1.0.4
-  data_paths:
-  - 00 Core
-  plugins:
-  - A Cold Cell.ESP
+  - name: Galen's Quest for Truth
+    url: https://www.nexusmods.com/morrowind/mods/52884
+    download_info:
+      - file_name: Galen's Quest for Truth
+    plugins:
+      - Galen's Quest for Truth.ESP
 
-- name: Galen's Quest for Truth
-  url: https://www.nexusmods.com/morrowind/mods/52884
-  download_info:
-  - file_name: Galen's Quest for Truth
-  plugins:
-  - Galen's Quest for Truth.ESP
+  - name: Ebonheart Underworks
+    url: https://www.nexusmods.com/morrowind/mods/47272
+    download_info:
+      - file_name: Ebonheart_Underworks
+    plugins:
+      - Ebonheart_Underworks.esp
 
-- name: Ebonheart Underworks
-  url: https://www.nexusmods.com/morrowind/mods/47272
-  download_info:
-  - file_name: Ebonheart_Underworks
-  plugins:
-  - Ebonheart_Underworks.esp
+  - name: Roaring Arena - Betting and Bloodletting
+    url: https://www.nexusmods.com/morrowind/mods/50954
+    download_info:
+      - file_name: Roaring Arena
+      - file_name: Missing Assets Hotfix
+    data_paths:
+      - 00 Core
+      - 02 BCoM/01 Default BCoM
+      - 07 Optional Plugins
+      - 07 Optional Plugins/BloodmoonOptions/02 TombOfTheSnowPrince
+      - Data Files
+    plugins:
+      - RoaringArena.esm
+      - RoaringArena.ESP
+      - RoaringArena_MageRobes.ESP
+      - RoaringArena_OAAB.ESP
+      - RoaringArena_SkyrimHomeOfTheNords.ESP
+      - RoaringArena_ProjectCyrodiil.ESP
+      - RoaringArena_Solstheim.ESP
 
-- name: Roaring Arena - Betting and Bloodletting
-  url: https://www.nexusmods.com/morrowind/mods/50954
-  download_info:
-  - file_name: Roaring Arena
-  - file_name: Missing Assets Hotfix
-  data_paths:
-  - 00 Core
-  - 02 BCoM/01 Default BCoM
-  - 07 Optional Plugins
-  - 07 Optional Plugins/BloodmoonOptions/02 TombOfTheSnowPrince
-  - Data Files
-  plugins:
-  - RoaringArena.esm
-  - RoaringArena.ESP
-  - RoaringArena_MageRobes.ESP
-  - RoaringArena_OAAB.ESP
-  - RoaringArena_SkyrimHomeOfTheNords.ESP
-  - RoaringArena_ProjectCyrodiil.ESP
-  - RoaringArena_Solstheim.ESP
+  - name: Early Transport to Mournhold
+    url: https://www.nexusmods.com/morrowind/mods/47985
+    download_info:
+      - file_name: Early Transport to Mournhold
+    plugins:
+      - Early Transport to Mournhold.esp
 
-- name: Early Transport to Mournhold
-  url: https://www.nexusmods.com/morrowind/mods/47985
-  download_info:
-  - file_name: Early Transport to Mournhold
-  plugins:
-  - Early Transport to Mournhold.esp
+  - name: Tamriel Rebuilt Introduction Quest - Help a Khajiit reach the City of Good People
+    url: https://www.nexusmods.com/morrowind/mods/50445
+    download_info:
+      - file_name: TR Dra-Vashai418
+    plugins:
+      - TR_Dra-VashaI-V2.esp
 
-- name: Tamriel Rebuilt Introduction Quest - Help a Khajiit reach the City of Good People
-  url: https://www.nexusmods.com/morrowind/mods/50445
-  download_info:
-  - file_name: TR Dra-Vashai418
-  plugins:
-  - TR_Dra-VashaI-V2.esp
+  - name: Keelhouse - A quest and house mod for Tamriel Rebuilt
+    url: https://www.nexusmods.com/morrowind/mods/53395
+    download_info:
+      - file_name: RPGL_KeelHouse
+    plugins:
+      - Keelhouse.ESP
 
-- name: Keelhouse - A quest and house mod for Tamriel Rebuilt
-  url: https://www.nexusmods.com/morrowind/mods/53395
-  download_info:
-  - file_name: RPGL_KeelHouse
-  plugins:
-  - Keelhouse.ESP
+  - name: The Patchwork Airship - Fleshing out a vanilla quest
+    url: https://www.nexusmods.com/morrowind/mods/53133
+    download_info:
+      - file_name: The Patchwork Airship
+    data_paths:
+      - 00 Core
+      - 01 Tomb of the Snow Prince Patch
+    plugins:
+      - Dwemer Airship.ESP
+      - Dwemer Airship_Exterior.ESP
 
-- name: The Patchwork Airship - Fleshing out a vanilla quest
-  url: https://www.nexusmods.com/morrowind/mods/53133
-  download_info:
-  - file_name: The Patchwork Airship
-  data_paths:
-  - 00 Core
-  - 01 Tomb of the Snow Prince Patch
-  plugins:
-  - Dwemer Airship.ESP
-  - Dwemer Airship_Exterior.ESP
+  - name: Immersive Imperial Skirt
+    url: https://baturin.org/misc/morrowind-mods/#imperial-skirt
+    download_info:
+      - file_name: Immersive Imperial Skirt
+    data_paths:
+      - imperial_skirt
+    plugins:
+      - Clean_imperial_skirt.esp
 
-- name: Immersive Imperial Skirt
-  url: https://baturin.org/misc/morrowind-mods/#imperial-skirt
-  download_info:
-  - file_name: Immersive Imperial Skirt
-  data_paths:
-  - imperial_skirt
-  plugins:
-  - Clean_imperial_skirt.esp
+  - name: Gondolier's License
+    url: https://baturin.org/misc/morrowind-mods/#gondoliers-license
+    download_info:
+      - file_name: Gondolier's License
+    data_paths:
+      - gondoliers_license
+    plugins:
+      - gondoliers_license.esp
 
-- name: Gondolier's License
-  url: https://baturin.org/misc/morrowind-mods/#gondoliers-license
-  download_info:
-  - file_name: Gondolier's License
-  data_paths:
-  - gondoliers_license
-  plugins:
-  - gondoliers_license.esp
+  - name: Uncharted Artifacts
+    url: https://www.nexusmods.com/morrowind/mods/49281
+    download_info:
+      - file_name: Uncharted Artifacts
 
-- name: Uncharted Artifacts
-  url: https://www.nexusmods.com/morrowind/mods/49281
-  download_info:
-  - file_name: Uncharted Artifacts
+  - name: Sorcerer of Alteration
+    url: https://www.nexusmods.com/morrowind/mods/51224
+    download_info:
+      - file_name: Sorcerer of Alteration
+    plugins:
+      - Sorcerer of Alteration.ESP
 
-- name: Sorcerer of Alteration
-  url: https://www.nexusmods.com/morrowind/mods/51224
-  download_info:
-  - file_name: Sorcerer of Alteration
-  plugins:
-  - Sorcerer of Alteration.ESP
+  - name: Questline - Vivec Lighthouse Keeper
+    url: https://www.nexusmods.com/morrowind/mods/52120
+    download_info:
+      - file_name: Vivec Lighthouse Questline
+    plugins:
+      - Vivec Lighthouse Questline.esp
 
-- name: Questline - Vivec Lighthouse Keeper
-  url: https://www.nexusmods.com/morrowind/mods/52120
-  download_info:
-  - file_name: Vivec Lighthouse Questline
-  plugins:
-  - Vivec Lighthouse Questline.esp
-
-- name: Lucid Disturbing Dreams
-  url: https://www.nexusmods.com/morrowind/mods/55705
-  download_info:
-  - file_name: Lucid Disturbing Dreams
-  data_paths:
-  - Data Files
-  plugins:
-  - Lucid Disturbing Dreams.ESP
-  - kd_ldd.omwscripts
+  - name: Lucid Disturbing Dreams
+    url: https://www.nexusmods.com/morrowind/mods/55705
+    download_info:
+      - file_name: Lucid Disturbing Dreams
+    data_paths:
+      - Data Files
+    plugins:
+      - Lucid Disturbing Dreams.ESP
+      - kd_ldd.omwscripts

@@ -1,111 +1,111 @@
 category: Architecture
 
 mods:
-- name: White Suran 2 - MD Edition
-  url: https://www.nexusmods.com/morrowind/mods/44153
-  download_info:
-  - file_name: Whtie Suran 2 - MD Edition
-  data_paths:
-  - 00 Core
-  - 02 Glow in the Dahrk
-  - 03 HD Textures
+  - name: White Suran 2 - MD Edition
+    url: https://www.nexusmods.com/morrowind/mods/44153
+    download_info:
+      - file_name: Whtie Suran 2 - MD Edition
+    data_paths:
+      - 00 Core
+      - 02 Glow in the Dahrk
+      - 03 HD Textures
 
-- name: Dwemer Mesh Improvement
-  url: https://www.nexusmods.com/morrowind/mods/43101
-  download_info:
-  - file_name: DMI_2017.07.15
+  - name: Dwemer Mesh Improvement
+    url: https://www.nexusmods.com/morrowind/mods/43101
+    download_info:
+      - file_name: DMI_2017.07.15
 
-- name: Dwemer Mesh Improvements Revamped
-  url: https://www.nexusmods.com/morrowind/mods/51525
-  download_info:
-  - file_name: Dwemer Mesh Improvement - Revamped
+  - name: Dwemer Mesh Improvements Revamped
+    url: https://www.nexusmods.com/morrowind/mods/51525
+    download_info:
+      - file_name: Dwemer Mesh Improvement - Revamped
 
-- name: OAAB Dwemer Pavements
-  url: https://www.nexusmods.com/morrowind/mods/50237
-  download_info:
-  - file_name: OAAB Dwemer Pavements
-  data_paths:
-  - 00 Core
-  - 01 Trackless Grazelands Patch
-  plugins:
-  - OAAB Dwemer Pavements.esm
-  - Trackless Grazeland OAAB Dwemer Pavements Patch.ESP
+  - name: OAAB Dwemer Pavements
+    url: https://www.nexusmods.com/morrowind/mods/50237
+    download_info:
+      - file_name: OAAB Dwemer Pavements
+    data_paths:
+      - 00 Core
+      - 01 Trackless Grazelands Patch
+    plugins:
+      - OAAB Dwemer Pavements.esm
+      - Trackless Grazeland OAAB Dwemer Pavements Patch.ESP
 
-- name: Ghastly Glowyfence
-  url: https://www.nexusmods.com/morrowind/mods/47982
-  download_info:
-  - file_name: Ghastly Glowyfence
-  plugins:
-  - ghastly gg.esp
+  - name: Ghastly Glowyfence
+    url: https://www.nexusmods.com/morrowind/mods/47982
+    download_info:
+      - file_name: Ghastly Glowyfence
+    plugins:
+      - ghastly gg.esp
 
-- name: Dragon Statue Revisited
-  url: https://www.nexusmods.com/morrowind/mods/50561
-  download_info:
-  - file_name: Dragon Statue Revisited
-  data_paths:
-  - 00 Core
+  - name: Dragon Statue Revisited
+    url: https://www.nexusmods.com/morrowind/mods/50561
+    download_info:
+      - file_name: Dragon Statue Revisited
+    data_paths:
+      - 00 Core
 
-- name: Dragon Statue Re-Revisted (De-Goofified Edition)
-  url: https://www.nexusmods.com/morrowind/mods/52061
-  download_info:
-  - file_name: Dragon Statue Re-Revisted (De-Goofified Edition)
-  data_paths:
-  - Dragon Statue Re-Revisted (De-Goofified Edition)
+  - name: Dragon Statue Re-Revisted (De-Goofified Edition)
+    url: https://www.nexusmods.com/morrowind/mods/52061
+    download_info:
+      - file_name: Dragon Statue Re-Revisted (De-Goofified Edition)
+    data_paths:
+      - Dragon Statue Re-Revisted (De-Goofified Edition)
 
-- name: Unique Banners and Signs Replacer
-  url: https://www.nexusmods.com/morrowind/mods/57577
-  download_info:
-  - file_name: Unique Banners and Signs
-  plugins:
-  - Unique Banners and Signs.esp
-  - Unique Banners and Signs Rat in the Pot.esp
+  - name: Unique Banners and Signs Replacer
+    url: https://www.nexusmods.com/morrowind/mods/57577
+    download_info:
+      - file_name: Unique Banners and Signs
+    plugins:
+      - Unique Banners and Signs.esp
+      - Unique Banners and Signs Rat in the Pot.esp
 
-- name: Unique Tavern Signs for Tamriel Rebuilt
-  url: https://www.nexusmods.com/morrowind/mods/46794
-  download_info:
-  - file_name: Unique_Tavern_Signs_COLORED_v2
-  plugins:
-  - Unique_Tavern_Signs_for_Tamriel_Rebuilt_v2.ESP
+  - name: Unique Tavern Signs for Tamriel Rebuilt
+    url: https://www.nexusmods.com/morrowind/mods/46794
+    download_info:
+      - file_name: Unique_Tavern_Signs_COLORED_v2
+    plugins:
+      - Unique_Tavern_Signs_for_Tamriel_Rebuilt_v2.ESP
 
-- name: Swayland
-  url: https://www.nexusmods.com/morrowind/mods/48854
-  download_info:
-  - file_name: Swayland - Main Download
+  - name: Swayland
+    url: https://www.nexusmods.com/morrowind/mods/48854
+    download_info:
+      - file_name: Swayland - Main Download
 
-- name: Glow in the Dahrk
-  url: https://www.nexusmods.com/morrowind/mods/45886
-  download_info:
-  - file_name: Glow in the Dahrk
-  data_paths:
-  - 00 Core
-  - 01 Hi Res Window Texture Replacer
-  - 04 Raven Rock Glass Windows
-  - 07 Telvanni Tower Interior Glow OpenMW
+  - name: Glow in the Dahrk
+    url: https://www.nexusmods.com/morrowind/mods/45886
+    download_info:
+      - file_name: Glow in the Dahrk
+    data_paths:
+      - 00 Core
+      - 01 Hi Res Window Texture Replacer
+      - 04 Raven Rock Glass Windows
+      - 07 Telvanni Tower Interior Glow OpenMW
 
-- name: Nords shut your windows
-  url: https://www.nexusmods.com/morrowind/mods/50087
-  download_info:
-  - file_name: Nords shut your windows
-  data_paths:
-  - 00 Core
-  - 03 Vanilla style sunrays
+  - name: Nords shut your windows
+    url: https://www.nexusmods.com/morrowind/mods/50087
+    download_info:
+      - file_name: Nords shut your windows
+    data_paths:
+      - 00 Core
+      - 03 Vanilla style sunrays
 
-- name: Magical lights for Telvanni
-  url: https://www.nexusmods.com/morrowind/mods/49453
-  download_info:
-  - file_name: OAAB - Magical Lights
-  data_paths:
-  - OAAB - Magical Lights/00 Core
-  - OAAB - Magical Lights/01 BCoM Version
-  - OAAB - Magical Lights/02 Telvanni Council House Pathway
-  plugins:
-  - Magical Lights.ESP
-  - Magical Lights_Council Pathway.ESP
+  - name: Magical lights for Telvanni
+    url: https://www.nexusmods.com/morrowind/mods/49453
+    download_info:
+      - file_name: OAAB - Magical Lights
+    data_paths:
+      - OAAB - Magical Lights/00 Core
+      - OAAB - Magical Lights/01 BCoM Version
+      - OAAB - Magical Lights/02 Telvanni Council House Pathway
+    plugins:
+      - Magical Lights.ESP
+      - Magical Lights_Council Pathway.ESP
 
-- name: Elodie's Mystic Minimods
-  url: https://www.nexusmods.com/morrowind/mods/47266
-  download_info:
-  - file_name: HD Unique Banners and Signs
-    extract_to: HDUniqueBannersandSigns
-  data_paths:
-  - HDUniqueBannersandSigns
+  - name: Elodie's Mystic Minimods
+    url: https://www.nexusmods.com/morrowind/mods/47266
+    download_info:
+      - file_name: HD Unique Banners and Signs
+        extract_to: HDUniqueBannersandSigns
+    data_paths:
+      - HDUniqueBannersandSigns

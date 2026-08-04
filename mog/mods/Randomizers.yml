@@ -1,20 +1,20 @@
 category: Randomizers
 
 mods:
-- name: Suran Dancer Randomized
-  url: https://www.nexusmods.com/morrowind/mods/53389
-  download_info:
-  - file_name: Dancers Randomized
-  plugins:
-  - dgrandom.esp
+  - name: Suran Dancer Randomized
+    url: https://www.nexusmods.com/morrowind/mods/53389
+    download_info:
+      - file_name: Dancers Randomized
+    plugins:
+      - dgrandom.esp
 
-- name: 'Wandering Creature Merchants: Lua Edition'
-  url: https://modding-openmw.gitlab.io/wandering-creature-merchants-lua-edition/
-  download_info:
-  - file_name: 'Wandering Creature Merchants: Lua Edition'
-  data_paths:
-  - 00 Core
-  - 01 Extra
-  plugins:
-  - wandering-creature-merchants-lua-edition.omwscripts
-  - wandering-creature-merchants-lua-edition.omwaddon
+  - name: 'Wandering Creature Merchants: Lua Edition'
+    url: https://modding-openmw.gitlab.io/wandering-creature-merchants-lua-edition/
+    download_info:
+      - file_name: 'Wandering Creature Merchants: Lua Edition'
+    data_paths:
+      - 00 Core
+      - 01 Extra
+    plugins:
+      - wandering-creature-merchants-lua-edition.omwscripts
+      - wandering-creature-merchants-lua-edition.omwaddon

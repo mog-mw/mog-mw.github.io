@@ -1,237 +1,237 @@
 category: Landscape
 
 mods:
-- name: Mistify
-  url: https://www.nexusmods.com/morrowind/mods/48112
-  download_info:
-  - file_name: Mistify
-  data_paths:
-  - 00 Core
-  plugins:
-  - mistify.ESP
+  - name: Mistify
+    url: https://www.nexusmods.com/morrowind/mods/48112
+    download_info:
+      - file_name: Mistify
+    data_paths:
+      - 00 Core
+    plugins:
+      - mistify.ESP
 
-- name: OAAB - Foyada Mamaea
-  url: https://www.nexusmods.com/morrowind/mods/46424
-  download_info:
-  - file_name: OAAB - Foyada Mamaea
+  - name: OAAB - Foyada Mamaea
+    url: https://www.nexusmods.com/morrowind/mods/46424
+    download_info:
+      - file_name: OAAB - Foyada Mamaea
 
-- name: OAAB - The Ashen Divide
-  url: https://www.nexusmods.com/morrowind/mods/49047
-  download_info:
-  - file_name: OAAB - The Ashen Divide
-  plugins:
-  - OAAB - The Ashen Divide.ESP
+  - name: OAAB - The Ashen Divide
+    url: https://www.nexusmods.com/morrowind/mods/49047
+    download_info:
+      - file_name: OAAB - The Ashen Divide
+    plugins:
+      - OAAB - The Ashen Divide.ESP
 
-- name: Faces of Vel - Ash Mire
-  url: https://www.nexusmods.com/morrowind/mods/44200
-  download_info:
-  - file_name: Faces of Vel - Ash Mire
-  data_paths:
-  - Data Files
-  plugins:
-  - Faces of Vel - Ash Mire.ESP
+  - name: Faces of Vel - Ash Mire
+    url: https://www.nexusmods.com/morrowind/mods/44200
+    download_info:
+      - file_name: Faces of Vel - Ash Mire
+    data_paths:
+      - Data Files
+    plugins:
+      - Faces of Vel - Ash Mire.ESP
 
-- name: A River of Fire
-  url: https://www.nexusmods.com/morrowind/mods/54248
-  download_info:
-  - file_name: ARiverOfFireStepped
-  plugins:
-  - DM_RiverOfFire.ESP
+  - name: A River of Fire
+    url: https://www.nexusmods.com/morrowind/mods/54248
+    download_info:
+      - file_name: ARiverOfFireStepped
+    plugins:
+      - DM_RiverOfFire.ESP
 
-- name: Southern Ashlands Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/55254
-  download_info:
-  - file_name: SouthAshlandsTrees
-  - file_name: SouthAshlandsWall
-  plugins:
-  - DM_SouthernAshlandsTrees.ESP
-  - DM_AshlandsWall.ESP
+  - name: Southern Ashlands Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/55254
+    download_info:
+      - file_name: SouthAshlandsTrees
+      - file_name: SouthAshlandsWall
+    plugins:
+      - DM_SouthernAshlandsTrees.ESP
+      - DM_AshlandsWall.ESP
 
-- name: Strider Burial
-  url: https://www.nexusmods.com/morrowind/mods/47661
-  download_info:
-  - file_name: Strider Burial
-    actions:
-    - action: rename
-      src: 00 Core/Meshes/Anu/Strider/mabrigash_helm_gnd.nif
-      dst: 00 Core/Meshes/Anu/Strider/mab_helm_g.nif
-  data_paths:
-  - 00 Core
-  - 01 For Vanilla Rocks
-  plugins:
-  - Strider Burial.esp
+  - name: Strider Burial
+    url: https://www.nexusmods.com/morrowind/mods/47661
+    download_info:
+      - file_name: Strider Burial
+        actions:
+          - action: rename
+            src: 00 Core/Meshes/Anu/Strider/mabrigash_helm_gnd.nif
+            dst: 00 Core/Meshes/Anu/Strider/mab_helm_g.nif
+    data_paths:
+      - 00 Core
+      - 01 For Vanilla Rocks
+    plugins:
+      - Strider Burial.esp
 
-- name: Concept Art Molag Amur Region - The Great Scathes
-  url: https://www.nexusmods.com/morrowind/mods/52971
-  download_info:
-  - file_name: Molag Amur Overhaul
-  data_paths:
-  - 00 Core
-  plugins:
-  - RP_Great_Scathes.ESP
+  - name: Concept Art Molag Amur Region - The Great Scathes
+    url: https://www.nexusmods.com/morrowind/mods/52971
+    download_info:
+      - file_name: Molag Amur Overhaul
+    data_paths:
+      - 00 Core
+    plugins:
+      - RP_Great_Scathes.ESP
 
-- name: The Mountain of Fear
-  url: https://www.nexusmods.com/morrowind/mods/52859
-  download_info:
-  - file_name: The Mountain of Fear
-  plugins:
-  - The Mountain of Fear.ESP
+  - name: The Mountain of Fear
+    url: https://www.nexusmods.com/morrowind/mods/52859
+    download_info:
+      - file_name: The Mountain of Fear
+    plugins:
+      - The Mountain of Fear.ESP
 
-- name: Bal'laku - The Lonely Towers
-  url: https://www.nexusmods.com/morrowind/mods/51060
-  download_info:
-  - file_name: Bal'laku - Vanilla Friendly Version
-  plugins:
-  - Bal'laku - The Lonely Towers.esp
+  - name: Bal'laku - The Lonely Towers
+    url: https://www.nexusmods.com/morrowind/mods/51060
+    download_info:
+      - file_name: Bal'laku - Vanilla Friendly Version
+    plugins:
+      - Bal'laku - The Lonely Towers.esp
 
-- name: Suran - Ashlands Barrier
-  url: https://www.nexusmods.com/morrowind/mods/53287
-  download_info:
-  - file_name: Suran-AshlandsBarrier1.2
-  plugins:
-  - SuranBarrierRocks.ESP
+  - name: Suran - Ashlands Barrier
+    url: https://www.nexusmods.com/morrowind/mods/53287
+    download_info:
+      - file_name: Suran-AshlandsBarrier1.2
+    plugins:
+      - SuranBarrierRocks.ESP
 
-- name: Gates of Ascadia
-  url: https://www.nexusmods.com/morrowind/mods/53547
-  download_info:
-  - file_name: Gates of Ascadia
-  plugins:
-  - Gates of Ascadia.ESP
+  - name: Gates of Ascadia
+    url: https://www.nexusmods.com/morrowind/mods/53547
+    download_info:
+      - file_name: Gates of Ascadia
+    plugins:
+      - Gates of Ascadia.ESP
 
-- name: Witness Structure - The Seawall of Vivec
-  url: https://www.nexusmods.com/morrowind/mods/53544
-  download_info:
-  - file_name: Witness Structure
-  data_paths:
-  - 00 Core
-  - 03 Little Landscapes Vivec Islands Patch
-  plugins:
-  - Great Seawall of Vivec.ESP
-  - Little Landscape Vivec Islands Plain.ESP
+  - name: Witness Structure - The Seawall of Vivec
+    url: https://www.nexusmods.com/morrowind/mods/53544
+    download_info:
+      - file_name: Witness Structure
+    data_paths:
+      - 00 Core
+      - 03 Little Landscapes Vivec Islands Patch
+    plugins:
+      - Great Seawall of Vivec.ESP
+      - Little Landscape Vivec Islands Plain.ESP
 
-- name: Vivec Lighthouse
-  url: https://www.nexusmods.com/morrowind/mods/52019
-  download_info:
-  - file_name: Vivec Lighthouse
-  data_paths:
-  - 00 Core
-  plugins:
-  - Vivec_Lighthouse.ESP
+  - name: Vivec Lighthouse
+    url: https://www.nexusmods.com/morrowind/mods/52019
+    download_info:
+      - file_name: Vivec Lighthouse
+    data_paths:
+      - 00 Core
+    plugins:
+      - Vivec_Lighthouse.ESP
 
-- name: Little Landscapes - Bitter Coast Waterway
-  url: https://www.nexusmods.com/morrowind/mods/53262
-  download_info:
-  - file_name: Bitter Coast Waterway BC-ified
-  plugins:
-  - Bitter Coast Waterway.esp
+  - name: Little Landscapes - Bitter Coast Waterway
+    url: https://www.nexusmods.com/morrowind/mods/53262
+    download_info:
+      - file_name: Bitter Coast Waterway BC-ified
+    plugins:
+      - Bitter Coast Waterway.esp
 
-- name: Little Landscapes - Path to Pelagiad
-  url: https://www.nexusmods.com/morrowind/mods/53281
-  download_info:
-  - file_name: Path to Pelagiad Purist Version
-  plugins:
-  - Little Landscape - Path to Pelagiad.esp
+  - name: Little Landscapes - Path to Pelagiad
+    url: https://www.nexusmods.com/morrowind/mods/53281
+    download_info:
+      - file_name: Path to Pelagiad Purist Version
+    plugins:
+      - Little Landscape - Path to Pelagiad.esp
 
-- name: Compatible Odai River Upper Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/53323
-  download_info:
-  - file_name: Compatible Odai River Upper Overhaul
-  data_paths:
-  - Compatible Odai River Upper Overhaul 1.2/Compatible Odai River Upper Overhaul
-  plugins:
-  - Odai River Upper Overhaul.esp
+  - name: Compatible Odai River Upper Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/53323
+    download_info:
+      - file_name: Compatible Odai River Upper Overhaul
+    data_paths:
+      - Compatible Odai River Upper Overhaul 1.2/Compatible Odai River Upper Overhaul
+    plugins:
+      - Odai River Upper Overhaul.esp
 
-- name: Little Landscapes - Path to Vivec Lighthouse
-  url: https://www.nexusmods.com/morrowind/mods/53352
-  download_info:
-  - file_name: Purist Version
-  plugins:
-  - Little_Landscape_-_Path_to_Vivec_Lighthouse.esp
+  - name: Little Landscapes - Path to Vivec Lighthouse
+    url: https://www.nexusmods.com/morrowind/mods/53352
+    download_info:
+      - file_name: Purist Version
+    plugins:
+      - Little_Landscape_-_Path_to_Vivec_Lighthouse.esp
 
-- name: Little Landscape - Path to Balmora
-  url: https://www.nexusmods.com/morrowind/mods/53343
-  download_info:
-  - file_name: Purist Version
-  plugins:
-  - Little_Landscape_-_Path_to_Balmora.esp
+  - name: Little Landscape - Path to Balmora
+    url: https://www.nexusmods.com/morrowind/mods/53343
+    download_info:
+      - file_name: Purist Version
+    plugins:
+      - Little_Landscape_-_Path_to_Balmora.esp
 
-- name: Little Landscapes - Nix Hound Hunting Grounds
-  url: https://www.nexusmods.com/morrowind/mods/53333
-  download_info:
-  - file_name: Little Landscapes - Nix Hound Hunting Grounds
-  plugins:
-  - Little Landscape - Nix Hunting Ground.esp
+  - name: Little Landscapes - Nix Hound Hunting Grounds
+    url: https://www.nexusmods.com/morrowind/mods/53333
+    download_info:
+      - file_name: Little Landscapes - Nix Hound Hunting Grounds
+    plugins:
+      - Little Landscape - Nix Hunting Ground.esp
 
-- name: Little Landscape - Foyada of Sharp Teeth
-  url: https://www.nexusmods.com/morrowind/mods/53355
-  download_info:
-  - file_name: Little Landscape - Foyada of Sharp Teeth main file
-  plugins:
-  - Little Landscape - Foyada of Sharp Teeth.esp
+  - name: Little Landscape - Foyada of Sharp Teeth
+    url: https://www.nexusmods.com/morrowind/mods/53355
+    download_info:
+      - file_name: Little Landscape - Foyada of Sharp Teeth main file
+    plugins:
+      - Little Landscape - Foyada of Sharp Teeth.esp
 
-- name: The Grove of Ben'Abi
-  url: https://www.nexusmods.com/morrowind/mods/46137
-  download_info:
-  - file_name: The Grove of Ben'Abi
+  - name: The Grove of Ben'Abi
+    url: https://www.nexusmods.com/morrowind/mods/46137
+    download_info:
+      - file_name: The Grove of Ben'Abi
 
-- name: The Grove of Ben'Abi Enhanced
-  url: https://www.nexusmods.com/morrowind/mods/53529
-  download_info:
-  - file_name: The Grove of Ben'Abi Enhanced
-  plugins:
-  - The Grove of Ben'Abi Enhanced.ESP
+  - name: The Grove of Ben'Abi Enhanced
+    url: https://www.nexusmods.com/morrowind/mods/53529
+    download_info:
+      - file_name: The Grove of Ben'Abi Enhanced
+    plugins:
+      - The Grove of Ben'Abi Enhanced.ESP
 
-- name: Hidden Sea Loot
-  url: https://www.nexusmods.com/morrowind/mods/52296
-  download_info:
-  - file_name: Hidden Sea Loot
-  plugins:
-  - Hidden Sea Loot.ESP
+  - name: Hidden Sea Loot
+    url: https://www.nexusmods.com/morrowind/mods/52296
+    download_info:
+      - file_name: Hidden Sea Loot
+    plugins:
+      - Hidden Sea Loot.ESP
 
-- name: Azuras Coast Redone
-  url: https://www.nexusmods.com/morrowind/mods/53466
-  download_info:
-  - file_name: AzurasCoastRedone
-  plugins:
-  - RockyAzurasCoast.ESP
+  - name: Azuras Coast Redone
+    url: https://www.nexusmods.com/morrowind/mods/53466
+    download_info:
+      - file_name: AzurasCoastRedone
+    plugins:
+      - RockyAzurasCoast.ESP
 
-- name: Telvanni Sea Beacons
-  url: https://www.nexusmods.com/morrowind/mods/50957
-  download_info:
-  - file_name: TelvanniSeaBeacons
-  plugins:
-  - TelvanniSeaBeacons.ESP
+  - name: Telvanni Sea Beacons
+    url: https://www.nexusmods.com/morrowind/mods/50957
+    download_info:
+      - file_name: TelvanniSeaBeacons
+    plugins:
+      - TelvanniSeaBeacons.ESP
 
-- name: Justice for Khartag (J.F.K.)
-  url: https://www.nexusmods.com/morrowind/mods/49832
-  download_info:
-  - file_name: Justice for Khartag
-  plugins:
-  - Justice4Khartag.esp
+  - name: Justice for Khartag (J.F.K.)
+    url: https://www.nexusmods.com/morrowind/mods/49832
+    download_info:
+      - file_name: Justice for Khartag
+    plugins:
+      - Justice4Khartag.esp
 
-- name: OAAB Shipwrecks
-  url: https://www.nexusmods.com/morrowind/mods/51364
-  download_info:
-  - file_name: OAAB   Shipwrecks
-  data_paths:
-  - 00 Core
-  - 02 Patch - TR Patch
-  - 01 Patch - Uncharted Artifacts
-  plugins:
-  - Uncharted Artifacts.esp
-  - OAAB - Shipwrecks.esm
-  - OAAB - Shipwrecks - TR Patch.ESP
+  - name: OAAB Shipwrecks
+    url: https://www.nexusmods.com/morrowind/mods/51364
+    download_info:
+      - file_name: OAAB   Shipwrecks
+    data_paths:
+      - 00 Core
+      - 02 Patch - TR Patch
+      - 01 Patch - Uncharted Artifacts
+    plugins:
+      - Uncharted Artifacts.esp
+      - OAAB - Shipwrecks.esm
+      - OAAB - Shipwrecks - TR Patch.ESP
 
-- name: Holamayan Island
-  url: https://www.nexusmods.com/morrowind/mods/50996
-  download_info:
-  - file_name: Holamayan Island
-  data_paths:
-  - Data files
-  plugins:
-  - Holamayan Island.esp
+  - name: Holamayan Island
+    url: https://www.nexusmods.com/morrowind/mods/50996
+    download_info:
+      - file_name: Holamayan Island
+    data_paths:
+      - Data files
+    plugins:
+      - Holamayan Island.esp
 
-- name: Immersive Grotto Entrances
-  url: https://www.nexusmods.com/morrowind/mods/54014
-  download_info:
-  - file_name: Immersive Grotto Entrances - Vanilla Version
+  - name: Immersive Grotto Entrances
+    url: https://www.nexusmods.com/morrowind/mods/54014
+    download_info:
+      - file_name: Immersive Grotto Entrances - Vanilla Version

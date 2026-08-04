@@ -1,318 +1,334 @@
 category: CavesandDungeons
 
 mods:
-- name: Crown of Urshilaku
-  url: https://www.nexusmods.com/morrowind/mods/54251
-  download_info:
-  - file_name: CrownOfUrshilaku
-  plugins:
-  - DM_CrownOfUrshilaku.ESP
+  - name: Crown of Urshilaku
+    url: https://www.nexusmods.com/morrowind/mods/54251
+    download_info:
+      - file_name: CrownOfUrshilaku
+    plugins:
+      - DM_CrownOfUrshilaku.ESP
 
-- name: Tales from the Ashlands - The Great Hive Baan Binif
-  url: https://www.nexusmods.com/morrowind/mods/51419
-  download_info:
-  - file_name: Baan Binif
-  plugins:
-  - Baan_Binif.ESP
+  - name: Tales from the Ashlands - The Great Hive Baan Binif
+    url: https://www.nexusmods.com/morrowind/mods/51419
+    download_info:
+      - file_name: Baan Binif
+    plugins:
+      - Baan_Binif.ESP
 
-- name: Sanctus Shrine
-  url: https://www.nexusmods.com/morrowind/mods/47841
-  download_info:
-  - file_name: Sanctus Shrine
-  data_paths:
-  - Data files
-  plugins:
-  - Sanctus Shrine.esp
+  - name: Sanctus Shrine
+    url: https://www.nexusmods.com/morrowind/mods/47841
+    download_info:
+      - file_name: Sanctus Shrine
+    data_paths:
+      - Data files
+    plugins:
+      - Sanctus Shrine.esp
 
-- name: OAAB - Tombs and Towers
-  url: https://www.nexusmods.com/morrowind/mods/49131
-  download_info:
-  - file_name: OAAB - Tombs and Towers
-  plugins:
-  - OAAB - Tombs and Towers.esm
+  - name: OAAB - Tombs and Towers
+    url: https://www.nexusmods.com/morrowind/mods/49131
+    download_info:
+      - file_name: OAAB - Tombs and Towers
+    plugins:
+      - OAAB - Tombs and Towers.esm
 
-- name: Mines and Caverns
-  url: https://www.nexusmods.com/morrowind/mods/44893
-  download_info:
-  - file_name: Mines and Caverns
-    actions:
-    - action: clean
-      path: Mines and Caverns/Clean_Mines and Caverns.esp
-      arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, cell, --exact-id, Dissapla Mine]
-    - action: clean
-      path: Mines and Caverns/Clean_Mines and Caverns.esp
-      arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, pgrd, --exact-id, Dissapla Mine]
-  data_paths:
-  - Mines and Caverns
-  plugins:
-  - Clean_Mines and Caverns.esp
+  - name: Mines and Caverns
+    url: https://www.nexusmods.com/morrowind/mods/44893
+    download_info:
+      - file_name: Mines and Caverns
+        actions:
+          - action: clean
+            path: Mines and Caverns/Clean_Mines and Caverns.esp
+            arguments:
+              - delete
+              - --backup-dir
+              - tes3cmdbck
+              - --hide-backups
+              - --type
+              - cell
+              - --exact-id
+              - Dissapla Mine
+          - action: clean
+            path: Mines and Caverns/Clean_Mines and Caverns.esp
+            arguments:
+              - delete
+              - --backup-dir
+              - tes3cmdbck
+              - --hide-backups
+              - --type
+              - pgrd
+              - --exact-id
+              - Dissapla Mine
+    data_paths:
+      - Mines and Caverns
+    plugins:
+      - Clean_Mines and Caverns.esp
 
-- name: Dungeon Details
-  url: https://www.nexusmods.com/morrowind/mods/54772
-  download_info:
-  - file_name: Dungeon Details 1.5
-  data_paths:
-  - 10 AP Egg Mine
-  - 31 Sixth House Assemanu
-  - 32 Sixth House Yakin
-  - 50 ASH Urshilaku Burial Tombs and Towers
-  - 51 ASH Madas Grotto
-  - 70 BC Nimawia Grotto
-  - 100 SHEO Malmus Grotto
-  plugins:
-  - Dungeon Details --  Abaesen-Pulu Egg Mine.esp
-  - Dungeon Details -- Assemanu.esp
-  - Dungeon Details -- Yakin.esp
-  - Dungeon Details -- madas grotto.esp
-  - Dungeon Details -- Nimawia Grotto.esp
-  - Dungeon Details -- Malmus Grotto.esp
-  - Dungeon Details -- Urshi burial.esp
+  - name: Dungeon Details
+    url: https://www.nexusmods.com/morrowind/mods/54772
+    download_info:
+      - file_name: Dungeon Details 1.5
+    data_paths:
+      - 10 AP Egg Mine
+      - 31 Sixth House Assemanu
+      - 32 Sixth House Yakin
+      - 50 ASH Urshilaku Burial Tombs and Towers
+      - 51 ASH Madas Grotto
+      - 70 BC Nimawia Grotto
+      - 100 SHEO Malmus Grotto
+    plugins:
+      - Dungeon Details --  Abaesen-Pulu Egg Mine.esp
+      - Dungeon Details -- Assemanu.esp
+      - Dungeon Details -- Yakin.esp
+      - Dungeon Details -- madas grotto.esp
+      - Dungeon Details -- Nimawia Grotto.esp
+      - Dungeon Details -- Malmus Grotto.esp
+      - Dungeon Details -- Urshi burial.esp
 
-- name: New Ilunibi
-  url: https://www.nexusmods.com/morrowind/mods/50393
-  download_info:
-  - file_name: New Ilunibi
-  plugins:
-  - New Ilunibi.ESP
+  - name: New Ilunibi
+    url: https://www.nexusmods.com/morrowind/mods/50393
+    download_info:
+      - file_name: New Ilunibi
+    plugins:
+      - New Ilunibi.ESP
 
-- name: The Corprusarium experience
-  url: https://www.nexusmods.com/morrowind/mods/49738
-  download_info:
-  - file_name: The Corprusarium experience
-  data_paths:
-  - 00 - Core
-  plugins:
-  - The_corprusarium_Exp.ESP
+  - name: The Corprusarium experience
+    url: https://www.nexusmods.com/morrowind/mods/49738
+    download_info:
+      - file_name: The Corprusarium experience
+    data_paths:
+      - 00 - Core
+    plugins:
+      - The_corprusarium_Exp.ESP
 
-- name: Unholy Trinity - Dagoth Ur - Vemynal - Odrosal Remade
-  url: https://www.nexusmods.com/morrowind/mods/55564
-  download_info:
-  - file_name: Unholy Trinity
-  data_paths:
-  - Data Files
-  plugins:
-  - Unholy Trinity Complete.esp
+  - name: Unholy Trinity - Dagoth Ur - Vemynal - Odrosal Remade
+    url: https://www.nexusmods.com/morrowind/mods/55564
+    download_info:
+      - file_name: Unholy Trinity
+    data_paths:
+      - Data Files
+    plugins:
+      - Unholy Trinity Complete.esp
 
-- name: Dwemer Legacy Reforged - Arkngthunch-Sturdumz
-  url: https://www.nexusmods.com/morrowind/mods/54807
-  download_info:
-  - file_name: Dwemer Legacy Reforged - Arkngthunch-Sturdumz
-  data_paths:
-  - Data Files
-  plugins:
-  - Dwemer Legacy Reforged - Arkngthunch-Sturdumz.esp
+  - name: Dwemer Legacy Reforged - Arkngthunch-Sturdumz
+    url: https://www.nexusmods.com/morrowind/mods/54807
+    download_info:
+      - file_name: Dwemer Legacy Reforged - Arkngthunch-Sturdumz
+    data_paths:
+      - Data Files
+    plugins:
+      - Dwemer Legacy Reforged - Arkngthunch-Sturdumz.esp
 
-- name: Dwemer Legacy Reforged - Bthungthumz and Druscashti
-  url: https://www.nexusmods.com/morrowind/mods/55073
-  download_info:
-  - file_name: Dwemer Legacy Reforged - Bthungthumz and Druscasht
-  data_paths:
-  - Data Files
-  plugins:
-  - Dwemer Legacy Reforged - Bthungthumz and Druscashti.esp
+  - name: Dwemer Legacy Reforged - Bthungthumz and Druscashti
+    url: https://www.nexusmods.com/morrowind/mods/55073
+    download_info:
+      - file_name: Dwemer Legacy Reforged - Bthungthumz and Druscasht
+    data_paths:
+      - Data Files
+    plugins:
+      - Dwemer Legacy Reforged - Bthungthumz and Druscashti.esp
 
-- name: Of Eggs and Dwarves - Gnisis Eggmine and Bethamez Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/51171
-  download_info:
-  - file_name: Of Eggs and Dwarves_OpenMW
-  data_paths:
-  - 00 Core
-  - 01 BCOM Patch
-  plugins:
-  - Of Eggs and Dwarves.ESP
-  - Of Eggs and Dwarves.omwscripts
-  - OEAD_BCOM_Patch.ESP
+  - name: Of Eggs and Dwarves - Gnisis Eggmine and Bethamez Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/51171
+    download_info:
+      - file_name: Of Eggs and Dwarves_OpenMW
+    data_paths:
+      - 00 Core
+      - 01 BCOM Patch
+    plugins:
+      - Of Eggs and Dwarves.ESP
+      - Of Eggs and Dwarves.omwscripts
+      - OEAD_BCOM_Patch.ESP
 
-- name: What Kwamas Forage - An Eggmine Mod
-  url: https://www.nexusmods.com/morrowind/mods/53360
-  download_info:
-  - file_name: What Kwamas Forage - An Eggmine Mod
-  data_paths:
-  - What Kwamas Forage
-  plugins:
-  - What Kwamas Forage - Egg Mine Mod.esp
+  - name: What Kwamas Forage - An Eggmine Mod
+    url: https://www.nexusmods.com/morrowind/mods/53360
+    download_info:
+      - file_name: What Kwamas Forage - An Eggmine Mod
+    data_paths:
+      - What Kwamas Forage
+    plugins:
+      - What Kwamas Forage - Egg Mine Mod.esp
 
-- name: OAAB - Hawia Egg Mine
-  url: https://www.nexusmods.com/morrowind/mods/51846
-  download_info:
-  - file_name: OAAB - Hawia Egg Mine
-  data_paths:
-  - OAAB - Hawia Egg Mine
-  plugins:
-  - OAAB - Hawia_Egg_Mine.ESP
+  - name: OAAB - Hawia Egg Mine
+    url: https://www.nexusmods.com/morrowind/mods/51846
+    download_info:
+      - file_name: OAAB - Hawia Egg Mine
+    data_paths:
+      - OAAB - Hawia Egg Mine
+    plugins:
+      - OAAB - Hawia_Egg_Mine.ESP
 
-- name: Superior Shulk Eggmine -OAAB
-  url: https://www.nexusmods.com/morrowind/mods/53785
-  download_info:
-  - file_name: Superior Shulk Eggmine
-  plugins:
-  - Superb Shulk Eggmine.ESP
+  - name: Superior Shulk Eggmine -OAAB
+    url: https://www.nexusmods.com/morrowind/mods/53785
+    download_info:
+      - file_name: Superior Shulk Eggmine
+    plugins:
+      - Superb Shulk Eggmine.ESP
 
-- name: Better Dunmer Strongholds
-  url: https://www.nexusmods.com/morrowind/mods/49692
-  download_info:
-  - file_name: Dunmer Strongholds (VO)
-  data_paths:
-  - Data Files
-  plugins:
-  - Dunmer Stronghold - Andasreth V1.0.esp
-  - Dunmer Stronghold - Falasmaryon V1.0.esp
-  - Dunmer Stronghold - Falensarano V1.0.esp
-  - Dunmer Stronghold - Indoranyon V1.0.esp
-  - Dunmer Stronghold - Marandus V1.0.esp
-  - Dunmer Stronghold - Rotheran V1.0.esp
-  - Dunmer Stronghold - Valenvaryon V1.0.esp
+  - name: Better Dunmer Strongholds
+    url: https://www.nexusmods.com/morrowind/mods/49692
+    download_info:
+      - file_name: Dunmer Strongholds (VO)
+    data_paths:
+      - Data Files
+    plugins:
+      - Dunmer Stronghold - Andasreth V1.0.esp
+      - Dunmer Stronghold - Falasmaryon V1.0.esp
+      - Dunmer Stronghold - Falensarano V1.0.esp
+      - Dunmer Stronghold - Indoranyon V1.0.esp
+      - Dunmer Stronghold - Marandus V1.0.esp
+      - Dunmer Stronghold - Rotheran V1.0.esp
+      - Dunmer Stronghold - Valenvaryon V1.0.esp
 
-- name: Kogoruhn - Extinct City of Ash and Sulfur
-  url: https://www.nexusmods.com/morrowind/mods/51615
-  download_info:
-  - file_name: Kogoruhn - Extinct City of Ash and Sulfur
-  data_paths:
-  - Data Files
-  plugins:
-  - Kogoruhn - Extinct City of Ash and Sulfur.esp
+  - name: Kogoruhn - Extinct City of Ash and Sulfur
+    url: https://www.nexusmods.com/morrowind/mods/51615
+    download_info:
+      - file_name: Kogoruhn - Extinct City of Ash and Sulfur
+    data_paths:
+      - Data Files
+    plugins:
+      - Kogoruhn - Extinct City of Ash and Sulfur.esp
 
-- name: Berandas Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/48236
-  download_info:
-  - file_name: Berandas Overhaul 2.1
-  plugins:
-  - Berandas Overhaul.esp
+  - name: Berandas Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/48236
+    download_info:
+      - file_name: Berandas Overhaul 2.1
+    plugins:
+      - Berandas Overhaul.esp
 
-- name: Memento Mori
-  url: https://www.nexusmods.com/morrowind/mods/51940
-  download_info:
-  - file_name: Memento Mori
-  data_paths:
-  - 01 Main Files (Required)
-  - 02 BCOM Patch (Optional)
-  - 03 OpenMW Patch
-  plugins:
-  - Memento Mori - BCOM Patch.ESP
-  - Memento Mori.ESP
-  - Memento Mori - OpenMW Patch.ESP
+  - name: Memento Mori
+    url: https://www.nexusmods.com/morrowind/mods/51940
+    download_info:
+      - file_name: Memento Mori
+    data_paths:
+      - 01 Main Files (Required)
+      - 02 BCOM Patch (Optional)
+      - 03 OpenMW Patch
+    plugins:
+      - Memento Mori - BCOM Patch.ESP
+      - Memento Mori.ESP
+      - Memento Mori - OpenMW Patch.ESP
 
-- name: Samarys Ancestral Tomb Expanded
-  url: https://www.nexusmods.com/morrowind/mods/45612
-  download_info:
-  - file_name: Samarys Ancestral Tomb Expanded
-  plugins:
-  - Samarys Ancestral Tomb Expanded.esp
+  - name: Samarys Ancestral Tomb Expanded
+    url: https://www.nexusmods.com/morrowind/mods/45612
+    download_info:
+      - file_name: Samarys Ancestral Tomb Expanded
+    plugins:
+      - Samarys Ancestral Tomb Expanded.esp
 
-- name: Andrano Ancestral Tomb Remastered
-  url: https://www.nexusmods.com/morrowind/mods/44672
-  download_info:
-  - file_name: AndranoTombRemastered16
-  plugins:
-  - AndranoTombRemastered.esp
+  - name: Andrano Ancestral Tomb Remastered
+    url: https://www.nexusmods.com/morrowind/mods/44672
+    download_info:
+      - file_name: AndranoTombRemastered16
+    plugins:
+      - AndranoTombRemastered.esp
 
-- name: Andrethi Tomb Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/46217
-  download_info:
-  - file_name: Andrethi Tomb
-  data_paths:
-  - Andrethi
-  plugins:
-  - Clean_Andrethi.esp
+  - name: Andrethi Tomb Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/46217
+    download_info:
+      - file_name: Andrethi Tomb
+    data_paths:
+      - Andrethi
+    plugins:
+      - Clean_Andrethi.esp
 
-- name: Mamaea Awakened
-  url: https://www.nexusmods.com/morrowind/mods/46096
-  download_info:
-  - file_name: Mamaea Awakened
-  data_paths:
-  - Data Files
+  - name: Mamaea Awakened
+    url: https://www.nexusmods.com/morrowind/mods/46096
+    download_info:
+      - file_name: Mamaea Awakened
+    data_paths:
+      - Data Files
 
-- name: Vennin's Addamasartus Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/52420
-  download_info:
-  - file_name: Addamasartus Overhaul
-  plugins:
-  - Clean_Addamasartus Overhaul.ESP
+  - name: Vennin's Addamasartus Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/52420
+    download_info:
+      - file_name: Addamasartus Overhaul
+    plugins:
+      - Clean_Addamasartus Overhaul.ESP
 
-- name: Vennin's Hlaalu Tomb Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/54556
-  download_info:
-  - file_name: Vennin's Hlaalu Ancestral Tomb
-  plugins:
-  - Clean_Vennin's Hlaalu Tomb.ESP
+  - name: Vennin's Hlaalu Tomb Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/54556
+    download_info:
+      - file_name: Vennin's Hlaalu Ancestral Tomb
+    plugins:
+      - Clean_Vennin's Hlaalu Tomb.ESP
 
-- name: Vennin's Hlervi Tomb Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/54568
-  download_info:
-  - file_name: Vennin's Hlervi Tomb Overhaul
-  plugins:
-  - Clean_Vennin's Hlervi Tomb.ESP
+  - name: Vennin's Hlervi Tomb Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/54568
+    download_info:
+      - file_name: Vennin's Hlervi Tomb Overhaul
+    plugins:
+      - Clean_Vennin's Hlervi Tomb.ESP
 
-- name: Vennin's Lleran Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/54484
-  download_info:
-  - file_name: Vennin's Lleran Overhaul
-  plugins:
-  - Clean_Vennin's Lleran Overhaul.ESP
+  - name: Vennin's Lleran Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/54484
+    download_info:
+      - file_name: Vennin's Lleran Overhaul
+    plugins:
+      - Clean_Vennin's Lleran Overhaul.ESP
 
-- name: Vennin's Shal Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/52719
-  download_info:
-  - file_name: Vennin's Shal Overhaul
-  plugins:
-  - Clean_Vennin's Shal Overhaul.ESP
+  - name: Vennin's Shal Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/52719
+    download_info:
+      - file_name: Vennin's Shal Overhaul
+    plugins:
+      - Clean_Vennin's Shal Overhaul.ESP
 
-- name: Vennin's Sinsibadon Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/52630
-  download_info:
-  - file_name: Vennin's Sinsibadon Overhaul
-  plugins:
-  - Vennin's Sinsibadon Overhaul.ESP
+  - name: Vennin's Sinsibadon Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/52630
+    download_info:
+      - file_name: Vennin's Sinsibadon Overhaul
+    plugins:
+      - Vennin's Sinsibadon Overhaul.ESP
 
-- name: Vennin's Ulummusa Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/52699
-  download_info:
-  - file_name: Vennin's Ulummusa Overhaul
-  plugins:
-  - Clean_Vennin's Ulummusa Overhaul.ESP
+  - name: Vennin's Ulummusa Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/52699
+    download_info:
+      - file_name: Vennin's Ulummusa Overhaul
+    plugins:
+      - Clean_Vennin's Ulummusa Overhaul.ESP
 
-- name: Vennin's Punabi Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/57134
-  download_info:
-  - file_name: Vennin's Punabi
-  plugins:
-  - Clean_Vennin's Punabi.ESP
+  - name: Vennin's Punabi Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/57134
+    download_info:
+      - file_name: Vennin's Punabi
+    plugins:
+      - Clean_Vennin's Punabi.ESP
 
-- name: Vennin's Pulk Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/52616
-  download_info:
-  - file_name: Vennin's Pulk Overhaul
-  plugins:
-  - Clean_Vennin's Pulk Overhaul.ESP
+  - name: Vennin's Pulk Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/52616
+    download_info:
+      - file_name: Vennin's Pulk Overhaul
+    plugins:
+      - Clean_Vennin's Pulk Overhaul.ESP
 
-- name: Kumarahaz - The Bandit Lair
-  url: https://www.nexusmods.com/morrowind/mods/56192
-  download_info:
-  - file_name: Kumarahaz - The Bandit Lair
-  data_paths:
-  - Kumarahaz - The Bandit Lair
-  plugins:
-  - Kumarahaz Bandit Lair.ESP
+  - name: Kumarahaz - The Bandit Lair
+    url: https://www.nexusmods.com/morrowind/mods/56192
+    download_info:
+      - file_name: Kumarahaz - The Bandit Lair
+    data_paths:
+      - Kumarahaz - The Bandit Lair
+    plugins:
+      - Kumarahaz Bandit Lair.ESP
 
-- name: Maren's Misfit Mabrigash
-  url: https://www.nexusmods.com/morrowind/mods/48709
-  download_info:
-  - file_name: Maren's Misfit Mabrigash
-  plugins:
-  - MarenMabrigash.ESP
+  - name: Maren's Misfit Mabrigash
+    url: https://www.nexusmods.com/morrowind/mods/48709
+    download_info:
+      - file_name: Maren's Misfit Mabrigash
+    plugins:
+      - MarenMabrigash.ESP
 
-- name: The Woe of Indalen Tomb
-  url: https://www.nexusmods.com/morrowind/mods/54661
-  download_info:
-  - file_name: DM_IndalenWoeBCOM
-  plugins:
-  - DM_IndalenWoe.ESP
+  - name: The Woe of Indalen Tomb
+    url: https://www.nexusmods.com/morrowind/mods/54661
+    download_info:
+      - file_name: DM_IndalenWoeBCOM
+    plugins:
+      - DM_IndalenWoe.ESP
 
-- name: Face of the Hortator
-  url: https://www.nexusmods.com/morrowind/mods/42928
-  download_info:
-  - file_name: Face of the Hortator
-  data_paths:
-  - Data Files
-  plugins:
-  - Face of the Hortator.esp
+  - name: Face of the Hortator
+    url: https://www.nexusmods.com/morrowind/mods/42928
+    download_info:
+      - file_name: Face of the Hortator
+    data_paths:
+      - Data Files
+    plugins:
+      - Face of the Hortator.esp

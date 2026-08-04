@@ -1,27 +1,27 @@
 category: Flora
 
 mods:
-- name: Perfect Scum
-  url: https://www.nexusmods.com/morrowind/mods/51355
-  download_info:
-  - file_name: PR Perfect Scum
-  plugins:
-  - PR Perfect Scum.esp
+  - name: Perfect Scum
+    url: https://www.nexusmods.com/morrowind/mods/51355
+    download_info:
+      - file_name: PR Perfect Scum
+    plugins:
+      - PR Perfect Scum.esp
 
-- name: Parasol Particles
-  url: https://www.nexusmods.com/morrowind/mods/47755
-  download_info:
-  - file_name: Parasol Particles
-  data_paths:
-  - 01 OAAB_Data Patch
+  - name: Parasol Particles
+    url: https://www.nexusmods.com/morrowind/mods/47755
+    download_info:
+      - file_name: Parasol Particles
+    data_paths:
+      - 01 OAAB_Data Patch
 
-- name: OAAB Pomegranates
-  url: https://www.nexusmods.com/morrowind/mods/50726
-  download_info:
-  - file_name: OAAB Pomegranates
-  data_paths:
-  - 00 Core
-  - 02 HD Textures
-  - 03 SSQN OpenMW
-  plugins:
-  - OAAB Pomegranates.ESP
+  - name: OAAB Pomegranates
+    url: https://www.nexusmods.com/morrowind/mods/50726
+    download_info:
+      - file_name: OAAB Pomegranates
+    data_paths:
+      - 00 Core
+      - 02 HD Textures
+      - 03 SSQN OpenMW
+    plugins:
+      - OAAB Pomegranates.ESP

@@ -1,45 +1,45 @@
 category: Audio
 
 mods:
-- name: MAO Spell Sounds
-  url: https://www.nexusmods.com/morrowind/mods/50486
-  download_info:
-  - file_name: MAO Spell Sounds
+  - name: MAO Spell Sounds
+    url: https://www.nexusmods.com/morrowind/mods/50486
+    download_info:
+      - file_name: MAO Spell Sounds
 
-- name: Character Sound Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/49654
-  download_info:
-  - file_name: Character Sound Overhaul
-  - file_name: Higher Bitrate Sounds
-    extract_to: Higher Bitrate Sounds
-  data_paths:
-  - ''
-  - Higher Bitrate Sounds
+  - name: Character Sound Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/49654
+    download_info:
+      - file_name: Character Sound Overhaul
+      - file_name: Higher Bitrate Sounds
+        extract_to: Higher Bitrate Sounds
+    data_paths:
+      - ""
+      - Higher Bitrate Sounds
 
-- name: openmw-footsteps
-  url: https://modding-openmw.gitlab.io/openmw-footsteps/
-  download_info:
-  - file_name: openmw-footsteps
-  plugins:
-  - footsteps.omwscripts
+  - name: openmw-footsteps
+    url: https://modding-openmw.gitlab.io/openmw-footsteps/
+    download_info:
+      - file_name: openmw-footsteps
+    plugins:
+      - footsteps.omwscripts
 
-- name: Voice Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/51215
-  download_info:
-  - file_name: Voice Overhaul
-  plugins:
-  - PR Voice Overhaul.esp
+  - name: Voice Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/51215
+    download_info:
+      - file_name: Voice Overhaul
+    plugins:
+      - PR Voice Overhaul.esp
 
-- name: Dynamic Sounds Phoenix
-  url: https://www.nexusmods.com/morrowind/mods/59481
-  download_info:
-  - file_name: Main File
-  plugins:
-  - DynamicSounds.omwscripts
-  archives:
-  - dynamicsounds.bsa
+  - name: Dynamic Sounds Phoenix
+    url: https://www.nexusmods.com/morrowind/mods/59481
+    download_info:
+      - file_name: Main File
+    plugins:
+      - DynamicSounds.omwscripts
+    archives:
+      - dynamicsounds.bsa
 
-- name: Immersive Combat Sounds
-  url: https://www.nexusmods.com/morrowind/mods/50254
-  download_info:
-  - file_name: Immersive Combat Sounds
+  - name: Immersive Combat Sounds
+    url: https://www.nexusmods.com/morrowind/mods/50254
+    download_info:
+      - file_name: Immersive Combat Sounds

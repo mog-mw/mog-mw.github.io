@@ -1,407 +1,407 @@
 category: Gameplay
 
 mods:
-- name: Graphic Herbalism - MWSE and OpenMW Edition
-  url: https://www.nexusmods.com/morrowind/mods/46599
-  download_info:
-  - file_name: Graphic Herbalism MWSE - OpenMW
-  - file_name: GH Patches and Replacers
-  data_paths:
-  - 00 Core + Vanilla Meshes
-  - 01 Optional - Smoothed Meshes
-  - 00 Correct UV Ore + README
-  plugins:
-  - correctUV Ore Replacer_fixed.esp
+  - name: Graphic Herbalism - MWSE and OpenMW Edition
+    url: https://www.nexusmods.com/morrowind/mods/46599
+    download_info:
+      - file_name: Graphic Herbalism MWSE - OpenMW
+      - file_name: GH Patches and Replacers
+    data_paths:
+      - 00 Core + Vanilla Meshes
+      - 01 Optional - Smoothed Meshes
+      - 00 Correct UV Ore + README
+    plugins:
+      - correctUV Ore Replacer_fixed.esp
 
-- name: The Dream is the Door
-  url: https://www.nexusmods.com/morrowind/mods/47423
-  download_info:
-  - file_name: The Dream is the Door
-  plugins:
-  - The Dream is the Door.ESP
+  - name: The Dream is the Door
+    url: https://www.nexusmods.com/morrowind/mods/47423
+    download_info:
+      - file_name: The Dream is the Door
+    plugins:
+      - The Dream is the Door.ESP
 
-- name: Greetings for No Lore
-  url: https://www.nexusmods.com/morrowind/mods/46063
-  download_info:
-  - file_name: Greetings for No Lore
-  plugins:
-  - Greetings for No Lore.esp
+  - name: Greetings for No Lore
+    url: https://www.nexusmods.com/morrowind/mods/46063
+    download_info:
+      - file_name: Greetings for No Lore
+    plugins:
+      - Greetings for No Lore.esp
 
-- name: MDMD - More Deadly Morrowind Denizens
-  url: https://www.nexusmods.com/morrowind/mods/48745
-  download_info:
-  - file_name: MDMD - More Deadly Morrowind Denizens
-  plugins:
-  - MDMD - More Deadly Morrowind Denizens.ESP
-  - mdmd - uvirith legacy cooperation.ESP
-  - MDMD - Creatures Add-On.ESP
+  - name: MDMD - More Deadly Morrowind Denizens
+    url: https://www.nexusmods.com/morrowind/mods/48745
+    download_info:
+      - file_name: MDMD - More Deadly Morrowind Denizens
+    plugins:
+      - MDMD - More Deadly Morrowind Denizens.ESP
+      - mdmd - uvirith legacy cooperation.ESP
+      - MDMD - Creatures Add-On.ESP
 
-- name: Beware the Sixth House (Sixth House Overhaul)
-  url: https://www.nexusmods.com/morrowind/mods/46036
-  download_info:
-  - file_name: Beware the Sixth House
-  data_paths:
-  - Modular
-  plugins:
-  - Ash Vampire Script Fix.esp
-  - Sixth House Rebalance.ESP
-  - Sunder and keening hurt on pickup.ESP
-  - Unused Dagoth Placement.ESP
+  - name: Beware the Sixth House (Sixth House Overhaul)
+    url: https://www.nexusmods.com/morrowind/mods/46036
+    download_info:
+      - file_name: Beware the Sixth House
+    data_paths:
+      - Modular
+    plugins:
+      - Ash Vampire Script Fix.esp
+      - Sixth House Rebalance.ESP
+      - Sunder and keening hurt on pickup.ESP
+      - Unused Dagoth Placement.ESP
 
-- name: Tribunal Rebalance
-  url: https://www.nexusmods.com/morrowind/mods/45713
-  download_info:
-  - file_name: Tribunal Rebalance
-  plugins:
-  - Tribunal Rebalance.ESP
+  - name: Tribunal Rebalance
+    url: https://www.nexusmods.com/morrowind/mods/45713
+    download_info:
+      - file_name: Tribunal Rebalance
+    plugins:
+      - Tribunal Rebalance.ESP
 
-- name: Bloodmoon Rebalance
-  url: https://www.nexusmods.com/morrowind/mods/45714
-  download_info:
-  - file_name: Bloodmoon Rebalance
-  data_paths:
-  - Bloodmoon Rebalance
-  plugins:
-  - Bloodmoon Rebalance.ESP
+  - name: Bloodmoon Rebalance
+    url: https://www.nexusmods.com/morrowind/mods/45714
+    download_info:
+      - file_name: Bloodmoon Rebalance
+    data_paths:
+      - Bloodmoon Rebalance
+    plugins:
+      - Bloodmoon Rebalance.ESP
 
-- name: Speechcraft Rebalance (OpenMW)
-  url: https://www.nexusmods.com/morrowind/mods/53177
-  download_info:
-  - file_name: Speechcraft Rebalance (OpenMW) 1.0
-  data_paths:
-  - Speechcraft Rebalance
-  plugins:
-  - Speechcraft Rebalance.omwaddon
+  - name: Speechcraft Rebalance (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/53177
+    download_info:
+      - file_name: Speechcraft Rebalance (OpenMW) 1.0
+    data_paths:
+      - Speechcraft Rebalance
+    plugins:
+      - Speechcraft Rebalance.omwaddon
 
-- name: Talking Trains Speechcraft-openmw lua
-  url: https://www.nexusmods.com/morrowind/mods/56078
-  download_info:
-  - file_name: Talking Trains Speechcraft-openmw lua
-  data_paths:
-  - Talking Trains Speechcraft openmw lua
-  plugins:
-  - Talking Trains Speechcraft.omwscripts
+  - name: Talking Trains Speechcraft-openmw lua
+    url: https://www.nexusmods.com/morrowind/mods/56078
+    download_info:
+      - file_name: Talking Trains Speechcraft-openmw lua
+    data_paths:
+      - Talking Trains Speechcraft openmw lua
+    plugins:
+      - Talking Trains Speechcraft.omwscripts
 
-- name: Alchemical Hustle
-  url: https://www.nexusmods.com/morrowind/mods/51050
-  download_info:
-  - file_name: Alchemical Hustle
-  data_paths:
-  - Alchemical Hustle/Fatigue Toxicity/Data Files
-  plugins:
-  - AH_GMSTs.ESP
-  - AH_Toxicity_Drink.ESP
-  - AH_Toxicity_Eat.ESP
-  - AH_Magic.ESP
+  - name: Alchemical Hustle
+    url: https://www.nexusmods.com/morrowind/mods/51050
+    download_info:
+      - file_name: Alchemical Hustle
+    data_paths:
+      - Alchemical Hustle/Fatigue Toxicity/Data Files
+    plugins:
+      - AH_GMSTs.ESP
+      - AH_Toxicity_Drink.ESP
+      - AH_Toxicity_Eat.ESP
+      - AH_Magic.ESP
 
-- name: For the Right Price
-  url: https://www.nexusmods.com/morrowind/mods/52668
-  download_info:
-  - file_name: For the Right Price
-  data_paths:
-  - For the Right Price/Modular
-  plugins:
-  - FtRP_Services.ESP
+  - name: For the Right Price
+    url: https://www.nexusmods.com/morrowind/mods/52668
+    download_info:
+      - file_name: For the Right Price
+    data_paths:
+      - For the Right Price/Modular
+    plugins:
+      - FtRP_Services.ESP
 
-- name: Better Merchants Skills (OpenMW)
-  url: https://www.nexusmods.com/morrowind/mods/54337
-  download_info:
-  - file_name: BetterMerchantsSkills
-  data_paths:
-  - 00 Core
-  plugins:
-  - bms.omwscripts
-  settings: |
-    [Game]
-    trainers training skills based on base skill = true
+  - name: Better Merchants Skills (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/54337
+    download_info:
+      - file_name: BetterMerchantsSkills
+    data_paths:
+      - 00 Core
+    plugins:
+      - bms.omwscripts
+    settings: |
+      [Game]
+      trainers training skills based on base skill = true
 
-- name: Ownership Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/48051
-  download_info:
-  - file_name: Ownership Overhaul
-  plugins:
-  - Ownership Overhaul.esm
+  - name: Ownership Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/48051
+    download_info:
+      - file_name: Ownership Overhaul
+    plugins:
+      - Ownership Overhaul.esm
 
-- name: Real Disposition
-  url: https://www.nexusmods.com/morrowind/mods/51427
-  download_info:
-  - file_name: PR Real Disposition
-  plugins:
-  - PR Real Disposition Base.esp
+  - name: Real Disposition
+    url: https://www.nexusmods.com/morrowind/mods/51427
+    download_info:
+      - file_name: PR Real Disposition
+    plugins:
+      - PR Real Disposition Base.esp
 
-- name: Pickpocket Rebalance (OpenMW)
-  url: https://www.nexusmods.com/morrowind/mods/53174
-  download_info:
-  - file_name: Pickpocket Rebalance (OpenMW) 1.0
-  data_paths:
-  - Pickpocket Rebalance
-  plugins:
-  - Pickpocket Rebalance.omwaddon
+  - name: Pickpocket Rebalance (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/53174
+    download_info:
+      - file_name: Pickpocket Rebalance (OpenMW) 1.0
+    data_paths:
+      - Pickpocket Rebalance
+    plugins:
+      - Pickpocket Rebalance.omwaddon
 
-- name: Better Blight
-  url: https://www.nexusmods.com/morrowind/mods/48395
-  download_info:
-  - file_name: Better Blight
-  plugins:
-  - Better Blight.ESP
+  - name: Better Blight
+    url: https://www.nexusmods.com/morrowind/mods/48395
+    download_info:
+      - file_name: Better Blight
+    plugins:
+      - Better Blight.ESP
 
-- name: Daedra Use Bound Equipment for OpenMW
-  url: https://www.nexusmods.com/morrowind/mods/57698
-  download_info:
-  - file_name: Daedra Use Bound Equipment for OpenMW
-  plugins:
-  - Daedra Use Bound Equipment for OpenMW.omwscripts
+  - name: Daedra Use Bound Equipment for OpenMW
+    url: https://www.nexusmods.com/morrowind/mods/57698
+    download_info:
+      - file_name: Daedra Use Bound Equipment for OpenMW
+    plugins:
+      - Daedra Use Bound Equipment for OpenMW.omwscripts
 
-- name: Friendlier Fire (OpenMW)
-  url: https://www.nexusmods.com/morrowind/mods/57975
-  download_info:
-  - file_name: Friendlier Fire
-  plugins:
-  - FriendlierFire.omwscripts
+  - name: Friendlier Fire (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/57975
+    download_info:
+      - file_name: Friendlier Fire
+    plugins:
+      - FriendlierFire.omwscripts
 
-- name: Follower Detection Util (OpenMW)
-  url: https://www.nexusmods.com/morrowind/mods/58053
-  download_info:
-  - file_name: Follower Detection Util
-  plugins:
-  - FollowerDetectionUtil.omwscripts
+  - name: Follower Detection Util (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/58053
+    download_info:
+      - file_name: Follower Detection Util
+    plugins:
+      - FollowerDetectionUtil.omwscripts
 
-- name: Expansions Integrated
-  url: https://www.nexusmods.com/morrowind/mods/47861
-  download_info:
-  - file_name: Expansions Integrated
-  plugins:
-  - Expansions Integrated - Fewer BM Creatures.esp
+  - name: Expansions Integrated
+    url: https://www.nexusmods.com/morrowind/mods/47861
+    download_info:
+      - file_name: Expansions Integrated
+    plugins:
+      - Expansions Integrated - Fewer BM Creatures.esp
 
-- name: Clear Your Name
-  url: https://www.nexusmods.com/morrowind/mods/43786
-  download_info:
-  - file_name: Clear Your Name
-  plugins:
-  - Clear Your Name.esp
+  - name: Clear Your Name
+    url: https://www.nexusmods.com/morrowind/mods/43786
+    download_info:
+      - file_name: Clear Your Name
+    plugins:
+      - Clear Your Name.esp
 
-- name: Improved Inns Expanded
-  url: https://www.nexusmods.com/morrowind/mods/48610
-  download_info:
-  - file_name: Improved Inns Expanded
-  data_paths:
-  - 01 TR Addon
-  - 02 SHotN Addon
-  - 03 PC Addon
-  - 05 BCOM Version
-  plugins:
-  - Improved Inns Expanded.esp
-  - Improved Inns Expanded - PC Addon.esp
-  - Improved Inns Expanded - SHotN Addon.esp
-  - Improved Inns Expanded - TR Addon.esp
+  - name: Improved Inns Expanded
+    url: https://www.nexusmods.com/morrowind/mods/48610
+    download_info:
+      - file_name: Improved Inns Expanded
+    data_paths:
+      - 01 TR Addon
+      - 02 SHotN Addon
+      - 03 PC Addon
+      - 05 BCOM Version
+    plugins:
+      - Improved Inns Expanded.esp
+      - Improved Inns Expanded - PC Addon.esp
+      - Improved Inns Expanded - SHotN Addon.esp
+      - Improved Inns Expanded - TR Addon.esp
 
-- name: Projectile Overhaul - Modular
-  url: https://www.nexusmods.com/morrowind/mods/43195
-  download_info:
-  - file_name: Projectile Overhaul - Modular
-  plugins:
-  - Projectile Overhaul - Faster Magic Missiles.esp
-  - Projectile Overhaul - Faster Projectiles.esp
-  - Projectile Overhaul - Recovery Chance.esp
+  - name: Projectile Overhaul - Modular
+    url: https://www.nexusmods.com/morrowind/mods/43195
+    download_info:
+      - file_name: Projectile Overhaul - Modular
+    plugins:
+      - Projectile Overhaul - Faster Magic Missiles.esp
+      - Projectile Overhaul - Faster Projectiles.esp
+      - Projectile Overhaul - Recovery Chance.esp
 
-- name: TimeScale Change - OpenMW
-  url: https://www.nexusmods.com/morrowind/mods/46332
-  download_info:
-  - file_name: TimeScale Change OpenMW
-  plugins:
-  - TimescaleChange.omwaddon
+  - name: TimeScale Change - OpenMW
+    url: https://www.nexusmods.com/morrowind/mods/46332
+    download_info:
+      - file_name: TimeScale Change OpenMW
+    plugins:
+      - TimescaleChange.omwaddon
 
-- name: Quill of Feyfolken - Scroll Enchanting
-  url: https://modding-openmw.com/files/Quill_of_Feyfolken_20.7z
-  dl_url: https://modding-openmw.com/files/Quill_of_Feyfolken_20.7z
-  download_info:
-  - file_name: Quill of Feyfolken - Scroll Enchanting
-  plugins:
-  - Quill of Feyfolken 2.0.esp
+  - name: Quill of Feyfolken - Scroll Enchanting
+    url: https://modding-openmw.com/files/Quill_of_Feyfolken_20.7z
+    dl_url: https://modding-openmw.com/files/Quill_of_Feyfolken_20.7z
+    download_info:
+      - file_name: Quill of Feyfolken - Scroll Enchanting
+    plugins:
+      - Quill of Feyfolken 2.0.esp
 
-- name: Pharis' Magicka Regeneration
-  url: https://modding-openmw.gitlab.io/pharis-magicka-regeneration/
-  download_info:
-  - file_name: Pharis' Magicka Regeneration
-  plugins:
-  - pharis-magicka-regeneration.omwaddon
-  - pharis-magicka-regeneration.omwscripts
+  - name: Pharis' Magicka Regeneration
+    url: https://modding-openmw.gitlab.io/pharis-magicka-regeneration/
+    download_info:
+      - file_name: Pharis' Magicka Regeneration
+    plugins:
+      - pharis-magicka-regeneration.omwaddon
+      - pharis-magicka-regeneration.omwscripts
 
-- name: Practical Necromancy (OpenMW)
-  url: https://www.nexusmods.com/morrowind/mods/47390
-  download_info:
-  - file_name: Practical Necromancy v4
-  data_paths:
-  - Practical Necromancy
-  plugins:
-  - Practical Necromancy.omwaddon
+  - name: Practical Necromancy (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/47390
+    download_info:
+      - file_name: Practical Necromancy v4
+    data_paths:
+      - Practical Necromancy
+    plugins:
+      - Practical Necromancy.omwaddon
 
-- name: Light Hotkey
-  url: https://modding-openmw.gitlab.io/light-hotkey/
-  download_info:
-  - file_name: Light Hotkey
-  plugins:
-  - LightHotkey.omwscripts
+  - name: Light Hotkey
+    url: https://modding-openmw.gitlab.io/light-hotkey/
+    download_info:
+      - file_name: Light Hotkey
+    plugins:
+      - LightHotkey.omwscripts
 
-- name: Protective Guards (OpenMW)
-  url: https://www.nexusmods.com/morrowind/mods/46992
-  download_info:
-  - file_name: Protective Guards - OpenMW
-  data_paths:
-  - Protective Guards for OpenMW
+  - name: Protective Guards (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/46992
+    download_info:
+      - file_name: Protective Guards - OpenMW
+    data_paths:
+      - Protective Guards for OpenMW
 
-- name: Protective Guards - Factions and NPCs Protections (OpenMW)
-  url: https://www.nexusmods.com/morrowind/mods/54858
-  download_info:
-  - file_name: Protective Guards - Factions and NPCs Protections
-  plugins:
-  - protective_guards_for_omw.omwscripts
+  - name: Protective Guards - Factions and NPCs Protections (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/54858
+    download_info:
+      - file_name: Protective Guards - Factions and NPCs Protections
+    plugins:
+      - protective_guards_for_omw.omwscripts
 
-- name: Shield Unequipper
-  url: https://modding-openmw.gitlab.io/shield-unequipper/
-  download_info:
-  - file_name: Shield Unequipper
-  plugins:
-  - shield-unequipper.omwscripts
+  - name: Shield Unequipper
+    url: https://modding-openmw.gitlab.io/shield-unequipper/
+    download_info:
+      - file_name: Shield Unequipper
+    plugins:
+      - shield-unequipper.omwscripts
 
-- name: Bound Balance
-  url: https://modding-openmw.gitlab.io/bound-balance/
-  download_info:
-  - file_name: Bound Balance
-  plugins:
-  - bound-balance.omwaddon
-  - bound-balance.omwscripts
+  - name: Bound Balance
+    url: https://modding-openmw.gitlab.io/bound-balance/
+    download_info:
+      - file_name: Bound Balance
+    plugins:
+      - bound-balance.omwaddon
+      - bound-balance.omwscripts
 
-- name: Convenient Thief Tools
-  url: https://modding-openmw.gitlab.io/convenient-thief-tools/
-  download_info:
-  - file_name: Convenient Thief Tools
-  plugins:
-  - convenient-thief-tools.omwscripts
+  - name: Convenient Thief Tools
+    url: https://modding-openmw.gitlab.io/convenient-thief-tools/
+    download_info:
+      - file_name: Convenient Thief Tools
+    plugins:
+      - convenient-thief-tools.omwscripts
 
-- name: Devilish Vampire Overhaul
-  url: https://www.nexusmods.com/morrowind/mods/52969
-  download_info:
-  - file_name: Devilish Vampire Overhaul (Total Overhaul Edition)
-  data_paths:
-  - Data Files
-  plugins:
-  - Devilish_Vampire_Overhaul.esp
-  - Devilish_Vampire_Overhaul.omwscripts
-  - Devilish_Vampire_Overhaul_TR_Dialogue_Patch.ESP
+  - name: Devilish Vampire Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/52969
+    download_info:
+      - file_name: Devilish Vampire Overhaul (Total Overhaul Edition)
+    data_paths:
+      - Data Files
+    plugins:
+      - Devilish_Vampire_Overhaul.esp
+      - Devilish_Vampire_Overhaul.omwscripts
+      - Devilish_Vampire_Overhaul_TR_Dialogue_Patch.ESP
 
-- name: No Witness - No Bounty
-  url: https://www.nexusmods.com/morrowind/mods/53384
-  download_info:
-  - file_name: No Witness - No Bounty - 1.0.1
-  plugins:
-  - NoWitnessNoBounty.omwaddon
-  - NoWitnessNoBounty.omwscripts
+  - name: No Witness - No Bounty
+    url: https://www.nexusmods.com/morrowind/mods/53384
+    download_info:
+      - file_name: No Witness - No Bounty - 1.0.1
+    plugins:
+      - NoWitnessNoBounty.omwaddon
+      - NoWitnessNoBounty.omwscripts
 
-- name: Perfect Placement
-  url: https://www.nexusmods.com/morrowind/mods/46562
-  download_info:
-  - file_name: Perfect Placement OpenMW Beta
-  plugins:
-  - Perfect Placement.omwscripts
+  - name: Perfect Placement
+    url: https://www.nexusmods.com/morrowind/mods/46562
+    download_info:
+      - file_name: Perfect Placement OpenMW Beta
+    plugins:
+      - Perfect Placement.omwscripts
 
-- name: Protected Beasts
-  url: https://modding-openmw.gitlab.io/protected-beasts/
-  download_info:
-  - file_name: Protected Beasts
-  data_paths:
-  - 00 Core
-  - 01 Argonian Full Helms
-  - 02 Argonian Full Helms Tamriel Data
-  - 03 Boots for Beasts
-  - 04 Boots for Beasts Tamriel Data
-  - 05 Hist Helms
-  plugins:
-  - Argonian Full Helms OpenMW-Lua.omwaddon
-  - Boots for Beasts OpenMW Lua.omwaddon
-  - Boots for Beasts OpenMW Lua TD.omwaddon
-  - Hist Helms OpenMW Lua.omwaddon
-  - protected-beasts.omwscripts
+  - name: Protected Beasts
+    url: https://modding-openmw.gitlab.io/protected-beasts/
+    download_info:
+      - file_name: Protected Beasts
+    data_paths:
+      - 00 Core
+      - 01 Argonian Full Helms
+      - 02 Argonian Full Helms Tamriel Data
+      - 03 Boots for Beasts
+      - 04 Boots for Beasts Tamriel Data
+      - 05 Hist Helms
+    plugins:
+      - Argonian Full Helms OpenMW-Lua.omwaddon
+      - Boots for Beasts OpenMW Lua.omwaddon
+      - Boots for Beasts OpenMW Lua TD.omwaddon
+      - Hist Helms OpenMW Lua.omwaddon
+      - protected-beasts.omwscripts
 
-- name: Comfy Pillow for a restful sleep
-  url: https://www.nexusmods.com/morrowind/mods/46613
-  download_info:
-  - file_name: Comfy Pillow for a restful sleep
-  data_paths:
-  - 00 Base version
-  plugins:
-  - ComfyPillowForARestfulSleep.ESP
+  - name: Comfy Pillow for a restful sleep
+    url: https://www.nexusmods.com/morrowind/mods/46613
+    download_info:
+      - file_name: Comfy Pillow for a restful sleep
+    data_paths:
+      - 00 Base version
+    plugins:
+      - ComfyPillowForARestfulSleep.ESP
 
-- name: Fair Care (OpenMW)
-  url: https://www.nexusmods.com/morrowind/mods/55293
-  download_info:
-  - file_name: FairCare
-  data_paths:
-  - 00 Core
-  plugins:
-  - FairCare.omwaddon
-  - FairCare.omwscripts
+  - name: Fair Care (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/55293
+    download_info:
+      - file_name: FairCare
+    data_paths:
+      - 00 Core
+    plugins:
+      - FairCare.omwaddon
+      - FairCare.omwscripts
 
-- name: Harder Better Faster Stronger (HBFS)
-  url: https://www.nexusmods.com/morrowind/mods/55542
-  download_info:
-  - file_name: HarderBetterFasterStronger
-  data_paths:
-  - 00 Core
-  - 01 GMST
-  plugins:
-  - HBFS.omwscripts
-  - HBFS-GMST.omwaddon
+  - name: Harder Better Faster Stronger (HBFS)
+    url: https://www.nexusmods.com/morrowind/mods/55542
+    download_info:
+      - file_name: HarderBetterFasterStronger
+    data_paths:
+      - 00 Core
+      - 01 GMST
+    plugins:
+      - HBFS.omwscripts
+      - HBFS-GMST.omwaddon
 
-- name: Simple Better Fatigue and Speed
-  url: https://www.nexusmods.com/morrowind/mods/59167
-  download_info:
-  - file_name: Simple Better Fatigue And Speed
-  plugins:
-  - Simple Better Fatigue and Speed.ESP
+  - name: Simple Better Fatigue and Speed
+    url: https://www.nexusmods.com/morrowind/mods/59167
+    download_info:
+      - file_name: Simple Better Fatigue And Speed
+    plugins:
+      - Simple Better Fatigue and Speed.ESP
 
-- name: Magic Rebalance and Fixes (MRF)
-  url: https://www.nexusmods.com/morrowind/mods/58560
-  download_info:
-  - file_name: Magic Rebalance And Fixes
-  data_paths:
-  - 00 Core
-  - 01 Patches
-  - 02 OpenMW Lua
-  - 03 No more Dr Nerevarine
-  plugins:
-  - MRF-items.omwaddon
-  - MRF-spells.omwaddon
-  - MRF-unique-items.omwaddon
-  - MRF-AreaEffectArrows-MOMW-patch.omwaddon
-  - MRF-OAAB-items.omwaddon
-  - MRF-TD-items.omwaddon
-  - MRF.omwscripts
+  - name: Magic Rebalance and Fixes (MRF)
+    url: https://www.nexusmods.com/morrowind/mods/58560
+    download_info:
+      - file_name: Magic Rebalance And Fixes
+    data_paths:
+      - 00 Core
+      - 01 Patches
+      - 02 OpenMW Lua
+      - 03 No more Dr Nerevarine
+    plugins:
+      - MRF-items.omwaddon
+      - MRF-spells.omwaddon
+      - MRF-unique-items.omwaddon
+      - MRF-AreaEffectArrows-MOMW-patch.omwaddon
+      - MRF-OAAB-items.omwaddon
+      - MRF-TD-items.omwaddon
+      - MRF.omwscripts
 
-- name: Sneak is Good Now. -- OpenMW
-  url: https://www.nexusmods.com/morrowind/mods/58441
-  download_info:
-  - file_name: SneakIsGoodNow
-  plugins:
-  - SneakIsGoodNow.omwaddon
-  - SneakIsGoodNow.omwscripts
+  - name: Sneak is Good Now. -- OpenMW
+    url: https://www.nexusmods.com/morrowind/mods/58441
+    download_info:
+      - file_name: SneakIsGoodNow
+    plugins:
+      - SneakIsGoodNow.omwaddon
+      - SneakIsGoodNow.omwscripts
 
-- name: Brute Force - Lockpicking for Barbarians (OpenMW)
-  url: https://www.nexusmods.com/morrowind/mods/57841
-  download_info:
-  - file_name: Brute Force
-  plugins:
-  - BruteForce.omwscripts
+  - name: Brute Force - Lockpicking for Barbarians (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/57841
+    download_info:
+      - file_name: Brute Force
+    plugins:
+      - BruteForce.omwscripts
 
-- name: MOMW Gameplay
-  url: https://modding-openmw.gitlab.io/momw-gameplay/
-  download_info:
-  - file_name: MOMW Gameplay
-  data_paths:
-  - 00 Core
-  plugins:
-  - momw-gameplay.omwscripts
-  - momw-gameplay-controls.omwscripts
-  - momw-gameplay-camera.omwscripts
-  - momw-gameplay-balance.omwscripts
-  - momw-gameplay-ui.omwscripts
+  - name: MOMW Gameplay
+    url: https://modding-openmw.gitlab.io/momw-gameplay/
+    download_info:
+      - file_name: MOMW Gameplay
+    data_paths:
+      - 00 Core
+    plugins:
+      - momw-gameplay.omwscripts
+      - momw-gameplay-controls.omwscripts
+      - momw-gameplay-camera.omwscripts
+      - momw-gameplay-balance.omwscripts
+      - momw-gameplay-ui.omwscripts

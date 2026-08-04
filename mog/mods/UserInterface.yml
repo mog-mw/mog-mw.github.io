@@ -1,133 +1,132 @@
 category: UserInterface
 
 mods:
-- name: Gonzo's Splash Screens
-  url: https://www.nexusmods.com/morrowind/mods/51667
-  download_info:
-  - file_name: Gonzo's Splash Screens - 2K
-  data_paths:
-  - 00 Core
-  - 06 Myrcenart Addon
-  settings: |
-    [GUI]
-    stretch menu background = true
+  - name: Gonzo's Splash Screens
+    url: https://www.nexusmods.com/morrowind/mods/51667
+    download_info:
+      - file_name: Gonzo's Splash Screens - 2K
+    data_paths:
+      - 00 Core
+      - 06 Myrcenart Addon
+    settings: |
+      [GUI]
+      stretch menu background = true
 
-- name: Big Icons
-  url: https://www.nexusmods.com/morrowind/mods/49662
-  download_info:
-  - file_name: Big Icons - OpenMW
-  data_paths:
-  - 07 8X Textured
+  - name: Big Icons
+    url: https://www.nexusmods.com/morrowind/mods/49662
+    download_info:
+      - file_name: Big Icons - OpenMW
+    data_paths:
+      - 07 8X Textured
 
-- name: Vanilla Style HD Icons for Attributes and Skills
-  url: https://www.nexusmods.com/morrowind/mods/54708
-  download_info:
-  - file_name: Vanilla Style HD Icons for Attributes and Skills
-    nexus_file_id: 1000050961
+  - name: Vanilla Style HD Icons for Attributes and Skills
+    url: https://www.nexusmods.com/morrowind/mods/54708
+    download_info:
+      - file_name: Vanilla Style HD Icons for Attributes and Skills
+        nexus_file_id: 1000050961
 
-- name: Vvardenfell Animated Main Menu
-  url: https://www.nexusmods.com/morrowind/mods/54671
-  download_info:
-  - file_name: Vvardenfell Animated Main Menu (Lite)
-  data_paths:
-  - 00 Animated Main Menu
-  settings: |
-    [GUI]
-    stretch menu background = true
+  - name: Vvardenfell Animated Main Menu
+    url: https://www.nexusmods.com/morrowind/mods/54671
+    download_info:
+      - file_name: Vvardenfell Animated Main Menu (Lite)
+    data_paths:
+      - 00 Animated Main Menu
+    settings: |
+      [GUI]
+      stretch menu background = true
 
-- name: OpenMW Skyrim Style Quest Notifications
-  url: https://www.nexusmods.com/morrowind/mods/54148
-  download_info:
-  - file_name: OpenMW Skyrim Style Quest Notifications
-  plugins:
-  - SSQN.omwscripts
+  - name: OpenMW Skyrim Style Quest Notifications
+    url: https://www.nexusmods.com/morrowind/mods/54148
+    download_info:
+      - file_name: OpenMW Skyrim Style Quest Notifications
+    plugins:
+      - SSQN.omwscripts
 
-- name: Skyrim Style Quest Notifications - Legendary Edition
-  url: https://www.nexusmods.com/morrowind/mods/53712
-  download_info:
-  - file_name: SSQN LE
-    actions:
-    - action: copy
-      src: Data Files/MWSE/mods/SSQN/iconlist.lua
-      dst: Data Files/scripts/SSQN/iconlists/SSQNLE.lua
-  data_paths:
-  - Data Files
+  - name: Skyrim Style Quest Notifications - Legendary Edition
+    url: https://www.nexusmods.com/morrowind/mods/53712
+    download_info:
+      - file_name: SSQN LE
+        actions:
+          - action: copy
+            src: Data Files/MWSE/mods/SSQN/iconlist.lua
+            dst: Data Files/scripts/SSQN/iconlists/SSQNLE.lua
+    data_paths:
+      - Data Files
 
-- name: Skyrim Style Quest Notifications Great Patch Hub
-  url: https://www.nexusmods.com/morrowind/mods/55480
-  download_info:
-  - file_name: SSQN Patches
+  - name: Skyrim Style Quest Notifications Great Patch Hub
+    url: https://www.nexusmods.com/morrowind/mods/55480
+    download_info:
+      - file_name: SSQN Patches
 
-- name: Interface Reimagined for OpenMW
-  url: https://www.nexusmods.com/morrowind/mods/54985
-  download_info:
-  - file_name: main
-  - file_name: Alt version without icons
+  - name: Interface Reimagined for OpenMW
+    url: https://www.nexusmods.com/morrowind/mods/54985
+    download_info:
+      - file_name: main
+      - file_name: Alt version without icons
 
-- name: Stats Window Extender (OpenMW)
-  url: https://www.nexusmods.com/morrowind/mods/57727
-  download_info:
-  - file_name: Stats Window Extender
-  plugins:
-  - StatsWindow.ESP
-  - StatsWindow.omwscripts
+  - name: Stats Window Extender (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/57727
+    download_info:
+      - file_name: Stats Window Extender
+    plugins:
+      - StatsWindow.ESP
+      - StatsWindow.omwscripts
 
-- name: Magic Window Extender (OpenMW)
-  url: https://www.nexusmods.com/morrowind/mods/58064
-  download_info:
-  - file_name: Magic Window Extender
-  plugins:
-  - MagicWindowExtender.omwscripts
-  - removeSpellFix.omwaddon
+  - name: Magic Window Extender (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/58064
+    download_info:
+      - file_name: Magic Window Extender
+    plugins:
+      - MagicWindowExtender.omwscripts
+      - removeSpellFix.omwaddon
 
-- name: Inventory Extender (OpenMW)
-  url: https://www.nexusmods.com/morrowind/mods/59205
-  download_info:
-  - file_name: Inventory Extender
-  plugins:
-  - InventoryExtender.omwscripts
+  - name: Inventory Extender (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/59205
+    download_info:
+      - file_name: Inventory Extender
+    plugins:
+      - InventoryExtender.omwscripts
 
-- name: SME - Useful Widgets - Actor Info - Health Bar - Hit Chance
-  url: https://www.nexusmods.com/morrowind/mods/53996
-  download_info:
-  - file_name: Show Me Everything
-  data_paths:
-  - SMEUsefulWidgetsActorInfoHealthBarHitChanceEdited
-  plugins:
-  - SME - Actor UI and Healthbar.omwscripts
+  - name: SME - Useful Widgets - Actor Info - Health Bar - Hit Chance
+    url: https://www.nexusmods.com/morrowind/mods/53996
+    download_info:
+      - file_name: Show Me Everything
+    data_paths:
+      - SMEUsefulWidgetsActorInfoHealthBarHitChanceEdited
+    plugins:
+      - SME - Actor UI and Healthbar.omwscripts
 
-- name: (OpenMW 0.50) QuickLoot
-  url: https://www.nexusmods.com/morrowind/mods/54950
-  download_info:
-  - file_name: QuickLoot
-  data_paths:
-  - QuickLoot
-  plugins:
-  - QuickLoot.omwscripts
+  - name: (OpenMW 0.50) QuickLoot
+    url: https://www.nexusmods.com/morrowind/mods/54950
+    download_info:
+      - file_name: QuickLoot
+    data_paths:
+      - QuickLoot
+    plugins:
+      - QuickLoot.omwscripts
 
-- name: Spell Trader (OpenMW)
-  url: https://www.nexusmods.com/morrowind/mods/59229
-  download_info:
-  - file_name: SpellTraderV1.2.2
-  plugins:
-  - SpellTrader.omwscripts
+  - name: Spell Trader (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/59229
+    download_info:
+      - file_name: SpellTraderV1.2.2
+    plugins:
+      - SpellTrader.omwscripts
 
-- name: simple magic time hud (openmw)
-  url: https://www.nexusmods.com/morrowind/mods/56767
-  download_info:
-  - file_name: omwMagicTimeHud
-  data_paths:
-  - omwMagicTimeHud
-  plugins:
-  - yksuiMagicTimeHud.omwscripts
+  - name: simple magic time hud (openmw)
+    url: https://www.nexusmods.com/morrowind/mods/56767
+    download_info:
+      - file_name: omwMagicTimeHud
+    data_paths:
+      - omwMagicTimeHud
+    plugins:
+      - yksuiMagicTimeHud.omwscripts
 
-- name: Modern Style Crosshair
-  url: https://www.nexusmods.com/morrowind/mods/59497
-  download_info:
-  - file_name: Modern Style Crosshair
-  data_paths:
-  - 00 32x32 Crosshair
-
+  - name: Modern Style Crosshair
+    url: https://www.nexusmods.com/morrowind/mods/59497
+    download_info:
+      - file_name: Modern Style Crosshair
+    data_paths:
+      - 00 32x32 Crosshair
 # # I'll add these properly once i feel like doing UI gooning
 # - name: OpenMW Cute Caius Compass
 #   url: https://www.nexusmods.com/morrowind/mods/56628

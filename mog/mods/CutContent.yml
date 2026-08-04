@@ -1,49 +1,57 @@
 category: CutContent
 
 mods:
-- name: Cutting Room Floor
-  url: https://www.nexusmods.com/morrowind/mods/47307
-  download_info:
-  - file_name: Cutting Room Floor - Modular
-    actions:
-    - action: remove
-      path: Data Files/Splash
-  - file_name: Cutting Room Floor - Modular Patches
-    extract_to: patches
-    actions:
-    - action: clean
-      path: patches/Tamriel Rebuilt/Data Files/Cutting Room Floor - Items TR.esp
-      arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, cell, --exact-id, 'Solstheim, Jolgeirr Barrow']
-  - file_name: Cutting Room Floor - High Resolution Textures
-    extract_to: HQ
-  - file_name: Cutting Room Floor - Optimized Banner
-    extract_to: optimized_banner
-  data_paths:
-  - Data Files
-  - patches/Tamriel Rebuilt/Data Files
-  - patches/Tomb of the Snow Prince/Data Files
-  - optimized_banner/Data Files
-  - HQ/Data Files
-  plugins:
-  - Cutting Room Floor - Free Slaves.esp
-  - Cutting Room Floor - Characters.esp
-  - Cutting Room Floor - Missing Persons TR.esp
-  - Cutting Room Floor - Dead Heroes.esp
-  - Cutting Room Floor - Extra Jobs.esp
-  - Cutting Room Floor - Extra Orders.esp
-  - Cutting Room Floor - Quests.esp
-  - Cutting Room Floor - Voice Lines.esp
-  - Cutting Room Floor - Herders.esp
-  - Cutting Room Floor - Ald Redaynia.esp
-  - Cutting Room Floor - Ald-ruhn Underground.esp
-  - Cutting Room Floor - Items TR.esp
-  - Cutting Room Floor - Snow Prince.esp
+  - name: Cutting Room Floor
+    url: https://www.nexusmods.com/morrowind/mods/47307
+    download_info:
+      - file_name: Cutting Room Floor - Modular
+        actions:
+          - action: remove
+            path: Data Files/Splash
+      - file_name: Cutting Room Floor - Modular Patches
+        extract_to: patches
+        actions:
+          - action: clean
+            path: patches/Tamriel Rebuilt/Data Files/Cutting Room Floor - Items TR.esp
+            arguments:
+              - delete
+              - --backup-dir
+              - tes3cmdbck
+              - --hide-backups
+              - --type
+              - cell
+              - --exact-id
+              - Solstheim, Jolgeirr Barrow
+      - file_name: Cutting Room Floor - High Resolution Textures
+        extract_to: HQ
+      - file_name: Cutting Room Floor - Optimized Banner
+        extract_to: optimized_banner
+    data_paths:
+      - Data Files
+      - patches/Tamriel Rebuilt/Data Files
+      - patches/Tomb of the Snow Prince/Data Files
+      - optimized_banner/Data Files
+      - HQ/Data Files
+    plugins:
+      - Cutting Room Floor - Free Slaves.esp
+      - Cutting Room Floor - Characters.esp
+      - Cutting Room Floor - Missing Persons TR.esp
+      - Cutting Room Floor - Dead Heroes.esp
+      - Cutting Room Floor - Extra Jobs.esp
+      - Cutting Room Floor - Extra Orders.esp
+      - Cutting Room Floor - Quests.esp
+      - Cutting Room Floor - Voice Lines.esp
+      - Cutting Room Floor - Herders.esp
+      - Cutting Room Floor - Ald Redaynia.esp
+      - Cutting Room Floor - Ald-ruhn Underground.esp
+      - Cutting Room Floor - Items TR.esp
+      - Cutting Room Floor - Snow Prince.esp
 
-- name: Artifacts Reinstated
-  url: https://www.nexusmods.com/morrowind/mods/48074
-  download_info:
-  - file_name: Artifacts Reinstated
-  data_paths:
-  - Data Files
-  plugins:
-  - artifacts.esp
+  - name: Artifacts Reinstated
+    url: https://www.nexusmods.com/morrowind/mods/48074
+    download_info:
+      - file_name: Artifacts Reinstated
+    data_paths:
+      - Data Files
+    plugins:
+      - artifacts.esp

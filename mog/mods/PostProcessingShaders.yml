@@ -1,29 +1,29 @@
 category: PostProcessingShaders
 
 mods:
-- name: MOMW Post Processing Pack
-  url: https://modding-openmw.gitlab.io/momw-post-processing-pack/
-  download_info:
-  - file_name: MOMW Post Processing Pack
-  data_paths:
-  - 00 RecommendedConfig
-  - 01 XE-Shaders
-  - 02 OMWFX-Shaders
-  - 03 ZesterersVolumetricClouds
-  - 04 WareyaOpenMWShaders
-  - 05 SlippyDinkerOpenMWShaders
-  - 07 ZesterersSSAO
-  settings: |
-    [Post Processing]
-    enabled = true
-    chain = hdr
-    transparent postpass = true
-    [Shaders]
-    force per pixel lighting = true
+  - name: MOMW Post Processing Pack
+    url: https://modding-openmw.gitlab.io/momw-post-processing-pack/
+    download_info:
+      - file_name: MOMW Post Processing Pack
+    data_paths:
+      - 00 RecommendedConfig
+      - 01 XE-Shaders
+      - 02 OMWFX-Shaders
+      - 03 ZesterersVolumetricClouds
+      - 04 WareyaOpenMWShaders
+      - 05 SlippyDinkerOpenMWShaders
+      - 07 ZesterersSSAO
+    settings: |
+      [Post Processing]
+      enabled = true
+      chain = hdr
+      transparent postpass = true
+      [Shaders]
+      force per pixel lighting = true
 
-- name: Rafael's Shader Pack
-  url: https://www.nexusmods.com/morrowind/mods/53667
-  download_info:
-  - file_name: Rafael's Shader Pack 2.0c
-  data_paths:
-  - RafaelsShaderPack
+  - name: Rafael's Shader Pack
+    url: https://www.nexusmods.com/morrowind/mods/53667
+    download_info:
+      - file_name: Rafael's Shader Pack 2.0c
+    data_paths:
+      - RafaelsShaderPack

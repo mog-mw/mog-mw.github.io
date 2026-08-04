@@ -1,71 +1,73 @@
 category: Weapons
 
 mods:
-- name: Oriental Mesh Improvements
-  url: https://www.nexusmods.com/morrowind/mods/29906
-  download_info:
-  - file_name: Psy_OMI
+  - name: Oriental Mesh Improvements
+    url: https://www.nexusmods.com/morrowind/mods/29906
+    download_info:
+      - file_name: Psy_OMI
 
-- name: Weapon Sheathing
-  url: https://www.nexusmods.com/morrowind/mods/46069
-  download_info:
-  - file_name: WeaponSheathing1.6-OpenMW
-  data_paths:
-  - Data Files
-  settings: |
-    [Game]
-    shield sheathing = true
-    weapon sheathing = true
-    use additional anim sources = true
+  - name: Weapon Sheathing
+    url: https://www.nexusmods.com/morrowind/mods/46069
+    download_info:
+      - file_name: WeaponSheathing1.6-OpenMW
+    data_paths:
+      - Data Files
+    settings: |
+      [Game]
+      shield sheathing = true
+      weapon sheathing = true
+      use additional anim sources = true
 
-- name: Weapon Sheathing Additions
-  url: https://www.nexusmods.com/morrowind/mods/49616
-  download_info:
-  - file_name: Weapon Sheathing Additions
+  - name: Weapon Sheathing Additions
+    url: https://www.nexusmods.com/morrowind/mods/49616
+    download_info:
+      - file_name: Weapon Sheathing Additions
 
-- name: SWJ's Weapon Sheathing Patches
-  url: https://www.nexusmods.com/morrowind/mods/52235
-  download_info:
-  - file_name: Oriental Mesh Improvements - Weapon Sheathing Patch
-    extract_to: Oriental Mesh Improvements
-  data_paths:
-  - Oriental Mesh Improvements
+  - name: SWJ's Weapon Sheathing Patches
+    url: https://www.nexusmods.com/morrowind/mods/52235
+    download_info:
+      - file_name: Oriental Mesh Improvements - Weapon Sheathing Patch
+        extract_to: Oriental Mesh Improvements
+    data_paths:
+      - Oriental Mesh Improvements
 
-- name: Racers and Sload and Slavers Weapon Sheathing Patch
-  url: https://www.nexusmods.com/morrowind/mods/52830
-  download_info:
-  - file_name: Racers Sload and Slavers Weapon Sheathing Patch
+  - name: Racers and Sload and Slavers Weapon Sheathing Patch
+    url: https://www.nexusmods.com/morrowind/mods/52830
+    download_info:
+      - file_name: Racers Sload and Slavers Weapon Sheathing Patch
 
-- name: Improved Thrown Weapon Projectiles
-  url: https://www.nexusmods.com/morrowind/mods/44763
-  download_info:
-  - file_name: Improved Thrown Weapon Projectiles
-  data_paths:
-  - Data Files
+  - name: Improved Thrown Weapon Projectiles
+    url: https://www.nexusmods.com/morrowind/mods/44763
+    download_info:
+      - file_name: Improved Thrown Weapon Projectiles
+    data_paths:
+      - Data Files
 
-- name: PikachunoTMs Artifact Mesh Improvements
-  url: https://www.nexusmods.com/morrowind/mods/45631
-  download_info:
-  - file_name: PikachunoTMs Artifact Mesh Improvements
-  data_paths:
-  - 01 Animated Staff of Magnus
+  - name: PikachunoTMs Artifact Mesh Improvements
+    url: https://www.nexusmods.com/morrowind/mods/45631
+    download_info:
+      - file_name: PikachunoTMs Artifact Mesh Improvements
+    data_paths:
+      - 01 Animated Staff of Magnus
 
-- name: Smart Ammo for OpenMW-Lua
-  url: https://modding-openmw.gitlab.io/smart-ammo/
-  download_info:
-  - file_name: Smart Ammo for OpenMW-Lua
-  plugins:
-  - smart-ammo.omwscripts
+  - name: Smart Ammo for OpenMW-Lua
+    url: https://modding-openmw.gitlab.io/smart-ammo/
+    download_info:
+      - file_name: Smart Ammo for OpenMW-Lua
+    plugins:
+      - smart-ammo.omwscripts
 
-- name: Daedric Maul
-  url: https://www.nexusmods.com/morrowind/mods/53218
-  download_info:
-  - file_name: Daedric Maul
-    actions:
-    - action: clean
-      path: Daedric Maul/Data Files/Daedric_Maul.ESP
-      arguments: [clean, --overwrite]
-  data_paths:
-  - Daedric Maul/Data Files
-  plugins:
-  - Daedric_Maul.ESP
+  - name: Daedric Maul
+    url: https://www.nexusmods.com/morrowind/mods/53218
+    download_info:
+      - file_name: Daedric Maul
+        actions:
+          - action: clean
+            path: Daedric Maul/Data Files/Daedric_Maul.ESP
+            arguments:
+              - clean
+              - --overwrite
+    data_paths:
+      - Daedric Maul/Data Files
+    plugins:
+      - Daedric_Maul.ESP

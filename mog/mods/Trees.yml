@@ -1,9 +1,9 @@
 category: Trees
 
 mods:
-- name: SM Bitter Coast Tree Replacer
-  url: https://www.nexusmods.com/morrowind/mods/49883
-  download_info:
-  - file_name: SM_Bitter Coast Tree
-  data_paths:
-  - SM_BCTree_1_0/Data files
+  - name: SM Bitter Coast Tree Replacer
+    url: https://www.nexusmods.com/morrowind/mods/49883
+    download_info:
+      - file_name: SM_Bitter Coast Tree
+    data_paths:
+      - SM_BCTree_1_0/Data files

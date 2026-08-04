@@ -1,27 +1,27 @@
 category: Minigames
 
 mods:
-- name: Nine-holes
-  url: https://www.nexusmods.com/morrowind/mods/52093
-  download_info:
-  - file_name: Nine-holes - Modular
-  data_paths:
-  - 00 Core
-  - 01 Ald-ruhn, The Rat In The Pot
-  - 04 Ebonheart, Six Fishes
-  - 05 Moonmoth Legion Fort
-  - 06 Pelagiad, Halfway Tavern
-  - 07 Sadrith Mora, Dirty Muriel's Cornerclub
-  - 08 Seyda Neen, Arrille's Tradehouse
-  - 09 (BCOM) Suran, Goldyn Belaram
-  - 10 Vivec, Elven Nations Cornerclub
-  plugins:
-  - Nine-holes - Core.esp
-  - Nine-holes - Ald-ruhn, The Rat In The Pot.esp
-  - Nine-holes - Ebonheart, Six Fishes.esp
-  - Nine-holes - Moonmoth Legion Fort.esp
-  - Nine-holes - Pelagiad, Halfway Tavern.esp
-  - Nine-holes - Sadrith Mora, Dirty Muriel's Cornerclub.esp
-  - Nine-holes - Seyda Neen, Arrille's Tradehouse.esp
-  - Nine-holes - Suran, Goldyn Belaram (BCOM).esp
-  - Nine-holes - Vivec, Elven Nations Cornerclub.esp
+  - name: Nine-holes
+    url: https://www.nexusmods.com/morrowind/mods/52093
+    download_info:
+      - file_name: Nine-holes - Modular
+    data_paths:
+      - 00 Core
+      - 01 Ald-ruhn, The Rat In The Pot
+      - 04 Ebonheart, Six Fishes
+      - 05 Moonmoth Legion Fort
+      - 06 Pelagiad, Halfway Tavern
+      - 07 Sadrith Mora, Dirty Muriel's Cornerclub
+      - 08 Seyda Neen, Arrille's Tradehouse
+      - 09 (BCOM) Suran, Goldyn Belaram
+      - 10 Vivec, Elven Nations Cornerclub
+    plugins:
+      - Nine-holes - Core.esp
+      - Nine-holes - Ald-ruhn, The Rat In The Pot.esp
+      - Nine-holes - Ebonheart, Six Fishes.esp
+      - Nine-holes - Moonmoth Legion Fort.esp
+      - Nine-holes - Pelagiad, Halfway Tavern.esp
+      - Nine-holes - Sadrith Mora, Dirty Muriel's Cornerclub.esp
+      - Nine-holes - Seyda Neen, Arrille's Tradehouse.esp
+      - Nine-holes - Suran, Goldyn Belaram (BCOM).esp
+      - Nine-holes - Vivec, Elven Nations Cornerclub.esp

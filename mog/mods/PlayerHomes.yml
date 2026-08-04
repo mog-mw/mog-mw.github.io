@@ -1,26 +1,26 @@
 category: PlayerHomes
 
 mods:
-- name: Uvirith's Legacy
-  url: https://www.dropbox.com/s/sqxbej0nef7bg9e/Uviriths_Legacy_3.53.7z?rlkey=33q8nnljnar5ujyp0mj21mpbq&dl=0
-  download_info:
-  - direct_download: https://www.dropbox.com/scl/fi/81bcpjyb429v9y6p0lzk9/Uviriths_Legacy_3.53.7z?rlkey=33q8nnljnar5ujyp0mj21mpbq&dl=1
-    file_name: Uvirith's Legacy
-  data_paths:
-  - Data Files
-  - Data Files/Addons
-  plugins:
-  - UL_3.5_RoHT_1.52_Add-on.esp
-  settings: |
-    [Shaders]
-    apply lighting to environment maps = true
+  - name: Uvirith's Legacy
+    url: https://www.dropbox.com/s/sqxbej0nef7bg9e/Uviriths_Legacy_3.53.7z?rlkey=33q8nnljnar5ujyp0mj21mpbq&dl=0
+    download_info:
+      - direct_download: https://www.dropbox.com/scl/fi/81bcpjyb429v9y6p0lzk9/Uviriths_Legacy_3.53.7z?rlkey=33q8nnljnar5ujyp0mj21mpbq&dl=1
+        file_name: Uvirith's Legacy
+    data_paths:
+      - Data Files
+      - Data Files/Addons
+    plugins:
+      - UL_3.5_RoHT_1.52_Add-on.esp
+    settings: |
+      [Shaders]
+      apply lighting to environment maps = true
 
-- name: Building Up Uvirith's Legacy
-  url: https://modding-openmw.com/files/Building_Up_Uviriths_Legacy.7z
-  dl_url: https://modding-openmw.com/files/Building_Up_Uviriths_Legacy.7z
-  download_info:
-  - file_name: Building Up Uvirith's Legacy
-  data_paths:
-  - Building Up Uvirith's Legacy
-  plugins:
-  - Building Up Uvirith's Legacy1.1.ESP
+  - name: Building Up Uvirith's Legacy
+    url: https://modding-openmw.com/files/Building_Up_Uviriths_Legacy.7z
+    dl_url: https://modding-openmw.com/files/Building_Up_Uviriths_Legacy.7z
+    download_info:
+      - file_name: Building Up Uvirith's Legacy
+    data_paths:
+      - Building Up Uvirith's Legacy
+    plugins:
+      - Building Up Uvirith's Legacy1.1.ESP
