@@ -29,3 +29,17 @@ mods:
   - file_name: Voice Overhaul
   plugins:
   - PR Voice Overhaul.esp
+
+- name: Dynamic Sounds Phoenix
+  url: https://www.nexusmods.com/morrowind/mods/59481
+  download_info:
+  - file_name: Main File
+  plugins:
+  - DynamicSounds.omwscripts
+  archives:
+  - dynamicsounds.bsa
+
+- name: Immersive Combat Sounds
+  url: https://www.nexusmods.com/morrowind/mods/50254
+  download_info:
+  - file_name: Immersive Combat Sounds

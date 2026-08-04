@@ -58,6 +58,12 @@ mods:
   download_info:
   - file_name: SSQN Patches
 
+- name: Interface Reimagined for OpenMW
+  url: https://www.nexusmods.com/morrowind/mods/54985
+  download_info:
+  - file_name: main
+  - file_name: Alt version without icons
+
 - name: Stats Window Extender (OpenMW)
   url: https://www.nexusmods.com/morrowind/mods/57727
   download_info:
@@ -121,3 +127,22 @@ mods:
   - file_name: Modern Style Crosshair
   data_paths:
   - 00 32x32 Crosshair
+
+# # I'll add these properly once i feel like doing UI gooning
+# - name: OpenMW Cute Caius Compass
+#   url: https://www.nexusmods.com/morrowind/mods/56628
+#   download_info:
+#   - file_name: OpenMW Cute Caius Compass
+#   data_paths:
+#   - OpenMW Compass
+#
+# - name: (OpenMW 0.49) Better Bars
+#   url: https://www.nexusmods.com/morrowind/mods/54951
+#   download_info:
+#   - file_name: BetterBars
+#   data_paths:
+#   - BetterBars
+#   plugins:
+#   - BetterBars.omwscripts
+#
+# # https://www.nexusmods.com/morrowind/mods/57106

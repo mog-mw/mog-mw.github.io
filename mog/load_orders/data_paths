@@ -679,6 +679,7 @@ Gameplay/MagicRebalanceandFixesMRF/02 OpenMW Lua
 Gameplay/MagicRebalanceandFixesMRF/03 No more Dr Nerevarine
 Gameplay/SneakisGoodNowOpenMW
 Gameplay/BruteForceLockpickingforBarbariansOpenMW
+UserInterface/InterfaceReimaginedforOpenMW
 UserInterface/StatsWindowExtenderOpenMW
 UserInterface/MagicWindowExtenderOpenMW
 UserInterface/InventoryExtenderOpenMW
@@ -693,6 +694,19 @@ PostProcessingShaders/MOMWPostProcessingPack/01 XE-Shaders
 PostProcessingShaders/MOMWPostProcessingPack/02 OMWFX-Shaders
 PostProcessingShaders/MOMWPostProcessingPack/03 ZesterersVolumetricClouds
 PostProcessingShaders/MOMWPostProcessingPack/04 WareyaOpenMWShaders
+PostProcessingShaders/MOMWPostProcessingPack/05 SlippyDinkerOpenMWShaders
+PostProcessingShaders/MOMWPostProcessingPack/07 ZesterersSSAO
+UserInterface/GonzosSplashScreens/00 Core
+UserInterface/GonzosSplashScreens/06 Myrcenart Addon
+Animation/OpenMWConsumingAnimated
+Animation/OpenMWInteractionsAnimated
+Animation/OpenMWAnimatedPickupandShopAround
+Animation/OpenMWDynamicActors
+Animation/OpenMWDynamicAnimations
+Animation/QuestmanModernQuestJournalOpenMW
+Audio/DynamicSoundsPhoenix
+Audio/ImmersiveCombatSounds
+Camera/DynamiccameraImmersive1stand3rdpersoncameraeffectsandtargetlockOpenMW
 # insert new entries above
 Tools/MOMWToolsPack
 TexturePacks/SophiesSkoomaSweetshoppe/30 Temporary Fixes

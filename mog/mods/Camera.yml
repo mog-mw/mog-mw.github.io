@@ -1,0 +1,9 @@
+category: Camera
+
+mods:
+- name: Dynamic camera - Immersive 1st and 3rd person camera effects and target lock -- OpenMW
+  url: https://www.nexusmods.com/morrowind/mods/55327
+  download_info:
+  - file_name: Dynamic Camera
+  plugins:
+  - DynamicCamera.omwscripts

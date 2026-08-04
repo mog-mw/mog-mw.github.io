@@ -47,3 +47,45 @@ mods:
   settings: |
     [Game]
     use additional anim sources = true
+
+- name: (OpenMW) Consuming Animated
+  url: https://www.nexusmods.com/morrowind/mods/59069
+  download_info:
+  - file_name: Consuming Animated
+  plugins:
+  - Consuming Animated.omwscripts
+
+- name: (OpenMW) Interactions Animated
+  url: https://www.nexusmods.com/morrowind/mods/59117
+  download_info:
+  - file_name: Interactions Animated
+  plugins:
+  - Interactions Animated.omwscripts
+
+- name: OpenMW Animated Pickup and Shop Around
+  url: https://www.nexusmods.com/morrowind/mods/54585
+  download_info:
+  - file_name: OpenMW Animated Pickup and Shop Around
+  plugins:
+  - Animated Pickup and Shop Around.omwscripts
+
+- name: OpenMW Dynamic Actors
+  url: https://www.nexusmods.com/morrowind/mods/54782
+  download_info:
+  - file_name: OpenMW Dynamic Actors
+  plugins:
+  - Dynamic Actors.omwscripts
+
+- name: OpenMW Dynamic Animations
+  url: https://www.nexusmods.com/morrowind/mods/57633
+  download_info:
+  - file_name: OpenMW Dynamic Animations
+  plugins:
+  - Dynamic Animations.omwscripts
+
+- name: Questman - Modern Quest Journal (OpenMW)
+  url: https://www.nexusmods.com/morrowind/mods/59493
+  download_info:
+  - file_name: Questman 1.4
+  plugins:
+  - questman.omwscripts

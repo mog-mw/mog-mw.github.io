@@ -377,3 +377,8 @@ mods:
   settings: |
     [Cells]
     preload doors = false
+
+- name: Map Zooming
+  settings: |
+    [Map]
+    allow zooming = true
