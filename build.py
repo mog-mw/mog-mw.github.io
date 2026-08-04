@@ -98,6 +98,7 @@ def main():
             print(f"Download mods:\n  umo install --momw-url http://127.0.0.1:{args.port} --sync {args.name}")
             print(f"Generate configuration:\n  momw-configurator-linux-amd64 config --momw-url http://127.0.0.1:{args.port} --run-navmeshtool --run-validator {args.name}")
             print(f"Generate configuration (quick):\n  momw-configurator-linux-amd64 config --momw-url http://127.0.0.1:{args.port} --no-delta-plugin --no-groundcoverify --no-lightfixes --run-validator {args.name}")
+        print()
 
         try:
             httpd.serve_forever()
