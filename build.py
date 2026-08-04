@@ -36,6 +36,7 @@ load_orders = {
 
 output_list = []
 output_cfg = {"openmw_cfg": {}, "settings_cfg": ""}
+path_categories = {} # key: path, value: category it belongs to
 settings = ConfigParser()
 
 
@@ -61,6 +62,7 @@ def main():
             if line.startswith("#") or line == "":
                 continue
             if filename == "data_paths":
+                line = add_path_prefix(line, path_categories[line])
                 line = line.replace("/", "\\")
             output_cfg["openmw_cfg"][load_order.field] += load_order.prefix + line + "\n"
 
@@ -114,17 +116,17 @@ def handle_mod(mod: dict, category: str):
     for i, path in enumerate(mod["data_paths"]):
         path = add_path_prefix(path, dirname)
         mod["data_paths"][i] = path
-        load_orders["data_paths"].actual_list.append(add_path_prefix(path, category))
+        path_categories[path] = category
 
-    for field in ("fallbacks", "plugins", "groundcover", "archives"):
+    for field, load_order in load_orders.items():
         if field in mod:
-            load_orders[field].actual_list.extend(mod[field])
+            load_order.actual_list.extend(mod[field])
 
     if "settings" in mod:
         settings.read_string(mod["settings"])
 
     # skip for umo
-    if ("url" not in mod and "dl_url" not in mod) or "download_info" not in mod:
+    if "url" not in mod or "download_info" not in mod:
         return
 
     new_entry = generate_list_entry()
