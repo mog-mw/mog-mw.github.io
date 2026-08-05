@@ -141,7 +141,6 @@ AranoPlantationWindmill
 HawiaInfrastructure
 PerfectScum
 UnholyTrinityDagothUrVemynalOdrosalRemade/Data Files
-LibraryofVivecEnhanced/00 Core
 RepopulatedVassirDidanatMine/RepopulatedVassirDidanatMine
 Akulakhansbestchamber/00 - Core files
 SophiesSkoomaSweetshoppe/21 Akulukhan's Best Chamber OpenMW
@@ -295,11 +294,8 @@ BeautifulCitiesofMorrowind/02 Options/04 Suran dock expansion
 BeautifulCitiesofMorrowind/02 Options/07 Taller Seyda Neen Lighthouse
 BeautifulCitiesofMorrowind/02 Options/08 Expanded Sadrith Mora Dock
 BeautifulCitiesofMorrowind/02 Options/09 Concept Art Ghostfence Pillars
-BeautifulCitiesofMorrowind/02 Options/10 Open Arena
-BeautifulCitiesofMorrowind/02 Options/11 Vivec Customization Options
 BeautifulCitiesofMorrowind/02 Options/12 Ghostgate - Animated Statues
 BeautifulCitiesofMorrowind/02 Options/14 More Tribal Erabenimsun
-BeautifulCitiesofMorrowind/02 Options/15 Molag Mar Broken Dome
 BeautifulCitiesofMorrowind/02 Options/17 Caldera Mages Guild Basement
 BeautifulCitiesofMorrowind/02 Options/18 Urshilaku Camp Concept Art Husk
 BeautifulCitiesofMorrowind/02 Options/19 Ald'Ruhn Outdoor Merchants
@@ -520,7 +516,6 @@ AspectofAzura/01 OpenMW Addons
 AFFresh
 FargothSaysHello
 BalmoraGravemarket
-MOMWPatches/33 AFFresh+Library of Vivec Enhanced Patch
 CrownofUrshilaku
 ARiverofFire
 SuranAshlandsBarrier
@@ -707,6 +702,25 @@ QuestmanModernQuestJournalOpenMW
 DynamicSoundsPhoenix
 ImmersiveCombatSounds
 DynamiccameraImmersive1stand3rdpersoncameraeffectsandtargetlockOpenMW
+VivecGodtheCity/00 Main
+VivecGodtheCity/02 Vanilla Dialogue Edits
+VivecGodtheCity/03 Placement Navigable Paper Map
+VivecGodtheCity/05 Exterior Ports TR Patch
+VivecGodtheCity/07 Exterior Bridges (Paper Map)
+VivecGodtheCity/08 Exterior City Gate (Paper Map)
+VivecGodtheCity/09 Exterior Clutter (Paper Map Navigable)
+VivecGodtheCity/10 Exterior Lights (Paper Map Navigable)
+VivecGodtheCity/11 Exterior Street Vendors Addon (Navigable)
+VivecGodtheCity/12 Exterior Temple Bellification
+DrData
+VivecGodtheCity/04 Exterior Ports (Paper Map Navigable)
+VivecGodtheCity/13 Plaza Hlaalu Open
+VivecGodtheCity/14 Plaza Arena Open
+VivecGodtheCity/15 Plaza FQ Open (Paper Map)
+VivecGodtheCity/16 Plaza Redoran Open
+VivecGodtheCity/17 Plaza St Delyn Open
+VivecGodtheCity/18 Plaza St Olms Open
+VivecGodtheCity/19 Plaza Telvanni Open (Navigable)
 # insert new entries above
 MOMWToolsPack
 SophiesSkoomaSweetshoppe/30 Temporary Fixes

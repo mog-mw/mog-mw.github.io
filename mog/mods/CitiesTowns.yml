@@ -33,6 +33,79 @@ mods:
       - file_name: Beautiful Cities of Morrowind - Patches
         extract_to: Patches
       - file_name: Beautiful Cities of Morrowind - BCOM Core
+        actions:
+          # patch for The Wolverine Hall
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --interior, --id, Wolverine Hall]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --exterior, --id, Wolverine Hall]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --exterior, --id, 'Sadrith Mora, Wolverine Hall']
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, pgrd, --id, 'Sadrith Mora, Wolverine Hall']
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, pgrd, --id, Wolverine Hall]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, npc_, --id, emelia duronia]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, npc_, --id, erranil]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, npc_, --id, flacassia fauseius]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, npc_, --id, masalinie merian]
+
+          # patch for Vivec - God the City
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --interior, --id, Vivec]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --interior, --id, Renda's Dower]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --interior, --id, The Golden Crest]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --interior, --id, Grief of the Dreugh]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --exterior, --id, Vivec]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, pgrd, --id, Vivec]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, LAND, --id, Vivec]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, LTEX, --id, Vivec]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --id, Aren Maren]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --id, Dalse Adren]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --id, Devas Irano]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --id, fendryn drelvi]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --id, Talsi Uvayn]
+          - action: clean
+            path: 00 Core/BCOM_pathgrid_reset.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, pgrd, --id, Vivec]
     data_paths:
       - Patches/54 Area of effect Arrows
       - Patches/80 Mamaea Awakened
@@ -47,11 +120,12 @@ mods:
       - 02 Options/07 Taller Seyda Neen Lighthouse
       - 02 Options/08 Expanded Sadrith Mora Dock
       - 02 Options/09 Concept Art Ghostfence Pillars
-      - 02 Options/10 Open Arena
-      - 02 Options/11 Vivec Customization Options
+      # - 02 Options/10 Open Arena
+      # - 02 Options/11 Vivec Customization Options
       - 02 Options/12 Ghostgate - Animated Statues
       - 02 Options/14 More Tribal Erabenimsun
-      - 02 Options/15 Molag Mar Broken Dome
+      # # Included in Dr_Data
+      # - 02 Options/15 Molag Mar Broken Dome
       - 02 Options/17 Caldera Mages Guild Basement
       - 02 Options/18 Urshilaku Camp Concept Art Husk
       - 02 Options/19 Ald'Ruhn Outdoor Merchants
@@ -96,11 +170,11 @@ mods:
       - BCoM_Eight_Plates_Quest_Addon.ESP
       - BCoM_Khuul_Lighthouse_02.ESP
       - ROHT_2_0_8.ESP
-      - BCOM_Decorated_Cantons.ESP
-      - BCOM_Vivec_Arena_planters.ESP
-      - BCOM_Vivec_Planters.ESP
-      - BCOM_Vivec_Street_Vendors.ESP
-      - BCOM_Vivec_Temple_Fountains.ESP
+      # - BCOM_Decorated_Cantons.ESP
+      # - BCOM_Vivec_Arena_planters.ESP
+      # - BCOM_Vivec_Planters.ESP
+      # - BCOM_Vivec_Street_Vendors.ESP
+      # - BCOM_Vivec_Temple_Fountains.ESP
       - BCOM_Sadrith_Mora_dock_expanded.ESP
       - BCoM_South_Gates_Sadrith_Mora.ESP
       - Concept_Arts_plantations.esp
@@ -119,11 +193,11 @@ mods:
       - Yet Another Guard Diversity - Full Cephalopod.ESP
       - BCOM_Suran Expansion.ESP
       - BCOM - Taller Lighthouse.ESP
-      - BCoM_Open_Cantons.ESP
-      - BCoM - Atmospheric_Arena.ESP
-      - BCoM_Atmospheric_Plazas.ESP
-      - Interior exterior flag reset_Atmospheric Arena.ESP
-      - Interior exterior flag reset_Atmospheric Plazas.ESP
+      # - BCoM_Open_Cantons.ESP
+      # - BCoM - Atmospheric_Arena.ESP
+      # - BCoM_Atmospheric_Plazas.ESP
+      # - Interior exterior flag reset_Atmospheric Arena.ESP
+      # - Interior exterior flag reset_Atmospheric Plazas.ESP
       - CalderaGovernorsManor.ESP
     groundcover:
       - Rem_GL_Trackless_GL.esp
@@ -327,34 +401,6 @@ mods:
     url: https://www.nexusmods.com/morrowind/mods/52199
     download_info:
       - file_name: The Wolverine Hall
-        actions:
-          - action: clean
-            path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
-            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --interior, --id, Wolverine Hall]
-          - action: clean
-            path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
-            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --exterior, --id, Wolverine Hall]
-          - action: clean
-            path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
-            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --exterior, --id, 'Sadrith Mora, Wolverine Hall']
-          - action: clean
-            path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
-            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, pgrd, --id, 'Sadrith Mora, Wolverine Hall']
-          - action: clean
-            path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
-            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, pgrd, --id, Wolverine Hall]
-          - action: clean
-            path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
-            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, npc_, --id, emelia duronia]
-          - action: clean
-            path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
-            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, npc_, --id, erranil]
-          - action: clean
-            path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
-            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, npc_, --id, flacassia fauseius]
-          - action: clean
-            path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
-            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, npc_, --id, masalinie merian]
     data_paths:
       - 00 Core
       - 02 BCOM patch (read the instructions or it won't work)
@@ -439,3 +485,50 @@ mods:
       - file_name: BalmoraGravemarketBCOMWaterworks
     plugins:
       - BalmoraGravemarketBCOM.ESP
+
+  - name: Vivec - God the City
+    url: https://www.nexusmods.com/morrowind/mods/51777
+    download_info:
+      - file_name: Vivec - God the City
+    data_paths:
+      - 00 Main
+      - 02 Vanilla Dialogue Edits
+      - 03 Placement Navigable Paper Map
+      - 04 Exterior Ports (Paper Map Navigable)
+      - 05 Exterior Ports TR Patch
+      - 07 Exterior Bridges (Paper Map)
+      - 08 Exterior City Gate (Paper Map)
+      - 09 Exterior Clutter (Paper Map Navigable)
+      - 10 Exterior Lights (Paper Map Navigable)
+      - 11 Exterior Street Vendors Addon (Navigable)
+      - 12 Exterior Temple Bellification
+      - 13 Plaza Hlaalu Open
+      - 14 Plaza Arena Open
+      # - 14 Plaza Arena Open Skywind
+      - 15 Plaza FQ Open (Paper Map)
+      - 16 Plaza Redoran Open
+      - 17 Plaza St Delyn Open
+      - 18 Plaza St Olms Open
+      - 19 Plaza Telvanni Open (Navigable)
+    plugins:
+      - Vivec - God the City.esp
+      - Vivec Dialogue Edits.ESP
+      - Vivec - Placement Navigable.esp
+      - Vivec - Placement Paper Map.esp
+      - Vivec Exterior - Ports (Paper Map Navigable).esp
+      - Vivec Exterior - Ports TR Patch .esp
+      - Vivec Exterior - Bridges (Paper Map).ESP
+      - Vivec Exterior - City Gates (Paper Map).ESP
+      - Vivec Exterior - Clutter (Paper Map Navigable).esp
+      - Vivec Exterior - Lights (Paper Map Navigable).esp
+      - Vivec Exterior - Street Vendors - (Navigable).esp
+      - Vivec Exterior - Temple Bellification.esp
+      - Vivec Plaza - Hlaalu - Open.ESP
+      - Vivec Plaza - Arena Open.esp
+      # - Vivec Plaza - Arena Open (Skywind).esp
+      # - Vivec Plaza - Arena Open (Skywind) Clutter Addon.esp
+      - Vivec Plaza - Foreign - Open (Paper Map).ESP
+      - Vivec Plaza - Redoran - Open.ESP
+      - Vivec Plaza - St. Delyn - Open.ESP
+      - Vivec Plaza - St. Olms - Open.ESP
+      - Vivec Plaza - Telvanni NV - Open.ESP

@@ -36,6 +36,14 @@ mods:
     plugins:
       - OAAB_Data.esm
 
+
+  - name: Dr_Data
+    url: https://www.nexusmods.com/morrowind/mods/51776
+    download_info:
+      - file_name: Dr_Data
+    plugins:
+      - Dr_Data.esm
+
   - name: Static Switching System
     url: https://www.nexusmods.com/morrowind/mods/57282
     download_info:

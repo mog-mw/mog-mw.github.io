@@ -41,14 +41,15 @@ mods:
       - RPNR_Shrine_Of_Azura.ESP
       - RPNR_Shrine_Of_Azura_Aspect_Of_Azura_Patch.ESP
 
-  - name: Library of Vivec Enhanced
-    url: https://www.nexusmods.com/morrowind/mods/50181
-    download_info:
-      - file_name: Library of Vivec Enhanced
-    data_paths:
-      - 00 Core
-    plugins:
-      - RPNR_Library.ESP
+  # # Included in Vivec - God the City
+  # - name: Library of Vivec Enhanced
+  #   url: https://www.nexusmods.com/morrowind/mods/50181
+  #   download_info:
+  #     - file_name: Library of Vivec Enhanced
+  #   data_paths:
+  #     - 00 Core
+  #   plugins:
+  #     - RPNR_Library.ESP
 
   - name: Ald'ruhn-under-Skar
     url: https://www.nexusmods.com/morrowind/mods/50332

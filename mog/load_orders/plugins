@@ -13,6 +13,7 @@ OAAB_Data.esm
 Sky_Main.esm
 Cyr_Main.esm
 Solstheim Tomb of The Snow Prince.esm
+Dr_Data.esm
 AFFresh.esm
 OAAB - Tombs and Towers.esm
 StatsWindow.ESP
@@ -106,7 +107,6 @@ Indoril & Her Hand Armor Privileges.omwscripts
 FMI_Legion_Dialogue.ESP
 Dubdilla Location Fix.ESP
 AFFresh+SamarysAncestralTombExpanded.esp
-AFFreshLibraryOfVivecEnhanced.esp
 AFFargoth.ESP
 DM_CrownOfUrshilaku.ESP
 DM_RiverOfFire.ESP
@@ -194,7 +194,6 @@ Clean_Mines and Caverns.esp
 OAAB_Grazelands_Mines_and_Caverns_patch.esp
 Clean_Vennin's Pulk Overhaul.ESP
 SecretsOfTheCrystalCity.esp
-RPNR_Library.ESP
 RepopulatedVassirDidanatMine.ESP
 Imperial Factions.ESP
 sp_shishi.ESP
@@ -302,6 +301,25 @@ OAAB - Hawia_Egg_Mine.ESP
 Hawia Infrastructure.ESP
 dgrandom.esp
 TelvanniSeaBeacons.ESP
+Vivec - God the City.esp
+Vivec Dialogue Edits.ESP
+Vivec - Placement Navigable.esp
+Vivec - Placement Paper Map.esp
+Vivec Exterior - Ports (Paper Map Navigable).esp
+Vivec Exterior - Ports TR Patch .esp
+Vivec Exterior - Bridges (Paper Map).ESP
+Vivec Exterior - City Gates (Paper Map).ESP
+Vivec Exterior - Clutter (Paper Map Navigable).esp
+Vivec Exterior - Lights (Paper Map Navigable).esp
+Vivec Exterior - Street Vendors - (Navigable).esp
+Vivec Exterior - Temple Bellification.esp
+Vivec Plaza - Hlaalu - Open.ESP
+Vivec Plaza - Arena Open.esp
+Vivec Plaza - Foreign - Open (Paper Map).ESP
+Vivec Plaza - Redoran - Open.ESP
+Vivec Plaza - St. Delyn - Open.ESP
+Vivec Plaza - St. Olms - Open.ESP
+Vivec Plaza - Telvanni NV - Open.ESP
 Beautiful cities of Morrowind.ESP
 BCoM_Eight_Plates_Quest_Addon.ESP
 RP_Ald'ruhn_Architecture_Variety.ESP
@@ -318,11 +336,6 @@ UL_3.5_RoHT_1.52_Add-on.esp
 UL_3.5_OpenMW_1.3_Add-on.esp
 RP_Maar_Gan.ESP
 RP_Maar_Gan_Ashlander_Addon.ESP
-BCOM_Decorated_Cantons.ESP
-BCOM_Vivec_Arena_planters.ESP
-BCOM_Vivec_Planters.ESP
-BCOM_Vivec_Street_Vendors.ESP
-BCOM_Vivec_Temple_Fountains.ESP
 HumblePrayerHall.ESP
 Memento Mori - BCOM Patch.ESP
 Memento Mori.ESP
@@ -416,11 +429,6 @@ RPNR_WHO.ESP
 RPNR_WHO_BCOM.ESP
 BCOM_Suran Expansion.ESP
 BCOM - Taller Lighthouse.ESP
-BCoM_Open_Cantons.ESP
-BCoM - Atmospheric_Arena.ESP
-BCoM_Atmospheric_Plazas.ESP
-Interior exterior flag reset_Atmospheric Arena.ESP
-Interior exterior flag reset_Atmospheric Plazas.ESP
 Temple Master.ESP
 OAAB Brother Junipers Twin Lamps.esp
 sm_tel_robe.ESP

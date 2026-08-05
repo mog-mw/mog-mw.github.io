@@ -28,6 +28,17 @@ mods:
     url: https://www.nexusmods.com/morrowind/mods/49131
     download_info:
       - file_name: OAAB - Tombs and Towers
+        actions:
+          # patch for Vivec - God the City
+          - action: clean
+            path: OAAB - Tombs and Towers.esm
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --interior, --id, Vivec]
+          - action: clean
+            path: OAAB - Tombs and Towers.esm
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --exterior, --id, Vivec]
+          - action: clean
+            path: OAAB - Tombs and Towers.esm
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, pgrd, --id, Vivec]
     plugins:
       - OAAB - Tombs and Towers.esm
 

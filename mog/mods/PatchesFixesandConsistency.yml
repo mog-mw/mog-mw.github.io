@@ -215,7 +215,8 @@ mods:
       - 65 MAOSpellSoundsxBirthsignsRESPECted SoundFix
       - 89 BCOM x Immersive Imperial Skirt
       - 70 Caldera Mine Expanded OpenMW Fix
-      - 33 AFFresh+Library of Vivec Enhanced Patch
+      # Library of Vivec is included in Vivec - God the City
+      # - 33 AFFresh+Library of Vivec Enhanced Patch
       - 53 Vennin Addamasartus+DraVashai Patch
       - 32 OpenMW Fixes For Uvirith's Legacy
       - 68 MOMW BCOM Imperial Legion Expansion patch
@@ -237,7 +238,8 @@ mods:
       - DD_Caldera_Expansion_OpenMWFix.esp
       - SpeechcraftRebalanceRebalanced.esp
       - AFFresh+SamarysAncestralTombExpanded.esp
-      - AFFreshLibraryOfVivecEnhanced.esp
+      # Library of Vivec is included in Vivec - God the City
+      # - AFFreshLibraryOfVivecEnhanced.esp
       - TracklessGrazelandOpenMW.esp
       - RoHt_Kogoruhn_patch.esp
       - OAAB_Shipwrecks_JFK_patch.esp
