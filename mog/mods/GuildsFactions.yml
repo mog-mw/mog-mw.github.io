@@ -56,15 +56,7 @@ mods:
         actions:
           - action: clean
             path: 01 Refreshed/quarraclan_refreshed.esp
-            arguments:
-              - delete
-              - --backup-dir
-              - tes3cmdbck
-              - --hide-backups
-              - --type
-              - land
-              - --match
-              - (-6, 17)
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, land, --match, '(-6, 17)']
     data_paths:
       - 01 Refreshed
       - 02 Optional Patches - Modular

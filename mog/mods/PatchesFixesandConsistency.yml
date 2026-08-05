@@ -415,15 +415,7 @@ mods:
         actions:
           - action: clean
             path: Dunmer Stronghold - Hlormaren V1.0.esp
-            arguments:
-              - delete
-              - --backup-dir
-              - tes3cmdbck
-              - --hide-backups
-              - --type
-              - land
-              - --match
-              - (-9, 6)
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, land, --match, '(-9, 6)']
     plugins:
       - Dunmer Stronghold - Hlormaren V1.0.esp
 

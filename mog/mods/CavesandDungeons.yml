@@ -38,26 +38,10 @@ mods:
         actions:
           - action: clean
             path: Mines and Caverns/Clean_Mines and Caverns.esp
-            arguments:
-              - delete
-              - --backup-dir
-              - tes3cmdbck
-              - --hide-backups
-              - --type
-              - cell
-              - --exact-id
-              - Dissapla Mine
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, cell, --exact-id, Dissapla Mine]
           - action: clean
             path: Mines and Caverns/Clean_Mines and Caverns.esp
-            arguments:
-              - delete
-              - --backup-dir
-              - tes3cmdbck
-              - --hide-backups
-              - --type
-              - pgrd
-              - --exact-id
-              - Dissapla Mine
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, pgrd, --exact-id, Dissapla Mine]
     data_paths:
       - Mines and Caverns
     plugins:

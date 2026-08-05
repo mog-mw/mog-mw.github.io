@@ -13,15 +13,7 @@ mods:
         actions:
           - action: clean
             path: patches/Tamriel Rebuilt/Data Files/Cutting Room Floor - Items TR.esp
-            arguments:
-              - delete
-              - --backup-dir
-              - tes3cmdbck
-              - --hide-backups
-              - --type
-              - cell
-              - --exact-id
-              - Solstheim, Jolgeirr Barrow
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, cell, --exact-id, 'Solstheim, Jolgeirr Barrow']
       - file_name: Cutting Room Floor - High Resolution Textures
         extract_to: HQ
       - file_name: Cutting Room Floor - Optimized Banner

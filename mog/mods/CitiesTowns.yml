@@ -330,100 +330,31 @@ mods:
         actions:
           - action: clean
             path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
-            arguments:
-              - delete
-              - --backup-dir
-              - tes3cmdbck
-              - --hide-backups
-              - --interior
-              - --id
-              - Wolverine Hall
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --interior, --id, Wolverine Hall]
           - action: clean
             path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
-            arguments:
-              - delete
-              - --backup-dir
-              - tes3cmdbck
-              - --hide-backups
-              - --exterior
-              - --id
-              - Wolverine Hall
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --exterior, --id, Wolverine Hall]
           - action: clean
             path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
-            arguments:
-              - delete
-              - --backup-dir
-              - tes3cmdbck
-              - --hide-backups
-              - --exterior
-              - --id
-              - Sadrith Mora, Wolverine Hall
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --exterior, --id, 'Sadrith Mora, Wolverine Hall']
           - action: clean
             path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
-            arguments:
-              - delete
-              - --backup-dir
-              - tes3cmdbck
-              - --hide-backups
-              - --type
-              - pgrd
-              - --id
-              - Sadrith Mora, Wolverine Hall
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, pgrd, --id, 'Sadrith Mora, Wolverine Hall']
           - action: clean
             path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
-            arguments:
-              - delete
-              - --backup-dir
-              - tes3cmdbck
-              - --hide-backups
-              - --type
-              - pgrd
-              - --id
-              - Wolverine Hall
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, pgrd, --id, Wolverine Hall]
           - action: clean
             path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
-            arguments:
-              - delete
-              - --backup-dir
-              - tes3cmdbck
-              - --hide-backups
-              - --type
-              - npc_
-              - --id
-              - emelia duronia
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, npc_, --id, emelia duronia]
           - action: clean
             path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
-            arguments:
-              - delete
-              - --backup-dir
-              - tes3cmdbck
-              - --hide-backups
-              - --type
-              - npc_
-              - --id
-              - erranil
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, npc_, --id, erranil]
           - action: clean
             path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
-            arguments:
-              - delete
-              - --backup-dir
-              - tes3cmdbck
-              - --hide-backups
-              - --type
-              - npc_
-              - --id
-              - flacassia fauseius
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, npc_, --id, flacassia fauseius]
           - action: clean
             path: ../BeautifulCitiesofMorrowind/00 Core/Beautiful cities of Morrowind.ESP
-            arguments:
-              - delete
-              - --backup-dir
-              - tes3cmdbck
-              - --hide-backups
-              - --type
-              - npc_
-              - --id
-              - masalinie merian
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, npc_, --id, masalinie merian]
     data_paths:
       - 00 Core
       - 02 BCOM patch (read the instructions or it won't work)
