@@ -94,6 +94,15 @@ mods:
       - AH_Toxicity_Eat.ESP
       - AH_Magic.ESP
 
+  - name: (OpenMW) Alchemy Redone
+    url: https://www.nexusmods.com/morrowind/mods/59559
+    download_info:
+      - file_name: TPA Alchemy Redone
+    data_paths:
+      - TPA_Alchemy_Redone
+    plugins:
+      - TPA_Alchemy_Redone.omwscripts
+
   - name: For the Right Price
     url: https://www.nexusmods.com/morrowind/mods/52668
     download_info:
