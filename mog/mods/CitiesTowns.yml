@@ -142,7 +142,6 @@ mods:
       - Patches/10 Concept Art Plantations
       - Patches/22 Tamriel Rebuilt patch
       - Patches/25 Province Cyrodiil Patch
-      - Patches/48 Velothi Wall Art
       - Patches/67 Caldera Governor Manor
       - Patches/30 Morrowind Anticheese
       - Patches/38 Bounty Hunter Assignments
@@ -160,7 +159,6 @@ mods:
       - BCOM_Animated_GhostGate_Statues.ESP
       - BCOM_Tribal_Erabenimsun.ESP
       - BCOM_PfP_patch.ESP
-      - Velothi Wall Art.ESP
       - Sload and Slavers.ESP
       - GITD_Telvanni_Dormers.ESP
       - TR_BCOM_Patch.ESP
@@ -255,13 +253,6 @@ mods:
       - HumblePrayerHall
     plugins:
       - HumblePrayerHall.ESP
-
-  - name: Velothi Wall Art
-    url: https://www.nexusmods.com/morrowind/mods/46454
-    download_info:
-      - file_name: Velothi Wall Art
-    data_paths:
-      - Velothi Wall Art/Data Files
 
   - name: Concept Art Palace (Vivec City)
     url: https://www.nexusmods.com/morrowind/mods/48136
@@ -493,42 +484,38 @@ mods:
     data_paths:
       - 00 Main
       - 02 Vanilla Dialogue Edits
-      - 03 Placement Navigable Paper Map
-      - 04 Exterior Ports (Paper Map Navigable)
+      - 03 Placement Paper Map
+      - 04 Exterior Ports (Paper Map)
       - 05 Exterior Ports TR Patch
       - 07 Exterior Bridges (Paper Map)
       - 08 Exterior City Gate (Paper Map)
-      - 09 Exterior Clutter (Paper Map Navigable)
-      - 10 Exterior Lights (Paper Map Navigable)
-      - 11 Exterior Street Vendors Addon (Navigable)
+      - 09 Exterior Clutter (Paper Map)
+      - 10 Exterior Lights (Paper Map)
+      - 11 Exterior Street Vendors Addon
       - 12 Exterior Temple Bellification
-      - 13 Plaza Hlaalu Open
-      - 14 Plaza Arena Open
-      # - 14 Plaza Arena Open Skywind
+      # - 13 Plaza Hlaalu Atmospheric
+      # - 14 Plaza Arena Atmospheric
       - 15 Plaza FQ Open (Paper Map)
-      - 16 Plaza Redoran Open
+      # - 16 Plaza Redoran Atmospheric
       - 17 Plaza St Delyn Open
       - 18 Plaza St Olms Open
-      - 19 Plaza Telvanni Open (Navigable)
+      # - 19 Plaza Telvanni Atmospheric
     plugins:
       - Vivec - God the City.esp
       - Vivec Dialogue Edits.ESP
-      - Vivec - Placement Navigable.esp
       - Vivec - Placement Paper Map.esp
-      - Vivec Exterior - Ports (Paper Map Navigable).esp
+      - Vivec Exterior - Ports (Paper Map).esp
       - Vivec Exterior - Ports TR Patch .esp
       - Vivec Exterior - Bridges (Paper Map).ESP
       - Vivec Exterior - City Gates (Paper Map).ESP
-      - Vivec Exterior - Clutter (Paper Map Navigable).esp
-      - Vivec Exterior - Lights (Paper Map Navigable).esp
-      - Vivec Exterior - Street Vendors - (Navigable).esp
+      - Vivec Exterior - Clutter (Paper Map).esp
+      - Vivec Exterior - Lights (Paper Map).esp
+      - Vivec Exterior - Street Vendors.esp
       - Vivec Exterior - Temple Bellification.esp
-      - Vivec Plaza - Hlaalu - Open.ESP
-      - Vivec Plaza - Arena Open.esp
-      # - Vivec Plaza - Arena Open (Skywind).esp
-      # - Vivec Plaza - Arena Open (Skywind) Clutter Addon.esp
+      # - Vivec Plaza - Hlaalu - Atmospheric.ESP
+      # - Vivec Plaza - Arena - Atmospheric.ESP
       - Vivec Plaza - Foreign - Open (Paper Map).ESP
-      - Vivec Plaza - Redoran - Open.ESP
+      # - Vivec Plaza - Redoran - Atmospheric.ESP
       - Vivec Plaza - St. Delyn - Open.ESP
       - Vivec Plaza - St. Olms - Open.ESP
-      - Vivec Plaza - Telvanni NV - Open.ESP
+      # - Vivec Plaza - Telvanni - Atmospheric.ESP

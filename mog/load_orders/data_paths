@@ -81,6 +81,7 @@ MorrowindEnhancedTextures/MET 6-1 main
 MorrowindEnhancedTextures/Interface
 MorrowindEnhancedTextures/atlas
 SolstheimTomboftheSnowPrince/010 Solstheim - HD Worldspace Graphical Replacer
+DrData
 DwemerMeshImprovement
 DwemerMeshImprovementsRevamped
 DragonStatueRevisited/00 Core
@@ -323,8 +324,6 @@ TamrielRebuiltHallofJusticeOverhaul/00 Core
 SophiesSkoomaSweetshoppe/23 Telvanni Mushroomtop Housepod UV Fix
 NecromArkitektoraofMorrowind/HQ
 NecromArkitektoraofMorrowind/NecromMinorMeshesFixes
-VelothiWallArt/Velothi Wall Art/Data Files
-BeautifulCitiesofMorrowind/Patches/48 Velothi Wall Art
 ConceptArtPalaceVivecCity/00 Core
 ConceptArtPalaceVivecCity/01 Symmetrical Palace
 ConceptArtPalaceVivecCity/02 Interior Cluttering
@@ -704,23 +703,18 @@ ImmersiveCombatSounds
 DynamiccameraImmersive1stand3rdpersoncameraeffectsandtargetlockOpenMW
 VivecGodtheCity/00 Main
 VivecGodtheCity/02 Vanilla Dialogue Edits
-VivecGodtheCity/03 Placement Navigable Paper Map
+VivecGodtheCity/03 Placement Paper Map
+VivecGodtheCity/04 Exterior Ports (Paper Map)
 VivecGodtheCity/05 Exterior Ports TR Patch
 VivecGodtheCity/07 Exterior Bridges (Paper Map)
 VivecGodtheCity/08 Exterior City Gate (Paper Map)
-VivecGodtheCity/09 Exterior Clutter (Paper Map Navigable)
-VivecGodtheCity/10 Exterior Lights (Paper Map Navigable)
-VivecGodtheCity/11 Exterior Street Vendors Addon (Navigable)
+VivecGodtheCity/09 Exterior Clutter (Paper Map)
+VivecGodtheCity/10 Exterior Lights (Paper Map)
+VivecGodtheCity/11 Exterior Street Vendors Addon
 VivecGodtheCity/12 Exterior Temple Bellification
-DrData
-VivecGodtheCity/04 Exterior Ports (Paper Map Navigable)
-VivecGodtheCity/13 Plaza Hlaalu Open
-VivecGodtheCity/14 Plaza Arena Open
 VivecGodtheCity/15 Plaza FQ Open (Paper Map)
-VivecGodtheCity/16 Plaza Redoran Open
 VivecGodtheCity/17 Plaza St Delyn Open
 VivecGodtheCity/18 Plaza St Olms Open
-VivecGodtheCity/19 Plaza Telvanni Open (Navigable)
 OpenMWAlchemyRedone/TPA_Alchemy_Redone
 # insert new entries above
 MOMWToolsPack
