@@ -130,7 +130,7 @@ def handle_mod(mod: dict, category: str):
         settings.read_string(mod["settings"])
 
     # skip for umo
-    if "url" not in mod or "download_info" not in mod:
+    if "url" not in mod:
         return
 
     new_entry = generate_list_entry()
@@ -147,6 +147,7 @@ def handle_mod(mod: dict, category: str):
     new_entry["dir"] = dirname
     new_entry["slug"] = dirname
 
+    mod.setdefault("download_info", [])
     for dl_info in mod["download_info"]:
         new_dl_info = generate_dl_info_entry()
         for field in new_dl_info.keys():
