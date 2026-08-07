@@ -107,7 +107,10 @@ def main():
 
 
 def handle_mod(mod: dict, category: str):
-    dirname = get_dirname(mod["name"])
+    if "dir" in mod:
+        dirname = mod["dir"]
+    else:
+        dirname = get_dirname(mod["name"])
 
     if "data_paths" not in mod:
         if "url" in mod:
