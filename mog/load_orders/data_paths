@@ -684,12 +684,12 @@ ModernStyleCrosshair/00 32x32 Crosshair
 simplemagictimehudopenmw/omwMagicTimeHud
 RafaelsShaderPack/RafaelsShaderPack
 MOMWPostProcessingPack/00 RecommendedConfig
-MOMWPostProcessingPack/01 XE-Shaders
-MOMWPostProcessingPack/02 OMWFX-Shaders
-MOMWPostProcessingPack/03 ZesterersVolumetricClouds
-MOMWPostProcessingPack/04 WareyaOpenMWShaders
-MOMWPostProcessingPack/05 SlippyDinkerOpenMWShaders
-MOMWPostProcessingPack/07 ZesterersSSAO
+MOMWShaderPack/01 XE-Shaders
+MOMWShaderPack/02 OMWFX-Shaders
+MOMWShaderPack/03 ZesterersVolumetricClouds
+MOMWShaderPack/04 WareyaOpenMWShaders
+MOMWShaderPack/05 SlippyDinkerOpenMWShaders
+MOMWShaderPack/07 ZesterersSSAO
 GonzosSplashScreens/00 Core
 GonzosSplashScreens/06 Myrcenart Addon
 OpenMWConsumingAnimated

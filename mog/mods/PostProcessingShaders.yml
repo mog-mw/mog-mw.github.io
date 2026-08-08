@@ -1,25 +1,35 @@
 category: PostProcessingShaders
 
 mods:
+  - name: MOG Shader Configuration
+    dir: MOMWPostProcessingPack # has to be named like this due to momw-configurator hardcoding
+    url: https://github.com/mog-mw/shaders.yaml
+    download_info:
+      - file_name: shaders.yaml
+        extract_to: 00 RecommendedConfig
+    data_paths:
+      - 00 RecommendedConfig
+    settings: |
+      [Post Processing]
+      enabled = true
+      chain = HBAO,underwater_interior_effects,underwater_effects,clouds,sunshafts,wetworld,hdr,FollowerAA
+      transparent postpass = true
+      hdr exposure time = 0.05
+      [Shaders]
+      force per pixel lighting = true
+
   - name: MOMW Post Processing Pack
+    dir: MOMWShaderPack # renaming the dir just in case it would have conflicted with the above if I didn't
     url: https://modding-openmw.gitlab.io/momw-post-processing-pack/
     download_info:
       - file_name: MOMW Post Processing Pack
     data_paths:
-      - 00 RecommendedConfig
       - 01 XE-Shaders
       - 02 OMWFX-Shaders
       - 03 ZesterersVolumetricClouds
       - 04 WareyaOpenMWShaders
       - 05 SlippyDinkerOpenMWShaders
       - 07 ZesterersSSAO
-    settings: |
-      [Post Processing]
-      enabled = true
-      chain = hdr
-      transparent postpass = true
-      [Shaders]
-      force per pixel lighting = true
 
   - name: Rafael's Shader Pack
     url: https://www.nexusmods.com/morrowind/mods/53667
