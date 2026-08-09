@@ -437,3 +437,15 @@ mods:
       - SoullessSummonsDialogueFix
     plugins:
       - cybnosoulssummondialoguefix.omwaddon
+
+  # this also has a God the City & Morrowind Extended Cut patch, if we decide to add that
+  - name: Minor patches and fixes
+    url: https://www.nexusmods.com/morrowind/mods/53570
+    download_info:
+      - file_name: God the City Patches
+    data_paths:
+      - 00 Affresh God the City Patch
+      - 06 Cutting room floor, missing persons
+    plugins:
+      - AFFresh God the City.esp
+      - Cutting Room Floor - Missing Persons TR.esp
