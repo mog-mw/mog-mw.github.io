@@ -36,8 +36,9 @@ load_orders = {
 
 output_list = []
 output_cfg = {"openmw_cfg": {}, "settings_cfg": ""}
-path_categories = {} # key: path, value: category it belongs to
+path_categories = {}  # key: path, value: category it belongs to
 settings = ConfigParser()
+dirnames = set()
 
 
 def main():
@@ -112,6 +113,12 @@ def handle_mod(mod: dict, category: str):
     else:
         dirname = get_dirname(mod["name"])
 
+    # duplicate dirnames would likely cause big issues,
+    # both with umo, and with load_orders/data_paths
+    if dirname in dirnames:
+        raise ValueError(f"Duplicate dir name: {dirname}")
+    dirnames.add(dirname)
+
     if "data_paths" not in mod:
         if "url" in mod:
             mod["data_paths"] = [""]
@@ -123,8 +130,12 @@ def handle_mod(mod: dict, category: str):
         path_categories[path] = category
 
     for field, load_order in load_orders.items():
-        if field in mod:
-            load_order.actual_list.extend(mod[field])
+        if field not in mod:
+            continue
+        for entry in mod[field]:
+            # don't add duplicate entries, in case things are being overwritten
+            if entry not in load_order.actual_list:
+                load_order.actual_list.append(entry)
 
     if "settings" in mod:
         settings.read_string(mod["settings"])
