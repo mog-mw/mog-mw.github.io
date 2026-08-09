@@ -89,12 +89,15 @@ mods:
     plugins:
       - Sloadic Transport.ESP
 
-  - name: VEHK - Concept art Vivec replacer
-    url: https://www.nexusmods.com/morrowind/mods/53367
+  - name: Vivec Remade
+    url: https://www.nexusmods.com/morrowind/mods/50317
     download_info:
-      - file_name: VEHK - Concept-art Vivec replacer
+      - file_name: Vivec Replacer
+      - file_name: Vivec HD Textures
+        extract_to: HD
     data_paths:
-      - Data files
+      - ""
+      - HD
 
   - name: By Azura
     url: https://www.nexusmods.com/morrowind/mods/50567

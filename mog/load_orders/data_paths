@@ -243,11 +243,12 @@ DaedraUseBoundEquipmentforOpenMW
 FixedBonelordArms
 RotatsCorprusNativesReplacer
 RotatsCorprusNativesReplacer/512px
+VivecRemade
+VivecRemade/HD
 AlmalexiaRedone
 AlmalexiaRedone/HD
 YetAnotherGuardDiversity
 BeautifulCitiesofMorrowind/Patches/29 Yet Another Guard Diversity - Cephalopod Armor - Waterworks
-VEHKConceptartVivecreplacer/Data files
 RepopulatedMorrowind/00 Core
 RepopulatedMorrowind/02 BCOM Repopulated Morrowind
 RepopulatedMorrowind/04 Tomb of the Snow Prince
@@ -693,6 +694,7 @@ MOMWShaderPack/05 SlippyDinkerOpenMWShaders
 MOMWShaderPack/07 ZesterersSSAO
 GonzosSplashScreens/00 Core
 GonzosSplashScreens/06 Myrcenart Addon
+GonzosSplashScreens/07 Gonzo Gone Wild
 OpenMWConsumingAnimated
 OpenMWInteractionsAnimated
 OpenMWAnimatedPickupandShopAround

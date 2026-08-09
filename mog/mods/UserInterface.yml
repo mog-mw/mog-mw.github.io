@@ -8,6 +8,7 @@ mods:
     data_paths:
       - 00 Core
       - 06 Myrcenart Addon
+      - 07 Gonzo Gone Wild
     settings: |
       [GUI]
       stretch menu background = true
