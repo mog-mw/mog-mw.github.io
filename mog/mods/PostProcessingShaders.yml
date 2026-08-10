@@ -12,7 +12,7 @@ mods:
     settings: |
       [Post Processing]
       enabled = true
-      chain = HBAO,underwater_interior_effects,underwater_effects,clouds,sunshafts,wetworld,hdr,FollowerAA
+      chain = HBAO,underwater_interior_effects,underwater_effects,wetworld,clouds,sunshafts,hdr,FollowerAA
       transparent postpass = true
       hdr exposure time = 0.05
       [Shaders]

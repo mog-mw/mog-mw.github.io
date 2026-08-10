@@ -47,7 +47,7 @@ mods:
     download_info:
       - file_name: TR Dialogue Edits
     data_paths:
-      - Data Files
+      - TR Dialogue Edits/Data Files
     plugins:
       - RepopulatedCreatures.ESP
 
