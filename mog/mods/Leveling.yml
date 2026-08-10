@@ -21,3 +21,24 @@ mods:
     plugins:
       - skill-evolution.omwaddon
       - skill-evolution.omwscripts
+
+  - name: Restored Level-up Messages - for character progression mods
+    url: https://www.nexusmods.com/morrowind/mods/58094
+    download_info:
+      - file_name: Restored Level-up Messages
+    plugins:
+      - Restored Level-up Messages.ESP
+
+  - name: Races RESPECted REDONE
+    url: https://www.nexusmods.com/morrowind/mods/57081
+    download_info:
+      - file_name: Races RESPECted REDONE
+    plugins:
+      - RacesRESPECted.esp
+
+  - name: Birthsigns RESPECted REDONE
+    url: https://www.nexusmods.com/morrowind/mods/57056
+    download_info:
+      - file_name: Birthsigns RESPECted REDONE
+    plugins:
+      - BirthsignsRESPECted.esp

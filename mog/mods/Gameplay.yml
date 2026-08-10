@@ -161,6 +161,13 @@ mods:
     plugins:
       - Daedra Use Bound Equipment for OpenMW.omwscripts
 
+  - name: Best Friends Forever (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/59384
+    download_info:
+      - file_name: BestFriendsForever
+    plugins:
+      - BestFriendsForever.omwscripts
+
   - name: Friendlier Fire (OpenMW)
     url: https://www.nexusmods.com/morrowind/mods/57975
     download_info:
@@ -174,6 +181,13 @@ mods:
       - file_name: Follower Detection Util
     plugins:
       - FollowerDetectionUtil.omwscripts
+
+  - name: (OpenMW) Lua NPC Schedule
+    url: https://www.nexusmods.com/morrowind/mods/58635
+    download_info:
+      - file_name: Lua NPC Schedule
+    plugins:
+      - Lua NPC Schedule.omwscripts
 
   - name: Expansions Integrated
     url: https://www.nexusmods.com/morrowind/mods/47861
@@ -401,6 +415,17 @@ mods:
       - file_name: Brute Force
     plugins:
       - BruteForce.omwscripts
+
+  - name: Tamrielic Integrations
+    url: https://www.nexusmods.com/morrowind/mods/57488
+    download_info:
+      - file_name: Tamrielic Integrations - Levelled Lists
+      - file_name: Tamrielic Integrations - OAAB Levelled Tweaks
+      - file_name: Tamrielic Integrations - Creature Loot and Tweaks
+    plugins:
+      - Tamrielic Integrations - Levelled Items.ESP
+      - Tamrielic Integrations - OAAB Levelled Tweaks.ESP 
+      - Tamrielic Integrations - Creature Loot + Tweaks.ESP 
 
   - name: MOMW Gameplay
     url: https://modding-openmw.gitlab.io/momw-gameplay/

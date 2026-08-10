@@ -42,6 +42,15 @@ mods:
       - RepopulatedMorrowind_CRF_AldRedaynia.ESP
       - RepopulatedMorrowind_6thHouseObsidWeps.ESP
 
+  - name: Repopulated Creatures
+    url: https://www.nexusmods.com/morrowind/mods/55628
+    download_info:
+      - file_name: TR Dialogue Edits
+    data_paths:
+      - Data Files
+    plugins:
+      - RepopulatedCreatures.ESP
+
   - name: Yet Another Guard Diversity
     url: https://www.nexusmods.com/morrowind/mods/45894
     download_info:

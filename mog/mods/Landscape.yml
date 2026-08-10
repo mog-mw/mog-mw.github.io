@@ -235,3 +235,32 @@ mods:
     url: https://www.nexusmods.com/morrowind/mods/54014
     download_info:
       - file_name: Immersive Grotto Entrances - Vanilla Version
+
+  - name: Signposts Replacer for Tamriel Rebuilt and Vvardenfell
+    url: https://www.nexusmods.com/morrowind/mods/55496
+    download_info:
+      - file_name: JASPR-V
+      - file_name: JASPR-TR
+    data_paths:
+      - Data Files
+    plugins:
+      - JASPR-V.ESP
+      - JASPR-TR.ESP
+
+  - name: Signposts Replacer for Project Cyrodiil Abecean Shores
+    url: https://www.nexusmods.com/morrowind/mods/55648
+    download_info:
+      - file_name: JASPR-AS
+    data_paths:
+      - Data Files
+    plugins:
+      - JASPR-AS.ESP
+
+  - name: Signposts Replacer for Skyrim Home of the Nords
+    url: https://www.nexusmods.com/morrowind/mods/55656
+    download_info:
+      - file_name: JASPR-SKY
+    data_paths:
+      - Data Files
+    plugins:
+      - JASPR-SKY.ESP

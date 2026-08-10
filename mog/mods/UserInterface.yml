@@ -122,6 +122,20 @@ mods:
     plugins:
       - yksuiMagicTimeHud.omwscripts
 
+  - name: (OpenMW 0.50) trav's OpenMW Books Enhanced
+    url: https://www.nexusmods.com/morrowind/mods/55126
+    download_info:
+      - file_name: openmw-books-enhanced.zip
+    plugins:
+      - openmw_books_enhanced.omwscripts
+
+  - name: Comrade Raven's Book Arts Replacer
+    url: https://www.nexusmods.com/morrowind/mods/48896
+    download_info:
+      - file_name: Comrade Raven's Book Arts Replacer
+    data_paths:
+      - Data Files
+
   - name: Modern Style Crosshair
     url: https://www.nexusmods.com/morrowind/mods/59497
     download_info:
