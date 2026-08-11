@@ -32,9 +32,13 @@ mods:
       - ReAnimation_v2_Rogue.omwscripts
 
   - name: 3rd Person alt Attacks
-    url: https://gitlab.com/fallchildren/openmw-third-person-alt-attacks
+    # url: https://gitlab.com/fallchildren/openmw-third-person-alt-attacks
+    # The stable (0.6) version has a broken nif file, so we'll use the latest version on gitlab
+    # TODO: implement better github/gitlab versioning into the build script so that we don't have to resort to these hacks
+    url: https://dummy-address.com/file.zip
     download_info:
       - file_name: openmw-third-person-alt-attacks
+        direct_download: https://gitlab.com/api/v4/projects/fallchildren%2Fopenmw-third-person-alt-attacks/jobs/artifacts/master/raw/openmw-third-person-alt-attacks.zip?job=make
     plugins:
       - third-person-alt-attacks.omwscripts
 
