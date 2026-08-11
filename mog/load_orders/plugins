@@ -493,8 +493,6 @@ FollowerDetectionUtil.omwscripts
 FriendlierFire.omwscripts
 S3maphore.esp
 Mage Robes_Weak.ESP
-AH_Toxicity_Drink.ESP
-AH_Toxicity_Eat.ESP
 Little Landscape - Nix Hunting Ground.esp
 MercyCAO.omwscripts
 cantouchthis.omwscripts
@@ -543,6 +541,13 @@ RacesRESPECted.esp
 BirthsignsRESPECted.esp
 Restored Level-up Messages.ESP
 openmw_books_enhanced.omwscripts
+TakeCover.omwscripts
+pursuit.omwscripts
+Potions Refined.ESP
+Potions Refined - Tamriel.ESP
+Enchantments Refined.esp
+Enchantments Refined Patches.esp
+CreaturesOpenDoors.esp
 # insert new entries above
 momw-gameplay.omwscripts
 momw-gameplay-controls.omwscripts

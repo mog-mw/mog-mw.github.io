@@ -42,3 +42,33 @@ mods:
     settings: |
       [Navigator]
       enable = true
+
+  - name: Take Cover (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/54976
+    download_info:
+      - file_name: TakeCover
+    data_paths:
+      - 00 Core
+    plugins:
+      - TakeCover.omwscripts
+
+  - name: Pursuit (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/50271
+    download_info:
+      - file_name: Pursuit - OpenMW
+    data_paths:
+      - Pursuit - OpenMW
+    plugins:
+      - pursuit.omwscripts
+
+  - name: Blacklist for Pursuit (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/56724
+    download_info:
+      - file_name: Blacklist for Pursuit (OpenMW)
+
+  - name: Creatures Open Doors
+    url: https://www.nexusmods.com/morrowind/mods/54567
+    download_info:
+      - file_name: Creatures Open Doors
+    plugins:
+      - CreaturesOpenDoors.esp

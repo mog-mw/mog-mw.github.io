@@ -64,6 +64,15 @@ mods:
     plugins:
       - Bloodmoon Rebalance.ESP
 
+  - name: Pickpocket Rebalance (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/53174
+    download_info:
+      - file_name: Pickpocket Rebalance (OpenMW) 1.0
+    data_paths:
+      - Pickpocket Rebalance
+    plugins:
+      - Pickpocket Rebalance.omwaddon
+
   - name: Speechcraft Rebalance (OpenMW)
     url: https://www.nexusmods.com/morrowind/mods/53177
     download_info:
@@ -81,27 +90,6 @@ mods:
       - Talking Trains Speechcraft openmw lua
     plugins:
       - Talking Trains Speechcraft.omwscripts
-
-  - name: Alchemical Hustle
-    url: https://www.nexusmods.com/morrowind/mods/51050
-    download_info:
-      - file_name: Alchemical Hustle
-    data_paths:
-      - Alchemical Hustle/Fatigue Toxicity/Data Files
-    plugins:
-      - AH_GMSTs.ESP
-      - AH_Toxicity_Drink.ESP
-      - AH_Toxicity_Eat.ESP
-      - AH_Magic.ESP
-
-  - name: (OpenMW) Alchemy Redone
-    url: https://www.nexusmods.com/morrowind/mods/59559
-    download_info:
-      - file_name: TPA Alchemy Redone
-    data_paths:
-      - TPA_Alchemy_Redone
-    plugins:
-      - TPA_Alchemy_Redone.omwscripts
 
   - name: For the Right Price
     url: https://www.nexusmods.com/morrowind/mods/52668
@@ -138,14 +126,40 @@ mods:
     plugins:
       - PR Real Disposition Base.esp
 
-  - name: Pickpocket Rebalance (OpenMW)
-    url: https://www.nexusmods.com/morrowind/mods/53174
+  - name: Alchemical Hustle
+    url: https://www.nexusmods.com/morrowind/mods/51050
     download_info:
-      - file_name: Pickpocket Rebalance (OpenMW) 1.0
+      - file_name: Alchemical Hustle
     data_paths:
-      - Pickpocket Rebalance
+      - Alchemical Hustle/Fatigue Toxicity/Data Files
     plugins:
-      - Pickpocket Rebalance.omwaddon
+      - AH_GMSTs.ESP
+      - AH_Magic.ESP
+
+  - name: (OpenMW) Alchemy Redone
+    url: https://www.nexusmods.com/morrowind/mods/59559
+    download_info:
+      - file_name: TPA Alchemy Redone
+    data_paths:
+      - TPA_Alchemy_Redone
+    plugins:
+      - TPA_Alchemy_Redone.omwscripts
+
+  - name: Potions Refined - Improved Magical Item Loot
+    url: https://www.nexusmods.com/morrowind/mods/58808
+    download_info:
+      - file_name: Potions Refined   Improved Magical Item Loot
+    plugins:
+      - Potions Refined.ESP
+      - Potions Refined - Tamriel.ESP
+
+  - name: Enchantments Refined - Improved Magical Item Loot
+    url: https://www.nexusmods.com/morrowind/mods/58809
+    download_info:
+      - file_name: Refined Enchantments   Improved Magical Item Loot
+    plugins:
+      - Enchantments Refined.esp
+      - Enchantments Refined Patches.esp
 
   - name: Better Blight
     url: https://www.nexusmods.com/morrowind/mods/48395
