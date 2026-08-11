@@ -67,9 +67,7 @@ mods:
   - name: Pickpocket Rebalance (OpenMW)
     url: https://www.nexusmods.com/morrowind/mods/53174
     download_info:
-      - file_name: Pickpocket Rebalance (OpenMW) 1.0
-    data_paths:
-      - Pickpocket Rebalance
+      - file_name: Pickpocket Rebalance (OpenMW) 1.2
     plugins:
       - Pickpocket Rebalance.omwaddon
 

@@ -56,6 +56,7 @@ mods:
     url: https://www.nexusmods.com/morrowind/mods/50271
     download_info:
       - file_name: Pursuit - OpenMW
+        nexus_file_id: 1000066055
     data_paths:
       - Pursuit - OpenMW
     plugins:
