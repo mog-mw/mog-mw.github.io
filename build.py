@@ -22,8 +22,7 @@ parser.add_argument("--momw-dir", type=Path, help="Path to the MOMW Tools Pack +
 
 parser.add_argument("-b", "--build", action="store_true", help="Build the modlist")
 parser.add_argument("-m", "--minify", action="store_const", default={"indent": 2}, const={"separators": (",", ":")}, help="minify JSON output")
-parser.add_argument("-u", "--umo", action="store_true", help="Install mods with umo")
-parser.add_argument("-s", "--sync", action="store_true", help="Add --sync to the umo command (slow)")
+parser.add_argument("-u", "--umo", action="store_true", help="Install mods with umo (slow)")
 parser.add_argument("-c", "--configurator", action="store_true", help="Install modlist configuration with MOMW Configurator")
 parser.add_argument("-d", "--delta-plugin", action="store_true", help="Run DeltaPlugin (slow, required after deleting plugins)")
 parser.add_argument("-n", "--navmesh", action="store_true", help="Run the OpenMW Navmeshtool (very slow)")
@@ -66,8 +65,8 @@ def main():
         args.name = args.input.name
     if args.momw_dir:
         args.momw_dir = args.momw_dir.resolve()
-    if not (args.build or args.umo or args.configurator or args.greenmote):
-        args.build, args.umo, args.configurator, args.greenmote = True, True, True, True
+    if not (args.build or args.configurator or args.greenmote):
+        args.build, args.configurator, args.greenmote = True, True, True
 
     if args.build:
         print(f'Building modlist "{args.name}"...')
@@ -91,9 +90,8 @@ def main():
             if args.umo:
                 print("Running umo...")
                 umo_args = [get_tool_path("umo"), "install",
-                            "--momw-url", server_address, args.name]
-                if args.sync:
-                    umo_args.insert(4, "--sync")
+                            "--momw-url", server_address,
+                            "--sync", args.name]
                 subprocess.run(umo_args)
 
             if args.configurator:
