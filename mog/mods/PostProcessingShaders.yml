@@ -15,6 +15,7 @@ mods:
       chain = HBAO,underwater_interior_effects,underwater_effects,wetworld,clouds,sunshafts,hdr,FollowerAA
       transparent postpass = true
       hdr exposure time = 0.05
+      match sunlight to sun = true
       [Shaders]
       force per pixel lighting = true
 

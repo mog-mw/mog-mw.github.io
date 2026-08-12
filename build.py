@@ -5,16 +5,28 @@ from configparser import ConfigParser
 from io import StringIO
 import json
 import yaml
-import os
+from os import chdir
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
+from threading import Thread
+import shutil
+import subprocess
+import platform
 
 parser = argparse.ArgumentParser()
 parser.add_argument("input", type=Path, default="mog", nargs="?", help="input directory (default: %(default)s)")
 parser.add_argument("output", type=Path, default="mog_output", nargs="?", help="output directory (default: %(default)s)")
-parser.add_argument("-n", "--name", help="modlist name (default: input directory name)")
-parser.add_argument("-m", "--minify", action="store_const", default={"indent": 2}, const={"separators": (",", ":")}, help="minify JSON output")
-parser.add_argument("-s", "--server", action="store_true", help="start an HTTP server")
+parser.add_argument("--name", help="modlist name (default: input directory name)")
+parser.add_argument("-a", "--bind", default="127.0.0.1", help="HTTP server bind address (default: %(default)s)")
 parser.add_argument("-p", "--port", type=int, default=1119, help="HTTP server port (default: %(default)s)")
+parser.add_argument("--momw-dir", type=Path, help="Path to the MOMW Tools Pack + Greenmote")
+
+parser.add_argument("-b", "--build", action="store_true", help="Build the modlist")
+parser.add_argument("-m", "--minify", action="store_const", default={"indent": 2}, const={"separators": (",", ":")}, help="minify JSON output")
+parser.add_argument("-u", "--umo", action="store_true", help="Install mods with umo (slow)")
+parser.add_argument("-c", "--configurator", action="store_true", help="Install modlist configuration with MOMW Configurator")
+parser.add_argument("-d", "--delta-plugin", action="store_true", help="Run DeltaPlugin (slow, required after deleting plugins)")
+parser.add_argument("-n", "--navmesh", action="store_true", help="Run the OpenMW Navmeshtool (very slow)")
+parser.add_argument("-g", "--greenmote", action="store_true", help="Convert groundcover with Greenmote")
 
 
 @dataclasses.dataclass
@@ -33,19 +45,102 @@ load_orders = {
     "groundcover": LoadOrder("groundcover files", "groundcover="),
 }
 
-
 output_list = []
 output_cfg = {"openmw_cfg": {}, "settings_cfg": ""}
 path_categories = {}  # key: path, value: category it belongs to
 settings = ConfigParser()
 dirnames = set()
 
+args = parser.parse_args()
+system = platform.system().lower()
+if system == "darwin":
+    system = "macos"
+arch = platform.machine()
+if arch == "x86_64":
+    arch = "amd64"
+
 
 def main():
-    args = parser.parse_args()
     if args.name == None:
         args.name = args.input.name
+    if args.momw_dir:
+        args.momw_dir = args.momw_dir.resolve()
+    if not (args.build or args.configurator or args.greenmote):
+        args.build, args.configurator, args.greenmote = True, True, True
 
+    if args.build:
+        print(f'Building modlist "{args.name}"...')
+        build()
+        print(f'Modlist "{args.name}" built successfully.')
+
+    configurator = "momw-configurator"
+    if system != "windows":
+        configurator += f"-{system}-{arch}"
+
+    if (args.umo or args.configurator):
+        chdir(args.output)
+
+        with ThreadingHTTPServer((args.bind, args.port), SimpleHTTPRequestHandler) as httpd:
+            server_thread = Thread(target=httpd.serve_forever, daemon=True)
+            server_thread.start()
+
+            server_address = f"http://{args.bind}:{args.port}"
+            print(f"Started HTTP server on {server_address}.")
+
+            if args.umo:
+                print("Running umo...")
+                umo_args = [get_tool_path("umo"), "install",
+                            "--momw-url", server_address,
+                            "--sync", args.name]
+                subprocess.run(umo_args)
+
+            if args.configurator:
+                print("Running mowm-configurator...")
+                configurator = get_tool_path(configurator)
+
+                configurator_args = [get_tool_path(configurator), "config",
+                                     "--momw-url", server_address,
+                                     "--no-groundcoverify", "--run-validator",
+                                     args.name]
+                if args.navmesh:
+                    configurator_args.insert(5, "--run-navmeshtool")
+                if not args.delta_plugin:
+                    configurator_args.insert(5, "--no-delta-plugin")
+                subprocess.run(configurator_args)
+
+            print("Stopping HTTP server.")
+            httpd.shutdown()
+            httpd.server_close()
+            server_thread.join()
+
+    if args.greenmote:
+        print("Running greenmote...")
+        umo_dir = Path()
+        with subprocess.Popen([get_tool_path(configurator), "info"],
+                              stdout=subprocess.PIPE, text=True,
+                              bufsize=1) as info:
+            for line in info.stdout:
+                if line.startswith("ModBaseDir:"):
+                    umo_dir = Path(line.removeprefix("ModBaseDir:").strip())
+
+        greenmote_args = [get_tool_path("greenmote"), "convert",
+                          "--output", umo_dir.joinpath(args.name, "Tools", "MOMWToolsPack")]
+        subprocess.run(greenmote_args)
+
+
+def get_tool_path(name):
+    if system == "windows":
+        name += ".exe"
+    if args.momw_dir:
+        return args.momw_dir.joinpath(name)
+    path = shutil.which(name)
+    if path == None:
+        print(f"Couldn't find \"{name}\", make sure your MOMW Tools directory is in PATH, or specify --momw-dir")
+        exit(1)
+    return path
+
+
+def build():
     for filename in sorted(args.input.joinpath("mods").iterdir()):
         with open(filename) as f:
             y = yaml.load(f, Loader=yaml.Loader)
@@ -82,29 +177,6 @@ def main():
 
     with open(args.output.joinpath("api/lists/index.html"), "w") as f:
         json.dump([args.name], f)
-
-    print("Build successful.")
-    if not args.server:
-        return
-
-    os.chdir(args.output)
-
-    with ThreadingHTTPServer(("127.0.0.1", args.port), SimpleHTTPRequestHandler) as httpd:
-        print("\nServer running.\n")
-        if os.name == "nt":
-            print(f"Download mods:\n  umo.exe install --momw-url http://127.0.0.1:{args.port} --sync {args.name}")
-            print(f"Generate configuration:\n  momw-configurator.exe config --momw-url http://127.0.0.1:{args.port} --run-navmeshtool --run-validator {args.name}")
-            print(f"Generate configuration (quick):\n  momw-configurator.exe config --momw-url http://127.0.0.1:{args.port} --no-delta-plugin --no-groundcoverify --no-lightfixes --run-validator {args.name}")
-        else:
-            print(f"Download mods:\n  umo install --momw-url http://127.0.0.1:{args.port} --sync {args.name}")
-            print(f"Generate configuration:\n  momw-configurator-linux-amd64 config --momw-url http://127.0.0.1:{args.port} --run-navmeshtool --run-validator {args.name}")
-            print(f"Generate configuration (quick):\n  momw-configurator-linux-amd64 config --momw-url http://127.0.0.1:{args.port} --no-delta-plugin --no-groundcoverify --no-lightfixes --run-validator {args.name}")
-        print()
-
-        try:
-            httpd.serve_forever()
-        except KeyboardInterrupt:
-            print("\nInterrupting.")
 
 
 def handle_mod(mod: dict, category: str):
