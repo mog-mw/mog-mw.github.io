@@ -39,33 +39,6 @@ mods:
     download_info:
       - file_name: remiros_groundcover_textures_improvement
 
-  - name: OAAB Saplings
-    url: https://www.nexusmods.com/morrowind/mods/50334
-    download_info:
-      - file_name: OAAB Saplings
-    data_paths:
-      - 00 Core
-      - 01 BCOM patch
-      - 03 Concept Arts plantations patch
-      - 04 Great Seawall of Vivec patch
-      - 06 Minor Plantations Redone patch
-      - 07 OAABBrotherJunipersTwinLamps patch
-      - 10 Openmw Groundcover Patch
-      - 12 SM Bitter Coast Tree Replacer patch (OpenMW)
-    plugins:
-      - OAAB_Saplings OpenMW Patch.ESP
-    groundcover:
-      - OAAB_Saplings.esm
-      - OAAB_Saplings BCOM patch.esp
-      - OAAB_Saplings Concept Arts plantations patch.esp
-      - OAAB_Saplings Great Seawall of Vivec patch.esp
-      - OAAB_Saplings Minor Plantations Redone patch.esp
-      - OAAB_Saplings BrotherJunipersTwinLamps patch.esp
-    settings: |
-      [Groundcover]
-      enabled = true
-      stomp intensity = 2
-
   - name: Project Cyrodiil Grass
     url: https://www.nexusmods.com/morrowind/mods/55612
     download_info:
