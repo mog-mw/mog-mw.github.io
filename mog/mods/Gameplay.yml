@@ -159,6 +159,25 @@ mods:
       - Enchantments Refined.esp
       - Enchantments Refined Patches.esp
 
+  - name: OpenMW Fortify Fix
+    url: https://www.nexusmods.com/morrowind/mods/56523
+    download_info:
+      - file_name: Fortify Health Fix
+    data_paths:
+      - FortifyFix
+    plugins:
+      - FortifyFix.omwscripts
+
+  - name: (OpenMW) Until Healed Fix
+    url: https://www.nexusmods.com/morrowind/mods/57508
+    download_info:
+      - file_name: UntilHealedFix
+    data_paths:
+      - UntilHealedFix
+    plugins:
+      - UntilHealedFix.omwaddon
+      - UntilHealedFix.omwscripts
+
   - name: Better Blight
     url: https://www.nexusmods.com/morrowind/mods/48395
     download_info:

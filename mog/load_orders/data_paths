@@ -409,8 +409,6 @@ SigournsMiscModsandPatches/00 Expansions Integrated Patch
 BewaretheSixthHouseSixthHouseOverhaul/Modular
 TribunalRebalance
 BloodmoonRebalance/Bloodmoon Rebalance
-NaturalCharacterGrowth/00 Core
-NaturalCharacterGrowth/01 NCG - Normal
 SkillEvolution/00 Core
 DayspassedBugFixOpenMW
 ClearYourName
@@ -723,7 +721,6 @@ TamrielicIntegrations
 RepopulatedCreatures/TR Dialogue Edits/Data Files
 BestFriendsForeverOpenMW
 OpenMWLuaNPCSchedule
-RestoredLevelupMessagesforcharacterprogressionmods
 RacesRESPECtedREDONE
 BirthsignsRESPECtedREDONE
 SignpostsReplacerforTamrielRebuiltandVvardenfell/Data Files
@@ -737,6 +734,14 @@ BlacklistforPursuitOpenMW
 CreaturesOpenDoors
 PotionsRefinedImprovedMagicalItemLoot
 EnchantmentsRefinedImprovedMagicalItemLoot
+OpenMWFortifyFix/FortifyFix
+OpenMWUntilHealedFix/UntilHealedFix
+BetterVanillaLeveling
+OpenMW049ImprovedVanillaLeveling
+OpenMW049ImprovedVanillaLeveling/ImprovedVanillaLeveling
+ArmorTrainingOpenMW/Armor Training OpenMW 1.0.1
+OpenMWArmorRequirements
+OpenMWWeaponRequirements
 # insert new entries above
 MOMWToolsPack
 SophiesSkoomaSweetshoppe/30 Temporary Fixes

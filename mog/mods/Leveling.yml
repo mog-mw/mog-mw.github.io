@@ -1,17 +1,6 @@
 category: Leveling
 
 mods:
-  - name: Natural Character Growth
-    url: https://www.nexusmods.com/morrowind/mods/57801
-    download_info:
-      - file_name: Natural Character Growth
-    data_paths:
-      - 00 Core
-      - 01 NCG - Normal
-    plugins:
-      - ncg.omwaddon
-      - ncg.omwscripts
-
   - name: Skill Evolution
     url: https://www.nexusmods.com/morrowind/mods/57802
     download_info:
@@ -22,12 +11,49 @@ mods:
       - skill-evolution.omwaddon
       - skill-evolution.omwscripts
 
-  - name: Restored Level-up Messages - for character progression mods
-    url: https://www.nexusmods.com/morrowind/mods/58094
+  - name: Better Vanilla Leveling
+    url: https://www.nexusmods.com/morrowind/mods/44941
     download_info:
-      - file_name: Restored Level-up Messages
+      - file_name: Better Vanilla Leveling
     plugins:
-      - Restored Level-up Messages.ESP
+      - Better Vanilla leveling.ESP
+
+  - name: (OpenMW 0.49) Improved Vanilla Leveling
+    url: https://www.nexusmods.com/morrowind/mods/57062
+    download_info:
+      - file_name: ImprovedVanillaLeveling
+      - file_name: Health per level nerf (GMST)
+    data_paths:
+      - ""
+      - ImprovedVanillaLeveling
+    plugins:
+      - ImprovedVanillaLeveling.omwscripts
+      - ImprovedVanillaLeveling_GMSTs_fLevelUpHealthEndMult.omwaddon
+
+  - name: Armor Training (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/59394
+    download_info:
+      - file_name: Armor Training OpenMW 1.0.1
+    data_paths:
+      - Armor Training OpenMW 1.0.1
+    plugins:
+      - armortraining.omwscripts
+
+  - name: (OpenMW) Armor Requirements
+    url: https://www.nexusmods.com/morrowind/mods/58485
+    download_info:
+      - file_name: Armor Requirements
+    plugins:
+      - Armor Requirements.omwaddon
+      - Armor Requirements.omwscripts
+
+  - name: (OpenMW) Weapon Requirements
+    url: https://www.nexusmods.com/morrowind/mods/58477
+    download_info:
+      - file_name: Weapon Requirements
+    plugins:
+      - Weapon Requirements.omwaddon
+      - Weapon Requirements.omwscripts
 
   - name: Races RESPECted REDONE
     url: https://www.nexusmods.com/morrowind/mods/57081
