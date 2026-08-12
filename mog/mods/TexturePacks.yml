@@ -37,8 +37,3 @@ mods:
     plugins:
       - bcomxpfp.omwaddon
       - PFP x Cutting Room Floor.omwaddon
-
-  - name: Hlaalu Architecture Reimagined
-    url: https://www.nexusmods.com/morrowind/mods/56451
-    download_info:
-      - file_name: main
