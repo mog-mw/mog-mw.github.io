@@ -129,8 +129,6 @@ def main():
 
 
 def get_tool_path(name):
-    if system == "windows":
-        name += ".exe"
     if args.momw_dir:
         return args.momw_dir.joinpath(name)
     path = shutil.which(name)
