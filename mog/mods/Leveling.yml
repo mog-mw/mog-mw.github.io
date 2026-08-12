@@ -44,7 +44,6 @@ mods:
     download_info:
       - file_name: Armor Requirements
     plugins:
-      - Armor Requirements.omwaddon
       - Armor Requirements.omwscripts
 
   - name: (OpenMW) Weapon Requirements
@@ -52,7 +51,6 @@ mods:
     download_info:
       - file_name: Weapon Requirements
     plugins:
-      - Weapon Requirements.omwaddon
       - Weapon Requirements.omwscripts
 
   - name: Races RESPECted REDONE
