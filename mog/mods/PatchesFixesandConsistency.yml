@@ -193,7 +193,6 @@ mods:
       - 73 Dungeon Details Grotto Fix
       - 90 Dungeon Details Urshilkau Fixes
       - 02 Speechcraft Rebalance Rebalanced
-      - 58 OAAB Shipwrecks+JFK MOMW Patch
       - 20 Immersive Grotto Entrances Patched
       - 47 Vivec's Muatra Alternative
       - 43 Investigations at Tel Eurus Anti-Cheese
@@ -241,7 +240,6 @@ mods:
       # - AFFreshLibraryOfVivecEnhanced.esp
       - TracklessGrazelandOpenMW.esp
       - RoHt_Kogoruhn_patch.esp
-      - OAAB_Shipwrecks_JFK_patch.esp
       - Bitter Coast Waterway Cliff Fix.esp
       - Little Landscape - Path to Pelagiad Rock Fix.esp
       - OAAB_Grazelands_Mines_and_Caverns_patch.esp
@@ -354,8 +352,6 @@ mods:
         extract_to: openmwimpacteffectspatch
       - file_name: OAAB_TelMora_DiverseBloodPatch
         extract_to: OAABTelMoraDiverseBloodPatch
-      - file_name: OAAB_Shipwrecks_DiverseBloodPatch
-        extract_to: OAABShipwrecksDiverseBloodPatch
       - file_name: OAAB_Grazelands_DiverseBloodPatch
         extract_to: OAABGrazelandsDiverseBloodPatch
       - file_name: OAAB_Foyada_Mamaea_Lava_Patch
@@ -372,7 +368,6 @@ mods:
       - OAABTombsTowersDiverseBloodPatch
       - openmwimpacteffectspatch
       - OAABGrazelandsDiverseBloodPatch
-      - OAABShipwrecksDiverseBloodPatch
       - OAABTelMoraDiverseBloodPatch
       - nordsshutyourwindowspatch
       - DynamicAmbientVisualEffectsMagicalLightsPatch
@@ -382,7 +377,6 @@ mods:
       - OAAB_Grazelands - Diverse Blood Patch.omwaddon
       - OAAB - Tombs and Towers - Diverse Blood Patch.omwaddon
       - AH_Ingredients_TD&OAAB.omwaddon
-      - OAAB - Shipwrecks - Diverse Blood Patch.omwaddon
       - OAAB_Tel Mora - Diverse Blood Patch.omwaddon
 
   - name: Null's Minor Patches

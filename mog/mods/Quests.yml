@@ -231,6 +231,9 @@ mods:
     url: https://www.nexusmods.com/morrowind/mods/49281
     download_info:
       - file_name: Uncharted Artifacts
+    # # replaced by Get Wrecked
+    # plugins:
+    #   - Uncharted Artifacts.esp
 
   - name: Sorcerer of Alteration
     url: https://www.nexusmods.com/morrowind/mods/51224
