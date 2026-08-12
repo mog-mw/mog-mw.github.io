@@ -202,7 +202,8 @@ mods:
       - 66 RepopulatedMorrowindxTheWolverineHall patch
       - 67 MOMW Sadrith Mora Pathgrid Reset
       - 09 Master Index Redux BCOM Fixed
-      - 75 AldRuhnOutskirtsAncestralRefuge+LittleLandscapesNixHoundHuntingGrounds
+      # # Needs a patch for Ald'ruhn - City of Ash
+      # - 75 AldRuhnOutskirtsAncestralRefuge+LittleLandscapesNixHoundHuntingGrounds
       - 49 Aether Pirates Discovery + The Corprusarium Experience Patch
       - 12 Practical Necromancy Vendor Patch
       - 86 Practical Necromancy+OAAB Fix
@@ -262,7 +263,8 @@ mods:
       - IGE.ESP
       - Odai River Overhaul Statue Remover Patch.esp
       - Little Landscapes - Seyda Neen Swamp Pools.ESP
-      - AldRuhnOutskirtsLittleLandscapesNixFix.esp
+      # # Needs a patch for Ald'ruhn - City of Ash
+      # - AldRuhnOutskirtsLittleLandscapesNixFix.esp
       - Little Landscape - Foyada of Sharp Teeth Rock Fix.esp
       - MasterIndexRedux.esp
       - MamaeaAwakenedOpenMWPatch.esp

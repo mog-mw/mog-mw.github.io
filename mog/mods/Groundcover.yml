@@ -27,8 +27,9 @@ mods:
     data_paths:
       - 00 Core OpenMW
       - 01b Thicker Grass OpenMW
-    groundcover:
-      - Rem_AL.esp
+    # # replaced by Ald'ruhn - City of Ash
+    # groundcover:
+    #   - Rem_AL.esp
     settings: |
       [Groundcover]
       enabled = true

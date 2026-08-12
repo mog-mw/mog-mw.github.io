@@ -106,6 +106,35 @@ mods:
           - action: clean
             path: 00 Core/BCOM_pathgrid_reset.ESP
             arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, pgrd, --id, Vivec]
+
+          # patch for Ald'ruhn - City of Ash
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --exterior, --id, '(-1, 6)', --id, '(-1, 7)', --id, '(-2, 4)', --id, '(-2, 5)', --id, '(-2, 6)', --id, '(-2, 7)', --id, '(-3, 6)']
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, LAND, --id, '(-1, 6)', --id, '(-1, 7)', --id, '(-2, 4)', --id, '(-2, 5)', --id, '(-2, 6)', --id, '(-2, 7)', --id, '(-3, 6)']
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, LTEX, --id, '(-1, 6)', --id, '(-1, 7)', --id, '(-2, 4)', --id, '(-2, 5)', --id, '(-2, 6)', --id, '(-2, 7)', --id, '(-3, 6)']
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, pgrd, --id, '(-1, 6)', --id, '(-1, 7)', --id, '(-2, 4)', --id, '(-2, 5)', --id, '(-2, 6)', --id, '(-2, 7)', --id, '(-3, 6)']
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --interior, --id, Ald-ruhn]
+          - action: clean
+            path: 00 Core/BCOM_pathgrid_reset.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, pgrd, --id, '(-1, 6)', --id, '(-1, 7)', --id, '(-2, 4)', --id, '(-2, 5)', --id, '(-2, 6)', --id, '(-2, 7)', --id, '(-3, 6)']
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --id, dather manel]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --id, edwinna elbert]
+          - action: clean
+            path: 00 Core/Beautiful cities of Morrowind.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --id, volene llervu]
     data_paths:
       - Patches/54 Area of effect Arrows
       - Patches/80 Mamaea Awakened
@@ -128,7 +157,8 @@ mods:
       # - 02 Options/15 Molag Mar Broken Dome
       - 02 Options/17 Caldera Mages Guild Basement
       - 02 Options/18 Urshilaku Camp Concept Art Husk
-      - 02 Options/19 Ald'Ruhn Outdoor Merchants
+      # # Needs a patch for Ald'ruhn - City of Ash
+      # - 02 Options/19 Ald'Ruhn Outdoor Merchants
       - 02 Options/20 Imperial Gatehouses Addon
       - 02 Options/23 Eight Plates Quest Addon
       - 02 Options/24 Khuul Lighthouse
@@ -182,7 +212,8 @@ mods:
       - Balmora waterworks merchants addon.ESP
       - BCoM_Caldera_MG_Basement.ESP
       - BCoM_Concept_Art_Husk_Urshilaku.ESP
-      - BCoM_AldRuhn_Outdoor_Merchants.ESP
+      # # Needs a patch for Ald'ruhn - City of Ash
+      # - BCoM_AldRuhn_Outdoor_Merchants.ESP
       - BCoM_Imperial_Gaehouse_Buckmoth.ESP
       - BCoM_Imperial_Gaehouse_MoonMoth.ESP
       - BCoM_Imperial_Gatehouse_Pelagiad.ESP
@@ -427,14 +458,15 @@ mods:
     plugins:
       - Raven Rock Enhanced for TOTSP.ESP
 
-  - name: Ald'ruhn Architecture Variety
-    url: https://www.nexusmods.com/morrowind/mods/53939
-    download_info:
-      - file_name: Ald'ruhn Architecture Variety
-    data_paths:
-      - 00 Core
-    plugins:
-      - RP_Ald'ruhn_Architecture_Variety.ESP
+  # # Needs a patch for Ald'ruhn - City of Ash
+  # - name: Ald'ruhn Architecture Variety
+  #   url: https://www.nexusmods.com/morrowind/mods/53939
+  #   download_info:
+  #     - file_name: Ald'ruhn Architecture Variety
+  #   data_paths:
+  #     - 00 Core
+  #   plugins:
+  #     - RP_Ald'ruhn_Architecture_Variety.ESP
 
   - name: Ald'Ruhn Outskirts - Ancestral Refuge
     url: https://www.nexusmods.com/morrowind/mods/55944
@@ -523,3 +555,28 @@ mods:
       - Vivec Plaza - St. Delyn - Open.ESP
       - Vivec Plaza - St. Olms - Open.ESP
       # - Vivec Plaza - Telvanni - Atmospheric.ESP
+
+  - name: Ald'ruhn - City of Ash
+    url: https://www.nexusmods.com/morrowind/mods/57520
+    download_info:
+      - file_name: Ald'Ruhn - City of Ash
+      - file_name: Remiros' Groundcover patch
+        extract_to: Remiros Groundcover patch
+    data_paths:
+      - Ald'ruhn - City of Ash/Data Files
+      - Remiros Groundcover patch
+    # # replaced by the patch below
+    # plugins:
+    #   - sp_Aldruhn.ESP
+    groundcover:
+      - Rem_AL_spAldruhn.esp
+
+  - name: City of Ash - Ancestral Refuge Patch
+    url: https://www.nexusmods.com/morrowind/mods/59785
+    download_info:
+      - file_name: CityOfAshPatch
+    data_paths:
+      # supposedly better for Repopulated Morrowind compatibility
+      - '[01] Alt - Temple Patch'
+    plugins:
+      - sp_Aldruhn.ESP

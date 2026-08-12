@@ -155,12 +155,13 @@ mods:
     plugins:
       - Little_Landscape_-_Path_to_Balmora.esp
 
-  - name: Little Landscapes - Nix Hound Hunting Grounds
-    url: https://www.nexusmods.com/morrowind/mods/53333
-    download_info:
-      - file_name: Little Landscapes - Nix Hound Hunting Grounds
-    plugins:
-      - Little Landscape - Nix Hunting Ground.esp
+  # # Needs a patch for Ald'ruhn - City of Ash
+  # - name: Little Landscapes - Nix Hound Hunting Grounds
+  #   url: https://www.nexusmods.com/morrowind/mods/53333
+  #   download_info:
+  #     - file_name: Little Landscapes - Nix Hound Hunting Grounds
+  #   plugins:
+  #     - Little Landscape - Nix Hunting Ground.esp
 
   - name: Little Landscape - Foyada of Sharp Teeth
     url: https://www.nexusmods.com/morrowind/mods/53355

@@ -289,7 +289,6 @@ BeautifulCitiesofMorrowind/02 Options/12 Ghostgate - Animated Statues
 BeautifulCitiesofMorrowind/02 Options/14 More Tribal Erabenimsun
 BeautifulCitiesofMorrowind/02 Options/17 Caldera Mages Guild Basement
 BeautifulCitiesofMorrowind/02 Options/18 Urshilaku Camp Concept Art Husk
-BeautifulCitiesofMorrowind/02 Options/19 Ald'Ruhn Outdoor Merchants
 BeautifulCitiesofMorrowind/02 Options/20 Imperial Gatehouses Addon
 BeautifulCitiesofMorrowind/02 Options/23 Eight Plates Quest Addon
 BeautifulCitiesofMorrowind/02 Options/24 Khuul Lighthouse
@@ -309,7 +308,6 @@ MasterIndexRedux
 MOMWPatches/09 Master Index Redux BCOM Fixed
 BeautifulCitiesofMorrowind/Patches/22 Tamriel Rebuilt patch
 BeautifulCitiesofMorrowind/Patches/25 Province Cyrodiil Patch
-AldruhnunderSkar/Data files
 TamrielRebuiltHallofJusticeOverhaul/00 Core
 SophiesSkoomaSweetshoppe/23 Telvanni Mushroomtop Housepod UV Fix
 NecromArkitektoraofMorrowind/HQ
@@ -343,11 +341,8 @@ NordicDagonFel/00 Core
 NordicDagonFel/01 More Nordic Dagon Fel
 DagonFelMillRedux
 NordicDagonFelNPCs
-AldruhnArchitectureVariety/00 Core
-RatinthePotOAABifiedandTRd
 TempleBalmoraOAABifiedandTRd
 AldRuhnOutskirtsAncestralRefuge
-MOMWPatches/75 AldRuhnOutskirtsAncestralRefuge+LittleLandscapesNixHoundHuntingGrounds
 RavenRockEnhanced
 NordicSolstheimSolstheimInteriorsOverhaul/00 Core
 NordicSolstheimSolstheimInteriorsOverhaul/01 Cliff Racer Restored
@@ -645,7 +640,6 @@ VanillaStyleHDIconsforAttributesandSkills
 BigIcons/07 8X Textured
 VvardenfellAnimatedMainMenu/00 Animated Main Menu
 MageRobes/02 Vanilla-Style Robe Enchantments
-LittleLandscapesNixHoundHuntingGrounds
 BehaviourTreeLua2ndEdition
 MercyCombatAIOverhaul
 CantTouchThisCombatMissFeedbackOpenMW/CantTouchThis
@@ -704,6 +698,9 @@ VivecGodtheCity/17 Plaza St Delyn Open
 VivecGodtheCity/18 Plaza St Olms Open
 Minorpatchesandfixes/00 Affresh God the City Patch
 Minorpatchesandfixes/06 Cutting room floor, missing persons
+AldruhnCityofAsh/Ald'ruhn - City of Ash/Data Files
+AldruhnCityofAsh/Remiros Groundcover patch
+CityofAshAncestralRefugePatch/[01] Alt - Temple Patch
 OpenMWAlchemyRedone/TPA_Alchemy_Redone
 TamrielicIntegrations
 RepopulatedCreatures/TR Dialogue Edits/Data Files
