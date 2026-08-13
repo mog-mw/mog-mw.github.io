@@ -155,12 +155,13 @@ mods:
     plugins:
       - Little_Landscape_-_Path_to_Balmora.esp
 
-  - name: Little Landscapes - Nix Hound Hunting Grounds
-    url: https://www.nexusmods.com/morrowind/mods/53333
-    download_info:
-      - file_name: Little Landscapes - Nix Hound Hunting Grounds
-    plugins:
-      - Little Landscape - Nix Hunting Ground.esp
+  # # Needs a patch for Ald'ruhn - City of Ash
+  # - name: Little Landscapes - Nix Hound Hunting Grounds
+  #   url: https://www.nexusmods.com/morrowind/mods/53333
+  #   download_info:
+  #     - file_name: Little Landscapes - Nix Hound Hunting Grounds
+  #   plugins:
+  #     - Little Landscape - Nix Hunting Ground.esp
 
   - name: Little Landscape - Foyada of Sharp Teeth
     url: https://www.nexusmods.com/morrowind/mods/53355
@@ -209,18 +210,17 @@ mods:
     plugins:
       - Justice4Khartag.esp
 
-  - name: OAAB Shipwrecks
-    url: https://www.nexusmods.com/morrowind/mods/51364
+  - name: Get Wrecked - Shipwreck Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/51237
     download_info:
-      - file_name: OAAB   Shipwrecks
+      - file_name: Get Wrecked 1.3
+      - file_name: Uncharted Artifacts Compatibility Patch
+        extract_to: Get Wrecked
     data_paths:
-      - 00 Core
-      - 02 Patch - TR Patch
-      - 01 Patch - Uncharted Artifacts
+      - Get Wrecked
     plugins:
+      - GetWrecked.ESP
       - Uncharted Artifacts.esp
-      - OAAB - Shipwrecks.esm
-      - OAAB - Shipwrecks - TR Patch.ESP
 
   - name: Holamayan Island
     url: https://www.nexusmods.com/morrowind/mods/50996

@@ -20,7 +20,6 @@ StatsWindow.ESP
 StatsWindow.omwscripts
 skill-evolution.omwaddon
 skill-evolution.omwscripts
-OAAB_Saplings OpenMW Patch.ESP
 DistantEbonTower.ESP
 distant seafloor TOTSP 2.3.0 edges fix.esp
 Greetings for No Lore.esp
@@ -143,11 +142,9 @@ Dunmer Stronghold - Indoranyon V1.0.esp
 Dunmer Stronghold - Marandus V1.0.esp
 Dunmer Stronghold - Rotheran V1.0.esp
 Dunmer Stronghold - Valenvaryon V1.0.esp
+GetWrecked.ESP
 Uncharted Artifacts.esp
-OAAB - Shipwrecks.esm
-OAAB - Shipwrecks - TR Patch.ESP
 Justice4Khartag.esp
-OAAB_Shipwrecks_JFK_patch.esp
 Projectile Overhaul - Faster Magic Missiles.esp
 Projectile Overhaul - Faster Projectiles.esp
 Projectile Overhaul - Recovery Chance.esp
@@ -304,12 +301,11 @@ Vivec Plaza - Foreign - Open (Paper Map).ESP
 Vivec Plaza - St. Delyn - Open.ESP
 Vivec Plaza - St. Olms - Open.ESP
 AFFresh God the City.esp
+sp_Aldruhn.ESP
 Beautiful cities of Morrowind.ESP
 BCoM_Eight_Plates_Quest_Addon.ESP
-RP_Ald'ruhn_Architecture_Variety.ESP
 Unique Banners and Signs.esp
 Unique Banners and Signs Rat in the Pot.esp
-LB_RatPot.ESP
 LB_TempleBalmora.ESP
 BCoM_Khuul_Lighthouse_02.ESP
 Magical Lights.ESP
@@ -326,7 +322,6 @@ Memento Mori.ESP
 Memento Mori - OpenMW Patch.ESP
 MementoMori_VanillaStatues_patch.esp
 Planters for Ajira.ESP
-Under-Skar.ESP
 RPNR_Hall_of_justice.ESP
 OAAB Market.ESP
 Hanging Gardens of Suran.esp
@@ -375,14 +370,12 @@ Odai River Overhaul Statue Remover Patch.esp
 Little Landscapes - Seyda Neen Swamp Pools.ESP
 Ald'Ruhn Outskirts - Ancestral Refuge.ESP
 Ald'Ruhn Outskirts - TR Addon.ESP
-AldRuhnOutskirtsLittleLandscapesNixFix.esp
 Little_Landscape_-_Path_to_Balmora.esp
 Little Landscape - Foyada of Sharp Teeth.esp
 Little Landscape - Foyada of Sharp Teeth Rock Fix.esp
 BCoM_Caldera_MG_Basement.ESP
 MasterIndexRedux.esp
 BCoM_Concept_Art_Husk_Urshilaku.ESP
-BCoM_AldRuhn_Outdoor_Merchants.ESP
 BCoM_Imperial_Gaehouse_Buckmoth.ESP
 BCoM_Imperial_Gaehouse_MoonMoth.ESP
 BCoM_Imperial_Gatehouse_Pelagiad.ESP
@@ -484,7 +477,6 @@ FollowerDetectionUtil.omwscripts
 FriendlierFire.omwscripts
 S3maphore.esp
 Mage Robes_Weak.ESP
-Little Landscape - Nix Hunting Ground.esp
 MercyCAO.omwscripts
 cantouchthis.omwscripts
 FairCare.omwaddon

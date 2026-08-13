@@ -51,14 +51,15 @@ mods:
   #   plugins:
   #     - RPNR_Library.ESP
 
-  - name: Ald'ruhn-under-Skar
-    url: https://www.nexusmods.com/morrowind/mods/50332
-    download_info:
-      - file_name: Ald-ruhn-Under-Skar EN
-    data_paths:
-      - Data files
-    plugins:
-      - Under-Skar.ESP
+  # # Needs a patch for Ald'ruhn - City of Ash
+  # - name: Ald'ruhn-under-Skar
+  #   url: https://www.nexusmods.com/morrowind/mods/50332
+  #   download_info:
+  #     - file_name: Ald-ruhn-Under-Skar EN
+  #   data_paths:
+  #     - Data files
+  #   plugins:
+  #     - Under-Skar.ESP
 
   - name: Ald'Ruhn Manor Banners
     url: https://www.nexusmods.com/morrowind/mods/51527
@@ -69,12 +70,13 @@ mods:
     plugins:
       - Manor Banners.ESP
 
-  - name: Rat in the Pot - OAAB-ified and TR'd
-    url: https://www.nexusmods.com/morrowind/mods/57663
-    download_info:
-      - file_name: Rat in the Pot - OAABified and TRd
-    plugins:
-      - LB_RatPot.ESP
+  # # Needs a patch for Ald'ruhn - City of Ash
+  # - name: Rat in the Pot - OAAB-ified and TR'd
+  #   url: https://www.nexusmods.com/morrowind/mods/57663
+  #   download_info:
+  #     - file_name: Rat in the Pot - OAABified and TRd
+  #   plugins:
+  #     - LB_RatPot.ESP
 
   - name: Temple Balmora OAAB-ified and TR'd
     url: https://www.nexusmods.com/morrowind/mods/57596

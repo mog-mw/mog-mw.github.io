@@ -26,6 +26,7 @@ parser.add_argument("-u", "--umo", action="store_true", help="Install mods with 
 parser.add_argument("-c", "--configurator", action="store_true", help="Install modlist configuration with MOMW Configurator")
 parser.add_argument("-d", "--delta-plugin", action="store_true", help="Run DeltaPlugin (slow, required after deleting plugins)")
 parser.add_argument("-n", "--navmesh", action="store_true", help="Run the OpenMW Navmeshtool (very slow)")
+parser.add_argument("-v", "--verbose", action="store_true", help="Pass --verbose to MOMW Configurator")
 parser.add_argument("-g", "--greenmote", action="store_true", help="Convert groundcover with Greenmote")
 
 
@@ -106,6 +107,8 @@ def main():
                     configurator_args.insert(5, "--run-navmeshtool")
                 if not args.delta_plugin:
                     configurator_args.insert(5, "--no-delta-plugin")
+                if args.verbose:
+                    configurator_args.insert(2, "--verbose")
                 subprocess.run(configurator_args)
 
             print("Stopping HTTP server.")

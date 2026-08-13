@@ -193,7 +193,6 @@ mods:
       - 73 Dungeon Details Grotto Fix
       - 90 Dungeon Details Urshilkau Fixes
       - 02 Speechcraft Rebalance Rebalanced
-      - 58 OAAB Shipwrecks+JFK MOMW Patch
       - 20 Immersive Grotto Entrances Patched
       - 47 Vivec's Muatra Alternative
       - 43 Investigations at Tel Eurus Anti-Cheese
@@ -203,7 +202,8 @@ mods:
       - 66 RepopulatedMorrowindxTheWolverineHall patch
       - 67 MOMW Sadrith Mora Pathgrid Reset
       - 09 Master Index Redux BCOM Fixed
-      - 75 AldRuhnOutskirtsAncestralRefuge+LittleLandscapesNixHoundHuntingGrounds
+      # # Needs a patch for Ald'ruhn - City of Ash
+      # - 75 AldRuhnOutskirtsAncestralRefuge+LittleLandscapesNixHoundHuntingGrounds
       - 49 Aether Pirates Discovery + The Corprusarium Experience Patch
       - 12 Practical Necromancy Vendor Patch
       - 86 Practical Necromancy+OAAB Fix
@@ -241,7 +241,6 @@ mods:
       # - AFFreshLibraryOfVivecEnhanced.esp
       - TracklessGrazelandOpenMW.esp
       - RoHt_Kogoruhn_patch.esp
-      - OAAB_Shipwrecks_JFK_patch.esp
       - Bitter Coast Waterway Cliff Fix.esp
       - Little Landscape - Path to Pelagiad Rock Fix.esp
       - OAAB_Grazelands_Mines_and_Caverns_patch.esp
@@ -264,7 +263,8 @@ mods:
       - IGE.ESP
       - Odai River Overhaul Statue Remover Patch.esp
       - Little Landscapes - Seyda Neen Swamp Pools.ESP
-      - AldRuhnOutskirtsLittleLandscapesNixFix.esp
+      # # Needs a patch for Ald'ruhn - City of Ash
+      # - AldRuhnOutskirtsLittleLandscapesNixFix.esp
       - Little Landscape - Foyada of Sharp Teeth Rock Fix.esp
       - MasterIndexRedux.esp
       - MamaeaAwakenedOpenMWPatch.esp
