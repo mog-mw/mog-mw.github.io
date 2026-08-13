@@ -115,8 +115,10 @@ mods:
       - Patches/57 Sload and Slavers
       - 00 Core
       - 01 Waterworks Core
+      - 02 Options/01 Haalu Council Hall Plaza - Brevur of Balmora
       - 02 Options/03 Weather Mechanics for (OpenMW) - Required
       - 02 Options/04 Suran dock expansion
+      - 02 Options/06 Stav's Mages Guilds - Alternate Hlaalu
       - 02 Options/07 Taller Seyda Neen Lighthouse
       - 02 Options/08 Expanded Sadrith Mora Dock
       - 02 Options/09 Concept Art Ghostfence Pillars
@@ -130,6 +132,7 @@ mods:
       - 02 Options/18 Urshilaku Camp Concept Art Husk
       - 02 Options/19 Ald'Ruhn Outdoor Merchants
       - 02 Options/20 Imperial Gatehouses Addon
+      - 02 Options/21 City of Contrasts Balmora Merchants Addon
       - 02 Options/23 Eight Plates Quest Addon
       - 02 Options/24 Khuul Lighthouse
       - 02 Options/25 Sadrith Mora South Gates
@@ -151,6 +154,7 @@ mods:
       - 05 Grass Patches/02 Caldera Priory Grass Patches
       - Patches/17 GITD Telvanni Dormers
       - 04 Project Atlas and GiTD Patches/02 GITD + Atlas
+      - 04 Project Atlas and GiTD Patches/04 Stav MGO - Alternate Hlaalu - GITD + Atlas
     plugins:
       - Morrowind Anti-Cheese.ESP
       - Bounty Hunter Assignments.ESP
@@ -180,6 +184,8 @@ mods:
       - BCOM_pathgrid_reset.ESP
       - BCoM_WaterWorks.ESP
       - Balmora waterworks merchants addon.ESP
+      - BCoM_Marketplace_addon_ver_3.esp
+      - BCOM_Brevur.ESP
       - BCoM_Caldera_MG_Basement.ESP
       - BCoM_Concept_Art_Husk_Urshilaku.ESP
       - BCoM_AldRuhn_Outdoor_Merchants.ESP
@@ -190,6 +196,7 @@ mods:
       - Mamaea Awakened.ESP
       - Yet Another Guard Diversity - Full Cephalopod.ESP
       - BCOM_Suran Expansion.ESP
+      - BCOM_Stavs_MGO.ESP
       - BCOM - Taller Lighthouse.ESP
       # - BCoM_Open_Cantons.ESP
       # - BCoM - Atmospheric_Arena.ESP

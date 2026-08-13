@@ -291,8 +291,10 @@ GuarStablesofVivec/00 Core
 GuarStablesofVivec/01 Guar Stables
 BeautifulCitiesofMorrowind/00 Core
 BeautifulCitiesofMorrowind/01 Waterworks Core
+BeautifulCitiesofMorrowind/02 Options/01 Haalu Council Hall Plaza - Brevur of Balmora
 BeautifulCitiesofMorrowind/02 Options/03 Weather Mechanics for (OpenMW) - Required
 BeautifulCitiesofMorrowind/02 Options/04 Suran dock expansion
+BeautifulCitiesofMorrowind/02 Options/06 Stav's Mages Guilds - Alternate Hlaalu
 BeautifulCitiesofMorrowind/02 Options/07 Taller Seyda Neen Lighthouse
 BeautifulCitiesofMorrowind/02 Options/08 Expanded Sadrith Mora Dock
 BeautifulCitiesofMorrowind/02 Options/09 Concept Art Ghostfence Pillars
@@ -302,12 +304,14 @@ BeautifulCitiesofMorrowind/02 Options/17 Caldera Mages Guild Basement
 BeautifulCitiesofMorrowind/02 Options/18 Urshilaku Camp Concept Art Husk
 BeautifulCitiesofMorrowind/02 Options/19 Ald'Ruhn Outdoor Merchants
 BeautifulCitiesofMorrowind/02 Options/20 Imperial Gatehouses Addon
+BeautifulCitiesofMorrowind/02 Options/21 City of Contrasts Balmora Merchants Addon
 BeautifulCitiesofMorrowind/02 Options/23 Eight Plates Quest Addon
 BeautifulCitiesofMorrowind/02 Options/24 Khuul Lighthouse
 BeautifulCitiesofMorrowind/02 Options/25 Sadrith Mora South Gates
 BeautifulCitiesofMorrowind/03 Waterworks Options/01 Optional Merchants
 BeautifulCitiesofMorrowind/03 Waterworks Options/02 Cluttered Canal
 BeautifulCitiesofMorrowind/04 Project Atlas and GiTD Patches/01 Project Atlas Patch
+BeautifulCitiesofMorrowind/04 Project Atlas and GiTD Patches/04 Stav MGO - Alternate Hlaalu - GITD + Atlas
 BeautifulCitiesofMorrowind/06 HD Textures
 MaarGanTownofPilgrimage/00 Core
 MaarGanTownofPilgrimage/01 Ashlander Addon
@@ -429,7 +433,6 @@ WanderingCreatureMerchantsLuaEdition/00 Core
 WanderingCreatureMerchantsLuaEdition/01 Extra
 PickpocketRebalanceOpenMW
 VariousModsandPatches/AlchemicalHustleIngredientsPatch
-VariousModsandPatches/OAABTombsTowersDiverseBloodPatch
 MageRobes/00 Core
 MageRobes/04 HD Textures
 MageRobesforOpenMWLua
@@ -558,7 +561,6 @@ JointheDarkBrotherhoodDarkBrotherhoodFactionMod
 FMILegionDialogue
 QuarraClanRefreshed/01 Refreshed
 QuarraClanRefreshed/02 Optional Patches - Modular
-SophiesSkoomaSweetshoppe/16 QCVL Blood Altar x Diverse Blood Fix
 TempleMaster/00 Core
 TempleMaster/01 OpenMW Addons
 TempleMaster/04 HD Textures
@@ -572,16 +574,6 @@ Mistify/00 Core
 TheDreamistheDoor
 ParasolParticles/01 OAAB_Data Patch
 MOMWPatches/15 Perfectly Proficient Parasol Particles Performance Patch/00 Project Atlas
-NoShieldSparkle
-SubtleMagicGlow/fade
-DiverseBlood/Data Files
-DiverseBloodforTamrielRebuiltandProjectTamriel/Diverse Blood - Tamriel Data/00 Core
-DiverseBloodforTamrielRebuiltandProjectTamriel/Diverse Blood - Tamriel Data/01 Tamriel Rebuilt
-DiverseBloodforTamrielRebuiltandProjectTamriel/Diverse Blood - Tamriel Data/02 Project Cyrodiil
-DiverseBloodforTamrielRebuiltandProjectTamriel/Diverse Blood - Tamriel Data/03 Skyrim Home of the Nords
-VariousModsandPatches/OAABGrazelandsDiverseBloodPatch
-VariousModsandPatches/OAABShipwrecksDiverseBloodPatch
-VariousModsandPatches/OAABTelMoraDiverseBloodPatch
 SolthasBlightWeatherPack/Solthas Blight Weather Pack
 DistantFixesLuaEdition
 LushSynthesis
@@ -628,7 +620,6 @@ DunmerLanternsReplacer/03 Ashlander Lanterns Retexture 1
 DunmerLanternsReplacer/04 Tamriel_Data Patch - Glow Effect
 DunmerLanternsReplacer/05 OAAB_Data Patch - Glow Effect
 AnimatedMorrowindandWeaponSheathingpatchforOpenMW
-VariousModsandPatches/OAABDiverseBloodpatch
 MOMWPatches/05 AFFresh+Samarys Ancestral Tomb Expanded Patch
 MOMWPatches/10 Ebonheart Underworks MOMW Patch
 MOMWPatches/16 Uvirith's Legacy+BCOM Arena Patch
@@ -742,6 +733,20 @@ OpenMW049ImprovedVanillaLeveling/ImprovedVanillaLeveling
 ArmorTrainingOpenMW/Armor Training OpenMW 1.0.1
 OpenMWArmorRequirements
 OpenMWWeaponRequirements
+SiltStrider/Data files
+PotionDistillingOpenMW/PotionReduction
+OblivionStyleLockpickingOpenMW
+WeaponPoisoningOpenMW
+S4V3RSimpleAutomaticSaves
+HlaaluNoblesFacialOverhaul/Hlaalu Nobles
+RoguesGallery
+VanillaStyleScroll/2048x2048 less noisy
+DiverseBloodOpenMWLua
+OpenMWBetterElementalShields/Better Elemental Shields
+ImprovedFire
+ImprovedFire/AltOrange
+MagicVFXRetexturebyArticus/Magic VFX Retexture by Articus/Data Files
+SubtleMagicGlow/fade
 # insert new entries above
 MOMWToolsPack
 SophiesSkoomaSweetshoppe/30 Temporary Fixes

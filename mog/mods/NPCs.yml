@@ -143,6 +143,22 @@ mods:
     plugins:
       - Royal_Barenziah.ESP
 
+  - name: Hlaalu Nobles Facial Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/48916
+    download_info:
+      - file_name: Hlaalu Nobles Facial Overhaul
+    data_paths:
+      - Hlaalu Nobles
+    plugins:
+      - Hlaalu Nobles Facial Overhaul.ESP
+
+  - name: Rogue's Gallery
+    url: https://www.nexusmods.com/morrowind/mods/49874
+    download_info:
+      - file_name: Rogue's Gallery
+    plugins:
+      - Rogues Gallery.ESP
+
   - name: Interesting Outfits - Solstheim
     url: https://www.nexusmods.com/morrowind/mods/53124
     download_info:

@@ -346,44 +346,24 @@ mods:
   - name: Various Mods and Patches
     url: https://www.nexusmods.com/morrowind/mods/56176
     download_info:
-      - file_name: OAAB_Tombs_and_Towers_DiverseBloodPatch
-        extract_to: OAABTombsTowersDiverseBloodPatch
       - file_name: AH Ingredients Patch
         extract_to: AlchemicalHustleIngredientsPatch
       - file_name: openmw_impact_effects_patch
         extract_to: openmwimpacteffectspatch
-      - file_name: OAAB_TelMora_DiverseBloodPatch
-        extract_to: OAABTelMoraDiverseBloodPatch
-      - file_name: OAAB_Shipwrecks_DiverseBloodPatch
-        extract_to: OAABShipwrecksDiverseBloodPatch
-      - file_name: OAAB_Grazelands_DiverseBloodPatch
-        extract_to: OAABGrazelandsDiverseBloodPatch
       - file_name: OAAB_Foyada_Mamaea_Lava_Patch
         extract_to: OAABFoyadaMamaeaILavaGoodPatch
       - file_name: DynamicAmbientVisualEffectsMagicalLightsPatch
         extract_to: DynamicAmbientVisualEffectsMagicalLightsPatch
       - file_name: nords_shut_your_windows_patch
         extract_to: nordsshutyourwindowspatch
-      - file_name: OAAB_DiverseBloodPatch
-        extract_to: OAABDiverseBloodpatch
     data_paths:
       - OAABFoyadaMamaeaILavaGoodPatch/00 I Lava Good
       - AlchemicalHustleIngredientsPatch
-      - OAABTombsTowersDiverseBloodPatch
       - openmwimpacteffectspatch
-      - OAABGrazelandsDiverseBloodPatch
-      - OAABShipwrecksDiverseBloodPatch
-      - OAABTelMoraDiverseBloodPatch
       - nordsshutyourwindowspatch
       - DynamicAmbientVisualEffectsMagicalLightsPatch
-      - OAABDiverseBloodpatch
     plugins:
-      - OAAB - Diverse Blood Patch.omwaddon
-      - OAAB_Grazelands - Diverse Blood Patch.omwaddon
-      - OAAB - Tombs and Towers - Diverse Blood Patch.omwaddon
       - AH_Ingredients_TD&OAAB.omwaddon
-      - OAAB - Shipwrecks - Diverse Blood Patch.omwaddon
-      - OAAB_Tel Mora - Diverse Blood Patch.omwaddon
 
   - name: Null's Minor Patches
     url: https://www.nexusmods.com/morrowind/mods/55897

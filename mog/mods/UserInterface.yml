@@ -129,6 +129,13 @@ mods:
     plugins:
       - openmw_books_enhanced.omwscripts
 
+  - name: Vanilla Style Scroll
+    url: https://www.nexusmods.com/morrowind/mods/54476
+    download_info:
+      - file_name: Vanilla Style Scroll - 2048x2048 less noisy option
+    data_paths:
+      - 2048x2048 less noisy
+
   - name: Comrade Raven's Book Arts Replacer
     url: https://www.nexusmods.com/morrowind/mods/48896
     download_info:

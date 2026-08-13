@@ -26,9 +26,9 @@ mods:
   - name: Census and Excise Office Faction
     url: https://www.nexusmods.com/morrowind/mods/46798
     download_info:
-      - file_name: Census and Excise Office Faction
+      - file_name: Census and Excise Office Faction - Less Rewarding
     plugins:
-      - Census_and_Excise_Office_Faction.ESP
+      - Census_and_Excise_Office_Faction.omwaddon
 
   - name: Astrologian's Guild
     url: https://www.nexusmods.com/morrowind/mods/51216

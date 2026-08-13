@@ -143,6 +143,15 @@ mods:
     plugins:
       - TPA_Alchemy_Redone.omwscripts
 
+  - name: Potion Distilling (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/59675
+    download_info:
+      - file_name: PotionReduction
+    data_paths:
+      - PotionReduction
+    plugins:
+      - PotionReduction.omwscripts
+
   - name: Potions Refined - Improved Magical Item Loot
     url: https://www.nexusmods.com/morrowind/mods/58808
     download_info:
@@ -226,6 +235,21 @@ mods:
       - file_name: Expansions Integrated
     plugins:
       - Expansions Integrated - Fewer BM Creatures.esp
+
+  - name: Oblivion-Style Lockpicking (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/56355
+    download_info:
+      - file_name: Oblivion-Style Lockpicking
+    plugins:
+      - OblivionLockpicking.omwscripts
+
+  - name: Weapon Poisoning (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/58981
+    download_info:
+      - file_name: WeaponPoisoning
+    plugins:
+      - WeaponPoisoning.omwaddon
+      - WeaponPoisoning.omwscripts
 
   - name: Clear Your Name
     url: https://www.nexusmods.com/morrowind/mods/43786
@@ -351,6 +375,13 @@ mods:
     plugins:
       - NoWitnessNoBounty.omwaddon
       - NoWitnessNoBounty.omwscripts
+
+  - name: S4V3R - Simple Automatic Saves
+    url: https://www.nexusmods.com/morrowind/mods/59665
+    download_info:
+      - file_name: S4V3R
+    plugins:
+      - S4V3R.esp
 
   - name: Perfect Placement
     url: https://www.nexusmods.com/morrowind/mods/46562

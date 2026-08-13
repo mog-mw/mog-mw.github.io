@@ -9,3 +9,13 @@ mods:
       - Unofficial Tamriel Rebuilt Spells (OpenMW 0.51)
     plugins:
       - Unofficial TR Spells.omwscripts
+
+  - name: (OpenMW) Better Elemental Shields
+    url: https://www.nexusmods.com/morrowind/mods/57915
+    download_info:
+      - file_name: Better Elemental Shields
+    data_paths:
+      - Better Elemental Shields
+    plugins:
+      - Better Elemental Shields.omwaddon
+      - Better Elemental Shields.omwscripts

@@ -15,40 +15,35 @@ mods:
     plugins:
       - RP_fireflies.ESP
 
-  - name: No Shield Sparkle
-    url: https://www.nexusmods.com/morrowind/mods/45989
+  - name: Magic VFX Retexture by Articus
+    url: https://www.nexusmods.com/morrowind/mods/47702
     download_info:
-      - file_name: No Shield Sparkle
-
-  - name: Diverse Blood
-    url: https://www.nexusmods.com/morrowind/mods/45368
-    download_info:
-      - file_name: Diverse Blood
+      - file_name: Magic VFX Retexture by Articus
     data_paths:
-      - Data Files
+      - Magic VFX Retexture by Articus/Data Files
+
+  - name: Improved Fire
+    url: https://www.nexusmods.com/morrowind/mods/57932
+    download_info:
+      - file_name: main
+      - file_name: alt orange
+        extract_to: AltOrange
+    data_paths:
+      - ""
+      - AltOrange
+
+  - name: Diverse Blood OpenMW Lua
+    url: https://www.nexusmods.com/morrowind/mods/59776
+    download_info:
+      - file_name: diverse_blood_openmw_lua
     plugins:
-      - Bob's Diverse Blood.ESP
+      - diverse-blood-openmw-lua.omwscripts
     fallbacks:
       - Blood_Texture_3,Blood_Energy.dds
       - Blood_Texture_4,Blood_Blue.dds
       - Blood_Texture_5,Blood_Green.dds
       - Blood_Texture_6,Blood_Dark.dds
       - Blood_Texture_7,Blood_Orange.dds
-
-  - name: Diverse Blood for Tamriel Rebuilt and Project Tamriel
-    url: https://www.nexusmods.com/morrowind/mods/55687
-    download_info:
-      - file_name: Diverse Blood for Tamriel Data
-    data_paths:
-      - Diverse Blood - Tamriel Data/00 Core
-      - Diverse Blood - Tamriel Data/01 Tamriel Rebuilt
-      - Diverse Blood - Tamriel Data/02 Project Cyrodiil
-      - Diverse Blood - Tamriel Data/03 Skyrim Home of the Nords
-    plugins:
-      - Diverse Blood - Tamriel Data.ESP
-      - Diverse Blood - Tamriel Rebuilt.esp
-      - Diverse Blood - Project Cyrodiil.ESP
-      - Diverse Blood - SHotN.ESP
 
   - name: Subtle Magic Glow
     url: https://www.nexusmods.com/morrowind/mods/4468
@@ -57,6 +52,11 @@ mods:
     data_paths:
       - fade
 
+#  - name: No Shield Sparkle
+#    url: https://www.nexusmods.com/morrowind/mods/45989
+#    download_info:
+#      - file_name: No Shield Sparkle
+#
   - name: OpenMW Impact Effects
     url: https://www.nexusmods.com/morrowind/mods/55508
     download_info:

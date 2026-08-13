@@ -6,6 +6,13 @@ mods:
     download_info:
       - file_name: Dagoth Ur&#39;s Divine Body
 
+  - name: Silt Strider
+    url: https://www.nexusmods.com/morrowind/mods/48664
+    download_info:
+      - file_name: Silt Strider with vanilla textures
+    data_paths:
+      - Data files
+
   - name: Silt Strider Animation Restored
     url: https://www.nexusmods.com/morrowind/mods/44150
     download_info:

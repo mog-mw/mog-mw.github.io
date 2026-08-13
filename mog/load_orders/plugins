@@ -60,14 +60,6 @@ OAAB - Foyada Mamaea.ESP
 Manor Banners.ESP
 mistify.ESP
 The Dream is the Door.ESP
-Bob's Diverse Blood.ESP
-Diverse Blood - Tamriel Data.ESP
-Diverse Blood - Tamriel Rebuilt.esp
-Diverse Blood - Project Cyrodiil.ESP
-Diverse Blood - SHotN.ESP
-OAAB - Diverse Blood Patch.omwaddon
-OAAB_Grazelands - Diverse Blood Patch.omwaddon
-OAAB - Tombs and Towers - Diverse Blood Patch.omwaddon
 Silt Strider Animation Restored.ESP
 Hospitality_Papers_Expanded_v2.7.esp
 Cutting Room Floor - Characters.esp
@@ -153,7 +145,6 @@ Dunmer Stronghold - Rotheran V1.0.esp
 Dunmer Stronghold - Valenvaryon V1.0.esp
 Uncharted Artifacts.esp
 OAAB - Shipwrecks.esm
-OAAB - Shipwrecks - Diverse Blood Patch.omwaddon
 OAAB - Shipwrecks - TR Patch.ESP
 Justice4Khartag.esp
 OAAB_Shipwrecks_JFK_patch.esp
@@ -180,7 +171,7 @@ Unholy Trinity Complete.esp
 Lucid Disturbing Dreams.ESP
 kd_ldd.omwscripts
 Better Skulls.ESP
-Census_and_Excise_Office_Faction.ESP
+Census_and_Excise_Office_Faction.omwaddon
 Hidden Sea Loot.ESP
 Astrologians Guild.esp
 Dark Brotherhood.esp
@@ -371,6 +362,9 @@ BCOM_pathgrid_reset.ESP
 BCoM_WaterWorks.ESP
 Balmora waterworks merchants addon.ESP
 BalmoraGravemarketBCOM.ESP
+BCoM_Marketplace_addon_ver_3.esp
+BCOM_Brevur.ESP
+BCOM_Stavs_MGO.ESP
 Vivec_Lighthouse.ESP
 Little_Landscape_-_Path_to_Vivec_Lighthouse.esp
 Vivec Lighthouse Questline.esp
@@ -438,7 +432,6 @@ UL_-_BCoM_Arena_Patch.esp
 Expansion Delay.ESP
 Early Transport to Mournhold.esp
 OAAB_Tel Mora.ESP
-OAAB_Tel Mora - Diverse Blood Patch.omwaddon
 UL_-_OAAB_Tel_Mora_Patch.esp
 Kumarahaz Bandit Lair.ESP
 Tel Branora Expansion.ESP
@@ -552,10 +545,18 @@ Better Vanilla leveling.ESP
 ImprovedVanillaLeveling.omwscripts
 ImprovedVanillaLeveling_GMSTs_fLevelUpHealthEndMult.omwaddon
 armortraining.omwscripts
-Armor Requirements.omwaddon
 Armor Requirements.omwscripts
-Weapon Requirements.omwaddon
 Weapon Requirements.omwscripts
+PotionReduction.omwscripts
+OblivionLockpicking.omwscripts
+WeaponPoisoning.omwaddon
+WeaponPoisoning.omwscripts
+S4V3R.esp
+Hlaalu Nobles Facial Overhaul.ESP
+Rogues Gallery.ESP
+diverse-blood-openmw-lua.omwscripts
+Better Elemental Shields.omwaddon
+Better Elemental Shields.omwscripts
 # insert new entries above
 momw-gameplay.omwscripts
 momw-gameplay-controls.omwscripts
