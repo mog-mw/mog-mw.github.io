@@ -583,7 +583,6 @@ mods:
     download_info:
       - file_name: CityOfAshPatch
     data_paths:
-      # supposedly better for Repopulated Morrowind compatibility
-      - '[01] Alt - Temple Patch'
+      - '[00] Main_'
     plugins:
       - sp_Aldruhn.ESP
