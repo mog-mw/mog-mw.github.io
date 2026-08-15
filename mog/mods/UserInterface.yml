@@ -156,6 +156,14 @@ mods:
       - file_name: Modern Style Crosshair
     data_paths:
       - 00 32x32 Crosshair
+
+  - name: Gauntlet Cursor
+    url: https://www.nexusmods.com/morrowind/mods/59058
+    download_info:
+      - file_name: Arrows for Resize and Drop
+    data_paths:
+      - DenyingProduct-GauntletCursor
+
 # # I'll add these properly once i feel like doing UI gooning
 # - name: OpenMW Cute Caius Compass
 #   url: https://www.nexusmods.com/morrowind/mods/56628
