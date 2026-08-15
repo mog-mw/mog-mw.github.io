@@ -572,17 +572,17 @@ mods:
     data_paths:
       - Ald'ruhn - City of Ash/Data Files
       - Remiros Groundcover patch
-    # # replaced by the patch below
-    # plugins:
-    #   - sp_Aldruhn.ESP
+    # replaced by the patch below
+    plugins:
+      - sp_Aldruhn.ESP
     groundcover:
       - Rem_AL_spAldruhn.esp
 
-  - name: City of Ash - Ancestral Refuge Patch
-    url: https://www.nexusmods.com/morrowind/mods/59785
-    download_info:
-      - file_name: CityOfAshPatch
-    data_paths:
-      - '[00] Main_'
-    plugins:
-      - sp_Aldruhn.ESP
+  # - name: City of Ash - Ancestral Refuge Patch
+  #   url: https://www.nexusmods.com/morrowind/mods/59785
+  #   download_info:
+  #     - file_name: CityOfAshPatch
+  #   data_paths:
+  #     - '[00] Main_'
+  #   plugins:
+  #     - sp_Aldruhn.ESP
