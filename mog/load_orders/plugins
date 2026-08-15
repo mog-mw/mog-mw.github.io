@@ -146,8 +146,6 @@ GetWrecked.ESP
 Uncharted Artifacts.esp
 Justice4Khartag.esp
 Projectile Overhaul - Faster Magic Missiles.esp
-Projectile Overhaul - Faster Projectiles.esp
-Projectile Overhaul - Recovery Chance.esp
 Containers Animated.esp
 Concept art palace.ESP
 CAP_Interior_Cluttering.ESP
@@ -536,7 +534,6 @@ UntilHealedFix.omwscripts
 Better Vanilla leveling.ESP
 ImprovedVanillaLeveling.omwscripts
 ImprovedVanillaLeveling_GMSTs_fLevelUpHealthEndMult.omwaddon
-armortraining.omwscripts
 Armor Requirements.omwscripts
 Weapon Requirements.omwscripts
 PotionReduction.omwscripts
@@ -549,6 +546,15 @@ Rogues Gallery.ESP
 diverse-blood-openmw-lua.omwscripts
 Better Elemental Shields.omwaddon
 Better Elemental Shields.omwscripts
+fresh-loot.omwaddon
+fresh-loot.omwscripts
+BullseyeGMSTs.omwaddon
+Bullseye.omwscripts
+ArrowStick.omwscripts
+BetterArmorTraining.omwscripts
+HUDweaponCharge.omwscripts
+AnimatedLanterns.omwaddon
+AnimatedLanterns.omwscripts
 # insert new entries above
 momw-gameplay.omwscripts
 momw-gameplay-controls.omwscripts

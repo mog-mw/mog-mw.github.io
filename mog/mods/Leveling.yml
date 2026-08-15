@@ -30,14 +30,12 @@ mods:
       - ImprovedVanillaLeveling.omwscripts
       - ImprovedVanillaLeveling_GMSTs_fLevelUpHealthEndMult.omwaddon
 
-  - name: Armor Training (OpenMW)
-    url: https://www.nexusmods.com/morrowind/mods/59394
+  - name: Better Armor Training (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/59863
     download_info:
-      - file_name: Armor Training OpenMW 1.0.1
-    data_paths:
-      - Armor Training OpenMW 1.0.1
+      - file_name: BetterArmorTraining
     plugins:
-      - armortraining.omwscripts
+      - BetterArmorTraining.omwscripts
 
   - name: (OpenMW) Armor Requirements
     url: https://www.nexusmods.com/morrowind/mods/58485

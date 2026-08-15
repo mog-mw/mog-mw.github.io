@@ -15,6 +15,14 @@ mods:
     plugins:
       - RP_fireflies.ESP
 
+  - name: Animated Lanterns and Signs -- OpenMW
+    url: https://www.nexusmods.com/morrowind/mods/58443
+    download_info:
+      - file_name: AnimatedLanternsAndSigns
+    plugins:
+      - AnimatedLanterns.omwaddon
+      - AnimatedLanterns.omwscripts
+
   - name: Magic VFX Retexture by Articus
     url: https://www.nexusmods.com/morrowind/mods/47702
     download_info:

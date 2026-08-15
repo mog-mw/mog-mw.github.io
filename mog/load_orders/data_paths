@@ -716,7 +716,6 @@ OpenMWUntilHealedFix/UntilHealedFix
 BetterVanillaLeveling
 OpenMW049ImprovedVanillaLeveling
 OpenMW049ImprovedVanillaLeveling/ImprovedVanillaLeveling
-ArmorTrainingOpenMW/Armor Training OpenMW 1.0.1
 OpenMWArmorRequirements
 OpenMWWeaponRequirements
 SiltStrider/Data files
@@ -733,6 +732,12 @@ ImprovedFire
 ImprovedFire/AltOrange
 MagicVFXRetexturebyArticus/Magic VFX Retexture by Articus/Data Files
 SubtleMagicGlow/fade
+FreshLootOpenMW/00 Core
+BullseyeMarksmanOverhaulOpenMW
+ArrowStickOpenMW
+BetterArmorTrainingOpenMW
+HUDWeaponChargeForOpenMW
+AnimatedLanternsandSignsOpenMW
 # insert new entries above
 MOMWToolsPack
 SophiesSkoomaSweetshoppe/30 Temporary Fixes

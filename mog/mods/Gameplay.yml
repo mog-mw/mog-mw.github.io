@@ -64,6 +64,31 @@ mods:
     plugins:
       - Bloodmoon Rebalance.ESP
 
+  - name: Fresh Loot (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/56005
+    download_info:
+      - file_name: FreshLoot
+    data_paths:
+      - 00 Core
+    plugins:
+      - fresh-loot.omwaddon
+      - fresh-loot.omwscripts
+
+  - name: Bullseye - Marksman Overhaul (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/58511
+    download_info:
+      - file_name: Bullseye
+    plugins:
+      - BullseyeGMSTs.omwaddon
+      - Bullseye.omwscripts
+
+  - name: Arrow Stick (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/58299
+    download_info:
+      - file_name: Arrow Stick
+    plugins:
+      - ArrowStick.omwscripts
+
   - name: Pickpocket Rebalance (OpenMW)
     url: https://www.nexusmods.com/morrowind/mods/53174
     download_info:
@@ -279,8 +304,6 @@ mods:
       - file_name: Projectile Overhaul - Modular
     plugins:
       - Projectile Overhaul - Faster Magic Missiles.esp
-      - Projectile Overhaul - Faster Projectiles.esp
-      - Projectile Overhaul - Recovery Chance.esp
 
   - name: TimeScale Change - OpenMW
     url: https://www.nexusmods.com/morrowind/mods/46332

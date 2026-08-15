@@ -122,6 +122,13 @@ mods:
     plugins:
       - yksuiMagicTimeHud.omwscripts
 
+  - name: HUD Weapon Charge (For OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/57856
+    download_info:
+      - file_name: HUD weapon charge (For OpenMW)
+    plugins:
+      - HUDweaponCharge.omwscripts
+
   - name: (OpenMW 0.50) trav's OpenMW Books Enhanced
     url: https://www.nexusmods.com/morrowind/mods/55126
     download_info:
