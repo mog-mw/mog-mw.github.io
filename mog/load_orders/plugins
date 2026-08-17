@@ -16,6 +16,8 @@ Solstheim Tomb of The Snow Prince.esm
 Dr_Data.esm
 AFFresh.esm
 OAAB - Tombs and Towers.esm
+OAAB_Tel Mora.esm
+SharedTooltip.omwscripts
 StatsWindow.ESP
 StatsWindow.omwscripts
 skill-evolution.omwaddon
@@ -83,7 +85,6 @@ AH_Magic.ESP
 AH_Ingredients_TD&OAAB.omwaddon
 bms.omwscripts
 FtRP_Services.ESP
-PR Real Disposition Base.esp
 BCOM_Animated_GhostGate_Statues.ESP
 BCOM_Tribal_Erabenimsun.ESP
 BCOM_PfP_patch.ESP
@@ -422,7 +423,6 @@ RoaringArena_Solstheim.ESP
 UL_-_BCoM_Arena_Patch.esp
 Expansion Delay.ESP
 Early Transport to Mournhold.esp
-OAAB_Tel Mora.ESP
 UL_-_OAAB_Tel_Mora_Patch.esp
 Kumarahaz Bandit Lair.ESP
 Tel Branora Expansion.ESP
@@ -499,6 +499,7 @@ QuickLoot.omwscripts
 SpellTrader.omwscripts
 yksuiMagicTimeHud.omwscripts
 removeSpellFix.omwaddon
+DynamicCamera.omwscripts
 Consuming Animated.omwscripts
 Interactions Animated.omwscripts
 Animated Pickup and Shop Around.omwscripts
@@ -506,7 +507,6 @@ Dynamic Actors.omwscripts
 Dynamic Animations.omwscripts
 questman.omwscripts
 DynamicSounds.omwscripts
-DynamicCamera.omwscripts
 TPA_Alchemy_Redone.omwscripts
 Tamrielic Integrations - Levelled Items.ESP
 Tamrielic Integrations - OAAB Levelled Tweaks.ESP
@@ -555,6 +555,7 @@ BetterArmorTraining.omwscripts
 HUDweaponCharge.omwscripts
 AnimatedLanterns.omwaddon
 AnimatedLanterns.omwscripts
+ItemBrowser.omwscripts
 # insert new entries above
 momw-gameplay.omwscripts
 momw-gameplay-controls.omwscripts

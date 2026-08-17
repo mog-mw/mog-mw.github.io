@@ -5,6 +5,7 @@ ExpansionDelay
 DubdillaLocationFix
 AlvazirsVariousPatches/01 PFP - Compat
 Greyedoutdialog/Data Files
+OpenMWSharedTooltipLibrary/SharedTooltip
 FMIHospitalityPapersExpanded/Hospitality Papers Expanded 2.7/Data Files
 FMINicetoMeetYou/FMI - Nice to Meet You 1.2
 FMICaiusBigPackage
@@ -337,7 +338,7 @@ RRModSeriesTelvanniLighthouseTelVos/02 - Main ESP - English
 OAABTelMora/00 Core
 OAABTelMora/01 Female Guards
 OAABTelMora/02 HD Textures
-OAABTelMora/03 SSQN OpenMW
+OAABTelMora/03 OpenMW Addons
 KumarahazTheBanditLair/Kumarahaz - The Bandit Lair
 TelBranoraExpansion/00 Core
 AlmalexiasChamberOverhaul/00 Core
@@ -378,7 +379,6 @@ VariousBCoMandOpenMWpatches
 BeautifulCitiesofMorrowind/Patches/30 Morrowind Anticheese
 FortheRightPrice/For the Right Price/Modular
 OwnershipOverhaul
-RealDisposition
 MDMDMoreDeadlyMorrowindDenizens
 AlchemicalHustle/Alchemical Hustle/Fatigue Toxicity/Data Files
 LightHotkey
@@ -738,6 +738,7 @@ ArrowStickOpenMW
 BetterArmorTrainingOpenMW
 HUDWeaponChargeForOpenMW
 AnimatedLanternsandSignsOpenMW
+ItemBrowserOpenMW
 # insert new entries above
 MOMWToolsPack
 SophiesSkoomaSweetshoppe/30 Temporary Fixes

@@ -58,3 +58,20 @@ mods:
     url: https://www.nexusmods.com/morrowind/mods/55062
     download_info:
       - file_name: Behaviour Tree Lua 2nd Edition
+
+  - name: (OpenMW) Shared Tooltip (Library)
+    url: https://www.nexusmods.com/morrowind/mods/59670
+    download_info:
+      - file_name: SharedTooltip
+    data_paths:
+      - SharedTooltip
+    plugins:
+      - SharedTooltip.omwscripts
+
+  - name: Item Browser (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/59080
+    download_info:
+      - file_name: ItemBrowser
+    plugins:
+      - ItemBrowser.omwscripts
+      # Just for testing, remove before publishing the list
