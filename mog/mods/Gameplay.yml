@@ -142,13 +142,12 @@ mods:
     plugins:
       - Ownership Overhaul.esm
 
-#  - name: Real Disposition
-#    url: https://www.nexusmods.com/morrowind/mods/51427
-#    download_info:
-#      - file_name: PR Real Disposition
-#    plugins:
-#      - PR Real Disposition Base.esp
-# Gonna get rid of this for now, I'm not sure if I like it
+  - name: Real Disposition
+    url: https://www.nexusmods.com/morrowind/mods/51427
+    download_info:
+      - file_name: PR Real Disposition
+    plugins:
+      - PR Real Disposition Light.esp
 
   - name: Alchemical Hustle
     url: https://www.nexusmods.com/morrowind/mods/51050
