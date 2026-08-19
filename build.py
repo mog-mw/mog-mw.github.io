@@ -19,14 +19,15 @@ parser.add_argument("--name", help="modlist name (default: input directory name)
 parser.add_argument("-a", "--bind", default="127.0.0.1", help="HTTP server bind address (default: %(default)s)")
 parser.add_argument("-p", "--port", type=int, default=1119, help="HTTP server port (default: %(default)s)")
 parser.add_argument("--momw-dir", type=Path, help="Path to the MOMW Tools Pack + Greenmote")
+parser.add_argument("-e", "--exclude", action="append", default=[], help="Excludes the specified YAML file when building the modlist. Can be specified multiple times.")
 
 parser.add_argument("-b", "--build", action="store_true", help="Build the modlist")
 parser.add_argument("-m", "--minify", action="store_const", default={"indent": 2}, const={"separators": (",", ":")}, help="minify JSON output")
-parser.add_argument("-u", "--umo", action="store_true", help="Install mods with umo")
-parser.add_argument("-s", "--sync", action="store_true", help="Add --sync to the umo command (slow)")
+parser.add_argument("-u", "--umo", action="store_true", help="Install mods with umo (slow)")
 parser.add_argument("-c", "--configurator", action="store_true", help="Install modlist configuration with MOMW Configurator")
 parser.add_argument("-d", "--delta-plugin", action="store_true", help="Run DeltaPlugin (slow, required after deleting plugins)")
 parser.add_argument("-n", "--navmesh", action="store_true", help="Run the OpenMW Navmeshtool (very slow)")
+parser.add_argument("-v", "--verbose", action="store_true", help="Pass --verbose to MOMW Configurator")
 parser.add_argument("-g", "--greenmote", action="store_true", help="Convert groundcover with Greenmote")
 
 
@@ -66,8 +67,8 @@ def main():
         args.name = args.input.name
     if args.momw_dir:
         args.momw_dir = args.momw_dir.resolve()
-    if not (args.build or args.umo or args.configurator or args.greenmote):
-        args.build, args.umo, args.configurator, args.greenmote = True, True, True, True
+    if not (args.build or args.configurator or args.greenmote):
+        args.build, args.configurator, args.greenmote = True, True, True
 
     if args.build:
         print(f'Building modlist "{args.name}"...')
@@ -91,9 +92,8 @@ def main():
             if args.umo:
                 print("Running umo...")
                 umo_args = [get_tool_path("umo"), "install",
-                            "--momw-url", server_address, args.name]
-                if args.sync:
-                    umo_args.insert(4, "--sync")
+                            "--momw-url", server_address,
+                            "--sync", args.name]
                 subprocess.run(umo_args)
 
             if args.configurator:
@@ -108,6 +108,8 @@ def main():
                     configurator_args.insert(5, "--run-navmeshtool")
                 if not args.delta_plugin:
                     configurator_args.insert(5, "--no-delta-plugin")
+                if args.verbose:
+                    configurator_args.insert(2, "--verbose")
                 subprocess.run(configurator_args)
 
             print("Stopping HTTP server.")
@@ -131,8 +133,6 @@ def main():
 
 
 def get_tool_path(name):
-    if system == "windows":
-        name += ".exe"
     if args.momw_dir:
         return args.momw_dir.joinpath(name)
     path = shutil.which(name)
@@ -144,6 +144,9 @@ def get_tool_path(name):
 
 def build():
     for filename in sorted(args.input.joinpath("mods").iterdir()):
+        if filename.name in args.exclude:
+            continue
+
         with open(filename) as f:
             y = yaml.load(f, Loader=yaml.Loader)
         for mod in y["mods"]:
