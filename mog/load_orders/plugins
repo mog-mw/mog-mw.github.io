@@ -16,7 +16,6 @@ Solstheim Tomb of The Snow Prince.esm
 Dr_Data.esm
 AFFresh.esm
 OAAB - Tombs and Towers.esm
-OAAB_Tel Mora.esm
 SharedTooltip.omwscripts
 StatsWindow.ESP
 StatsWindow.omwscripts
@@ -61,6 +60,7 @@ OAAB - Foyada Mamaea.ESP
 Manor Banners.ESP
 mistify.ESP
 The Dream is the Door.ESP
+diverse-blood-openmw-lua.omwscripts
 Silt Strider Animation Restored.ESP
 Hospitality_Papers_Expanded_v2.7.esp
 Cutting Room Floor - Characters.esp
@@ -247,7 +247,6 @@ Immersive Mournhold Corner Tower Remover Patch.esp
 Berandas Overhaul.esp
 The_corprusarium_Exp.ESP
 AetherPiratesDiscoveryCorprusariumExperiencePatch.esp
-OAAB_Tel Mora_Female Guards.ESP
 distant-fixes-lua-edition.omwscripts
 tamrielrebuilt.omwscripts
 RepopulatedMorrowind.esp
@@ -424,6 +423,8 @@ RoaringArena_Solstheim.ESP
 UL_-_BCoM_Arena_Patch.esp
 Expansion Delay.ESP
 Early Transport to Mournhold.esp
+OAAB_Tel Mora.esm
+OAAB_Tel Mora_Female Guards.ESP
 UL_-_OAAB_Tel_Mora_Patch.esp
 Kumarahaz Bandit Lair.ESP
 Tel Branora Expansion.ESP
@@ -545,7 +546,6 @@ WeaponPoisoning.omwscripts
 S4V3R.esp
 Hlaalu Nobles Facial Overhaul.ESP
 Rogues Gallery.ESP
-diverse-blood-openmw-lua.omwscripts
 Better Elemental Shields.omwaddon
 Better Elemental Shields.omwscripts
 fresh-loot.omwaddon

@@ -560,6 +560,8 @@ Mistify/00 Core
 TheDreamistheDoor
 ParasolParticles/01 OAAB_Data Patch
 MOMWPatches/15 Perfectly Proficient Parasol Particles Performance Patch/00 Project Atlas
+SubtleMagicGlow/fade
+DiverseBloodOpenMWLua
 SolthasBlightWeatherPack/Solthas Blight Weather Pack
 DistantFixesLuaEdition
 LushSynthesis
@@ -728,12 +730,10 @@ S4V3RSimpleAutomaticSaves
 HlaaluNoblesFacialOverhaul/Hlaalu Nobles
 RoguesGallery
 VanillaStyleScroll/2048x2048 less noisy
-DiverseBloodOpenMWLua
 OpenMWBetterElementalShields/Better Elemental Shields
 ImprovedFire
 ImprovedFire/AltOrange
 MagicVFXRetexturebyArticus/Magic VFX Retexture by Articus/Data Files
-SubtleMagicGlow/fade
 FreshLootOpenMW/00 Core
 BullseyeMarksmanOverhaulOpenMW
 ArrowStickOpenMW

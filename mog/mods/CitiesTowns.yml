@@ -406,8 +406,8 @@ mods:
       - 02 HD Textures
       - 03 OpenMW Addons
     plugins:
-      - OAAB_Tel Mora_Female Guards.ESP
       - OAAB_Tel Mora.esm
+      - OAAB_Tel Mora_Female Guards.ESP
 
   - name: Sadrith Mora BCOM Plus Module
     url: https://www.nexusmods.com/morrowind/mods/53465
