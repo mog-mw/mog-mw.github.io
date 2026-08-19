@@ -1,0 +1,12 @@
+# The mods in this category are automatically excluded when building a stable version of the modlist.
+
+category: Testing
+
+mods:
+  - name: Item Browser (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/59080
+    download_info:
+      - file_name: ItemBrowser
+    plugins:
+      - ItemBrowser.omwscripts
+

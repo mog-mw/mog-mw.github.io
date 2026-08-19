@@ -19,6 +19,7 @@ parser.add_argument("--name", help="modlist name (default: input directory name)
 parser.add_argument("-a", "--bind", default="127.0.0.1", help="HTTP server bind address (default: %(default)s)")
 parser.add_argument("-p", "--port", type=int, default=1119, help="HTTP server port (default: %(default)s)")
 parser.add_argument("--momw-dir", type=Path, help="Path to the MOMW Tools Pack + Greenmote")
+parser.add_argument("-e", "--exclude", action="append", default=[], help="Excludes the specified YAML file when building the modlist. Can be specified multiple times.")
 
 parser.add_argument("-b", "--build", action="store_true", help="Build the modlist")
 parser.add_argument("-m", "--minify", action="store_const", default={"indent": 2}, const={"separators": (",", ":")}, help="minify JSON output")
@@ -143,6 +144,9 @@ def get_tool_path(name):
 
 def build():
     for filename in sorted(args.input.joinpath("mods").iterdir()):
+        if filename.name in args.exclude:
+            continue
+
         with open(filename) as f:
             y = yaml.load(f, Loader=yaml.Loader)
         for mod in y["mods"]:

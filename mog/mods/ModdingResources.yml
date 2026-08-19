@@ -74,12 +74,3 @@ mods:
       - file_name: H3lp Yours3lf
     plugins:
       - H3lp Yours3lf.esp
-
-  - name: Item Browser (OpenMW)
-    url: https://www.nexusmods.com/morrowind/mods/59080
-    download_info:
-      - file_name: ItemBrowser
-    plugins:
-      - ItemBrowser.omwscripts
-      # Just for testing, remove before publishing the list
-

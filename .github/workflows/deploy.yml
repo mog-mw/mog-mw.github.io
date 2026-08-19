@@ -44,7 +44,7 @@ jobs:
 
       - name: Build Stable
         run: |
-          python stable/build.py --build --minify stable/mog mog_output
+          python stable/build.py --build --exclude Testing.yml --minify stable/mog mog_output
 
       - name: Upload static files as artifact
         uses: actions/upload-pages-artifact@v5
