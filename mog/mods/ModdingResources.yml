@@ -52,8 +52,8 @@ mods:
       - static_switching_system
     plugins:
       - Static Switching System.esp
-  # MercyCAO dependency
 
+  # MercyCAO dependency
   - name: Behaviour Tree Lua 2nd Edition
     url: https://www.nexusmods.com/morrowind/mods/55062
     download_info:
@@ -68,6 +68,13 @@ mods:
     plugins:
       - SharedTooltip.omwscripts
 
+  - name: H3lp Yours3lf - OpenMW Helper Interfaces
+    url: https://www.nexusmods.com/morrowind/mods/56417
+    download_info:
+      - file_name: H3lp Yours3lf
+    plugins:
+      - H3lp Yours3lf.esp
+
   - name: Item Browser (OpenMW)
     url: https://www.nexusmods.com/morrowind/mods/59080
     download_info:
@@ -75,3 +82,4 @@ mods:
     plugins:
       - ItemBrowser.omwscripts
       # Just for testing, remove before publishing the list
+

@@ -4,7 +4,7 @@ mods:
   - name: S3maphore - OpenMW Music Management from the Future
     url: https://www.nexusmods.com/morrowind/mods/56836
     download_info:
-      - file_name: S3maphore Core
+      - file_name: S3maphore
     data_paths:
       - 00 Core
       - 01 Tamriel Rebuilt Playlists
