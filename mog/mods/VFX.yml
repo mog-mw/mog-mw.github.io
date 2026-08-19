@@ -47,18 +47,19 @@ mods:
     plugins:
       - diverse-blood-openmw-lua.omwscripts
 
-  - name: Subtle Magic Glow
-    url: https://www.nexusmods.com/morrowind/mods/4468
-    download_info:
-      - file_name: Subtle Magic Glow
-    data_paths:
-      - fade
+  # # Overwritten by Magic VFX Retexture
+  # - name: Subtle Magic Glow
+  #   url: https://www.nexusmods.com/morrowind/mods/4468
+  #   download_info:
+  #     - file_name: Subtle Magic Glow
+  #   data_paths:
+  #     - fade
 
 #  - name: No Shield Sparkle
 #    url: https://www.nexusmods.com/morrowind/mods/45989
 #    download_info:
 #      - file_name: No Shield Sparkle
-#
+
   - name: OpenMW Impact Effects
     url: https://www.nexusmods.com/morrowind/mods/55508
     download_info:
