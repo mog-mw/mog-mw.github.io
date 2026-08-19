@@ -13,16 +13,6 @@ mods:
       - Interface
       - atlas
 
-  - name: Necrom - Arkitektora of Morrowind
-    url: https://www.nexusmods.com/morrowind/mods/46289
-    download_info:
-      - file_name: Necrom Arkitektora - HQ
-      - file_name: Necrom Minor Meshes Fixes
-        extract_to: NecromMinorMeshesFixes
-    data_paths:
-      - HQ
-      - NecromMinorMeshesFixes
-
   - name: Sophie's Skooma Sweetshoppe
     url: https://modding-openmw.gitlab.io/sophies-skooma-sweetshoppe/
     download_info:

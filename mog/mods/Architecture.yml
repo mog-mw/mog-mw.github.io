@@ -10,6 +10,39 @@ mods:
       - 02 Glow in the Dahrk
       - 03 HD Textures
 
+  - name: Necrom - Arkitektora of Morrowind
+    url: https://www.nexusmods.com/morrowind/mods/46289
+    download_info:
+      - file_name: Necrom Arkitektora - HQ
+      - file_name: Necrom Minor Meshes Fixes
+        extract_to: NecromMinorMeshesFixes
+    data_paths:
+      - HQ
+      - NecromMinorMeshesFixes
+
+  - name: Orange Narsis - Shipal-Shin wall retexture
+    url: https://www.nexusmods.com/morrowind/mods/57199
+    download_info:
+      - file_name: OrangeNarsis
+    data_paths:
+      - OrangeNarsis
+    plugins:
+      - OrangeNarsis.ESP
+
+  - name: Atlased Orange Narsis
+    url: https://www.nexusmods.com/morrowind/mods/58202
+    download_info:
+      - file_name: Orange Narsis ATLAS
+        extract_to: Main
+      - file_name: Orange Narsis GITD
+        extract_to: GITD
+      - file_name: Orange Narsis 1k Textures # MET textures are 1k, right?
+        extract_to: 1k Textures
+    data_paths:
+      - Main
+      - GITD
+      - 1k Textures
+
   - name: Dwemer Mesh Improvement
     url: https://www.nexusmods.com/morrowind/mods/43101
     download_info:
