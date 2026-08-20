@@ -542,8 +542,6 @@ Armor Requirements.omwscripts
 Weapon Requirements.omwscripts
 PotionReduction.omwscripts
 OblivionLockpicking.omwscripts
-WeaponPoisoning.omwaddon
-WeaponPoisoning.omwscripts
 S4V3R.esp
 Hlaalu Nobles Facial Overhaul.ESP
 Rogues Gallery.ESP
@@ -556,8 +554,6 @@ Bullseye.omwscripts
 ArrowStick.omwscripts
 BetterArmorTraining.omwscripts
 HUDweaponCharge.omwscripts
-AnimatedLanterns.omwaddon
-AnimatedLanterns.omwscripts
 ItemBrowser.omwscripts
 # insert new entries above
 momw-gameplay.omwscripts

@@ -268,13 +268,14 @@ mods:
     plugins:
       - OblivionLockpicking.omwscripts
 
-  - name: Weapon Poisoning (OpenMW)
-    url: https://www.nexusmods.com/morrowind/mods/58981
-    download_info:
-      - file_name: WeaponPoisoning
-    plugins:
-      - WeaponPoisoning.omwaddon
-      - WeaponPoisoning.omwscripts
+  # # disabling for now, due to issues with performance and throwing weapons being broken
+  # - name: Weapon Poisoning (OpenMW)
+  #   url: https://www.nexusmods.com/morrowind/mods/58981
+  #   download_info:
+  #     - file_name: WeaponPoisoning
+  #   plugins:
+  #     - WeaponPoisoning.omwaddon
+  #     - WeaponPoisoning.omwscripts
 
   - name: Clear Your Name
     url: https://www.nexusmods.com/morrowind/mods/43786
