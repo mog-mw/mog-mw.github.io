@@ -132,15 +132,6 @@ mods:
     plugins:
       - Little Landscape - Path to Pelagiad.esp
 
-  - name: Compatible Odai River Upper Overhaul
-    url: https://www.nexusmods.com/morrowind/mods/53323
-    download_info:
-      - file_name: Compatible Odai River Upper Overhaul
-    data_paths:
-      - Compatible Odai River Upper Overhaul 1.2/Compatible Odai River Upper Overhaul
-    plugins:
-      - Odai River Upper Overhaul.esp
-
   - name: Little Landscapes - Path to Vivec Lighthouse
     url: https://www.nexusmods.com/morrowind/mods/53352
     download_info:
