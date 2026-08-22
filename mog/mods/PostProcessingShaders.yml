@@ -5,7 +5,7 @@ mods:
     dir: MOMWPostProcessingPack # has to be named like this due to momw-configurator hardcoding
     url: https://github.com/mog-mw/shaders.yaml
     download_info:
-      - file_name: shaders.yaml
+      - file_name: mog-shaders
         extract_to: 00 RecommendedConfig
     data_paths:
       - 00 RecommendedConfig

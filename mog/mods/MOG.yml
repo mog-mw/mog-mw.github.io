@@ -1,0 +1,9 @@
+category: MOG
+
+mods:
+  - name: MOG Mods and Patches
+    url: https://github.com/mog-mw/mods-patches
+    download_info:
+      - file_name: mods-patches
+    data_paths:
+      - NicerRequirementTooltips
