@@ -12,14 +12,14 @@ mods:
       - file_name: Facelift_TR_Meshes
       - file_name: Facelift_TR_Textures
 
-  - name: Rotat's Corprus Natives Replacer
-    url: https://www.nexusmods.com/morrowind/mods/52002
-    download_info:
-      - file_name: Corprus Natives - Replacer
-    data_paths:
-      - ""
-      - 512px
-
+#  - name: Rotat's Corprus Natives Replacer
+#    url: https://www.nexusmods.com/morrowind/mods/52002
+#    download_info:
+#      - file_name: Corprus Natives - Replacer
+#    data_paths:
+#      - ""
+#      - 512px
+#
   - name: Repopulated Morrowind
     url: https://www.nexusmods.com/morrowind/mods/51174
     download_info:
@@ -42,20 +42,20 @@ mods:
       - RepopulatedMorrowind_CRF_AldRedaynia.ESP
       - RepopulatedMorrowind_6thHouseObsidWeps.ESP
 
-  - name: Repopulated Creatures
-    url: https://www.nexusmods.com/morrowind/mods/55628
-    download_info:
-      - file_name: TR Dialogue Edits
-    data_paths:
-      - TR Dialogue Edits/Data Files
-    plugins:
-      - RepopulatedCreatures.ESP
-
-  - name: Yet Another Guard Diversity
-    url: https://www.nexusmods.com/morrowind/mods/45894
-    download_info:
-      - file_name: Yet Another Guard Diversity - Full Cephalopod
-
+#  - name: Repopulated Creatures
+#    url: https://www.nexusmods.com/morrowind/mods/55628
+#    download_info:
+#      - file_name: TR Dialogue Edits
+#    data_paths:
+#      - TR Dialogue Edits/Data Files
+#    plugins:
+#      - RepopulatedCreatures.ESP
+#
+#  - name: Yet Another Guard Diversity
+#    url: https://www.nexusmods.com/morrowind/mods/45894
+#    download_info:
+#      - file_name: Yet Another Guard Diversity - Full Cephalopod
+#
   - name: Nordic Dagon Fel NPCs
     url: https://www.nexusmods.com/morrowind/mods/52390
     download_info:
@@ -214,3 +214,10 @@ mods:
       - Djangos Dialogue 1.44
     plugins:
       - Djangos Dialogue.ESP
+
+  - name: You May Speak (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/59924
+    download_info:
+      - file_name: You May Speak
+    plugins:
+      - YouMaySpeak.omwscripts

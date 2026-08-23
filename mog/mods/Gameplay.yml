@@ -64,6 +64,17 @@ mods:
     plugins:
       - Bloodmoon Rebalance.ESP
 
+  - name: Menacing Creatures and Bosses
+    url: https://www.nexusmods.com/morrowind/mods/59200
+    download_info:
+      - file_name: Base Creatures Module
+      - file_name: Special Creatures Module
+      - file_name: TR PT Creatures Module
+    plugins:
+      - CybCreatureMenace.omwaddon
+      - CybCreatureMenaceBosses.omwaddon
+      - CybCreatureMenaceTRPT.omwaddon
+
   - name: Fresh Loot (OpenMW)
     url: https://www.nexusmods.com/morrowind/mods/56005
     download_info:
@@ -219,6 +230,14 @@ mods:
     plugins:
       - Better Blight.ESP
 
+  - name: Devilishly Peaceful Wildlife (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/58083
+    download_info:
+      - file_name: Devilishly Peaceful Wildlife
+    plugins:
+#      - Devilishly Peaceful Wildlife.ESP
+      - Devilishly Peaceful Wildlife.omwscripts
+
   - name: Daedra Use Bound Equipment for OpenMW
     url: https://www.nexusmods.com/morrowind/mods/57698
     download_info:
@@ -268,13 +287,14 @@ mods:
     plugins:
       - OblivionLockpicking.omwscripts
 
-  - name: Weapon Poisoning (OpenMW)
-    url: https://www.nexusmods.com/morrowind/mods/58981
-    download_info:
-      - file_name: WeaponPoisoning
-    plugins:
-      - WeaponPoisoning.omwaddon
-      - WeaponPoisoning.omwscripts
+  # # disabling for now, due to issues with performance and throwing weapons being broken
+  # - name: Weapon Poisoning (OpenMW)
+  #   url: https://www.nexusmods.com/morrowind/mods/58981
+  #   download_info:
+  #     - file_name: WeaponPoisoning
+  #   plugins:
+  #     - WeaponPoisoning.omwaddon
+  #     - WeaponPoisoning.omwscripts
 
   - name: Clear Your Name
     url: https://www.nexusmods.com/morrowind/mods/43786
@@ -380,16 +400,19 @@ mods:
     plugins:
       - convenient-thief-tools.omwscripts
 
-  - name: Devilish Vampire Overhaul
-    url: https://www.nexusmods.com/morrowind/mods/52969
+  - name: Better Vampires - Vampire Overhaul for OpenMW
+    url: https://www.nexusmods.com/morrowind/mods/55912
     download_info:
-      - file_name: Devilish Vampire Overhaul (Total Overhaul Edition)
+      - file_name: Better Vampires - Vampire Overhaul for OpenMW
+      - file_name: Optimized Feeding Script
+        extract_to: optimized
     data_paths:
-      - Data Files
+      - ''
+      - optimized
     plugins:
-      - Devilish_Vampire_Overhaul.esp
-      - Devilish_Vampire_Overhaul.omwscripts
-      - Devilish_Vampire_Overhaul_TR_Dialogue_Patch.ESP
+      - Better Vampires.ESP
+      - Better Vampires TD.ESP
+      - Better_Vampires.omwscripts
 
   - name: No Witness - No Bounty
     url: https://www.nexusmods.com/morrowind/mods/53384
@@ -500,6 +523,25 @@ mods:
       - file_name: Brute Force
     plugins:
       - BruteForce.omwscripts
+
+  - name: Wares Ultimate
+    url: https://www.nexusmods.com/morrowind/mods/52013
+    download_info:
+      - file_name: Wares Ultimate
+        actions:
+          - action: clean
+            path: 06 Wares to Traders/Wares_traders.ESP
+            arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, cell, --exact-id, 'Thirsk (-19, 23)']
+    data_paths:
+      - 00 Core
+      - 03 TD to Wares
+      - 04 OAAB to Wares
+      - 06 Wares to Traders
+    plugins:
+      - Wares-base.esm
+      - Wares_lists_OAAB.ESP
+      - Wares_lists_TD.ESP
+      - Wares_traders.ESP
 
   - name: Tamrielic Integrations
     url: https://www.nexusmods.com/morrowind/mods/57488

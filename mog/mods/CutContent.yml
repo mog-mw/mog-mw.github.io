@@ -7,23 +7,21 @@ mods:
       - file_name: Cutting Room Floor - Modular
         actions:
           - action: remove
-            path: Data Files/Splash
+            path: Cutting Room Floor - Modular/Data Files/Splash
       - file_name: Cutting Room Floor - Modular Patches
-        extract_to: patches
         actions:
           - action: clean
-            path: patches/Tamriel Rebuilt/Data Files/Cutting Room Floor - Items TR.esp
+            path: Cutting Room Floor - Modular Patches/Tamriel Rebuilt/Data Files/Cutting Room Floor - Items TR.esp
             arguments: [delete, --backup-dir, tes3cmdbck, --hide-backups, --type, cell, --exact-id, 'Solstheim, Jolgeirr Barrow']
       - file_name: Cutting Room Floor - High Resolution Textures
-        extract_to: HQ
       - file_name: Cutting Room Floor - Optimized Banner
         extract_to: optimized_banner
     data_paths:
-      - Data Files
-      - patches/Tamriel Rebuilt/Data Files
-      - patches/Tomb of the Snow Prince/Data Files
+      - Cutting Room Floor - Modular/Data Files
+      - Cutting Room Floor - Modular Patches/Tamriel Rebuilt/Data Files
+      - Cutting Room Floor - Modular Patches/Tomb of the Snow Prince/Data Files
       - optimized_banner/Data Files
-      - HQ/Data Files
+      - Cutting Room Floor - High Resolution Textures/Data Files
     plugins:
       - Cutting Room Floor - Free Slaves.esp
       - Cutting Room Floor - Characters.esp
@@ -32,11 +30,11 @@ mods:
       - Cutting Room Floor - Extra Jobs.esp
       - Cutting Room Floor - Extra Orders.esp
       - Cutting Room Floor - Quests.esp
+      - Cutting Room Floor - Items TR.esp
       - Cutting Room Floor - Voice Lines.esp
       - Cutting Room Floor - Herders.esp
       - Cutting Room Floor - Ald Redaynia.esp
       - Cutting Room Floor - Ald-ruhn Underground.esp
-      - Cutting Room Floor - Items TR.esp
       - Cutting Room Floor - Snow Prince.esp
 
   - name: Artifacts Reinstated

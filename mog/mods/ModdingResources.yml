@@ -59,15 +59,6 @@ mods:
     download_info:
       - file_name: Behaviour Tree Lua 2nd Edition
 
-  - name: (OpenMW) Shared Tooltip (Library)
-    url: https://www.nexusmods.com/morrowind/mods/59670
-    download_info:
-      - file_name: SharedTooltip
-    data_paths:
-      - SharedTooltip
-    plugins:
-      - SharedTooltip.omwscripts
-
   - name: H3lp Yours3lf - OpenMW Helper Interfaces
     url: https://www.nexusmods.com/morrowind/mods/56417
     download_info:

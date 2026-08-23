@@ -181,7 +181,6 @@ mods:
       - 11 Mamaea Awakened OpenMW Patch
       - 76 Little Landscape Path to Pelagiad Rock Fix
       - 46 Bitter Coast Waterway Cliff Fix
-      - 81 Odai River Overhaul Statue Remover Patch
       - 23 Little Landscapes Seyda Neen Swamp Pools Patched
       - 78 Little Landscape Foyada of Sharp Teeth Rock Fix
       - 88 Samarys Ancestral Tomb Corpse Fix
@@ -261,7 +260,6 @@ mods:
       - UL_3.5_OpenMW_1.3_Add-on.esp
       - MementoMori_VanillaStatues_patch.esp
       - IGE.ESP
-      - Odai River Overhaul Statue Remover Patch.esp
       - Little Landscapes - Seyda Neen Swamp Pools.ESP
       # # Needs a patch for Ald'ruhn - City of Ash
       # - AldRuhnOutskirtsLittleLandscapesNixFix.esp
@@ -356,14 +354,108 @@ mods:
         extract_to: DynamicAmbientVisualEffectsMagicalLightsPatch
       - file_name: nords_shut_your_windows_patch
         extract_to: nordsshutyourwindowspatch
+      - file_name: SimpleGuardsDiversity
+        extract_to: SimpleGuardsDiversity
+      - file_name: carrier_lights
+        extract_to: CarrierLights
+      - file_name: DiverseDreamers
+        extract_to: DiverseDreamers
+      - file_name: diverse_corprus_stalkers
+        extract_to: DiverseCorprusStalkers
+      - file_name: diverse_draugrs
+        extract_to: DiverseDraugrs
+      - file_name: Skeletons
+        extract_to: Skeletons
+      - file_name: visually_filled_soulgems_openmw_lua_vanilla_style
+        extract_to: VisuallyFilledSoulgems
+      - file_name: blessings
+        extract_to: Blessings
+      - file_name: indoril_and_her_hand_armor_privileges_patch
+        extract_to: IndorilAndHerHandArmorPrivilegesPatch
+        #CrownOfUrshilakuUndecoratedUniform
+        #mountain_of_fear_simplified
+        #StriderBurialSimplified
+        #interesting_outfits_solstheim_no_guards [I want to test out the entire "Interesting Outfits" series]
+      - file_name: CreaturesIntegration
+        extract_to: CreaturesIntegration
+      - file_name: devilishly_peaceful_wildlife_patch
+        extract_to: DevilishlyPeacefulWildlifePatch
+      - file_name: daedra_use_bound_equipment_vfx_patch
+        extract_to: DaedraUseBoundEquipmentVFXPatch
+      - file_name: harvest_requirements_openmw_lua
+        extract_to: HarvestRequirements
+        #RR Better Telvanni Cephalopod Armor Compat Version
+        #YAGD - RR Better Telvanni Cephalopod Armor
+        #azura_shrine_overhaul_green_azura_shrines
+        #RepopulatedVassirDidanatMineLightFixed
+        # /\ I've commented out some stuff that I want to test out in the future
     data_paths:
       - OAABFoyadaMamaeaILavaGoodPatch/00 I Lava Good
       - AlchemicalHustleIngredientsPatch
       - openmwimpacteffectspatch
       - nordsshutyourwindowspatch
       - DynamicAmbientVisualEffectsMagicalLightsPatch
+      - SimpleGuardsDiversity/00 Core
+      - SimpleGuardsDiversity/02 Frostmoth Guards
+      - SimpleGuardsDiversity/03 Imperial Archers
+      - SimpleGuardsDiversity/04 Imperial Captains
+      - SimpleGuardsDiversity/07 TD Addon
+      - SimpleGuardsDiversity/08 OAAB Patch
+      - SimpleGuardsDiversity/09 More Diverse Guards
+      - CarrierLights
+      - DiverseDreamers
+      - DiverseCorprusStalkers/00 Core
+      - DiverseCorprusStalkers/01 Beware the Sixth House Patch
+      - DiverseDraugrs/00 Core
+      - DiverseDraugrs/01 No Eyes Glow After Death
+      - DiverseDraugrs/02 Skeletal Draugrs
+      - DiverseDraugrs/03 Dragon Priests
+      - DiverseDraugrs/04 Draugr Scourges
+      - DiverseDraugrs/10 Bloodmoon Rebalance Patch
+      - DiverseDraugrs/10 Menacing Creatures Patch
+      - DiverseDraugrs/12 Tamriel Data Patch
+      #- DiverseDraugrs/13 Skeletal Draugrs Skyrimlike Eyes
+      - DiverseDraugrs/14 Levitating Dragon Priests
+      - Skeletons/00 Core
+      - Skeletons/01 OAAB Skeletons
+      - Skeletons/02 TD Patch
+      - Skeletons/03 OAAB Tombs and Towers Patch
+      - VisuallyFilledSoulgems
+      - Blessings
+      - IndorilAndHerHandArmorPrivilegesPatch
+      - CreaturesIntegration
+      - DevilishlyPeacefulWildlifePatch
+      - DaedraUseBoundEquipmentVFXPatch
+      - HarvestRequirements
     plugins:
       - AH_Ingredients_TD&OAAB.omwaddon
+      - Simple Guards Diversity.omwaddon
+      - Simple Guards Diversity - Frostmoth Guards.omwaddon
+      - Simple Guards Diversity - Imperial Archers.omwaddon
+      - Simple Guards Diversity - Imperial Captains.omwaddon
+      - Simple Guards Diversity - TD Addon.omwaddon
+      - Simple Guards Diversity - OAAB Patch.omwaddon
+      - Simple Guards Diversity - More Diverse Guards.omwaddon
+      - carrier-lights.omwscripts
+      - DiverseDreamers.omwaddon
+      - Diverse Corprus Stalkers.omwaddon
+      - Diverse Corprus Stalkers - Beware the Sixth House Patch.omwaddon
+      - Diverse Draugrs.omwaddon
+      - Diverse Draugrs - Skeletal Draugrs.omwaddon
+      - Diverse Draugrs - Dragon Priests.omwaddon
+      - Diverse Draugrs - Draugr Scourges.omwaddon
+      - Diverse Draugrs - Bloodmoon Rebalance Patch.omwaddon
+      - Diverse Draugrs - Menacing Creatures Patch.omwaddon
+      - Diverse Draugrs - TD Patch.omwaddon
+      - levitating-dragon-priests.omwscripts
+      - Skeletons.omwaddon
+      - Skeletons - TD Patch.omwaddon
+      - Skeletons - OAAB - Tombs and Towers Patch.omwaddon
+      - visually-filled-soulgems-openmw-lua.omwaddon
+      - visually-filled-soulgems-openmw-lua.omwscripts
+      - blessings.esp
+      - TD&OAAB Leveled Creatures.omwaddon
+      - harvest-requirements-openmw-lua.omwscripts
 
   - name: Null's Minor Patches
     url: https://www.nexusmods.com/morrowind/mods/55897
@@ -409,10 +501,52 @@ mods:
     download_info:
       - file_name: Soulless Summons Dialogue Fix
         extract_to: SoullessSummonsDialogueFix
+      - file_name: More Accurate Attribute Descriptions
+        extract_to: MoreAccurateAttributeDescriptions
+      - file_name: Item Inconsistencies Fixed
+        extract_to: ItemInconsistenciesFixed
+      - file_name: Repair Tools Tweaks
+        extract_to: RepairToolsTweaks
+      - file_name: Meaningful Traps
+        extract_to: MeaningfulTraps
+      - file_name: Expansions Integrated - Fewer Expansion Creatures
+        extract_to: FewerExpansionCreatures
+      - file_name: Better Bloodmoon Directions
+        extract_to: BetterBloodmoonDirections
+      - file_name: Hand to Hand Rebalance
+        extract_to: HTHRebalance
+      - file_name: Immersive Faction Requirements for TR_Factions.esp
+        extract_to: ImmersiveFactionRequirements
     data_paths:
       - SoullessSummonsDialogueFix
+      - MoreAccurateAttributeDescriptions
+      - RepairToolsTweaks/Repair Tools Tweaks/00 Core
+      - RepairToolsTweaks/Repair Tools Tweaks/01 Tamriel_Data Addon
+      - RepairToolsTweaks/Repair Tools Tweaks/02 OAAB_Data Addon
+      - ItemInconsistenciesFixed/00 Core
+      - ItemInconsistenciesFixed/01 Tamriel_Data Addon
+      - ItemInconsistenciesFixed/02 OAAB_Data Addon
+      - ItemInconsistenciesFixed/03 Patches
+      - MeaningfulTraps
+      - FewerExpansionCreatures
+      - BetterBloodmoonDirections
+      - HTHRebalance
+      - ImmersiveFactionRequirements
     plugins:
       - cybnosoulssummondialoguefix.omwaddon
+      - moreaccurateattributedescriptions.omwaddon
+      - RepairToolsTweaks.omwaddon
+      - RepairToolsTweaksTD.omwaddon
+      - RepairToolsTweaksOAAB.omwaddon
+      - ItemInconsistenciesFixed.omwaddon
+      - InconsistenciesFixedTD.omwaddon
+      - InconsistenciesFixedOAAB.omwaddon
+      - InconsistenciesFixedHalberdDmg.omwaddon
+      - trapsmodule.omwaddon
+      - Expansions Integrated Fewer Fewer BM Creatures.omwaddon
+      - BetterBloodmoonDirections.omwaddon
+      - handtohandtweaks.omwaddon
+      - CybFactionRequirements.omwaddon
 
   # this also has a God the City & Morrowind Extended Cut patch, if we decide to add that
   - name: Minor patches and fixes

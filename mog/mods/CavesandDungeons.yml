@@ -296,6 +296,16 @@ mods:
     plugins:
       - Clean_Vennin's Pulk Overhaul.ESP
 
+  - name: The Stone Halls of Solstheim - Reforged
+    url: https://www.nexusmods.com/morrowind/mods/49841
+    download_info:
+      - file_name: SHS   Reforged
+    data_paths:
+      - 00 Core
+      - 02 TotSP Solstheim (Choose ONLY One)
+    plugins:
+      - Stone Halls of Solstheim.ESP
+
   - name: Kumarahaz - The Bandit Lair
     url: https://www.nexusmods.com/morrowind/mods/56192
     download_info:

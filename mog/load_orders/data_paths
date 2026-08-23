@@ -1,11 +1,12 @@
 Morrowind/Data Files
+StaticSwitchingSystem/static_switching_system
+H3lpYours3lfOpenMWHelperInterfaces
 PatchforPurists
 BeautifulCitiesofMorrowind/Patches/54 Area of effect Arrows
 ExpansionDelay
 DubdillaLocationFix
 AlvazirsVariousPatches/01 PFP - Compat
 Greyedoutdialog/Data Files
-OpenMWSharedTooltipLibrary/SharedTooltip
 FMIHospitalityPapersExpanded/Hospitality Papers Expanded 2.7/Data Files
 FMINicetoMeetYou/FMI - Nice to Meet You 1.2
 FMICaiusBigPackage
@@ -13,15 +14,16 @@ FMINotAllDunmer
 FMIServiceRefusalandContraband
 IndorilandHerHandArmorPrivilegesOpenMW
 IndorilandHerHandArmorPrivilegesOpenMW/TR
-CuttingRoomFloor/Data Files
-CuttingRoomFloor/patches/Tamriel Rebuilt/Data Files
-CuttingRoomFloor/patches/Tomb of the Snow Prince/Data Files
+CuttingRoomFloor/Cutting Room Floor - Modular/Data Files
+CuttingRoomFloor/Cutting Room Floor - Modular Patches/Tamriel Rebuilt/Data Files
+CuttingRoomFloor/Cutting Room Floor - Modular Patches/Tomb of the Snow Prince/Data Files
 CuttingRoomFloor/optimized_banner/Data Files
-CuttingRoomFloor/HQ/Data Files
+CuttingRoomFloor/Cutting Room Floor - High Resolution Textures/Data Files
 MOMWPatches/06 Cutting Room Floor+BCOM Patch
 ArtifactsReinstated/Data Files
 MinesandCaverns/Mines and Caverns
 MOMWPatches/14 Mines and Caverns MOMW Patch
+WaresUltimate/00 Core
 RoyalBarenziah/00 Core
 RoyalBarenziah/01 Option 3
 DwemerLegacyReforgedArkngthunchSturdumz/Data Files
@@ -114,8 +116,6 @@ MOMWPatches/76 Little Landscape Path to Pelagiad Rock Fix
 LittleLandscapesBitterCoastWaterway
 MOMWPatches/46 Bitter Coast Waterway Cliff Fix
 LittleLandscapesPathtoVivecLighthouse
-CompatibleOdaiRiverUpperOverhaul/Compatible Odai River Upper Overhaul 1.2/Compatible Odai River Upper Overhaul
-MOMWPatches/81 Odai River Overhaul Statue Remover Patch
 MOMWPatches/23 Little Landscapes Seyda Neen Swamp Pools Patched
 LittleLandscapePathtoBalmora
 LittleLandscapeFoyadaofSharpTeeth
@@ -225,20 +225,32 @@ BlightedAnimalsRetextured
 Varioustweaksandfixes/BlightedAnimalsRetexturedMET
 RieklingFixandExpansion/00 Core
 RieklingFixandExpansion/02 Bloodmoon Rebalance - Eng
+TamrielicIntegrations
+VariousModsandPatches/CreaturesIntegration
+DevilishlyPeacefulWildlifeOpenMW
+VariousModsandPatches/DevilishlyPeacefulWildlifePatch
 FMIUniqueLoreFriendlyCaveRats
 WingedTwilightRebalance
 AtronachRebalance
 CybvepsJesterStashofTweaksandPatches/SoullessSummonsDialogueFix
 DaedraUseBoundEquipmentforOpenMW
 FixedBonelordArms
-RotatsCorprusNativesReplacer
-RotatsCorprusNativesReplacer/512px
 VivecRemade
 VivecRemade/HD
 AlmalexiaRedone
 AlmalexiaRedone/HD
-YetAnotherGuardDiversity
-BeautifulCitiesofMorrowind/Patches/29 Yet Another Guard Diversity - Cephalopod Armor - Waterworks
+VariousModsandPatches/SimpleGuardsDiversity/00 Core
+VariousModsandPatches/SimpleGuardsDiversity/02 Frostmoth Guards
+VariousModsandPatches/SimpleGuardsDiversity/03 Imperial Archers
+VariousModsandPatches/SimpleGuardsDiversity/04 Imperial Captains
+VariousModsandPatches/SimpleGuardsDiversity/07 TD Addon
+VariousModsandPatches/SimpleGuardsDiversity/08 OAAB Patch
+VariousModsandPatches/SimpleGuardsDiversity/09 More Diverse Guards
+WaresUltimate/03 TD to Wares
+WaresUltimate/04 OAAB to Wares
+WaresUltimate/06 Wares to Traders
+StuporstarsBooksforWares/00 Core
+StuporstarsBooksforWares/01 OAAB
 RepopulatedMorrowind/00 Core
 RepopulatedMorrowind/02 BCOM Repopulated Morrowind
 RepopulatedMorrowind/04 Tomb of the Snow Prince
@@ -269,7 +281,6 @@ DjangosDialogue14/Djangos Dialogue 1.44
 BardsofBardenfell/Bards of Bardenfell
 ShadySam/Shady Sam
 DiverseKhajiitNewandImproved
-StaticSwitchingSystem/static_switching_system
 MOMWPatches/36 WhiteSuran OpenMW Lua
 ImmersiveMournhold
 MOMWPatches/82 Immersive Mournhold Corner Tower Remover Patch
@@ -355,6 +366,8 @@ AldRuhnOutskirtsAncestralRefuge
 RavenRockEnhanced
 NordicSolstheimSolstheimInteriorsOverhaul/00 Core
 NordicSolstheimSolstheimInteriorsOverhaul/01 Cliff Racer Restored
+TheStoneHallsofSolstheimReforged/00 Core
+TheStoneHallsofSolstheimReforged/02 TotSP Solstheim (Choose ONLY One)
 TelvanniSeaBeacons
 OAABtoRRTelvanniConsistency
 PlantersforAjira/Planters for Ajira
@@ -363,7 +376,6 @@ DagonFelLighthouse/00 Core
 DagonFelLighthouse/01 Nordic Interior Detailing
 SadrithMoraBCOMPlusModule/02 Of Murk and Mussels - A Sadrith Mora Trader
 SadrithMoraBCOMPlusModule/03 Of Musk and Mer - A Sadrith Mora Tale
-SadrithMoraBCOMPlusModule/04 Of Melodies and Moonlight -  A Sadrith Mora Artist
 SadrithMoraBCOMPlusModule/06 OAAB Market
 SadrithMoraBCOMPlusModule/08 Shipyards of Vvardenfell
 RepopulatedMorrowind/08 Silent AM Sounds
@@ -394,7 +406,8 @@ MOMWPatches/12 Practical Necromancy Vendor Patch
 MOMWPatches/86 Practical Necromancy+OAAB Fix
 PharisMagickaRegeneration
 HiddenSeaLoot
-DevilishVampireOverhaul/Data Files
+BetterVampiresVampireOverhaulforOpenMW
+BetterVampiresVampireOverhaulforOpenMW/optimized
 NoWitnessNoBounty
 ShieldUnequipper
 ExpansionsIntegrated
@@ -402,6 +415,7 @@ SigournsMiscModsandPatches/00 Expansions Integrated Patch
 BewaretheSixthHouseSixthHouseOverhaul/Modular
 TribunalRebalance
 BloodmoonRebalance/Bloodmoon Rebalance
+MenacingCreaturesandBosses
 SkillEvolution/00 Core
 DayspassedBugFixOpenMW
 ClearYourName
@@ -463,7 +477,6 @@ CharacterSoundOverhaul
 CharacterSoundOverhaul/Higher Bitrate Sounds
 openmwfootsteps
 openmwanimatedlevitation
-H3lpYours3lfOpenMWHelperInterfaces
 S3maphoreOpenMWMusicManagementfromtheFuture/00 Core
 S3maphoreOpenMWMusicManagementfromtheFuture/01 Tamriel Rebuilt Playlists
 S3maphoreOpenMWMusicManagementfromtheFuture/02 Project Cyrodiil Playlists
@@ -474,6 +487,9 @@ S3maphoreOpenMWMusicManagementfromtheFuture/06 Songbook of the North
 MUSEMusicExpansionHlaalu/MUSE Expansion - Hlaalu
 MUSEMusicExpansionAshlander/MUSE Expansion - Ashlander
 MUSEMusicExpansionRedoran/MUSE Expansion - Redoran
+MUSEMusicExpansionTelvanni/MUSE Expansion - Telvanni
+MUSEMusicExpansionTemple/MUSE Expansion - Temple
+MUSEMusicExpansionTemple/MUSE Temple - S3maphore patch
 TamrielRebuiltOriginalSoundtrack/00 core
 MUSEMusicExpansionSixthHouse/MUSEEXPANSIONsixthhouse
 MUSEMusicExpansionDaedric/MUSE Expansion - Daedric
@@ -564,6 +580,7 @@ Mistify/00 Core
 TheDreamistheDoor
 ParasolParticles/01 OAAB_Data Patch
 MOMWPatches/15 Perfectly Proficient Parasol Particles Performance Patch/00 Project Atlas
+NoShieldSparkle
 DiverseBloodOpenMWLua
 SolthasBlightWeatherPack/Solthas Blight Weather Pack
 DistantFixesLuaEdition
@@ -701,8 +718,6 @@ Minorpatchesandfixes/06 Cutting room floor, missing persons
 AldruhnCityofAsh/Ald'ruhn - City of Ash/Data Files
 AldruhnCityofAsh/Remiros Groundcover patch
 OpenMWAlchemyRedone/TPA_Alchemy_Redone
-TamrielicIntegrations
-RepopulatedCreatures/TR Dialogue Edits/Data Files
 BestFriendsForeverOpenMW
 OpenMWLuaNPCSchedule
 RacesRESPECtedREDONE
@@ -725,10 +740,10 @@ OpenMW049ImprovedVanillaLeveling
 OpenMW049ImprovedVanillaLeveling/ImprovedVanillaLeveling
 OpenMWArmorRequirements
 OpenMWWeaponRequirements
+MOGModsandPatches/NicerRequirementTooltips
 SiltStrider/Data files
 PotionDistillingOpenMW/PotionReduction
 OblivionStyleLockpickingOpenMW
-WeaponPoisoningOpenMW
 S4V3RSimpleAutomaticSaves
 HlaaluNoblesFacialOverhaul/Hlaalu Nobles
 RoguesGallery
@@ -736,14 +751,50 @@ VanillaStyleScroll/2048x2048 less noisy
 OpenMWBetterElementalShields/Better Elemental Shields
 ImprovedFire
 ImprovedFire/AltOrange
-MagicVFXRetexturebyArticus/Magic VFX Retexture by Articus/Data Files
+SubtleMagicGlow/fade
 FreshLootOpenMW/00 Core
 BullseyeMarksmanOverhaulOpenMW
 ArrowStickOpenMW
 BetterArmorTrainingOpenMW
 HUDWeaponChargeForOpenMW
-AnimatedLanternsandSignsOpenMW
+YouMaySpeakOpenMW
 ItemBrowserOpenMW
+VariousModsandPatches/VisuallyFilledSoulgems
+VariousModsandPatches/DaedraUseBoundEquipmentVFXPatch
+VariousModsandPatches/CarrierLights
+VariousModsandPatches/DiverseDreamers
+VariousModsandPatches/DiverseCorprusStalkers/00 Core
+VariousModsandPatches/DiverseCorprusStalkers/01 Beware the Sixth House Patch
+VariousModsandPatches/DiverseDraugrs/00 Core
+VariousModsandPatches/DiverseDraugrs/01 No Eyes Glow After Death
+VariousModsandPatches/DiverseDraugrs/02 Skeletal Draugrs
+VariousModsandPatches/DiverseDraugrs/03 Dragon Priests
+VariousModsandPatches/DiverseDraugrs/04 Draugr Scourges
+VariousModsandPatches/DiverseDraugrs/10 Bloodmoon Rebalance Patch
+VariousModsandPatches/DiverseDraugrs/10 Menacing Creatures Patch
+VariousModsandPatches/DiverseDraugrs/12 Tamriel Data Patch
+VariousModsandPatches/DiverseDraugrs/14 Levitating Dragon Priests
+VariousModsandPatches/Skeletons/00 Core
+VariousModsandPatches/Skeletons/01 OAAB Skeletons
+VariousModsandPatches/Skeletons/02 TD Patch
+VariousModsandPatches/Skeletons/03 OAAB Tombs and Towers Patch
+VariousModsandPatches/Blessings
+VariousModsandPatches/IndorilAndHerHandArmorPrivilegesPatch
+VariousModsandPatches/HarvestRequirements
+CybvepsJesterStashofTweaksandPatches/MoreAccurateAttributeDescriptions
+CybvepsJesterStashofTweaksandPatches/RepairToolsTweaks/Repair Tools Tweaks/00 Core
+CybvepsJesterStashofTweaksandPatches/RepairToolsTweaks/Repair Tools Tweaks/01 Tamriel_Data Addon
+CybvepsJesterStashofTweaksandPatches/RepairToolsTweaks/Repair Tools Tweaks/02 OAAB_Data Addon
+CybvepsJesterStashofTweaksandPatches/ItemInconsistenciesFixed/00 Core
+CybvepsJesterStashofTweaksandPatches/ItemInconsistenciesFixed/01 Tamriel_Data Addon
+CybvepsJesterStashofTweaksandPatches/ItemInconsistenciesFixed/02 OAAB_Data Addon
+CybvepsJesterStashofTweaksandPatches/ItemInconsistenciesFixed/03 Patches
+CybvepsJesterStashofTweaksandPatches/MeaningfulTraps
+CybvepsJesterStashofTweaksandPatches/FewerExpansionCreatures
+CybvepsJesterStashofTweaksandPatches/BetterBloodmoonDirections
+CybvepsJesterStashofTweaksandPatches/HTHRebalance
+CybvepsJesterStashofTweaksandPatches/ImmersiveFactionRequirements
+MOGModsandPatches/DiverseCorprusStalkersUpscalePatch
 # insert new entries above
 MOMWToolsPack
 SophiesSkoomaSweetshoppe/30 Temporary Fixes

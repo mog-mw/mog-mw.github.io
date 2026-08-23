@@ -140,7 +140,7 @@ mods:
       - Patches/80 Mamaea Awakened
       - Patches/51 Ghastly Glowyfence patch
       - Patches/83 OAAB Pomegranates patch
-      - Patches/29 Yet Another Guard Diversity - Cephalopod Armor - Waterworks
+      # - Patches/29 Yet Another Guard Diversity - Cephalopod Armor - Waterworks
       - Patches/57 Sload and Slavers
       - 00 Core
       - 01 Waterworks Core
@@ -225,7 +225,7 @@ mods:
       - BCoM_Imperial_Gatehouse_Pelagiad.ESP
       - AreaEffectArrows.esp
       - Mamaea Awakened.ESP
-      - Yet Another Guard Diversity - Full Cephalopod.ESP
+      # - Yet Another Guard Diversity - Full Cephalopod.ESP
       - BCOM_Suran Expansion.ESP
       - BCOM_Stavs_MGO.ESP
       - BCOM - Taller Lighthouse.ESP
@@ -416,14 +416,12 @@ mods:
     data_paths:
       - 02 Of Murk and Mussels - A Sadrith Mora Trader
       - 03 Of Musk and Mer - A Sadrith Mora Tale
-      - 04 Of Melodies and Moonlight -  A Sadrith Mora Artist
       - 06 OAAB Market
       - 08 Shipyards of Vvardenfell
     plugins:
       - Shipyards of Vvardenfell.esp
       - OAAB Market.ESP
       - Of_Murk_and_Mussels.esp
-      - Melodies and Moonlight.esp
       - Of Musk and Mer A Sadrith Mora Tale.esp
 
   - name: The Wolverine Hall

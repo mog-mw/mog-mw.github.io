@@ -5,6 +5,21 @@ mods:
     url: https://www.nexusmods.com/morrowind/mods/51667
     download_info:
       - file_name: Gonzo's Splash Screens - 2K
+        actions:
+          - action: remove
+            paths:
+              - 00 Core/Splash/Splash_MishaPabor_Siltstriker.tga
+              - 07 Gonzo Gone Wild/Splash/Splash_AldRuhn.tga
+              - 07 Gonzo Gone Wild/Splash/Splash_BalmoraRiverside.tga
+              - 07 Gonzo Gone Wild/Splash/Splash_CorprusMonsters.tga
+              - 07 Gonzo Gone Wild/Splash/Splash_DunmerStronghold.tga
+              - 07 Gonzo Gone Wild/Splash/Splash_DwemerRuinEntrance.tga
+              - 07 Gonzo Gone Wild/Splash/Splash_Gnisis.tga
+              - 07 Gonzo Gone Wild/Splash/Splash_Pelagiad.tga
+              - 07 Gonzo Gone Wild/Splash/Splash_RedoranCouncilHall.tga
+              - 07 Gonzo Gone Wild/Splash/Splash_SadrithMoraSmol.tga
+              - 07 Gonzo Gone Wild/Splash/Splash_SloadTransport.tga
+              - 07 Gonzo Gone Wild/Splash/Splash_StriderPort.tga
     data_paths:
       - 00 Core
       - 06 Myrcenart Addon

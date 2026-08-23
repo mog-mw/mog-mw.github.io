@@ -2,9 +2,11 @@ Morrowind.esm
 Tribunal.esm
 distant_seafloor_2.00.esm
 Bloodmoon.esm
+H3lp Yours3lf.esp
 Patch for Purists.esm
 Rise of House Telvanni.esm
 Ownership Overhaul.esm
+Wares-base.esm
 Tamriel_Data.esm
 RepopulatedMorrowind.ESM
 RoaringArena.esm
@@ -16,18 +18,24 @@ Solstheim Tomb of The Snow Prince.esm
 Dr_Data.esm
 AFFresh.esm
 OAAB - Tombs and Towers.esm
-SharedTooltip.omwscripts
+FollowerDetectionUtil.omwscripts
+FriendlierFire.omwscripts
+BestFriendsForever.omwscripts
 StatsWindow.ESP
 StatsWindow.omwscripts
 skill-evolution.omwaddon
 skill-evolution.omwscripts
 DistantEbonTower.ESP
+Wares_lists_OAAB.ESP
+Wares_lists_TD.ESP
+Wares_traders.ESP
 distant seafloor TOTSP 2.3.0 edges fix.esp
 Greetings for No Lore.esp
 Expansions Integrated - Fewer BM Creatures.esp
 Diverse Khajiit.ESP
 MDMD - More Deadly Morrowind Denizens.ESP
 Expansions Integrated MDMD Patch.ESP
+Expansions Integrated Fewer Fewer BM Creatures.omwaddon
 Cutting Room Floor - Free Slaves.esp
 artifacts.esp
 Baar Dau - Ministry of Truth.esp
@@ -40,6 +48,9 @@ solDeadlyBlight.esp
 solWeatherRebalance.esp
 Tribunal Rebalance.ESP
 Bloodmoon Rebalance.ESP
+CybCreatureMenace.omwaddon
+CybCreatureMenaceBosses.omwaddon
+CybCreatureMenaceTRPT.omwaddon
 OAAB - The Ashen Divide.ESP
 OAAB_Grazelands.ESP
 Ebonheart_Underworks.esp
@@ -192,6 +203,7 @@ TR_Factions.esp
 quarraclan_refreshed.esp
 quarraclan_refreshed - Morrowind Anti-Cheese.esp
 quarraclan_refreshed - Tamriel_Data.esp
+Cutting Room Floor - Items TR.esp
 Quill of Feyfolken 2.0.esp
 Quill of Feyfolken 2.0-OpenMW-Patch.omwaddon
 UL_3.5_TR_24.12_Add-on.esp
@@ -199,6 +211,11 @@ Cutting Room Floor - Voice Lines.esp
 Umbra, Blademaster.ESP
 Tel_Eurus.esp
 Tel Eurus Anticheese.esp
+Tamrielic Integrations - Levelled Items.ESP
+Tamrielic Integrations - OAAB Levelled Tweaks.ESP
+Tamrielic Integrations - Creature Loot + Tweaks.ESP
+TD&OAAB Leveled Creatures.omwaddon
+ST_Books_Wares_OAAB.ESP
 Flies.ESP
 RP_fireflies.ESP
 Hircine's Artifacts.ESP
@@ -326,13 +343,13 @@ RPNR_Hall_of_justice.ESP
 OAAB Market.ESP
 Hanging Gardens of Suran.esp
 Of_Murk_and_Mussels.esp
-Melodies and Moonlight.esp
 Of Musk and Mer A Sadrith Mora Tale.esp
 IGE.ESP
 BalmoraHighTownBellBCOM.ESP
 Raven Rock Enhanced for TOTSP.ESP
 Solstheim Interior Overhaul Project.ESP
 Cliff_racer_restored.ESP
+Stone Halls of Solstheim.ESP
 What Kwamas Forage - Egg Mine Mod.esp
 RPNR_Shrine_Of_Azura.ESP
 RPNR_Shrine_Of_Azura_Aspect_Of_Azura_Patch.ESP
@@ -365,8 +382,6 @@ Little_Landscape_-_Path_to_Vivec_Lighthouse.esp
 Vivec Lighthouse Questline.esp
 Great Seawall of Vivec.ESP
 Little Landscape Vivec Islands Plain.ESP
-Odai River Upper Overhaul.esp
-Odai River Overhaul Statue Remover Patch.esp
 Little Landscapes - Seyda Neen Swamp Pools.ESP
 Ald'Ruhn Outskirts - Ancestral Refuge.ESP
 Ald'Ruhn Outskirts - TR Addon.ESP
@@ -387,13 +402,18 @@ Boots for Beasts OpenMW Lua.omwaddon
 Boots for Beasts OpenMW Lua TD.omwaddon
 Hist Helms OpenMW Lua.omwaddon
 protected-beasts.omwscripts
-Yet Another Guard Diversity - Full Cephalopod.ESP
+Simple Guards Diversity.omwaddon
+Simple Guards Diversity - Frostmoth Guards.omwaddon
+Simple Guards Diversity - Imperial Archers.omwaddon
+Simple Guards Diversity - Imperial Captains.omwaddon
+Simple Guards Diversity - TD Addon.omwaddon
+Simple Guards Diversity - OAAB Patch.omwaddon
+Simple Guards Diversity - More Diverse Guards.omwaddon
 IO - Solstheim.ESP
 IO - TR Imperial Guards.ESP
 Cutting Room Floor - Herders.esp
 Cutting Room Floor - Ald Redaynia.esp
 Cutting Room Floor - Ald-ruhn Underground.esp
-Cutting Room Floor - Items TR.esp
 Cutting Room Floor - Snow Prince.esp
 Of Eggs and Dwarves.ESP
 Of Eggs and Dwarves.omwscripts
@@ -439,9 +459,9 @@ Strider Burial.esp
 RepopulatedMorrowind_CRF_AldRedaynia.ESP
 RepopulatedMorrowind_6thHouseObsidWeps.ESP
 New Ilunibi.ESP
-Devilish_Vampire_Overhaul.esp
-Devilish_Vampire_Overhaul.omwscripts
-Devilish_Vampire_Overhaul_TR_Dialogue_Patch.ESP
+Better Vampires.ESP
+Better Vampires TD.ESP
+Better_Vampires.omwscripts
 MC_MOMW_Patch.esp
 ReAnimation_API.omwscripts
 ReAnimation_v2_Rogue.omwscripts
@@ -468,15 +488,11 @@ Nine-holes - Vivec, Elven Nations Cornerclub.esp
 MOMW Sadrith Mora Pathgrid Reset.esp
 Unofficial TR Spells.omwscripts
 bcomxpfp.omwaddon
-PFP x Cutting Room Floor.omwaddon
 Tamriel_Data.omwscripts
 SSQN.omwscripts
 dayspassedfix.omwaddon
 LightHotkey.omwscripts
 convenient-thief-tools.omwscripts
-FollowerDetectionUtil.omwscripts
-FriendlierFire.omwscripts
-H3lp Yours3lf.esp
 S3maphore.esp
 Mage Robes_Weak.ESP
 MercyCAO.omwscripts
@@ -512,11 +528,6 @@ Dynamic Animations.omwscripts
 questman.omwscripts
 DynamicSounds.omwscripts
 TPA_Alchemy_Redone.omwscripts
-Tamrielic Integrations - Levelled Items.ESP
-Tamrielic Integrations - OAAB Levelled Tweaks.ESP
-Tamrielic Integrations - Creature Loot + Tweaks.ESP
-RepopulatedCreatures.ESP
-BestFriendsForever.omwscripts
 Lua NPC Schedule.omwscripts
 JASPR-V.ESP
 JASPR-TR.ESP
@@ -542,8 +553,6 @@ Armor Requirements.omwscripts
 Weapon Requirements.omwscripts
 PotionReduction.omwscripts
 OblivionLockpicking.omwscripts
-WeaponPoisoning.omwaddon
-WeaponPoisoning.omwscripts
 S4V3R.esp
 Hlaalu Nobles Facial Overhaul.ESP
 Rogues Gallery.ESP
@@ -556,9 +565,40 @@ Bullseye.omwscripts
 ArrowStick.omwscripts
 BetterArmorTraining.omwscripts
 HUDweaponCharge.omwscripts
-AnimatedLanterns.omwaddon
-AnimatedLanterns.omwscripts
 ItemBrowser.omwscripts
+YouMaySpeak.omwscripts
+Devilishly Peaceful Wildlife.omwscripts
+visually-filled-soulgems-openmw-lua.omwaddon
+visually-filled-soulgems-openmw-lua.omwscripts
+carrier-lights.omwscripts
+DiverseDreamers.omwaddon
+Diverse Corprus Stalkers.omwaddon
+Diverse Corprus Stalkers - Beware the Sixth House Patch.omwaddon
+Diverse Draugrs.omwaddon
+Diverse Draugrs - Skeletal Draugrs.omwaddon
+Diverse Draugrs - Dragon Priests.omwaddon
+Diverse Draugrs - Draugr Scourges.omwaddon
+Diverse Draugrs - Bloodmoon Rebalance Patch.omwaddon
+Diverse Draugrs - Menacing Creatures Patch.omwaddon
+Diverse Draugrs - TD Patch.omwaddon
+levitating-dragon-priests.omwscripts
+Skeletons.omwaddon
+Skeletons - TD Patch.omwaddon
+Skeletons - OAAB - Tombs and Towers Patch.omwaddon
+blessings.esp
+harvest-requirements-openmw-lua.omwscripts
+moreaccurateattributedescriptions.omwaddon
+RepairToolsTweaks.omwaddon
+RepairToolsTweaksTD.omwaddon
+RepairToolsTweaksOAAB.omwaddon
+ItemInconsistenciesFixed.omwaddon
+InconsistenciesFixedTD.omwaddon
+InconsistenciesFixedOAAB.omwaddon
+InconsistenciesFixedHalberdDmg.omwaddon
+trapsmodule.omwaddon
+BetterBloodmoonDirections.omwaddon
+handtohandtweaks.omwaddon
+CybFactionRequirements.omwaddon
 # insert new entries above
 momw-gameplay.omwscripts
 momw-gameplay-controls.omwscripts

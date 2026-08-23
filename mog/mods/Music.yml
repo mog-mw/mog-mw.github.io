@@ -37,6 +37,30 @@ mods:
     data_paths:
       - MUSE Expansion - Redoran
 
+  - name: MUSE Music Expansion - Telvanni
+    url: https://www.nexusmods.com/morrowind/mods/55730
+    download_info:
+      - file_name: MUSE Expansion - Telvanni
+    data_paths:
+      - MUSE Expansion - Telvanni
+
+  - name: MUSE Music Expansion - Temple
+    url: https://www.nexusmods.com/morrowind/mods/57875
+    download_info:
+      - file_name: MUSE Expansion - Temple
+      - file_name: MUSE Expansion - Temple (S3maphore patch)
+    data_paths:
+      - MUSE Expansion - Temple
+      - MUSE Temple - S3maphore patch
+
+#  - name: MUSE Music Expansion - Empire
+#    url: https://www.nexusmods.com/morrowind/mods/52814
+#    download_info:
+#      - file_name: MUSE Expansion - Empire
+#    data_paths:
+#      - MUSE Expansion - Empire
+# temple and telvanni are good but the empire MUSE module is kinda bad tbh
+
   - name: MUSE Music Expansion - Sixth House
     url: https://www.nexusmods.com/morrowind/mods/51082
     download_info:
