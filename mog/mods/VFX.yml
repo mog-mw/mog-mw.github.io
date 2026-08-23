@@ -25,7 +25,7 @@ mods:
   #     - AnimatedLanterns.omwscripts
   #
   # # disabling for now since it's laggy, will probably upload my own fixed version later
-  #- name: Magic VFX Retexture by Articus
+  # - name: Magic VFX Retexture by Articus
   #  url: https://www.nexusmods.com/morrowind/mods/47702
   #  download_info:
   #    - file_name: Magic VFX Retexture by Articus
