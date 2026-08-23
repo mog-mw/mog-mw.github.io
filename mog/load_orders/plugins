@@ -568,7 +568,6 @@ HUDweaponCharge.omwscripts
 ItemBrowser.omwscripts
 YouMaySpeak.omwscripts
 Devilishly Peaceful Wildlife.omwscripts
-visually-filled-soulgems-openmw-lua.omwaddon
 visually-filled-soulgems-openmw-lua.omwscripts
 carrier-lights.omwscripts
 DiverseDreamers.omwaddon
@@ -599,6 +598,7 @@ trapsmodule.omwaddon
 BetterBloodmoonDirections.omwaddon
 handtohandtweaks.omwaddon
 CybFactionRequirements.omwaddon
+RV Concept Art Scamps.ESP
 # insert new entries above
 momw-gameplay.omwscripts
 momw-gameplay-controls.omwscripts

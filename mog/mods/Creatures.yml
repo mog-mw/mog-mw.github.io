@@ -6,6 +6,20 @@ mods:
     download_info:
       - file_name: Dagoth Ur&#39;s Divine Body
 
+  - name: Concept Art Scamp Overhaul
+    url: https://www.nexusmods.com/morrowind/mods/57514
+    download_info:
+      - file_name: Concept Art Scamp Overhaul and Scamping Grounds
+    plugins:
+      - RV Concept Art Scamps.ESP
+
+  - name: Concept Art Ogrim Replacer
+    url: https://www.nexusmods.com/morrowind/mods/53368
+    download_info:
+      - file_name: Concept Art Ogrim replacer 1.5
+    data_paths:
+      - Concept Art Ogrim replacer 1.5
+
   - name: Silt Strider
     url: https://www.nexusmods.com/morrowind/mods/48664
     download_info:

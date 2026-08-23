@@ -4,7 +4,7 @@ mods:
   - name: MOG Mods and Patches
     url: https://github.com/mog-mw/mods-patches
     download_info:
-      - file_name: mods-patches-v0.1.4.zip
+      - file_name: mods-patches
     data_paths:
       - NicerRequirementTooltips
       - DiverseCorprusStalkersUpscalePatch
