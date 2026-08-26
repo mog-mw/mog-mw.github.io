@@ -3,6 +3,11 @@
 category: Testing
 
 mods:
+  - name: MOG Development Utilities
+    url: https://github.com/mog-mw/dev-utils
+    download_info:
+      - file_name: dev-utils
+
   - name: Item Browser (OpenMW)
     url: https://www.nexusmods.com/morrowind/mods/59080
     download_info:

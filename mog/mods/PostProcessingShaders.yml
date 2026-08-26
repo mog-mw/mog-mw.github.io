@@ -3,9 +3,9 @@ category: PostProcessingShaders
 mods:
   - name: MOG Shader Configuration
     dir: MOMWPostProcessingPack # has to be named like this due to momw-configurator hardcoding
-    url: https://github.com/mog-mw/shaders.yaml
+    url: https://github.com/mog-mw/shader-config
     download_info:
-      - file_name: mog-shaders
+      - file_name: shader-config
         extract_to: 00 RecommendedConfig
     data_paths:
       - 00 RecommendedConfig

@@ -633,7 +633,6 @@ MOMWPatches/10 Ebonheart Underworks MOMW Patch
 MOMWPatches/16 Uvirith's Legacy+BCOM Arena Patch
 MOMWPatches/19 Uvirith's Legacy+OAAB Tel Mora Patch
 MOMWPatches/21 Imperial Factions Patched
-MOMWGameplay/00 Core
 PerfectPlacement
 BoundBalance
 BetterMerchantsSkillsOpenMW/00 Core
@@ -798,5 +797,7 @@ MOGModsandPatches/DiverseCorprusStalkersUpscalePatch
 ConceptArtScampOverhaul
 ConceptArtOgrimReplacer/Concept Art Ogrim replacer 1.5
 # insert new entries above
+MOGModsandPatches/MOGLuaSettings
+MOGDevelopmentUtilities
 MOMWToolsPack
 SophiesSkoomaSweetshoppe/30 Temporary Fixes

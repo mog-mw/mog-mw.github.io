@@ -6,5 +6,8 @@ mods:
     download_info:
       - file_name: mods-patches
     data_paths:
+      - MOGLuaSettings
       - NicerRequirementTooltips
       - DiverseCorprusStalkersUpscalePatch
+    plugins:
+      - MOGLuaSettings.omwscripts

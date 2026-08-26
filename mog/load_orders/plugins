@@ -600,11 +600,7 @@ handtohandtweaks.omwaddon
 CybFactionRequirements.omwaddon
 RV Concept Art Scamps.ESP
 # insert new entries above
-momw-gameplay.omwscripts
-momw-gameplay-controls.omwscripts
-momw-gameplay-camera.omwscripts
-momw-gameplay-balance.omwscripts
-momw-gameplay-ui.omwscripts
+MOGLuaSettings.omwscripts
 delta-merged.omwaddon
 deleted_groundcover.omwaddon
 S3LightFixes.omwaddon
