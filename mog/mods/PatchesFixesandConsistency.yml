@@ -409,13 +409,13 @@ mods:
       - DiverseDraugrs/00 Core
       - DiverseDraugrs/01 No Eyes Glow After Death
       - DiverseDraugrs/02 Skeletal Draugrs
-      - DiverseDraugrs/03 Dragon Priests
-      - DiverseDraugrs/04 Draugr Scourges
+      - DiverseDraugrs/04 Dragon Priests
+      - DiverseDraugrs/06 Draugr Scourges
       - DiverseDraugrs/10 Bloodmoon Rebalance Patch
       - DiverseDraugrs/10 Menacing Creatures Patch
-      - DiverseDraugrs/12 Tamriel Data Patch
+      - DiverseDraugrs/11 Tamriel Data Patch
       #- DiverseDraugrs/13 Skeletal Draugrs Skyrimlike Eyes
-      - DiverseDraugrs/14 Levitating Dragon Priests
+      - DiverseDraugrs/05 Levitating Dragon Priests
       - Skeletons/00 Core
       - Skeletons/01 OAAB Skeletons
       - Skeletons/02 TD Patch
