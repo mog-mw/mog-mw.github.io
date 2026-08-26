@@ -13,8 +13,8 @@ mods:
       - Tribunal.bsa
       - Bloodmoon.bsa
 
-  - name: Tamriel Data
-    url: https://www.nexusmods.com/morrowind/mods/44537
+  - name: Tamriel Data (HD)
+    url: https://www.nexusmods.com/morrowind/mods/59927
     download_info:
       - file_name: Tamriel Data (HD)
     data_paths:

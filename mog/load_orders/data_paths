@@ -35,12 +35,12 @@ MOMWPatches/11 Mamaea Awakened OpenMW Patch
 BeautifulCitiesofMorrowind/Patches/80 Mamaea Awakened
 InterestingOutfitsSolstheim/1. Core
 InterestingOutfitsSolstheim/2. TOTSP Compatibility
-InterestingOutfitsTamrielRebuiltGuards
+# InterestingOutfitsTamrielRebuiltGuards
 FacesofVelAshMire/Data Files
 ConceptArtMolagAmurRegionTheGreatScathes/00 Core
 SouthernAshlandsOverhaul
 TalesfromtheAshlandsTheGreatHiveBaanBinif
-TamrielData/00 Data Files
+TamrielDataHD/00 Data Files
 SophiesSkoomaSweetshoppe/07 Telvanni Cephalopod Armor TD Cuirass Upscale and Color Match
 DistantEbonTowerforOpenMW
 OAABData/00 Core
@@ -66,8 +66,8 @@ ProjectAtlas/02 Urns - Smoothed
 ProjectAtlas/03 Redware - Smoothed
 ProjectAtlas/07 Graphic Herbalism Patch
 JammingsOff/Jammings off(v1.1)/ver1.0(only_Xnif_files)/Data Files
-TamrielRebuilt/00 Core
-TamrielRebuilt/01 Faction Integration
+TamrielRebuilt/00 Core/Data Files
+TamrielRebuilt/01 Faction Integration/Data Files
 OAABData/HD
 OpenMWMoreDynamicWaterMeshes
 ProjectCyrodiil/00 Core

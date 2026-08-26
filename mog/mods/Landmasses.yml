@@ -4,10 +4,10 @@ mods:
   - name: Tamriel Rebuilt
     url: https://www.nexusmods.com/morrowind/mods/42145
     download_info:
-      - file_name: Tamriel Rebuilt 25.08.12
+      - file_name: Tamriel Rebuilt 26.08.23
     data_paths:
-      - 00 Core
-      - 01 Faction Integration
+      - 00 Core/Data Files
+      - 01 Faction Integration/Data Files
     plugins:
       - TR_Mainland.esm
       - TR_Factions.esp
