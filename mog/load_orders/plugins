@@ -266,7 +266,6 @@ Berandas Overhaul.esp
 The_corprusarium_Exp.ESP
 AetherPiratesDiscoveryCorprusariumExperiencePatch.esp
 distant-fixes-lua-edition.omwscripts
-tamrielrebuilt.omwscripts
 RepopulatedMorrowind.esp
 RepopulatedBloodmoon.ESP
 RepopulatedSkyrim.ESP
@@ -486,9 +485,9 @@ Nine-holes - Seyda Neen, Arrille's Tradehouse.esp
 Nine-holes - Suran, Goldyn Belaram (BCOM).esp
 Nine-holes - Vivec, Elven Nations Cornerclub.esp
 MOMW Sadrith Mora Pathgrid Reset.esp
-Unofficial TR Spells.omwscripts
 bcomxpfp.omwaddon
 Tamriel_Data.omwscripts
+tamrielrebuilt.omwscripts
 SSQN.omwscripts
 dayspassedfix.omwaddon
 LightHotkey.omwscripts

@@ -1,15 +1,6 @@
 category: MagicSpells
 
 mods:
-  - name: Unofficial Tamriel Rebuilt Spells (OpenMW 0.51)
-    url: https://www.nexusmods.com/morrowind/mods/58693
-    download_info:
-      - file_name: Unofficial Tamriel Rebuilt Spells
-    data_paths:
-      - Unofficial Tamriel Rebuilt Spells (OpenMW 0.51)
-    plugins:
-      - Unofficial TR Spells.omwscripts
-
   - name: (OpenMW) Better Elemental Shields
     url: https://www.nexusmods.com/morrowind/mods/57915
     download_info:
