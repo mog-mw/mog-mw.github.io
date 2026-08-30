@@ -94,14 +94,15 @@ mods:
     plugins:
       - Tribunal_Facelift.ESP
 
-  - name: Tamriel Rebuilt - Hall of Justice Overhaul
-    url: https://www.nexusmods.com/morrowind/mods/52224
-    download_info:
-      - file_name: Tamriel Rebuilt - Hall of Justice Overhaul
-    data_paths:
-      - 00 Core
-    plugins:
-      - RPNR_Hall_of_justice.ESP
+  # # removed from EV, probably needs a poison song update
+  # - name: Tamriel Rebuilt - Hall of Justice Overhaul
+  #   url: https://www.nexusmods.com/morrowind/mods/52224
+  #   download_info:
+  #     - file_name: Tamriel Rebuilt - Hall of Justice Overhaul
+  #   data_paths:
+  #     - 00 Core
+  #   plugins:
+  #     - RPNR_Hall_of_justice.ESP
 
   - name: Repopulated Vassir-Didanat Mine
     url: https://www.nexusmods.com/morrowind/mods/54129

@@ -303,20 +303,21 @@ mods:
     plugins:
       - Clear Your Name.esp
 
+  # TR addon removed from EV, likely needs a poison song update
   - name: Improved Inns Expanded
     url: https://www.nexusmods.com/morrowind/mods/48610
     download_info:
       - file_name: Improved Inns Expanded
     data_paths:
-      - 01 TR Addon
+      # - 01 TR Addon
       - 02 SHotN Addon
       - 03 PC Addon
       - 05 BCOM Version
     plugins:
       - Improved Inns Expanded.esp
+      # - Improved Inns Expanded - TR Addon.esp
       - Improved Inns Expanded - PC Addon.esp
       - Improved Inns Expanded - SHotN Addon.esp
-      - Improved Inns Expanded - TR Addon.esp
 
   - name: Projectile Overhaul - Modular
     url: https://www.nexusmods.com/morrowind/mods/43195
@@ -368,15 +369,16 @@ mods:
     url: https://www.nexusmods.com/morrowind/mods/46992
     download_info:
       - file_name: Protective Guards - OpenMW
-    data_paths:
-      - Protective Guards for OpenMW
-
-  - name: Protective Guards - Factions and NPCs Protections (OpenMW)
-    url: https://www.nexusmods.com/morrowind/mods/54858
-    download_info:
-      - file_name: Protective Guards - Factions and NPCs Protections
     plugins:
-      - protective_guards_for_omw.omwscripts
+      - protective_guards.omwscripts
+
+  # # Needs an update to protective guards 2.0
+  # - name: Protective Guards - Factions and NPCs Protections (OpenMW)
+  #   url: https://www.nexusmods.com/morrowind/mods/54858
+  #   download_info:
+  #     - file_name: Protective Guards - Factions and NPCs Protections
+  #   plugins:
+  #     - protective_guards_for_omw.omwscripts
 
   - name: Shield Unequipper
     url: https://modding-openmw.gitlab.io/shield-unequipper/

@@ -324,7 +324,7 @@ MasterIndexRedux
 MOMWPatches/09 Master Index Redux BCOM Fixed
 BeautifulCitiesofMorrowind/Patches/22 Tamriel Rebuilt patch
 BeautifulCitiesofMorrowind/Patches/25 Province Cyrodiil Patch
-TamrielRebuiltHallofJusticeOverhaul/00 Core
+# TamrielRebuiltHallofJusticeOverhaul/00 Core
 SophiesSkoomaSweetshoppe/23 Telvanni Mushroomtop Housepod UV Fix
 NecromArkitektoraofMorrowind/HQ
 NecromArkitektoraofMorrowind/NecromMinorMeshesFixes
@@ -424,12 +424,11 @@ SmartAmmoforOpenMWLua
 TimeScaleChangeOpenMW
 QuillofFeyfolkenScrollEnchanting
 AlvazirsVariousPatches
-ImprovedInnsExpanded/01 TR Addon
+# ImprovedInnsExpanded/01 TR Addon
 ImprovedInnsExpanded/02 SHotN Addon
 ImprovedInnsExpanded/03 PC Addon
 ImprovedInnsExpanded/05 BCOM Version
-ProtectiveGuardsOpenMW/Protective Guards for OpenMW
-ProtectiveGuardsFactionsandNPCsProtectionsOpenMW
+ProtectiveGuardsOpenMW
 MOMWPatches/59 Protective Guards Blacklist Patch
 WanderingCreatureMerchantsLuaEdition/00 Core
 WanderingCreatureMerchantsLuaEdition/01 Extra
@@ -726,7 +725,7 @@ SignpostsReplacerforSkyrimHomeoftheNords/Data Files
 OpenMW050travsOpenMWBooksEnhanced
 ComradeRavensBookArtsReplacer/Data Files
 TakeCoverOpenMW/00 Core
-PursuitOpenMW/Pursuit - OpenMW
+PursuitOpenMW
 BlacklistforPursuitOpenMW
 CreaturesOpenDoors
 PotionsRefinedImprovedMagicalItemLoot

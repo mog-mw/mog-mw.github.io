@@ -338,7 +338,7 @@ Memento Mori.ESP
 Memento Mori - OpenMW Patch.ESP
 MementoMori_VanillaStatues_patch.esp
 Planters for Ajira.ESP
-RPNR_Hall_of_justice.ESP
+# RPNR_Hall_of_justice.ESP
 OAAB Market.ESP
 Hanging Gardens of Suran.esp
 Of_Murk_and_Mussels.esp
@@ -357,7 +357,7 @@ Djangos Dialogue - Patch for Purists.esp
 Improved Inns Expanded.esp
 Improved Inns Expanded - PC Addon.esp
 Improved Inns Expanded - SHotN Addon.esp
-Improved Inns Expanded - TR Addon.esp
+# Improved Inns Expanded - TR Addon.esp
 Nordic Dagon Fel.ESP
 Dagon Fel Mill.ESP
 Dagon_Fel_Lighthouse.ESP
@@ -471,7 +471,8 @@ animated-levitation.omwscripts
 smart-ammo.omwscripts
 TimescaleChange.omwaddon
 harvest-lights.omwscripts
-protective_guards_for_omw.omwscripts
+pursuit.omwscripts
+protective_guards.omwscripts
 Perfect Placement.omwscripts
 bound-balance.omwaddon
 bound-balance.omwscripts
@@ -536,7 +537,6 @@ RacesRESPECted.esp
 BirthsignsRESPECted.esp
 openmw_books_enhanced.omwscripts
 TakeCover.omwscripts
-pursuit.omwscripts
 Potions Refined.ESP
 Potions Refined - Tamriel.ESP
 Enchantments Refined.esp
