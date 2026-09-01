@@ -104,8 +104,8 @@ FMI_Nice_to_Meet_You.ESP
 FMI_CaiusBigPackage.ESP
 FMI_#NotAllDunmer.ESP
 FMI_ServiceRefusal_Contraband.ESP
-Indoril & Her Hand Armor Privileges.omwaddon
-Indoril & Her Hand Armor Privileges.omwscripts
+# Indoril & Her Hand Armor Privileges.omwaddon
+# Indoril & Her Hand Armor Privileges.omwscripts
 FMI_Legion_Dialogue.ESP
 Dubdilla Location Fix.ESP
 AFFresh+SamarysAncestralTombExpanded.esp
@@ -206,7 +206,7 @@ quarraclan_refreshed - Tamriel_Data.esp
 Cutting Room Floor - Items TR.esp
 Quill of Feyfolken 2.0.esp
 Quill of Feyfolken 2.0-OpenMW-Patch.omwaddon
-UL_3.5_TR_24.12_Add-on.esp
+UL_3.5_TR_26.08_Add-on.esp
 Cutting Room Floor - Voice Lines.esp
 Umbra, Blademaster.ESP
 Tel_Eurus.esp
@@ -400,7 +400,6 @@ Argonian Full Helms OpenMW-Lua.omwaddon
 Boots for Beasts OpenMW Lua.omwaddon
 Boots for Beasts OpenMW Lua TD.omwaddon
 Hist Helms OpenMW Lua.omwaddon
-protected-beasts.omwscripts
 Simple Guards Diversity.omwaddon
 Simple Guards Diversity - Frostmoth Guards.omwaddon
 Simple Guards Diversity - Imperial Archers.omwaddon
@@ -489,6 +488,7 @@ MOMW Sadrith Mora Pathgrid Reset.esp
 bcomxpfp.omwaddon
 Tamriel_Data.omwscripts
 tamrielrebuilt.omwscripts
+protected-beasts.omwscripts
 SSQN.omwscripts
 dayspassedfix.omwaddon
 LightHotkey.omwscripts

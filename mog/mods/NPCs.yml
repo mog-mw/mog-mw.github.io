@@ -75,7 +75,7 @@ mods:
   - name: Diverse Khajiit - New and Improved
     url: https://www.nexusmods.com/morrowind/mods/48832
     download_info:
-      - file_name: Diverse Khajiit
+      - file_name: Diverse Khajiit (v3.1)
     plugins:
       - Diverse Khajiit.ESP
 

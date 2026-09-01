@@ -372,13 +372,10 @@ mods:
     plugins:
       - protective_guards.omwscripts
 
-  # # Needs an update to protective guards 2.0
-  # - name: Protective Guards - Factions and NPCs Protections (OpenMW)
-  #   url: https://www.nexusmods.com/morrowind/mods/54858
-  #   download_info:
-  #     - file_name: Protective Guards - Factions and NPCs Protections
-  #   plugins:
-  #     - protective_guards_for_omw.omwscripts
+  - name: (OpenMW) Protective Guards - Factions Addon
+    url: https://www.nexusmods.com/morrowind/mods/60065
+    download_info:
+      - file_name: Protective Guards   Factions Addon
 
   - name: Shield Unequipper
     url: https://modding-openmw.gitlab.io/shield-unequipper/

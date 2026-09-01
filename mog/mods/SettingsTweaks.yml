@@ -362,6 +362,11 @@ mods:
       [Sound]
       camera listener = true
 
+  - name: Antialias Alpha Test
+    settings: |
+      [Shaders]
+      antialias alpha test = false
+
   - name: Trilinear Filtering
     settings: |
       [General]

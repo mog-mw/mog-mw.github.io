@@ -77,18 +77,18 @@ mods:
     plugins:
       - FMI_Legion_Dialogue.ESP
 
-  - name: Indoril and Her Hand Armor Privileges - OpenMW
-    url: https://www.nexusmods.com/morrowind/mods/57666
-    download_info:
-      - file_name: Indoril and Her Hand Armor Privileges - OpenMW
-      - file_name: Indoril and Her Hand Armor Privileges - TR
-        extract_to: TR
-    data_paths:
-      - ""
-      - TR
-    plugins:
-      - Indoril & Her Hand Armor Privileges.omwaddon
-      - Indoril & Her Hand Armor Privileges.omwscripts
+  # - name: Indoril and Her Hand Armor Privileges - OpenMW
+  #   url: https://www.nexusmods.com/morrowind/mods/57666
+  #   download_info:
+  #     - file_name: Indoril and Her Hand Armor Privileges - OpenMW
+  #     - file_name: Indoril and Her Hand Armor Privileges - TR
+  #       extract_to: TR
+  #   data_paths:
+  #     - ""
+  #     - TR
+  #   plugins:
+  #     - Indoril & Her Hand Armor Privileges.omwaddon
+  #     - Indoril & Her Hand Armor Privileges.omwscripts
 
   - name: Mesh Fix v1.2
     url: https://web.archive.org/web/20150619182034/http://mw.modhistory.com/download-15-6088
@@ -102,7 +102,7 @@ mods:
   - name: Correct Meshes
     url: https://www.nexusmods.com/morrowind/mods/39348
     download_info:
-      - file_name: Correct_Meshes_4.7
+      - file_name: Correct_Meshes_4.8
         actions:
           - action: remove
             path: Data Files/BookArt
@@ -206,7 +206,6 @@ mods:
       - 49 Aether Pirates Discovery + The Corprusarium Experience Patch
       - 12 Practical Necromancy Vendor Patch
       - 86 Practical Necromancy+OAAB Fix
-      - 59 Protective Guards Blacklist Patch
       - 71 Molomo SM Ceremonial Robe Patch
       - 52 Telvanni Magister Robes Anticheese
       - 35 The Forgotten Shields - Artifacts Patched
@@ -459,9 +458,9 @@ mods:
   - name: Null's Minor Patches
     url: https://www.nexusmods.com/morrowind/mods/55897
     download_info:
-      - file_name: Uvirith's Legacy - Tamriel Rebuilt 24.12 Add-on
+      - file_name: Uvirith's Legacy - Tamriel Rebuilt 26.08 Add-on
     plugins:
-      - UL_3.5_TR_24.12_Add-on.esp
+      - UL_3.5_TR_26.08_Add-on.esp
 
   - name: OAAB to RR Telvanni Consistency
     url: https://www.nexusmods.com/morrowind/mods/56187
