@@ -34,6 +34,6 @@ mods:
   - name: Rafael's Shader Pack
     url: https://www.nexusmods.com/morrowind/mods/53667
     download_info:
-      - file_name: Rafael's Shader Pack 2.0c
+      - file_name: Rafael's Shader Pack 2.1
     data_paths:
       - RafaelsShaderPack

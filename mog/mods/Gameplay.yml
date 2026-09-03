@@ -82,7 +82,6 @@ mods:
     data_paths:
       - 00 Core
     plugins:
-      - fresh-loot.omwaddon
       - fresh-loot.omwscripts
 
   - name: Bullseye - Marksman Overhaul (OpenMW)

@@ -124,7 +124,7 @@ mods:
   - name: Spell Trader (OpenMW)
     url: https://www.nexusmods.com/morrowind/mods/59229
     download_info:
-      - file_name: SpellTraderV1.2.2
+      - file_name: SpellTraderV1.2.3
     plugins:
       - SpellTrader.omwscripts
 
@@ -178,6 +178,13 @@ mods:
       - file_name: Arrows for Resize and Drop
     data_paths:
       - DenyingProduct-GauntletCursor
+
+  - name: Questman - Modern Quest Journal (OpenMW)
+    url: https://www.nexusmods.com/morrowind/mods/59493
+    download_info:
+      - file_name: Questman 1.5
+    plugins:
+      - questman.omwscripts
 
 # # I'll add these properly once i feel like doing UI gooning
 # - name: OpenMW Cute Caius Compass

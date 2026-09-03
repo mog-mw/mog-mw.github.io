@@ -327,7 +327,7 @@ mods:
   - name: Animated Morrowind and Weapon Sheathing patch for OpenMW
     url: https://www.nexusmods.com/morrowind/mods/53479
     download_info:
-      - file_name: Morrowind_OpenMW_Weapon Sheathing patch 1.2
+      - file_name: Morrowind_OpenMW_Weapon Sheathing patch
 
   - name: Various tweaks and fixes
     url: https://www.nexusmods.com/morrowind/mods/43795
@@ -377,8 +377,8 @@ mods:
         #interesting_outfits_solstheim_no_guards [I want to test out the entire "Interesting Outfits" series]
       - file_name: CreaturesIntegration
         extract_to: CreaturesIntegration
-      - file_name: devilishly_peaceful_wildlife_patch
-        extract_to: DevilishlyPeacefulWildlifePatch
+      - file_name: devilishly_peaceful_wildlife_updated
+        extract_to: DevilishlyPeacefulWildlifeUpdated
       - file_name: daedra_use_bound_equipment_vfx_patch
         extract_to: DaedraUseBoundEquipmentVFXPatch
       - file_name: harvest_requirements_openmw_lua
@@ -423,7 +423,7 @@ mods:
       - Blessings
       - IndorilAndHerHandArmorPrivilegesPatch
       - CreaturesIntegration
-      - DevilishlyPeacefulWildlifePatch
+      - DevilishlyPeacefulWildlifeUpdated
       - DaedraUseBoundEquipmentVFXPatch
       - HarvestRequirements
     plugins:
