@@ -11,6 +11,7 @@ from threading import Thread
 import shutil
 import subprocess
 import platform
+import re
 
 parser = argparse.ArgumentParser()
 parser.add_argument("input", type=Path, default="mog", nargs="?", help="input directory (default: %(default)s)")
@@ -53,7 +54,8 @@ path_categories = {}  # key: path, value: category it belongs to
 settings = ConfigParser()
 dirnames = set()
 
-args = parser.parse_args()
+args: argparse.Namespace
+versions_json = {}
 system = platform.system().lower()
 if system == "darwin":
     system = "macos"
@@ -63,12 +65,19 @@ if arch == "x86_64":
 
 
 def main():
+    global args, versions_json
+
+    args = parser.parse_args()
+
     if args.name == None:
         args.name = args.input.name
     if args.momw_dir:
         args.momw_dir = args.momw_dir.resolve()
     if not (args.build or args.configurator or args.greenmote):
         args.build, args.configurator, args.greenmote = True, True, True
+
+    with open(args.input.joinpath("versions.json")) as f:
+        versions_json = json.load(f)
 
     if args.build:
         print(f'Building modlist "{args.name}"...')
@@ -83,7 +92,7 @@ def main():
         chdir(args.output)
 
         with ThreadingHTTPServer((args.bind, args.port), SimpleHTTPRequestHandler) as httpd:
-            server_thread = Thread(target=httpd.serve_forever, daemon=True)
+            server_thread = Thread(target=httpd.serve_forever)
             server_thread.start()
 
             server_address = f"http://{args.bind}:{args.port}"
@@ -120,9 +129,12 @@ def main():
     if args.greenmote:
         print("Running greenmote...")
         umo_dir = Path()
-        with subprocess.Popen([get_tool_path(configurator), "info"],
+        with subprocess.Popen((get_tool_path(configurator), "info"),
                               stdout=subprocess.PIPE, text=True,
                               bufsize=1) as info:
+            if not info.stdout:
+                print("failed to get info from momw-configurator")
+                return
             for line in info.stdout:
                 if line.startswith("ModBaseDir:"):
                     umo_dir = Path(line.removeprefix("ModBaseDir:").strip())
@@ -223,6 +235,10 @@ def handle_mod(mod: dict, category: str):
 
     new_entry = generate_list_entry()
 
+    dl_type = "direct"
+    if re.match(r"https://www.nexusmods.com/(.*?)/.*/([0-9]+)", mod["url"]):
+        dl_type = "nexus"
+
     new_entry["category"] = category
     for field in ("name", "url", "dl_url", "data_paths", "plugins"):
         if field in mod:
@@ -238,6 +254,7 @@ def handle_mod(mod: dict, category: str):
     mod.setdefault("download_info", [])
     for dl_info in mod["download_info"]:
         new_dl_info = generate_dl_info_entry()
+
         for field in new_dl_info.keys():
             if field in dl_info:
                 new_dl_info[field] = dl_info[field]
@@ -250,6 +267,14 @@ def handle_mod(mod: dict, category: str):
             if "paths" in action:
                 for i, path in enumerate(action["paths"]):
                     action["paths"][i] = add_path_prefix(path, dirname)
+
+        if dl_type == "nexus" and not new_dl_info["nexus_file_id"]:
+            url = mod["url"]
+            file_name = dl_info["file_name"]
+            if url in versions_json and file_name in versions_json[url]:
+                new_dl_info["nexus_file_id"] = versions_json[url][file_name]
+                new_dl_info["pinned"] = True
+
         new_entry["download_info"].append(new_dl_info)
 
     output_list.append(new_entry)
