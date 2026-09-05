@@ -20,14 +20,21 @@ args = parser.parse_args()
 class UmoFile:
     dinfo: dict
     mod: dict
+    current: int | str | None = None
+    current_label: str | None = None
     latest: int | str | None = None
-    version_labels: dict = dataclasses.field(default_factory=dict)
+    latest_label: str | None = None
 
 
-nexus_key = ""
+nexus_key: str
+versions_json: dict
 
 
 def main():
+    with open(args.input.joinpath("versions.json")) as f:
+        global versions_json
+        versions_json = json.load(f)
+
     get_nexus_key()
 
     files: list[UmoFile] = []
@@ -38,7 +45,14 @@ def main():
         for mod in y["mods"]:
             if "download_info" in mod:
                 for dinfo in mod["download_info"]:
-                    files.append(UmoFile(dinfo=dinfo, mod=mod))
+                    file = UmoFile(dinfo=dinfo, mod=mod)
+
+                    url = mod["url"]
+                    file_name = dinfo["file_name"]
+                    if url in versions_json and file_name in versions_json[url]:
+                        file.current = versions_json[url][file_name]
+
+                    files.append(file)
 
     with ThreadPoolExecutor(max_workers=48) as executor:
         results = executor.map(process_file, files)
@@ -46,9 +60,6 @@ def main():
         # raise errors
         for result in results:
             result
-
-    with open(args.input.joinpath("versions.json")) as f:
-        versions_json: dict = json.load(f)
 
     new_versions_json = {}
 
@@ -60,32 +71,25 @@ def main():
         url = file.mod["url"]
         file_name = file.dinfo["file_name"]
 
-        versions_json.setdefault(url, {})
         new_versions_json.setdefault(url, {})
 
-        if file_name not in versions_json[url]:
+        if not file.current:
             print(f'Adding versioning information for "{mod_name} : {file_name}"')
             new_versions_json[url][file_name] = file.latest
             continue
 
-        current = versions_json[url][file_name]
-        new_versions_json[url][file_name] = current
+        new_versions_json[url][file_name] = file.current
 
-        if current == file.latest:
+        if file.current == file.latest:
             continue
 
-        if current in file.version_labels:
-            current_label = file.version_labels[current]
-        else:
-            current_label = current
-
-        if file.latest in file.version_labels:
-            latest_label = file.version_labels[file.latest]
-        else:
-            latest_label = file.latest
+        if not file.current_label:
+            file.current_label = str(file.current)
+        if not file.latest_label:
+            file.latest_label = str(file.latest)
 
         print()
-        print(f'Update available for "{mod_name} : {file_name}": {current_label} -> {latest_label}')
+        print(f'Update available for "{mod_name} : {file_name}": {file.current_label} -> {file.latest_label}')
         print(url)
         print()
         print("[a]pply/[s]kip: ", end="")
@@ -102,30 +106,26 @@ def main():
 
 def process_file(file: UmoFile):
     for process in (process_nexus,):
-        id = process(file)
-        if not id:
-            continue
-
-        file.latest = id
-        return
+        if process(file):
+            return
 
 
 def process_nexus(file: UmoFile):
-    if "nexus_file_id" in file.dinfo:
-        return
-
     nexus_match = re.match(r"https://www.nexusmods.com/(.*?)/.*/([0-9]+)", file.mod["url"])
     if not nexus_match:
-        return
+        return False
 
     nexus_url = f"https://api.nexusmods.com/v1/games/{nexus_match.group(1)}/mods/{nexus_match.group(2)}/files.json"
     nexus_data = get_nexus_data(nexus_url)
 
     best_timestamp = -2**63
-    found_id = None
     found_old = True
     for i in nexus_data["files"]:
-        file.version_labels[i["file_id"]] = i["version"]
+        if i["file_id"] == file.current:
+            file.current_label = i["version"]
+
+        if "nexus_file_id" in file.dinfo and file.dinfo["nexus_file_id"] != i["file_id"]:
+            continue
 
         if i["name"] != file.dinfo["file_name"]:
             continue
@@ -136,19 +136,19 @@ def process_nexus(file: UmoFile):
 
         if i["uploaded_timestamp"] > best_timestamp:
             best_timestamp = i["uploaded_timestamp"]
-            found_id = i["file_id"]
+            file.latest = i["file_id"]
+            file.latest_label = i["version"]
             found_old = is_old
 
     mod_name = file.mod["name"]
     file_name = file.dinfo["file_name"]
 
-    if not found_id:
+    if not file.latest:
         print(f'WARNING: nothing found for "{mod_name} : {file_name}"')
-        return
-    if found_old:
+    elif found_old:
         print(f'WARNING: only found an old file for "{mod_name} : {file_name}"')
 
-    return found_id
+    return True
 
 
 @cache
