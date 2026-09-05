@@ -209,7 +209,7 @@ def handle_mod(mod: dict, category: str):
     dirnames.add(dirname)
 
     if "data_paths" not in mod:
-        if "url" in mod:
+        if "download_info" in mod:
             mod["data_paths"] = [""]
         else:
             mod["data_paths"] = []
@@ -230,14 +230,15 @@ def handle_mod(mod: dict, category: str):
         settings.read_string(mod["settings"])
 
     # skip for umo
-    if "url" not in mod:
+    if "download_info" not in mod:
         return
 
     new_entry = generate_list_entry()
 
     dl_type = "direct"
-    if re.match(r"https://www.nexusmods.com/(.*?)/.*/([0-9]+)", mod["url"]):
-        dl_type = "nexus"
+    if "url" in mod:
+        if re.match(r"https://www.nexusmods.com/(.*?)/.*/([0-9]+)", mod["url"]):
+            dl_type = "nexus"
 
     new_entry["category"] = category
     for field in ("name", "url", "dl_url", "data_paths", "plugins"):
