@@ -43,16 +43,20 @@ def main():
         with open(filename) as f:
             y = yaml.load(f, Loader=yaml.Loader)
         for mod in y["mods"]:
-            if "download_info" in mod:
-                for dinfo in mod["download_info"]:
-                    file = UmoFile(dinfo=dinfo, mod=mod)
+            if "download_info" not in mod:
+                continue
+            for dinfo in mod["download_info"]:
+                if "direct_download" in dinfo:
+                    continue
 
-                    url = mod["url"]
-                    file_name = dinfo["file_name"]
-                    if url in versions_json and file_name in versions_json[url]:
-                        file.current = versions_json[url][file_name]
+                file = UmoFile(dinfo=dinfo, mod=mod)
 
-                    files.append(file)
+                url = mod["url"]
+                file_name = dinfo["file_name"]
+                if url in versions_json and file_name in versions_json[url]:
+                    file.current = versions_json[url][file_name]
+
+                files.append(file)
 
     with ThreadPoolExecutor(max_workers=48) as executor:
         results = executor.map(process_file, files)
@@ -147,6 +151,39 @@ def process_nexus(file: UmoFile):
         print(f'WARNING: nothing found for "{mod_name} : {file_name}"')
     elif found_old:
         print(f'WARNING: only found an old file for "{mod_name} : {file_name}"')
+
+    return True
+
+
+def process_github(file: UmoFile):
+    github_match = re.match(r"https://github.com/(.*)", file.mod["url"])
+    if not github_match:
+        return False
+
+    api_prefix = f"https://api.github.com/repos/{github_match.group(1)}/"
+
+    mod_name = file.mod["name"]
+    file_name = file.dinfo["file_name"]
+
+    if "branch" in file.dinfo:
+        with urlopen(api_prefix + "branches/" + file.dinfo["branch"]) as resp:
+            resp_json = json.load(resp)
+        # TODO
+
+    else:
+        with urlopen(api_prefix + "releases") as resp:
+            resp_json = json.load(resp)
+
+        if type(resp_json) != list or len(resp_json) == 0:
+            print(f'WARNING: no github releases found for "{mod_name} : {file_name}"; skipping')
+            return True
+
+        file.latest = resp_json[0]["assets"][0]["browser_download_url"]
+        file.latest_label = resp_json[0]["name"]
+
+        for release in resp_json:
+            if release["assets"][0]["browser_download_url"] == file.current:
+                file.current_label = release["name"]
 
     return True
 
